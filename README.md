@@ -1,4 +1,4 @@
-# attack_to_veris
+# ATT&CK Integration info VERIS
 Vocabulary for Event Recording and Incident Sharing (VERIS), is used by Verizon and others as a common representation and data model for describing the demographics, metadata, and some technical details about cybersecurity incidents. As a standard representation, it allows for the analysis of data across a variety of incidents and is used, among other things, to generate the Verizon Data Breach Investigation Report (DBIR).
 
 While VERIS is very comprehensive in describing most aspects of cybersecurity incidents, it is focused on a high-level description of an incident as a whole, and as such does not provide the level of fidelity that ATT&CK provides in describing the adversary behaviors that were used to carry out the attack at the system level.
