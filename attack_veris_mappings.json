@@ -1,1203 +1,1203 @@
 {
     "attack_to_veris": {
         "T1001": {
-            "description": "Data Obfuscation",
+            "name": "Data Obfuscation",
             "veris": [
                 "action.malware.variety.Export data"
             ]
         },
         "T1001.001": {
-            "description": "Junk Data",
+            "name": "Junk Data",
             "veris": []
         },
         "T1001.002": {
-            "description": "Steganography",
+            "name": "Steganography",
             "veris": []
         },
         "T1001.003": {
-            "description": "Protocol Impersonation",
+            "name": "Protocol Impersonation",
             "veris": []
         },
         "T1003": {
-            "description": "OS Credential Dumping",
+            "name": "OS Credential Dumping",
             "veris": []
         },
         "T1003.001": {
-            "description": "LSASS Memory",
+            "name": "LSASS Memory",
             "veris": []
         },
         "T1003.002": {
-            "description": "Security Account Manager",
+            "name": "Security Account Manager",
             "veris": []
         },
         "T1003.003": {
-            "description": "NTDS",
+            "name": "NTDS",
             "veris": []
         },
         "T1003.004": {
-            "description": "LSA Secrets",
+            "name": "LSA Secrets",
             "veris": []
         },
         "T1003.005": {
-            "description": "Cached Domain Credentials",
+            "name": "Cached Domain Credentials",
             "veris": []
         },
         "T1003.007": {
-            "description": "Proc Filesystem",
+            "name": "Proc Filesystem",
             "veris": []
         },
         "T1003.008": {
-            "description": "/etc/passwd and /etc/shadow",
+            "name": "/etc/passwd and /etc/shadow",
             "veris": []
         },
         "T1005": {
-            "description": "Data from Local System",
+            "name": "Data from Local System",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1006": {
-            "description": "Direct Volume Access",
+            "name": "Direct Volume Access",
             "veris": []
         },
         "T1007": {
-            "description": "System Service Discovery",
+            "name": "System Service Discovery",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1008": {
-            "description": "Fallback Channels",
+            "name": "Fallback Channels",
             "veris": [
                 "action.malware.variety.C2"
             ]
         },
         "T1010": {
-            "description": "Application Windows Discovery",
+            "name": "Application Windows Discovery",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1011": {
-            "description": "Exfiltration Over Other Network Medium",
+            "name": "Exfiltration Over Other Network Medium",
             "veris": [
                 "action.malware.variety.Export data"
             ]
         },
         "T1011.001": {
-            "description": "Exfiltration Over Bluetooth",
+            "name": "Exfiltration Over Bluetooth",
             "veris": []
         },
         "T1012": {
-            "description": "Query Registry",
+            "name": "Query Registry",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1014": {
-            "description": "Rootkit",
+            "name": "Rootkit",
             "veris": [
                 "action.malware.variety.Rootkit"
             ]
         },
         "T1016": {
-            "description": "System Network Configuration Discovery",
+            "name": "System Network Configuration Discovery",
             "veris": [
                 "action.malware.variety.Scan network"
             ]
         },
         "T1018": {
-            "description": "Remote System Discovery",
+            "name": "Remote System Discovery",
             "veris": [
                 "action.malware.variety.Scan network"
             ]
         },
         "T1020": {
-            "description": "Automated Exfiltration",
+            "name": "Automated Exfiltration",
             "veris": [
                 "action.malware.variety.Export data"
             ]
         },
         "T1020.001": {
-            "description": "Traffic Duplication",
+            "name": "Traffic Duplication",
             "veris": []
         },
         "T1021": {
-            "description": "Remote Services",
+            "name": "Remote Services",
             "veris": [
                 "action.hacking.variety.Use of stolen creds",
                 "action.hacking.variety.Brute force"
             ]
         },
         "T1021.001": {
-            "description": "Remote Desktop Protocol",
+            "name": "Remote Desktop Protocol",
             "veris": []
         },
         "T1021.002": {
-            "description": "SMB/Windows Admin Shares",
+            "name": "SMB/Windows Admin Shares",
             "veris": []
         },
         "T1021.003": {
-            "description": "Distributed Component Object Model",
+            "name": "Distributed Component Object Model",
             "veris": [
                 "action.malware.variety.Abuse of functionality"
             ]
         },
         "T1021.004": {
-            "description": "SSH",
+            "name": "SSH",
             "veris": []
         },
         "T1021.005": {
-            "description": "VNC",
+            "name": "VNC",
             "veris": []
         },
         "T1021.006": {
-            "description": "Windows Remote Management",
+            "name": "Windows Remote Management",
             "veris": [
                 "action.hacking.vector.Command shell"
             ]
         },
         "T1025": {
-            "description": "Data from Removable Media",
+            "name": "Data from Removable Media",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1026": {
-            "description": "Multiband Communication",
+            "name": "Multiband Communication",
             "veris": [
                 "action.malware.variety.C2"
             ]
         },
         "T1027": {
-            "description": "Obfuscated Files or Information",
+            "name": "Obfuscated Files or Information",
             "veris": [
                 "action.malware.variety.Export data"
             ]
         },
         "T1027.001": {
-            "description": "Binary Padding",
+            "name": "Binary Padding",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1027.002": {
-            "description": "Software Packing",
+            "name": "Software Packing",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1027.003": {
-            "description": "Steganography",
+            "name": "Steganography",
             "veris": []
         },
         "T1027.004": {
-            "description": "Compile After Delivery",
+            "name": "Compile After Delivery",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1027.005": {
-            "description": "Indicator Removal from Tools",
+            "name": "Indicator Removal from Tools",
             "veris": [
                 "action.malware.variety.Disable controls"
             ]
         },
         "T1029": {
-            "description": "Scheduled Transfer",
+            "name": "Scheduled Transfer",
             "veris": [
                 "action.malware.variety.Export data"
             ]
         },
         "T1030": {
-            "description": "Data Transfer Size Limits",
+            "name": "Data Transfer Size Limits",
             "veris": [
                 "action.malware.variety.Export data"
             ]
         },
         "T1033": {
-            "description": "System Owner/User Discovery",
+            "name": "System Owner/User Discovery",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1034": {
-            "description": "Path Interception",
+            "name": "Path Interception",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1036": {
-            "description": "Masquerading",
+            "name": "Masquerading",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1036.001": {
-            "description": "Invalid Code Signature",
+            "name": "Invalid Code Signature",
             "veris": []
         },
         "T1036.002": {
-            "description": "Right-to-Left Override",
+            "name": "Right-to-Left Override",
             "veris": []
         },
         "T1036.003": {
-            "description": "Rename System Utilities",
+            "name": "Rename System Utilities",
             "veris": []
         },
         "T1036.004": {
-            "description": "Masquerade Task or Service",
+            "name": "Masquerade Task or Service",
             "veris": []
         },
         "T1036.005": {
-            "description": "Match Legitimate Name or Location",
+            "name": "Match Legitimate Name or Location",
             "veris": []
         },
         "T1036.006": {
-            "description": "Space after Filename",
+            "name": "Space after Filename",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1037": {
-            "description": "Boot or Logon Initialization Scripts",
+            "name": "Boot or Logon Initialization Scripts",
             "veris": []
         },
         "T1037.001": {
-            "description": "Logon Script (Windows)",
+            "name": "Logon Script (Windows)",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1037.002": {
-            "description": "Logon Script (Mac)",
+            "name": "Logon Script (Mac)",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1037.003": {
-            "description": "Network Logon Script",
+            "name": "Network Logon Script",
             "veris": []
         },
         "T1037.004": {
-            "description": "Rc.common",
+            "name": "Rc.common",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1037.005": {
-            "description": "Startup Items",
+            "name": "Startup Items",
             "veris": [
                 "Hacking variety.Abuse of functionality"
             ]
         },
         "T1039": {
-            "description": "Data from Network Shared Drive",
+            "name": "Data from Network Shared Drive",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1040": {
-            "description": "Network Sniffing",
+            "name": "Network Sniffing",
             "veris": [
                 "action.malware.variety.Scan network"
             ]
         },
         "T1041": {
-            "description": "Exfiltration Over C2 Channel",
+            "name": "Exfiltration Over C2 Channel",
             "veris": [
                 "action.malware.variety.Export data"
             ]
         },
         "T1043": {
-            "description": "Commonly Used Ports",
+            "name": "Commonly Used Ports",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1044": {
-            "description": "File System Permissions Weakness",
+            "name": "File System Permissions Weakness",
             "veris": [
                 "action.hacking.variety.Exploit misconfig",
                 "action.malware.variety.Exploit misconfig"
             ]
         },
         "T1046": {
-            "description": "Network Service Scanning",
+            "name": "Network Service Scanning",
             "veris": [
                 "action.malware.variety.Scan network"
             ]
         },
         "T1047": {
-            "description": "Windows Management Instrumentation",
+            "name": "Windows Management Instrumentation",
             "veris": [
                 "action.hacking.vector.Command shell"
             ]
         },
         "T1048": {
-            "description": "Exfiltration Over Alternative Protocol",
+            "name": "Exfiltration Over Alternative Protocol",
             "veris": [
                 "action.malware.variety.Export data"
             ]
         },
         "T1048.001": {
-            "description": "Exfiltration Over Symmetric Encrypted Non-C2 Protocol",
+            "name": "Exfiltration Over Symmetric Encrypted Non-C2 Protocol",
             "veris": []
         },
         "T1048.002": {
-            "description": "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
+            "name": "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
             "veris": []
         },
         "T1048.004": {
-            "description": "Exfiltration over Unencryupted/Obfuscated Non-C2 Protocol",
+            "name": "Exfiltration over Unencryupted/Obfuscated Non-C2 Protocol",
             "veris": []
         },
         "T1049": {
-            "description": "System Network Connections Discovery",
+            "name": "System Network Connections Discovery",
             "veris": [
                 "action.malware.variety.Scan network"
             ]
         },
         "T1051": {
-            "description": "Shared Webroot",
+            "name": "Shared Webroot",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1052": {
-            "description": "Exfiltration Over Physical Medium",
+            "name": "Exfiltration Over Physical Medium",
             "veris": [
                 "action.malware.variety.Export data"
             ]
         },
         "T1052.001": {
-            "description": "Exfiltration over USB",
+            "name": "Exfiltration over USB",
             "veris": []
         },
         "T1053": {
-            "description": "Scheduled Task/Job",
+            "name": "Scheduled Task/Job",
             "veris": []
         },
         "T1053.001": {
-            "description": "At (Linux)",
+            "name": "At (Linux)",
             "veris": []
         },
         "T1053.002": {
-            "description": "At (Windows)",
+            "name": "At (Windows)",
             "veris": []
         },
         "T1053.003": {
-            "description": "Cron",
+            "name": "Cron",
             "veris": []
         },
         "T1053.004": {
-            "description": "Launchd",
+            "name": "Launchd",
             "veris": []
         },
         "T1053.005": {
-            "description": "Scheduled Task",
+            "name": "Scheduled Task",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1053.006": {
-            "description": "Systemd Timers",
+            "name": "Systemd Timers",
             "veris": []
         },
         "T1055": {
-            "description": "Process Injection",
+            "name": "Process Injection",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1055.001": {
-            "description": "Dynamic-link Library Injection",
+            "name": "Dynamic-link Library Injection",
             "veris": []
         },
         "T1055.003": {
-            "description": "Thread Execution Hijacking",
+            "name": "Thread Execution Hijacking",
             "veris": []
         },
         "T1055.004": {
-            "description": "Asynchronous Procedure Call",
+            "name": "Asynchronous Procedure Call",
             "veris": []
         },
         "T1055.005": {
-            "description": "Thread Local Storage",
+            "name": "Thread Local Storage",
             "veris": []
         },
         "T1055.008": {
-            "description": "Ptrace System Calls",
+            "name": "Ptrace System Calls",
             "veris": []
         },
         "T1055.009": {
-            "description": "Proc Memory",
+            "name": "Proc Memory",
             "veris": []
         },
         "T1055.011": {
-            "description": "Extra Window Memory Injection",
+            "name": "Extra Window Memory Injection",
             "veris": [
                 "action.malware.variety.Abuse of functionality"
             ]
         },
         "T1055.012": {
-            "description": "Process Hallowing",
+            "name": "Process Hallowing",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1055.013": {
-            "description": "Process Doppelganging",
+            "name": "Process Doppelganging",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1055.014": {
-            "description": "VDSO Hijacking",
+            "name": "VDSO Hijacking",
             "veris": []
         },
         "T1056": {
-            "description": "Input Capture",
+            "name": "Input Capture",
             "veris": [
                 "action.malware.variety.Capture app data"
             ]
         },
         "T1056.001": {
-            "description": "Keylogging",
+            "name": "Keylogging",
             "veris": []
         },
         "T1056.003": {
-            "description": "Web Portal Capture",
+            "name": "Web Portal Capture",
             "veris": []
         },
         "T1056.004": {
-            "description": "Credential API Hooking",
+            "name": "Credential API Hooking",
             "veris": []
         },
         "T1057": {
-            "description": "Process Discovery",
+            "name": "Process Discovery",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1058": {
-            "description": "Service Registry Permissions Weakness",
+            "name": "Service Registry Permissions Weakness",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1059": {
-            "description": "Command and Scripting Interpreter",
+            "name": "Command and Scripting Interpreter",
             "veris": [
                 "action.hacking.vector.Command shell"
             ]
         },
         "T1059.001": {
-            "description": "PowerShell",
+            "name": "PowerShell",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1059.002": {
-            "description": "AppleScript",
+            "name": "AppleScript",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1059.003": {
-            "description": "Unix Shell",
+            "name": "Unix Shell",
             "veris": []
         },
         "T1059.005": {
-            "description": "Visual Basic",
+            "name": "Visual Basic",
             "veris": []
         },
         "T1059.006": {
-            "description": "Python",
+            "name": "Python",
             "veris": []
         },
         "T1059.007": {
-            "description": "JavaScript/JScript",
+            "name": "JavaScript/JScript",
             "veris": []
         },
         "T1059.008": {
-            "description": "Network Device CLI",
+            "name": "Network Device CLI",
             "veris": []
         },
         "T1061": {
-            "description": "Graphical User Interface",
+            "name": "Graphical User Interface",
             "veris": [
                 "action.hacking.vector.Desktop sharing"
             ]
         },
         "T1062": {
-            "description": "Hypervisor",
+            "name": "Hypervisor",
             "veris": [
                 "action.hacking.variety.Other"
             ]
         },
         "T1064": {
-            "description": "Scripting",
+            "name": "Scripting",
             "veris": [
                 "action.hacking.vector.Command shell"
             ]
         },
         "T1065": {
-            "description": "Uncommonly Used Ports",
+            "name": "Uncommonly Used Ports",
             "veris": [
                 "action.malware.variety.C2"
             ]
         },
         "T1067": {
-            "description": "Bootkit",
+            "name": "Bootkit",
             "veris": [
                 "action.malware.variety.Rootkit"
             ]
         },
         "T1068": {
-            "description": "Exploitation for Privilege Escalation",
+            "name": "Exploitation for Privilege Escalation",
             "veris": [
                 "action.malware.variety.Exploit vuln",
                 "action.hacking.variety.Exploit vuln"
             ]
         },
         "T1069": {
-            "description": "Permission Groups Discovery",
+            "name": "Permission Groups Discovery",
             "veris": [
                 "action.malware.variety.Scan network"
             ]
         },
         "T1069.001": {
-            "description": "Local Groups",
+            "name": "Local Groups",
             "veris": []
         },
         "T1069.002": {
-            "description": "Domain Groups",
+            "name": "Domain Groups",
             "veris": []
         },
         "T1069.003": {
-            "description": "Cloud Groups",
+            "name": "Cloud Groups",
             "veris": []
         },
         "T1070": {
-            "description": "Indicator Removal on Host",
+            "name": "Indicator Removal on Host",
             "veris": [
                 "action.malware.variety.Disable controls"
             ]
         },
         "T1070.001": {
-            "description": "Clear Windows Event Logs",
+            "name": "Clear Windows Event Logs",
             "veris": []
         },
         "T1070.002": {
-            "description": "Clear Linux or Mac System Logs",
+            "name": "Clear Linux or Mac System Logs",
             "veris": []
         },
         "T1070.003": {
-            "description": "Clear Command History",
+            "name": "Clear Command History",
             "veris": [
                 "action.malware.variety.Destroy data"
             ]
         },
         "T1070.004": {
-            "description": "File Deletion",
+            "name": "File Deletion",
             "veris": [
                 "action.malware.variety.Destroy data"
             ]
         },
         "T1070.005": {
-            "description": "Network Share Connection Removal",
+            "name": "Network Share Connection Removal",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1070.006": {
-            "description": "Timestomp",
+            "name": "Timestomp",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1071": {
-            "description": "Applicaton Layer Protocol",
+            "name": "Applicaton Layer Protocol",
             "veris": []
         },
         "T1071.001": {
-            "description": "Web Protocols",
+            "name": "Web Protocols",
             "veris": []
         },
         "T1071.002": {
-            "description": "File Transfer Protocols",
+            "name": "File Transfer Protocols",
             "veris": []
         },
         "T1071.003": {
-            "description": "Mail Protocols",
+            "name": "Mail Protocols",
             "veris": []
         },
         "T1071.004": {
-            "description": "DNS",
+            "name": "DNS",
             "veris": []
         },
         "T1074": {
-            "description": "Data Staged",
+            "name": "Data Staged",
             "veris": [
                 "action.malware.variety.Export data"
             ]
         },
         "T1074.001": {
-            "description": "Local Data Staging",
+            "name": "Local Data Staging",
             "veris": []
         },
         "T1074.002": {
-            "description": "Remote Data Staging",
+            "name": "Remote Data Staging",
             "veris": []
         },
         "T1076": {
-            "description": "Remote Desktop Protocol",
+            "name": "Remote Desktop Protocol",
             "veris": [
                 "action.hacking.vector.Desktop sharing"
             ]
         },
         "T1077": {
-            "description": "Windows Admin Shares",
+            "name": "Windows Admin Shares",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1078": {
-            "description": "Valid Accounts",
+            "name": "Valid Accounts",
             "veris": [
                 "action.hacking.VAriety.Use of stolen creds"
             ]
         },
         "T1078.001": {
-            "description": "Default Accounts",
+            "name": "Default Accounts",
             "veris": []
         },
         "T1078.002": {
-            "description": "Domain Accounts",
+            "name": "Domain Accounts",
             "veris": []
         },
         "T1078.003": {
-            "description": "Local Accounts",
+            "name": "Local Accounts",
             "veris": []
         },
         "T1078.004": {
-            "description": "Cloud Accounts",
+            "name": "Cloud Accounts",
             "veris": []
         },
         "T1079": {
-            "description": "Multilayer Encryption",
+            "name": "Multilayer Encryption",
             "veris": [
                 "action.malware.variety.C2"
             ]
         },
         "T1080": {
-            "description": "Taint Shared Content",
+            "name": "Taint Shared Content",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1082": {
-            "description": "System Information Discovery",
+            "name": "System Information Discovery",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1083": {
-            "description": "File and Directory Discovery",
+            "name": "File and Directory Discovery",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1087": {
-            "description": "Account Discovery",
+            "name": "Account Discovery",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1087.001": {
-            "description": "Local Account",
+            "name": "Local Account",
             "veris": []
         },
         "T1087.002": {
-            "description": "Domain Account",
+            "name": "Domain Account",
             "veris": []
         },
         "T1087.003": {
-            "description": "Email Account",
+            "name": "Email Account",
             "veris": []
         },
         "T1087.004": {
-            "description": "Cloud Account",
+            "name": "Cloud Account",
             "veris": []
         },
         "T1090": {
-            "description": "Connection Proxy",
+            "name": "Connection Proxy",
             "veris": [
                 "action.malware.variety.C2"
             ]
         },
         "T1090.001": {
-            "description": "Internal Proxy",
+            "name": "Internal Proxy",
             "veris": []
         },
         "T1090.002": {
-            "description": "External Proxy",
+            "name": "External Proxy",
             "veris": []
         },
         "T1090.003": {
-            "description": "Multi-hop Proxy",
+            "name": "Multi-hop Proxy",
             "veris": [
                 "action.malware.variety.C2"
             ]
         },
         "T1090.004": {
-            "description": "Domain Fronting",
+            "name": "Domain Fronting",
             "veris": [
                 "action.malware.variety.C2"
             ]
         },
         "T1091": {
-            "description": "Replication Through Removable Media",
+            "name": "Replication Through Removable Media",
             "veris": [
                 "action.malware.vector.Removable media"
             ]
         },
         "T1092": {
-            "description": "Communication Through Removable Media",
+            "name": "Communication Through Removable Media",
             "veris": [
                 "action.malware.vector.Removable media"
             ]
         },
         "T1095": {
-            "description": "Non-Application Layer Protocol",
+            "name": "Non-Application Layer Protocol",
             "veris": []
         },
         "T1098": {
-            "description": "Account Manipulation",
+            "name": "Account Manipulation",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1098.002": {
-            "description": "Exchange Email Delegate Permissions",
+            "name": "Exchange Email Delegate Permissions",
             "veris": []
         },
         "T1098.003": {
-            "description": "Add Office 365 Global Administrator Role",
+            "name": "Add Office 365 Global Administrator Role",
             "veris": []
         },
         "T1098.004": {
-            "description": "SSH Authorized Keys",
+            "name": "SSH Authorized Keys",
             "veris": []
         },
         "T1102": {
-            "description": "Web Service",
+            "name": "Web Service",
             "veris": [
                 "action.malware.variety.C2"
             ]
         },
         "T1102.001": {
-            "description": "Dead Drop Resolver",
+            "name": "Dead Drop Resolver",
             "veris": []
         },
         "T1102.002": {
-            "description": "Bidirectional Communication",
+            "name": "Bidirectional Communication",
             "veris": []
         },
         "T1102.003": {
-            "description": "One-Way Communication",
+            "name": "One-Way Communication",
             "veris": []
         },
         "T1104": {
-            "description": "Multi-Stage Channels",
+            "name": "Multi-Stage Channels",
             "veris": [
                 "action.malware.variety.C2"
             ]
         },
         "T1105": {
-            "description": "Ingress Tool Transfer",
+            "name": "Ingress Tool Transfer",
             "veris": []
         },
         "T1106": {
-            "description": "Execution through API",
+            "name": "Execution through API",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1108": {
-            "description": "Redundant Access",
+            "name": "Redundant Access",
             "veris": [
                 "action.malware.variety.Backdoor"
             ]
         },
         "T1110": {
-            "description": "Brute Force",
+            "name": "Brute Force",
             "veris": [
                 "action.malware.variety.Brute force",
                 "action.hacking.variety.Brute force"
             ]
         },
         "T1110.002": {
-            "description": "Password Cracking",
+            "name": "Password Cracking",
             "veris": []
         },
         "T1110.003": {
-            "description": "Password Spraying",
+            "name": "Password Spraying",
             "veris": []
         },
         "T1110.004": {
-            "description": "Credential Stuffing",
+            "name": "Credential Stuffing",
             "veris": []
         },
         "T1111": {
-            "description": "Two-Factor Authentication Interception",
+            "name": "Two-Factor Authentication Interception",
             "veris": [
                 "action.hacking.variety.Other",
                 "action.malware.variety.Other"
             ]
         },
         "T1112": {
-            "description": "Modify Registry",
+            "name": "Modify Registry",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1113": {
-            "description": "Screen Capture",
+            "name": "Screen Capture",
             "veris": [
                 "action.malware.variety.Capture app data"
             ]
         },
         "T1114": {
-            "description": "Email Collection",
+            "name": "Email Collection",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1114.001": {
-            "description": "Local Email Collection",
+            "name": "Local Email Collection",
             "veris": []
         },
         "T1114.002": {
-            "description": "Remote Email Collection",
+            "name": "Remote Email Collection",
             "veris": []
         },
         "T1114.003": {
-            "description": "Email Forwarding Rule",
+            "name": "Email Forwarding Rule",
             "veris": []
         },
         "T1115": {
-            "description": "Clipboard Data",
+            "name": "Clipboard Data",
             "veris": [
                 "action.malware.variety.RAM scraper"
             ]
         },
         "T1119": {
-            "description": "Automated Collection",
+            "name": "Automated Collection",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1120": {
-            "description": "Peripheral Device Discovery",
+            "name": "Peripheral Device Discovery",
             "veris": [
                 "action.malware.variety.Scan network"
             ]
         },
         "T1123": {
-            "description": "Audio Capture",
+            "name": "Audio Capture",
             "veris": [
                 "action.malware.variety.Capture app data"
             ]
         },
         "T1124": {
-            "description": "System Time Discovery",
+            "name": "System Time Discovery",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1125": {
-            "description": "Video Capture",
+            "name": "Video Capture",
             "veris": [
                 "action.malware.variety.Capture app data"
             ]
         },
         "T1127": {
-            "description": "Trusted Developer Utilities Proxy Exeucution",
+            "name": "Trusted Developer Utilities Proxy Exeucution",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1127.01": {
-            "description": "MSBuild",
+            "name": "MSBuild",
             "veris": []
         },
         "T1129": {
-            "description": "Execution through Module Load",
+            "name": "Execution through Module Load",
             "veris": [
                 "action.hacking.Varity.Abuse of functionality",
                 "action.hacking.variety.Exploit misconfig"
             ]
         },
         "T1132": {
-            "description": "Data Encoding",
+            "name": "Data Encoding",
             "veris": [
                 "action.malware.variety.C2"
             ]
         },
         "T1132.001": {
-            "description": "Standard Encoding",
+            "name": "Standard Encoding",
             "veris": []
         },
         "T1132.002": {
-            "description": "Non-Standard Encoding",
+            "name": "Non-Standard Encoding",
             "veris": []
         },
         "T1133": {
-            "description": "External Remote Services",
+            "name": "External Remote Services",
             "veris": [
                 "action.malware.variety.Exploit vuln"
             ]
         },
         "T1134": {
-            "description": "Access Token Manipulation",
+            "name": "Access Token Manipulation",
             "veris": [
                 "action.hacking.variety.Other"
             ]
         },
         "T1134.001": {
-            "description": "Token Impersonation/Theft",
+            "name": "Token Impersonation/Theft",
             "veris": []
         },
         "T1134.002": {
-            "description": "Create Process with Token",
+            "name": "Create Process with Token",
             "veris": []
         },
         "T1134.003": {
-            "description": "Make and Impersonate Token",
+            "name": "Make and Impersonate Token",
             "veris": []
         },
         "T1134.004": {
-            "description": "Parent PID Spoofing",
+            "name": "Parent PID Spoofing",
             "veris": []
         },
         "T1134.005": {
-            "description": "SID-History Injection",
+            "name": "SID-History Injection",
             "veris": []
         },
         "T1135": {
-            "description": "Network Share Discovery",
+            "name": "Network Share Discovery",
             "veris": [
                 "action.malware.variety.Scan network"
             ]
         },
         "T1136": {
-            "description": "Create Account",
+            "name": "Create Account",
             "veris": [
                 "Attribute.Integrity.variety.Created account"
             ]
         },
         "T1136.001": {
-            "description": "Local Account",
+            "name": "Local Account",
             "veris": []
         },
         "T1136.002": {
-            "description": "Domain Account",
+            "name": "Domain Account",
             "veris": []
         },
         "T1136.003": {
-            "description": "Cloud Account",
+            "name": "Cloud Account",
             "veris": []
         },
         "T1137": {
-            "description": "Office Application Startup",
+            "name": "Office Application Startup",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1137.001": {
-            "description": "Office Template Macros",
+            "name": "Office Template Macros",
             "veris": []
         },
         "T1137.002": {
-            "description": "Office Test",
+            "name": "Office Test",
             "veris": []
         },
         "T1137.003": {
-            "description": "Outlook Forms",
+            "name": "Outlook Forms",
             "veris": []
         },
         "T1137.004": {
-            "description": "Outlook Home Page",
+            "name": "Outlook Home Page",
             "veris": []
         },
         "T1137.005": {
-            "description": "Outlook Rules",
+            "name": "Outlook Rules",
             "veris": []
         },
         "T1137.006": {
-            "description": "Add-ins",
+            "name": "Add-ins",
             "veris": []
         },
         "T1140": {
-            "description": "Deobfuscate/Decode Files or Information",
+            "name": "Deobfuscate/Decode Files or Information",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1149": {
-            "description": "LC_MAIN Hijacking",
+            "name": "LC_MAIN Hijacking",
             "veris": [
                 "action.hacking.variety.Other"
             ]
         },
         "T1153": {
-            "description": "Source",
+            "name": "Source",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1175": {
-            "description": "Component Object Model and Distributed COM",
+            "name": "Component Object Model and Distributed COM",
             "veris": []
         },
         "T1176": {
-            "description": "Browser Extensions",
+            "name": "Browser Extensions",
             "veris": [
                 "action.malware.variety.Capture app data"
             ]
         },
         "T1185": {
-            "description": "Man in the Browser",
+            "name": "Man in the Browser",
             "veris": [
                 "action.malware.variety.Capture app data"
             ]
         },
         "T1187": {
-            "description": "Forced Authentication",
+            "name": "Forced Authentication",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1189": {
-            "description": "Drive-by Compromise",
+            "name": "Drive-by Compromise",
             "veris": [
                 "action.malware.vector.Web drive-by"
             ]
         },
         "T1190": {
-            "description": "Exploit Public-Facing Application",
+            "name": "Exploit Public-Facing Application",
             "veris": [
                 "action.malware.variety.Exploit vuln"
             ]
         },
         "T1195": {
-            "description": "Supply Chain Compromise",
+            "name": "Supply Chain Compromise",
             "veris": [
                 "action.hacking.vector.Partner"
             ]
         },
         "T1195.001": {
-            "description": "Compromise Software Dependencies and Development Tools",
+            "name": "Compromise Software Dependencies and Development Tools",
             "veris": []
         },
         "T1195.002": {
-            "description": "Compromise Software Supply Chain",
+            "name": "Compromise Software Supply Chain",
             "veris": []
         },
         "T1195.003": {
-            "description": "Compromise Hardware Supply Chain",
+            "name": "Compromise Hardware Supply Chain",
             "veris": []
         },
         "T1196": {
-            "description": "Control Panel Items",
+            "name": "Control Panel Items",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1197": {
-            "description": "BITS Jobs",
+            "name": "BITS Jobs",
             "veris": [
                 "action.malware.variety.Export data"
             ]
         },
         "T1199": {
-            "description": "Trust Relationship",
+            "name": "Trust Relationship",
             "veris": [
                 "action.hacking.vector.Partner"
             ]
         },
         "T1200": {
-            "description": "Hardware Additions",
+            "name": "Hardware Additions",
             "veris": [
                 "action.malware.variety.Physical access",
                 "action.malware.vector.Direct install"
             ]
         },
         "T1201": {
-            "description": "Password Policy Discovery",
+            "name": "Password Policy Discovery",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1202": {
-            "description": "Indirect Command Execution",
+            "name": "Indirect Command Execution",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1203": {
-            "description": "Exploitation for Client Execution",
+            "name": "Exploitation for Client Execution",
             "veris": [
                 "action.malware.variety.Client-side attack",
                 "action.hacking.variety.Exploit vuln"
             ]
         },
         "T1204": {
-            "description": "User Execution",
+            "name": "User Execution",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1204.001": {
-            "description": "Malicious Link",
+            "name": "Malicious Link",
             "veris": []
         },
         "T1204.002": {
-            "description": "Malicious File",
+            "name": "Malicious File",
             "veris": []
         },
         "T1205": {
-            "description": "Traffic Signaling",
+            "name": "Traffic Signaling",
             "veris": []
         },
         "T1205.001": {
-            "description": "Port Knocking",
+            "name": "Port Knocking",
             "veris": [
                 "action.malware.variety.C2"
             ]
         },
         "T1207": {
-            "description": "DCShadow",
+            "name": "DCShadow",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1210": {
-            "description": "Exploitation of Remote Services",
+            "name": "Exploitation of Remote Services",
             "veris": [
                 "action.malware.variety.Exploit vuln"
             ]
         },
         "T1211": {
-            "description": "Exploitation for Defense Evasion",
+            "name": "Exploitation for Defense Evasion",
             "veris": [
                 "action.malware.variety.Disable controls"
             ]
         },
         "T1212": {
-            "description": "Exploitation for Credential Access",
+            "name": "Exploitation for Credential Access",
             "veris": [
                 "action.malware.variety.Exploit vuln",
                 "action.malware.variety.Password dumper",
@@ -1206,194 +1206,194 @@
             ]
         },
         "T1213": {
-            "description": "Data from Information Repositories",
+            "name": "Data from Information Repositories",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1213.001": {
-            "description": "Confluence",
+            "name": "Confluence",
             "veris": []
         },
         "T1213.002": {
-            "description": "Sharepoint",
+            "name": "Sharepoint",
             "veris": []
         },
         "T1216": {
-            "description": "Signed Script Proxy Execution",
+            "name": "Signed Script Proxy Execution",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1216.001": {
-            "description": "PubPrn",
+            "name": "PubPrn",
             "veris": []
         },
         "T1217": {
-            "description": "Browser Bookmark Discovery",
+            "name": "Browser Bookmark Discovery",
             "veris": [
                 "action.malware.variety.Capture app data"
             ]
         },
         "T1218": {
-            "description": "Signed Binary Proxy Execution",
+            "name": "Signed Binary Proxy Execution",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1218.001": {
-            "description": "Compiled HTML File",
+            "name": "Compiled HTML File",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1218.002": {
-            "description": "Control Panel",
+            "name": "Control Panel",
             "veris": []
         },
         "T1218.003": {
-            "description": "CMSTP",
+            "name": "CMSTP",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1218.004": {
-            "description": "InstallUtil",
+            "name": "InstallUtil",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1218.005": {
-            "description": "Mshta",
+            "name": "Mshta",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1218.007": {
-            "description": "Msiexec",
+            "name": "Msiexec",
             "veris": []
         },
         "T1218.008": {
-            "description": "Odbcconf",
+            "name": "Odbcconf",
             "veris": []
         },
         "T1218.009": {
-            "description": "Regsvcs/Regasm",
+            "name": "Regsvcs/Regasm",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1218.010": {
-            "description": "Regsvr32",
+            "name": "Regsvr32",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1218.011": {
-            "description": "Rundll32",
+            "name": "Rundll32",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1218.012": {
-            "description": "Verclsid",
+            "name": "Verclsid",
             "veris": []
         },
         "T1219": {
-            "description": "Remote Access Software",
+            "name": "Remote Access Software",
             "veris": [
                 "action.malware.variety.Adminware"
             ]
         },
         "T1220": {
-            "description": ".XSL Script Processing",
+            "name": ".XSL Script Processing",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1221": {
-            "description": "Template Injection",
+            "name": "Template Injection",
             "veris": [
                 "action.malware.variety.Client-side attack"
             ]
         },
         "T1222": {
-            "description": "File Permissions Modification",
+            "name": "File Permissions Modification",
             "veris": [
                 "action.malware.variety.Exploit misconfig"
             ]
         },
         "T1222.001": {
-            "description": "Windows File and Directory Permissions Modifiction",
+            "name": "Windows File and Directory Permissions Modifiction",
             "veris": []
         },
         "T1222.002": {
-            "description": "Linux and Mac File and Directory Permissions Modification",
+            "name": "Linux and Mac File and Directory Permissions Modification",
             "veris": []
         },
         "T1480": {
-            "description": "Execution Guardrails",
+            "name": "Execution Guardrails",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1480.001": {
-            "description": "Environmental Keying",
+            "name": "Environmental Keying",
             "veris": []
         },
         "T1482": {
-            "description": "Domain Trust Discovery",
+            "name": "Domain Trust Discovery",
             "veris": [
                 "action.malware.variety.Scan network"
             ]
         },
         "T1485": {
-            "description": "Data Destruction",
+            "name": "Data Destruction",
             "veris": [
                 "action.malware.variety.Destroy data"
             ]
         },
         "T1486": {
-            "description": "Data Encrypted for Impact",
+            "name": "Data Encrypted for Impact",
             "veris": [
                 "action.malware.variety.Ransomware"
             ]
         },
         "T1489": {
-            "description": "Service Stop",
+            "name": "Service Stop",
             "veris": [
                 "action.malware.variety.Client-side attack"
             ]
         },
         "T1490": {
-            "description": "Inhibit System Recovery",
+            "name": "Inhibit System Recovery",
             "veris": [
                 "action.malware.variety.Disable controls"
             ]
         },
         "T1491": {
-            "description": "Defacement",
+            "name": "Defacement",
             "veris": [
                 "Attribute.Integrity.variety.Defacement",
                 "action.malware.variety.Other"
             ]
         },
         "T1491.001": {
-            "description": "Internal Defacement",
+            "name": "Internal Defacement",
             "veris": []
         },
         "T1491.002": {
-            "description": "External Defacement",
+            "name": "External Defacement",
             "veris": []
         },
         "T1495": {
-            "description": "Firmware Corruption",
+            "name": "Firmware Corruption",
             "veris": [
                 "action.malware.variety.Destroy data"
             ]
         },
         "T1496": {
-            "description": "Resource Hijacking",
+            "name": "Resource Hijacking",
             "veris": [
                 "action.malware.variety.Click fraud",
                 "action.malware.variety.Click fraud and cryptocurrency mining",
@@ -1401,226 +1401,226 @@
             ]
         },
         "T1497": {
-            "description": "Virtualization/Sandbox Evasion",
+            "name": "Virtualization/Sandbox Evasion",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1497.001": {
-            "description": "System Checks",
+            "name": "System Checks",
             "veris": []
         },
         "T1497.002": {
-            "description": "User Activity Based Checks",
+            "name": "User Activity Based Checks",
             "veris": []
         },
         "T1497.003": {
-            "description": "Time Based Evasion",
+            "name": "Time Based Evasion",
             "veris": []
         },
         "T1498": {
-            "description": "Network Denial of Service",
+            "name": "Network Denial of Service",
             "veris": [
                 "action.malware.variety.DoS"
             ]
         },
         "T1498.001": {
-            "description": "Direct Network Flood",
+            "name": "Direct Network Flood",
             "veris": []
         },
         "T1498.002": {
-            "description": "Reflection Amplification",
+            "name": "Reflection Amplification",
             "veris": []
         },
         "T1499": {
-            "description": "Endpoint Denial of Service",
+            "name": "Endpoint Denial of Service",
             "veris": [
                 "action.malware.variety.DoS"
             ]
         },
         "T1499.001": {
-            "description": "OS Exhaustion Flow",
+            "name": "OS Exhaustion Flow",
             "veris": []
         },
         "T1499.002": {
-            "description": "Service Exhaustion Flood",
+            "name": "Service Exhaustion Flood",
             "veris": []
         },
         "T1499.003": {
-            "description": "Application Exhaustion Flood",
+            "name": "Application Exhaustion Flood",
             "veris": []
         },
         "T1499.004": {
-            "description": "Application or System Exploitation",
+            "name": "Application or System Exploitation",
             "veris": []
         },
         "T1505": {
-            "description": "Server Software Component",
+            "name": "Server Software Component",
             "veris": []
         },
         "T1505.001": {
-            "description": "SQL Stored Procedures",
+            "name": "SQL Stored Procedures",
             "veris": []
         },
         "T1505.002": {
-            "description": "Transport Agent",
+            "name": "Transport Agent",
             "veris": []
         },
         "T1505.003": {
-            "description": "Web Shell",
+            "name": "Web Shell",
             "veris": [
                 "action.malware.variety.Backdoor",
                 "action.hacking.variety.Use of backdoor or C2"
             ]
         },
         "T1518.001": {
-            "description": "Security Software Discovery",
+            "name": "Security Software Discovery",
             "veris": [
                 "action.malware.variety.Capture stored data"
             ]
         },
         "T1525": {
-            "description": "Implant Container Image",
+            "name": "Implant Container Image",
             "veris": []
         },
         "T1526": {
-            "description": "Cloud Service Discovery",
+            "name": "Cloud Service Discovery",
             "veris": []
         },
         "T1528": {
-            "description": "Steal Application Access Token",
+            "name": "Steal Application Access Token",
             "veris": []
         },
         "T1529": {
-            "description": "System Shutdown/Reboot",
+            "name": "System Shutdown/Reboot",
             "veris": []
         },
         "T1530": {
-            "description": "Data from Cloud Storage Object",
+            "name": "Data from Cloud Storage Object",
             "veris": []
         },
         "T1531": {
-            "description": "Account Access Removal",
+            "name": "Account Access Removal",
             "veris": []
         },
         "T1534": {
-            "description": "Internal Spearphishing",
+            "name": "Internal Spearphishing",
             "veris": []
         },
         "T1535": {
-            "description": "Unused/Unsupported Cloud Regions",
+            "name": "Unused/Unsupported Cloud Regions",
             "veris": []
         },
         "T1537": {
-            "description": "Transfer Data to Cloud Account",
+            "name": "Transfer Data to Cloud Account",
             "veris": []
         },
         "T1538": {
-            "description": "Cloud Service Dashboard",
+            "name": "Cloud Service Dashboard",
             "veris": []
         },
         "T1539": {
-            "description": "Steal Web Session Cookie",
+            "name": "Steal Web Session Cookie",
             "veris": []
         },
         "T1542": {
-            "description": "Pre-OS Boot",
+            "name": "Pre-OS Boot",
             "veris": []
         },
         "T1542.001": {
-            "description": "System Firmware",
+            "name": "System Firmware",
             "veris": [
                 "action.malware.variety.Rootkit"
             ]
         },
         "T1542.002": {
-            "description": "Component Firmware",
+            "name": "Component Firmware",
             "veris": [
                 "action.malware.variety.Rootkit"
             ]
         },
         "T1542.004": {
-            "description": "ROMMONkit",
+            "name": "ROMMONkit",
             "veris": []
         },
         "T1542.005": {
-            "description": "TFTP Boot",
+            "name": "TFTP Boot",
             "veris": []
         },
         "T1543": {
-            "description": "Create or Modify System Process",
+            "name": "Create or Modify System Process",
             "veris": []
         },
         "T1543.001": {
-            "description": "Launch Agent",
+            "name": "Launch Agent",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1543.002": {
-            "description": "Systemd Service",
+            "name": "Systemd Service",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1543.003": {
-            "description": "Windows Service",
+            "name": "Windows Service",
             "veris": []
         },
         "T1543.004": {
-            "description": "Launch Daemon",
+            "name": "Launch Daemon",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546": {
-            "description": "Event Triggered Execution",
+            "name": "Event Triggered Execution",
             "veris": []
         },
         "T1546.001": {
-            "description": "Change Default File Association",
+            "name": "Change Default File Association",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546.002": {
-            "description": "Screensaver",
+            "name": "Screensaver",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1546.003": {
-            "description": "Windows Management Instrumentation Event Subscription",
+            "name": "Windows Management Instrumentation Event Subscription",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1546.004": {
-            "description": ".bash_profile and .bashrc",
+            "name": ".bash_profile and .bashrc",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1546.005": {
-            "description": "Trap",
+            "name": "Trap",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546.006": {
-            "description": "LC_LOAD_DYLIB Addition",
+            "name": "LC_LOAD_DYLIB Addition",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546.007": {
-            "description": "Netsh Helper DLL",
+            "name": "Netsh Helper DLL",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546.008": {
-            "description": ".Accessibility Features",
+            "name": ".Accessibility Features",
             "veris": [
                 "action.hacking.variety.Abuse of functionality",
                 "action.hacking.variety.Exploit misconfig",
@@ -1628,129 +1628,129 @@
             ]
         },
         "T1546.009": {
-            "description": "AppCert DLLs",
+            "name": "AppCert DLLs",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546.010": {
-            "description": "AppInit DLLs",
+            "name": "AppInit DLLs",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546.011": {
-            "description": "Application Shimming",
+            "name": "Application Shimming",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1546.012": {
-            "description": "Image File Execution Options Injection",
+            "name": "Image File Execution Options Injection",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546.013": {
-            "description": "PowerShell Profile",
+            "name": "PowerShell Profile",
             "veris": []
         },
         "T1546.014": {
-            "description": "Emond",
+            "name": "Emond",
             "veris": []
         },
         "T1546.015": {
-            "description": "Component Object Model Hijacking",
+            "name": "Component Object Model Hijacking",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1547": {
-            "description": "Boot or Logon Autostart Execution",
+            "name": "Boot or Logon Autostart Execution",
             "veris": []
         },
         "T1547.002": {
-            "description": "Authentication Package",
+            "name": "Authentication Package",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1547.003": {
-            "description": "Time Providers",
+            "name": "Time Providers",
             "veris": [
                 "action.hacking.variety.Other",
                 "action.malware.variety.Other"
             ]
         },
         "T1547.004": {
-            "description": "Winlogon Helper Dll",
+            "name": "Winlogon Helper Dll",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1547.005": {
-            "description": "Security Support Provider",
+            "name": "Security Support Provider",
             "veris": [
                 "action.malware.variety.Password dumper"
             ]
         },
         "T1547.006": {
-            "description": "Kernel Modules and Extensions",
+            "name": "Kernel Modules and Extensions",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1547.007": {
-            "description": "Re-opened Applications",
+            "name": "Re-opened Applications",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1547.008": {
-            "description": "LSASS Driver",
+            "name": "LSASS Driver",
             "veris": [
                 "action.malware.variety.Password dumper",
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1547.009": {
-            "description": "Shortcut Modification",
+            "name": "Shortcut Modification",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1547.01": {
-            "description": "Registry Run Keys / Startup Folder",
+            "name": "Registry Run Keys / Startup Folder",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1547.010": {
-            "description": "Services File Permissions Weakness",
+            "name": "Services File Permissions Weakness",
             "veris": []
         },
         "T1547.012": {
-            "description": "Print Processors",
+            "name": "Print Processors",
             "veris": []
         },
         "T1547.101": {
-            "description": "Port Monitors",
+            "name": "Port Monitors",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1548": {
-            "description": "Abuse Elevation Control Mechanism",
+            "name": "Abuse Elevation Control Mechanism",
             "veris": []
         },
         "T1548.001": {
-            "description": "Setuid and Setgid",
+            "name": "Setuid and Setgid",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1548.002": {
-            "description": "Bypass User Account Control",
+            "name": "Bypass User Account Control",
             "veris": [
                 "action.hacking.variety.Other",
                 "action.hacking.variety.Exploit misconfig",
@@ -1758,7 +1758,7 @@
             ]
         },
         "T1548.003": {
-            "description": "Sudo and Sudo Caching",
+            "name": "Sudo and Sudo Caching",
             "veris": [
                 "action.hacking.variety.Other",
                 "action.malware.variety.Other",
@@ -1766,58 +1766,58 @@
             ]
         },
         "T1548.004": {
-            "description": "Elevated Execution with Prompt",
+            "name": "Elevated Execution with Prompt",
             "veris": []
         },
         "T1550": {
-            "description": "Use Alternate Authentication Material",
+            "name": "Use Alternate Authentication Material",
             "veris": []
         },
         "T1550.001": {
-            "description": "Application Access Token",
+            "name": "Application Access Token",
             "veris": []
         },
         "T1550.002": {
-            "description": "Pass the Hash",
+            "name": "Pass the Hash",
             "veris": [
                 "action.malware.variety.Password dumper"
             ]
         },
         "T1550.003": {
-            "description": "Pass the Ticket",
+            "name": "Pass the Ticket",
             "veris": [
                 "action.malware.variety.Password dumper"
             ]
         },
         "T1550.004": {
-            "description": "Web Session Cookie",
+            "name": "Web Session Cookie",
             "veris": []
         },
         "T1552": {
-            "description": "Unsecured Credentials",
+            "name": "Unsecured Credentials",
             "veris": []
         },
         "T1552.001": {
-            "description": "Credentials in Files",
+            "name": "Credentials in Files",
             "veris": [
                 "action.malware.variety.Password dumper"
             ]
         },
         "T1552.002": {
-            "description": "Credentials in Registry",
+            "name": "Credentials in Registry",
             "veris": [
                 "action.malware.variety.Password dumper"
             ]
         },
         "T1552.003": {
-            "description": "Bash History",
+            "name": "Bash History",
             "veris": [
                 "action.hacking.variety.Abuse of functionality",
                 "action.hacking.variety.Exploit misconfig"
             ]
         },
         "T1552.004": {
-            "description": "Install Root Certificate",
+            "name": "Install Root Certificate",
             "veris": [
                 "action.malware.variety.Export data",
                 "action.hacking.variety.Other",
@@ -1825,261 +1825,261 @@
             ]
         },
         "T1552.005": {
-            "description": "Cloud Instance Metadata API",
+            "name": "Cloud Instance Metadata API",
             "veris": []
         },
         "T1552.006": {
-            "description": "Group Policy Preferences",
+            "name": "Group Policy Preferences",
             "veris": []
         },
         "T1553": {
-            "description": "Subvert Trust Controls",
+            "name": "Subvert Trust Controls",
             "veris": []
         },
         "T1553.001": {
-            "description": "Gatekeeper Bypass",
+            "name": "Gatekeeper Bypass",
             "veris": [
                 "action.hacking.variety.Other"
             ]
         },
         "T1553.002": {
-            "description": "Code Signing",
+            "name": "Code Signing",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1553.003": {
-            "description": "SIP and Trust Provider Hijacking",
+            "name": "SIP and Trust Provider Hijacking",
             "veris": []
         },
         "T1554": {
-            "description": "Compromise Client Software Binary",
+            "name": "Compromise Client Software Binary",
             "veris": []
         },
         "T1555": {
-            "description": "Credentials from Password Stores",
+            "name": "Credentials from Password Stores",
             "veris": []
         },
         "T1555.001": {
-            "description": "Keychain",
+            "name": "Keychain",
             "veris": [
                 "action.malware.variety.Password dumper"
             ]
         },
         "T1555.002": {
-            "description": "Securityd Memory",
+            "name": "Securityd Memory",
             "veris": [
                 "action.malware.variety.Password dumper"
             ]
         },
         "T1555.003": {
-            "description": "Credentials from Web Browsers",
+            "name": "Credentials from Web Browsers",
             "veris": []
         },
         "T1556": {
-            "description": "Modify Authentication Process",
+            "name": "Modify Authentication Process",
             "veris": []
         },
         "T1556.001": {
-            "description": "Domain Controller Authentication",
+            "name": "Domain Controller Authentication",
             "veris": []
         },
         "T1556.002": {
-            "description": "Password Filter DLL",
+            "name": "Password Filter DLL",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1556.003": {
-            "description": "Pluggable Authentication Modules",
+            "name": "Pluggable Authentication Modules",
             "veris": []
         },
         "T1556.004": {
-            "description": "Network Device Authentication",
+            "name": "Network Device Authentication",
             "veris": []
         },
         "T1557": {
-            "description": "Man-in-the-Middle",
+            "name": "Man-in-the-Middle",
             "veris": []
         },
         "T1557.001": {
-            "description": "LLMNR/NBT-NS Poisoning and SMB Relay",
+            "name": "LLMNR/NBT-NS Poisoning and SMB Relay",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1557.002": {
-            "description": "ARP Cache Poisoning",
+            "name": "ARP Cache Poisoning",
             "veris": []
         },
         "T1558": {
-            "description": "Steal or Forge Kerberos Tickets",
+            "name": "Steal or Forge Kerberos Tickets",
             "veris": []
         },
         "T1558.001": {
-            "description": "Golden Ticket",
+            "name": "Golden Ticket",
             "veris": []
         },
         "T1558.002": {
-            "description": "Silver Ticket",
+            "name": "Silver Ticket",
             "veris": []
         },
         "T1558.003": {
-            "description": "Kerbroasting",
+            "name": "Kerbroasting",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1558.004": {
-            "description": "AS-REP Roasting",
+            "name": "AS-REP Roasting",
             "veris": []
         },
         "T1559": {
-            "description": "Inter-Process Communication",
+            "name": "Inter-Process Communication",
             "veris": []
         },
         "T1559.001": {
-            "description": "Component Object Model",
+            "name": "Component Object Model",
             "veris": []
         },
         "T1559.002": {
-            "description": "Dynamic Data Exchange",
+            "name": "Dynamic Data Exchange",
             "veris": [
                 "action.malware.variety.Export data"
             ]
         },
         "T1560": {
-            "description": "Archive Collected Data",
+            "name": "Archive Collected Data",
             "veris": []
         },
         "T1560.001": {
-            "description": "Archive via Utility",
+            "name": "Archive via Utility",
             "veris": []
         },
         "T1560.002": {
-            "description": "Archive via Library",
+            "name": "Archive via Library",
             "veris": []
         },
         "T1560.003": {
-            "description": "Archive via Custom Method",
+            "name": "Archive via Custom Method",
             "veris": []
         },
         "T1561": {
-            "description": "Disk Wipe",
+            "name": "Disk Wipe",
             "veris": []
         },
         "T1561.001": {
-            "description": "Disk Content Wipe",
+            "name": "Disk Content Wipe",
             "veris": [
                 "action.malware.variety.Destroy data"
             ]
         },
         "T1561.002": {
-            "description": "Disk Structure Wipe",
+            "name": "Disk Structure Wipe",
             "veris": [
                 "action.malware.variety.Destroy data"
             ]
         },
         "T1562": {
-            "description": "Impair Defenses",
+            "name": "Impair Defenses",
             "veris": []
         },
         "T1562.001": {
-            "description": "Disable or Modify Tools",
+            "name": "Disable or Modify Tools",
             "veris": []
         },
         "T1562.002": {
-            "description": "Disable Windows Event Logging",
+            "name": "Disable Windows Event Logging",
             "veris": []
         },
         "T1562.004": {
-            "description": "Disable or Modify System Firewall",
+            "name": "Disable or Modify System Firewall",
             "veris": []
         },
         "T1562.006": {
-            "description": "Indicator Blocking",
+            "name": "Indicator Blocking",
             "veris": [
                 "action.malware.variety.Disable controls"
             ]
         },
         "T1562.007": {
-            "description": "Disable or Modify Cloud Firewall",
+            "name": "Disable or Modify Cloud Firewall",
             "veris": []
         },
         "T1562.008": {
-            "description": "Disable Cloud Logs",
+            "name": "Disable Cloud Logs",
             "veris": []
         },
         "T1563": {
-            "description": "Remote Service Session Hijacking",
+            "name": "Remote Service Session Hijacking",
             "veris": []
         },
         "T1563.001": {
-            "description": "SSH Hijacking",
+            "name": "SSH Hijacking",
             "veris": []
         },
         "T1563.002": {
-            "description": "RDP Hijacking",
+            "name": "RDP Hijacking",
             "veris": []
         },
         "T1564": {
-            "description": "Hide Artifacts",
+            "name": "Hide Artifacts",
             "veris": []
         },
         "T1564.001": {
-            "description": "Hidden Files and Directories",
+            "name": "Hidden Files and Directories",
             "veris": [
                 "action.malware.variety.Unknown"
             ]
         },
         "T1564.002": {
-            "description": "Hidden Users",
+            "name": "Hidden Users",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1564.003": {
-            "description": "Hidden Window",
+            "name": "Hidden Window",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1564.004": {
-            "description": "NTFS File Attributes",
+            "name": "NTFS File Attributes",
             "veris": [
                 "action.hacking.variety.Other"
             ]
         },
         "T1564.006": {
-            "description": "Run Virtual Instance",
+            "name": "Run Virtual Instance",
             "veris": []
         },
         "T1564.007": {
-            "description": "VBA Stomping",
+            "name": "VBA Stomping",
             "veris": []
         },
         "T1565": {
-            "description": "Data Manipulation",
+            "name": "Data Manipulation",
             "veris": []
         },
         "T1565.002": {
-            "description": "Transmitted Data Manipulation",
+            "name": "Transmitted Data Manipulation",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1565.003": {
-            "description": "Runtime Data Manipulation",
+            "name": "Runtime Data Manipulation",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1566": {
-            "description": "Phishing",
+            "name": "Phishing",
             "veris": []
         },
         "T1566.001": {
-            "description": "Spearphishing Attachment",
+            "name": "Spearphishing Attachment",
             "veris": [
                 "action.malware.variety.Spam",
                 "action.malware.variety.Trojan",
@@ -2087,432 +2087,432 @@
             ]
         },
         "T1566.002": {
-            "description": "Spearphishing Link",
+            "name": "Spearphishing Link",
             "veris": [
                 "action.malware.vector.Email link"
             ]
         },
         "T1567": {
-            "description": "Exfiltration Over Web Service",
+            "name": "Exfiltration Over Web Service",
             "veris": []
         },
         "T1567.001": {
-            "description": "Exfiltration to Clout Repository",
+            "name": "Exfiltration to Clout Repository",
             "veris": []
         },
         "T1567.002": {
-            "description": "Exfiltration to Cloud Storage",
+            "name": "Exfiltration to Cloud Storage",
             "veris": []
         },
         "T1568": {
-            "description": "Dynamic Resolution",
+            "name": "Dynamic Resolution",
             "veris": []
         },
         "T1568.001": {
-            "description": "Fast Flux DNS",
+            "name": "Fast Flux DNS",
             "veris": []
         },
         "T1568.002": {
-            "description": "Domain Generation Algorithms",
+            "name": "Domain Generation Algorithms",
             "veris": [
                 "action.malware.variety.C2"
             ]
         },
         "T1568.003": {
-            "description": "DNS Calculation",
+            "name": "DNS Calculation",
             "veris": []
         },
         "T1569": {
-            "description": "System Services",
+            "name": "System Services",
             "veris": []
         },
         "T1569.001": {
-            "description": "Launchctl",
+            "name": "Launchctl",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1569.002": {
-            "description": "Service Execution",
+            "name": "Service Execution",
             "veris": [
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1570": {
-            "description": "Lateral Tool Transfer",
+            "name": "Lateral Tool Transfer",
             "veris": []
         },
         "T1571": {
-            "description": "Non-Standard Port",
+            "name": "Non-Standard Port",
             "veris": []
         },
         "T1572": {
-            "description": "Protocol Tunneling",
+            "name": "Protocol Tunneling",
             "veris": []
         },
         "T1573": {
-            "description": "Encrypted Channel",
+            "name": "Encrypted Channel",
             "veris": []
         },
         "T1573.001": {
-            "description": "Symmetric Cryptography",
+            "name": "Symmetric Cryptography",
             "veris": []
         },
         "T1573.002": {
-            "description": "Asymmetric Cryptography",
+            "name": "Asymmetric Cryptography",
             "veris": []
         },
         "T1574": {
-            "description": "Hijack Execution Flow",
+            "name": "Hijack Execution Flow",
             "veris": []
         },
         "T1574.001": {
-            "description": "DLL Search Order Hijacking",
+            "name": "DLL Search Order Hijacking",
             "veris": [
                 "action.hacking.variety.Exploit vuln",
                 "action.malware.variety.Exploit vuln"
             ]
         },
         "T1574.002": {
-            "description": "DLL Side-Loading",
+            "name": "DLL Side-Loading",
             "veris": [
                 "action.hacking.variety.Exploit vuln",
                 "action.malware.variety.Exploit vuln"
             ]
         },
         "T1574.004": {
-            "description": "Dylib Hijacking",
+            "name": "Dylib Hijacking",
             "veris": [
                 "action.hacking.variety.Exploit vuln",
                 "action.malware.variety.Exploit vuln"
             ]
         },
         "T1574.005": {
-            "description": "Executable Installer File Permissions Weakness",
+            "name": "Executable Installer File Permissions Weakness",
             "veris": []
         },
         "T1574.007": {
-            "description": "Path Interception by PATH Environment Variable",
+            "name": "Path Interception by PATH Environment Variable",
             "veris": []
         },
         "T1574.008": {
-            "description": "Path Interception by Search Order Hijacking",
+            "name": "Path Interception by Search Order Hijacking",
             "veris": []
         },
         "T1574.009": {
-            "description": "Path Interception by Unquoted Path",
+            "name": "Path Interception by Unquoted Path",
             "veris": []
         },
         "T1574.011": {
-            "description": "Plist Modification",
+            "name": "Plist Modification",
             "veris": [
                 "action.malware.variety.Client-side attack"
             ]
         },
         "T1574.012": {
-            "description": "COR_PROFILER",
+            "name": "COR_PROFILER",
             "veris": []
         },
         "T1578": {
-            "description": "Modify Cloud Computer Infrastructure",
+            "name": "Modify Cloud Computer Infrastructure",
             "veris": []
         },
         "T1578.001": {
-            "description": "Create Snapshot",
+            "name": "Create Snapshot",
             "veris": []
         },
         "T1578.002": {
-            "description": "Create Cloud Instance",
+            "name": "Create Cloud Instance",
             "veris": []
         },
         "T1578.003": {
-            "description": "Delete Cloud Instance",
+            "name": "Delete Cloud Instance",
             "veris": []
         },
         "T1578.004": {
-            "description": "Revert Cloud Instance",
+            "name": "Revert Cloud Instance",
             "veris": []
         },
         "T1580": {
-            "description": "Cloud Infrastructure Discovery",
+            "name": "Cloud Infrastructure Discovery",
             "veris": []
         },
         "T1583": {
-            "description": "Acquire Infrastructure",
+            "name": "Acquire Infrastructure",
             "veris": []
         },
         "T1583.001": {
-            "description": "Domains",
+            "name": "Domains",
             "veris": []
         },
         "T1583.002": {
-            "description": "DNS Server",
+            "name": "DNS Server",
             "veris": []
         },
         "T1583.003": {
-            "description": "Virtual Private Server",
+            "name": "Virtual Private Server",
             "veris": []
         },
         "T1583.004": {
-            "description": "Server",
+            "name": "Server",
             "veris": []
         },
         "T1583.005": {
-            "description": "Botnet",
+            "name": "Botnet",
             "veris": []
         },
         "T1583.006": {
-            "description": "Web Services",
+            "name": "Web Services",
             "veris": []
         },
         "T1584": {
-            "description": "Compromise Infrastructure",
+            "name": "Compromise Infrastructure",
             "veris": []
         },
         "T1584.001": {
-            "description": "Domains",
+            "name": "Domains",
             "veris": []
         },
         "T1584.002": {
-            "description": "DNS Server",
+            "name": "DNS Server",
             "veris": []
         },
         "T1584.003": {
-            "description": "Virtual Private Server",
+            "name": "Virtual Private Server",
             "veris": []
         },
         "T1584.004": {
-            "description": "Server",
+            "name": "Server",
             "veris": []
         },
         "T1584.005": {
-            "description": "Botnet",
+            "name": "Botnet",
             "veris": []
         },
         "T1584.006": {
-            "description": "Web Services",
+            "name": "Web Services",
             "veris": []
         },
         "T1585": {
-            "description": "Establish Accounts",
+            "name": "Establish Accounts",
             "veris": []
         },
         "T1585.001": {
-            "description": "Social Media Accounts",
+            "name": "Social Media Accounts",
             "veris": []
         },
         "T1585.002": {
-            "description": "Email Account",
+            "name": "Email Account",
             "veris": []
         },
         "T1586": {
-            "description": "Compromise Accounts",
+            "name": "Compromise Accounts",
             "veris": []
         },
         "T1586.001": {
-            "description": "Social Media Accounts",
+            "name": "Social Media Accounts",
             "veris": []
         },
         "T1586.002": {
-            "description": "Email Accounts",
+            "name": "Email Accounts",
             "veris": []
         },
         "T1587": {
-            "description": "Develop Capabilities",
+            "name": "Develop Capabilities",
             "veris": []
         },
         "T1587.001": {
-            "description": "Malware",
+            "name": "Malware",
             "veris": []
         },
         "T1587.002": {
-            "description": "Code Signing Certificates",
+            "name": "Code Signing Certificates",
             "veris": []
         },
         "T1587.003": {
-            "description": "Digital Certificates",
+            "name": "Digital Certificates",
             "veris": []
         },
         "T1587.004": {
-            "description": "Exploits",
+            "name": "Exploits",
             "veris": []
         },
         "T1588": {
-            "description": "Obtain Capabilities",
+            "name": "Obtain Capabilities",
             "veris": []
         },
         "T1588.001": {
-            "description": "Malware",
+            "name": "Malware",
             "veris": []
         },
         "T1588.002": {
-            "description": "Tool",
+            "name": "Tool",
             "veris": []
         },
         "T1588.003": {
-            "description": "Code Signing Certificates",
+            "name": "Code Signing Certificates",
             "veris": []
         },
         "T1588.004": {
-            "description": "Digital Certificates",
+            "name": "Digital Certificates",
             "veris": []
         },
         "T1588.005": {
-            "description": "Exploits",
+            "name": "Exploits",
             "veris": []
         },
         "T1588.006": {
-            "description": "Vulnerabilities",
+            "name": "Vulnerabilities",
             "veris": []
         },
         "T1589": {
-            "description": "Gather Victim Identity Information",
+            "name": "Gather Victim Identity Information",
             "veris": []
         },
         "T1589.001": {
-            "description": "Credentials",
+            "name": "Credentials",
             "veris": []
         },
         "T1589.003": {
-            "description": "Employee Names",
+            "name": "Employee Names",
             "veris": []
         },
         "T1590": {
-            "description": "Gather Victim Network Information",
+            "name": "Gather Victim Network Information",
             "veris": []
         },
         "T1590.001": {
-            "description": "Domain Properties",
+            "name": "Domain Properties",
             "veris": []
         },
         "T1590.002": {
-            "description": "DNS",
+            "name": "DNS",
             "veris": []
         },
         "T1590.003": {
-            "description": "Network Trust Dependencies",
+            "name": "Network Trust Dependencies",
             "veris": []
         },
         "T1590.004": {
-            "description": "Network Topology",
+            "name": "Network Topology",
             "veris": []
         },
         "T1590.005": {
-            "description": "IP Addresses",
+            "name": "IP Addresses",
             "veris": []
         },
         "T1590.006": {
-            "description": "Network Security Appliances",
+            "name": "Network Security Appliances",
             "veris": []
         },
         "T1591": {
-            "description": "Gather Victim Org Information",
+            "name": "Gather Victim Org Information",
             "veris": []
         },
         "T1591.001": {
-            "description": "Determine Physical Locations",
+            "name": "Determine Physical Locations",
             "veris": []
         },
         "T1591.002": {
-            "description": "Business Relationships",
+            "name": "Business Relationships",
             "veris": []
         },
         "T1591.003": {
-            "description": "Identify Business Tempo",
+            "name": "Identify Business Tempo",
             "veris": []
         },
         "T1591.004": {
-            "description": "Identify Roles",
+            "name": "Identify Roles",
             "veris": []
         },
         "T1592": {
-            "description": "Gather Victim Host Information",
+            "name": "Gather Victim Host Information",
             "veris": []
         },
         "T1592.001": {
-            "description": "Hardware",
+            "name": "Hardware",
             "veris": []
         },
         "T1592.003": {
-            "description": "Firmware",
+            "name": "Firmware",
             "veris": []
         },
         "T1592.004": {
-            "description": "Client Configurations",
+            "name": "Client Configurations",
             "veris": []
         },
         "T1593": {
-            "description": "Search Open Websites/Domains",
+            "name": "Search Open Websites/Domains",
             "veris": []
         },
         "T1593.001": {
-            "description": "Social Media",
+            "name": "Social Media",
             "veris": []
         },
         "T1593.002": {
-            "description": "Search Engines",
+            "name": "Search Engines",
             "veris": []
         },
         "T1594": {
-            "description": "Search Victim-Owned Websites",
+            "name": "Search Victim-Owned Websites",
             "veris": []
         },
         "T1595": {
-            "description": "Active Scanning",
+            "name": "Active Scanning",
             "veris": []
         },
         "T1595.001": {
-            "description": "Scanning IP Blocks",
+            "name": "Scanning IP Blocks",
             "veris": [
                 "action.malware.variety.Other"
             ]
         },
         "T1595.002": {
-            "description": "Vulnerability Scanning",
+            "name": "Vulnerability Scanning",
             "veris": []
         },
         "T1596": {
-            "description": "Search Open Technical Databases",
+            "name": "Search Open Technical Databases",
             "veris": []
         },
         "T1596.001": {
-            "description": "DNS/Passive DNS",
+            "name": "DNS/Passive DNS",
             "veris": []
         },
         "T1596.002": {
-            "description": "WHOIS",
+            "name": "WHOIS",
             "veris": []
         },
         "T1596.003": {
-            "description": "Digital Certificates",
+            "name": "Digital Certificates",
             "veris": []
         },
         "T1596.004": {
-            "description": "CDNs",
+            "name": "CDNs",
             "veris": []
         },
         "T1596.005": {
-            "description": "Scan Databases",
+            "name": "Scan Databases",
             "veris": []
         },
         "T1597": {
-            "description": "Search Closed Sources",
+            "name": "Search Closed Sources",
             "veris": []
         },
         "T1597.001": {
-            "description": "Threat Intel Vendors",
+            "name": "Threat Intel Vendors",
             "veris": []
         },
         "T1597.002": {
-            "description": "Purchase Technical Data",
+            "name": "Purchase Technical Data",
             "veris": []
         },
         "T1598": {
-            "description": "Phishing for Information",
+            "name": "Phishing for Information",
             "veris": []
         },
         "T1598.001": {
-            "description": "Spearphishing Service",
+            "name": "Spearphishing Service",
             "veris": [
                 "action.malware.vector.Email link",
                 "action.malware.vector.Email attachment",
@@ -2520,55 +2520,55 @@
             ]
         },
         "T1598.002": {
-            "description": "Spearphishing Attachment",
+            "name": "Spearphishing Attachment",
             "veris": [
                 "action.malware.vector.Email attachment"
             ]
         },
         "T1598.003": {
-            "description": "Spearphishing Link",
+            "name": "Spearphishing Link",
             "veris": [
                 "action.malware.vector.Email link"
             ]
         },
         "T1599": {
-            "description": "Network Boundry Bridging",
+            "name": "Network Boundry Bridging",
             "veris": []
         },
         "T1599.001": {
-            "description": "Network Address Translation Traversal",
+            "name": "Network Address Translation Traversal",
             "veris": []
         },
         "T1600": {
-            "description": "Weaken Encryption",
+            "name": "Weaken Encryption",
             "veris": []
         },
         "T1600.002": {
-            "description": "Disable Crypto Hardware",
+            "name": "Disable Crypto Hardware",
             "veris": []
         },
         "T1601": {
-            "description": "Modify System Image",
+            "name": "Modify System Image",
             "veris": []
         },
         "T1601.001": {
-            "description": "Patch System Image",
+            "name": "Patch System Image",
             "veris": []
         },
         "T1601.002": {
-            "description": "Downgrade System Image",
+            "name": "Downgrade System Image",
             "veris": []
         },
         "T1602.001": {
-            "description": "SNMP (MIB Dump)",
+            "name": "SNMP (MIB Dump)",
             "veris": []
         },
         "T1602.002": {
-            "description": "Network Device Configuration Dump",
+            "name": "Network Device Configuration Dump",
             "veris": []
         },
         "TT1110.001": {
-            "description": "Password Guessing",
+            "name": "Password Guessing",
             "veris": []
         }
     },
@@ -2583,591 +2583,591 @@
                 "variety": {
                     "Abuse of functionality": {
                         "T1047": {
-                            "description": "Windows Management Instrumentation"
+                            "name": "Windows Management Instrumentation"
                         },
                         "T1053": {
-                            "description": "Scheduled Task/Job"
+                            "name": "Scheduled Task/Job"
                         },
                         "T1059": {
-                            "description": "Command and Scripting Interpreter"
+                            "name": "Command and Scripting Interpreter"
                         },
                         "T1072": {
-                            "description": "Software Deployment Tools"
+                            "name": "Software Deployment Tools"
                         },
                         "T1106": {
-                            "description": "Native API"
+                            "name": "Native API"
                         },
                         "T1129": {
-                            "description": "Shared Modules"
+                            "name": "Shared Modules"
                         },
                         "T1559": {
-                            "description": "Inter-Process Communication"
+                            "name": "Inter-Process Communication"
                         },
                         "T1569": {
-                            "description": "System Services"
+                            "name": "System Services"
                         }
                     },
                     "Brute force": {
                         "T1110": {
-                            "description": "Brute Force"
+                            "name": "Brute Force"
                         }
                     },
                     "Buffer overflow": {
                         "T1203": {
-                            "description": "Exploitation for Client Execution"
+                            "name": "Exploitation for Client Execution"
                         }
                     },
                     "Cache poisoning": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "Cryptanalysis": {
                         "T1600": {
-                            "description": "Weaken Encryption"
+                            "name": "Weaken Encryption"
                         }
                     },
                     "CSRF": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "DoS": {
                         "T1498": {
-                            "description": "Network Denial of Service"
+                            "name": "Network Denial of Service"
                         },
                         "T1499": {
-                            "description": "Endpoint Denial of Service"
+                            "name": "Endpoint Denial of Service"
                         }
                     },
                     "Exploit misconfig": {
                         "T1574.001": {
-                            "description": "Hijack Execution Flow: DLL Search Order Hijacking"
+                            "name": "Hijack Execution Flow: DLL Search Order Hijacking"
                         },
                         "T1574.002": {
-                            "description": "Hijack Execution Flow: DLL Side Loading"
+                            "name": "Hijack Execution Flow: DLL Side Loading"
                         }
                     },
                     "Exploit vuln": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         },
                         "T1203": {
-                            "description": "Exploitation for Client Execution"
+                            "name": "Exploitation for Client Execution"
                         },
                         "T1595.002": {
-                            "description": "Active Scanning: Vulnerability Scanning"
+                            "name": "Active Scanning: Vulnerability Scanning"
                         }
                     },
                     "Footprinting": {
                         "T1590": {
-                            "description": "Gather Victim Network Information"
+                            "name": "Gather Victim Network Information"
                         },
                         "T1592": {
-                            "description": "Gather Victim Host Information"
+                            "name": "Gather Victim Host Information"
                         }
                     },
                     "Forced browsing": {
                         "T1539": {
-                            "description": "Steal Web Session Cookie"
+                            "name": "Steal Web Session Cookie"
                         }
                     },
                     "Format string attack": {
                         "T1068": {
-                            "description": "Exploitation for Privilege Escalation"
+                            "name": "Exploitation for Privilege Escalation"
                         },
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "Fuzz testing": {
                         "T1068": {
-                            "description": "Exploitation for Privilege Escalation"
+                            "name": "Exploitation for Privilege Escalation"
                         },
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "HTTP request smuggling": {
                         "T1185": {
-                            "description": "Man in the Browser"
+                            "name": "Man in the Browser"
                         },
                         "T1203": {
-                            "description": "Exploitation for Client Execution"
+                            "name": "Exploitation for Client Execution"
                         },
                         "T1565.002": {
-                            "description": "Data Manipulation: Transmitted Data Manipulation"
+                            "name": "Data Manipulation: Transmitted Data Manipulation"
                         }
                     },
                     "HTTP request splitting": {
                         "T1185": {
-                            "description": "Man in the Browser"
+                            "name": "Man in the Browser"
                         },
                         "T1203": {
-                            "description": "Exploitation for Client Execution"
+                            "name": "Exploitation for Client Execution"
                         },
                         "T1565.002": {
-                            "description": "Data Manipulation: Transmitted Data Manipulation"
+                            "name": "Data Manipulation: Transmitted Data Manipulation"
                         }
                     },
                     "HTTP response smuggling": {
                         "T1185": {
-                            "description": "Man in the Browser"
+                            "name": "Man in the Browser"
                         },
                         "T1203": {
-                            "description": "Exploitation for Client Execution"
+                            "name": "Exploitation for Client Execution"
                         },
                         "T1565.002": {
-                            "description": "Data Manipulation: Transmitted Data Manipulation"
+                            "name": "Data Manipulation: Transmitted Data Manipulation"
                         }
                     },
                     "HTTP Response Splitting": {
                         "T1185": {
-                            "description": "Man in the Browser"
+                            "name": "Man in the Browser"
                         },
                         "T1203": {
-                            "description": "Exploitation for Client Execution"
+                            "name": "Exploitation for Client Execution"
                         },
                         "T1565.002": {
-                            "description": "Data Manipulation: Transmitted Data Manipulation"
+                            "name": "Data Manipulation: Transmitted Data Manipulation"
                         }
                     },
                     "Insecure deserialization": {
                         "T1068": {
-                            "description": "Exploitation for Privilege Escalation"
+                            "name": "Exploitation for Privilege Escalation"
                         },
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "Integer overflows": {
                         "T1068": {
-                            "description": "Exploitation for Privilege Escalation"
+                            "name": "Exploitation for Privilege Escalation"
                         },
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "LDAP injection": {
                         "T1068": {
-                            "description": "Exploitation for Privilege Escalation"
+                            "name": "Exploitation for Privilege Escalation"
                         },
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "MitM": {
                         "T1539": {
-                            "description": "Steal Web Session Cookie"
+                            "name": "Steal Web Session Cookie"
                         },
                         "T1557": {
-                            "description": "Man-in-the-Middle"
+                            "name": "Man-in-the-Middle"
                         }
                     },
                     "Null byte injection": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "OS commanding": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "Offline cracking": {
                         "T1110": {
-                            "description": "Brute Force"
+                            "name": "Brute Force"
                         }
                     },
                     "Pass-the-hash": {
                         "T1550.002": {
-                            "description": "Use Alternate Authentication Material: Pass the Hash"
+                            "name": "Use Alternate Authentication Material: Pass the Hash"
                         }
                     },
                     "Path traversal": {
                         "T1574.001": {
-                            "description": "Hijack Execution Flow: DLL Search Order Hijacking"
+                            "name": "Hijack Execution Flow: DLL Search Order Hijacking"
                         }
                     },
                     "RFI": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "Reverse engineering": {},
                     "SQLi": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "Routing detour": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         },
                         "T1557": {
-                            "description": "Man-in-the-Middle"
+                            "name": "Man-in-the-Middle"
                         }
                     },
                     "Session fixation": {
                         "T1185": {
-                            "description": "Man in the Browser"
+                            "name": "Man in the Browser"
                         },
                         "T1212": {
-                            "description": "Exploitation for Credential Access"
+                            "name": "Exploitation for Credential Access"
                         }
                     },
                     "Session prediction": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "Session replay": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "Soap array abuse": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         },
                         "T1499": {
-                            "description": "Endpoint Denial of Service"
+                            "name": "Endpoint Denial of Service"
                         }
                     },
                     "Special element injection": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "SSI Injection": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "URL redirector abuse": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "Use of backdoor or C2": {
                         "T1001": {
-                            "description": "Data Obfuscation"
+                            "name": "Data Obfuscation"
                         },
                         "T1008": {
-                            "description": "Fallback Channels"
+                            "name": "Fallback Channels"
                         },
                         "T1037": {
-                            "description": "Boot or Logon Initialization Script"
+                            "name": "Boot or Logon Initialization Script"
                         },
                         "T1053": {
-                            "description": "Scheduled Task/Job"
+                            "name": "Scheduled Task/Job"
                         },
                         "T1071": {
-                            "description": "Application Layer Protocol"
+                            "name": "Application Layer Protocol"
                         },
                         "T1078": {
-                            "description": "Valid Accounts"
+                            "name": "Valid Accounts"
                         },
                         "T1090": {
-                            "description": "Proxy"
+                            "name": "Proxy"
                         },
                         "T1092": {
-                            "description": "Communication through Removable Media"
+                            "name": "Communication through Removable Media"
                         },
                         "T1095": {
-                            "description": "Non-Application Layer Protocol"
+                            "name": "Non-Application Layer Protocol"
                         },
                         "T1098": {
-                            "description": "Account Manipulation"
+                            "name": "Account Manipulation"
                         },
                         "T1102": {
-                            "description": "Web Service"
+                            "name": "Web Service"
                         },
                         "T1104": {
-                            "description": "Multi-Stage Channels"
+                            "name": "Multi-Stage Channels"
                         },
                         "T1105": {
-                            "description": "Ingress Tool Transfer"
+                            "name": "Ingress Tool Transfer"
                         },
                         "T1132": {
-                            "description": "Data Encoding"
+                            "name": "Data Encoding"
                         },
                         "T1133": {
-                            "description": "External Remote Services"
+                            "name": "External Remote Services"
                         },
                         "T1136": {
-                            "description": "Create Account"
+                            "name": "Create Account"
                         },
                         "T1137": {
-                            "description": "Office Application Startup"
+                            "name": "Office Application Startup"
                         },
                         "T1176": {
-                            "description": "Browser Extensions"
+                            "name": "Browser Extensions"
                         },
                         "T1197": {
-                            "description": "BITS Jobs"
+                            "name": "BITS Jobs"
                         },
                         "T1205": {
-                            "description": "Traffic Signalling"
+                            "name": "Traffic Signalling"
                         },
                         "T1219": {
-                            "description": "Remote Access Software"
+                            "name": "Remote Access Software"
                         },
                         "T1505": {
-                            "description": "Server Software Component"
+                            "name": "Server Software Component"
                         },
                         "T1525": {
-                            "description": "Implant Container Image"
+                            "name": "Implant Container Image"
                         },
                         "T1542": {
-                            "description": "Pre-OS Boot"
+                            "name": "Pre-OS Boot"
                         },
                         "T1543": {
-                            "description": "Create or Modify System Process"
+                            "name": "Create or Modify System Process"
                         },
                         "T1546": {
-                            "description": "Event Triggered Execution"
+                            "name": "Event Triggered Execution"
                         },
                         "T1547": {
-                            "description": "Boot or Logon Autostart Execution"
+                            "name": "Boot or Logon Autostart Execution"
                         },
                         "T1554": {
-                            "description": "Compromise Client Software Binary"
+                            "name": "Compromise Client Software Binary"
                         },
                         "T1568": {
-                            "description": "Dynamic Resolution"
+                            "name": "Dynamic Resolution"
                         },
                         "T1571": {
-                            "description": "Non-Standard Port"
+                            "name": "Non-Standard Port"
                         },
                         "T1572": {
-                            "description": "Protocol Tunneling"
+                            "name": "Protocol Tunneling"
                         },
                         "T1573": {
-                            "description": "Encrypted Channels"
+                            "name": "Encrypted Channels"
                         },
                         "T1574": {
-                            "description": "Hijack Execution Flow"
+                            "name": "Hijack Execution Flow"
                         }
                     },
                     "Use of stolen creds": {
                         "T1078": {
-                            "description": "Valid Accounts"
+                            "name": "Valid Accounts"
                         }
                     },
                     "User breakout": {},
                     "Virtual machine escape": {},
                     "XML attribute blowup": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         },
                         "T1499": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "XML entity expansion": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         },
                         "T1499": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "XML external entities": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         },
                         "T1213": {
-                            "description": "Data from Information Repository"
+                            "name": "Data from Information Repository"
                         },
                         "T1499": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "XML injection": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         },
                         "T1546": {
-                            "description": "Event Triggered Execution"
+                            "name": "Event Triggered Execution"
                         },
                         "T1574": {
-                            "description": "Hijack Execution Flow"
+                            "name": "Hijack Execution Flow"
                         }
                     },
                     "XPath injection": {
                         "T1010": {
-                            "description": "Application Window Discovery"
+                            "name": "Application Window Discovery"
                         },
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "Xquery injection": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "XSS": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     }
                 },
                 "vector": {
                     "3rd party desktop": {
                         "T1133": {
-                            "description": "External Remote Services"
+                            "name": "External Remote Services"
                         }
                     },
                     "Backdoor or C2": {
                         "T1001": {
-                            "description": "Data Obfuscation"
+                            "name": "Data Obfuscation"
                         },
                         "T1008": {
-                            "description": "Fallback Channels"
+                            "name": "Fallback Channels"
                         },
                         "T1037": {
-                            "description": "Boot or Logon Initialization Script"
+                            "name": "Boot or Logon Initialization Script"
                         },
                         "T1053": {
-                            "description": "Scheduled Task/Job"
+                            "name": "Scheduled Task/Job"
                         },
                         "T1071": {
-                            "description": "Application Layer Protocol"
+                            "name": "Application Layer Protocol"
                         },
                         "T1078": {
-                            "description": "Valid Accounts"
+                            "name": "Valid Accounts"
                         },
                         "T1090": {
-                            "description": "Proxy"
+                            "name": "Proxy"
                         },
                         "T1092": {
-                            "description": "Communication through Removable Media"
+                            "name": "Communication through Removable Media"
                         },
                         "T1095": {
-                            "description": "Non-Application Layer Protocol"
+                            "name": "Non-Application Layer Protocol"
                         },
                         "T1098": {
-                            "description": "Account Manipulation"
+                            "name": "Account Manipulation"
                         },
                         "T1102": {
-                            "description": "Web Service"
+                            "name": "Web Service"
                         },
                         "T1104": {
-                            "description": "Multi-Stage Channels"
+                            "name": "Multi-Stage Channels"
                         },
                         "T1105": {
-                            "description": "Ingress Tool Transfer"
+                            "name": "Ingress Tool Transfer"
                         },
                         "T1132": {
-                            "description": "Data Encoding"
+                            "name": "Data Encoding"
                         },
                         "T1133": {
-                            "description": "External Remote Services"
+                            "name": "External Remote Services"
                         },
                         "T1136": {
-                            "description": "Create Account"
+                            "name": "Create Account"
                         },
                         "T1137": {
-                            "description": "Office Application Startup"
+                            "name": "Office Application Startup"
                         },
                         "T1176": {
-                            "description": "Browser Extensions"
+                            "name": "Browser Extensions"
                         },
                         "T1197": {
-                            "description": "BITS Jobs"
+                            "name": "BITS Jobs"
                         },
                         "T1205": {
-                            "description": "Traffic Signaling"
+                            "name": "Traffic Signaling"
                         },
                         "T1219": {
-                            "description": "Remote Access Software"
+                            "name": "Remote Access Software"
                         },
                         "T1505": {
-                            "description": "Server Software Component"
+                            "name": "Server Software Component"
                         },
                         "T1525": {
-                            "description": "Implant Container Image"
+                            "name": "Implant Container Image"
                         },
                         "T1542": {
-                            "description": "Pre-OS Boot"
+                            "name": "Pre-OS Boot"
                         },
                         "T1543": {
-                            "description": "Create or Modify System Process"
+                            "name": "Create or Modify System Process"
                         },
                         "T1546": {
-                            "description": "Event Triggered Execution"
+                            "name": "Event Triggered Execution"
                         },
                         "T1547": {
-                            "description": "Boot or Logon Autostart Execution"
+                            "name": "Boot or Logon Autostart Execution"
                         },
                         "T1554": {
-                            "description": "Compromise Client Software Binary"
+                            "name": "Compromise Client Software Binary"
                         },
                         "T1568": {
-                            "description": "Dynamic Resolution"
+                            "name": "Dynamic Resolution"
                         },
                         "T1571": {
-                            "description": "Non-Standard Port"
+                            "name": "Non-Standard Port"
                         },
                         "T1572": {
-                            "description": "Protocol Tunneling"
+                            "name": "Protocol Tunneling"
                         },
                         "T1573": {
-                            "description": "Encrypted Channels"
+                            "name": "Encrypted Channels"
                         },
                         "T1574": {
-                            "description": "Hijack Execution Flow"
+                            "name": "Hijack Execution Flow"
                         }
                     },
                     "Command shell": {
                         "T1059": {
-                            "description": "Command and Scripting Interpreter"
+                            "name": "Command and Scripting Interpreter"
                         }
                     },
                     "Desktop sharing": {
                         "T1133": {
-                            "description": "External Remote Services"
+                            "name": "External Remote Services"
                         }
                     },
                     "Desktop sharing software": {
                         "T1133": {
-                            "description": "External Remote Services"
+                            "name": "External Remote Services"
                         }
                     },
                     "Hypervisor": {
                         "T1497": {
-                            "description": "Virtualization/Sandbox Evasion"
+                            "name": "Virtualization/Sandbox Evasion"
                         },
                         "T1578": {
-                            "description": "Modify Cloud Compute Infrastructure"
+                            "name": "Modify Cloud Compute Infrastructure"
                         }
                     },
                     "Inter-tenant": {
                         "T1497": {
-                            "description": "Virtualization/Sandbox Evasion"
+                            "name": "Virtualization/Sandbox Evasion"
                         },
                         "T1578": {
-                            "description": "Modify Cloud Compute Infrastructure"
+                            "name": "Modify Cloud Compute Infrastructure"
                         }
                     },
                     "Partner": {
                         "T1195": {
-                            "description": "Supply Chain Compromise"
+                            "name": "Supply Chain Compromise"
                         },
                         "T1199": {
-                            "description": "Trusted Relationship"
+                            "name": "Trusted Relationship"
                         }
                     },
                     "VPN": {
                         "T1133": {
-                            "description": "External Remote Services"
+                            "name": "External Remote Services"
                         }
                     },
                     "Web application": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     }
                 }
@@ -3176,439 +3176,439 @@
                 "variety": {
                     "Adminware": {
                         "T1072": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         },
                         "T1554": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         },
                         "T1602": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "Adware": {
                         "T1199": {
-                            "description": "Trusted Relationship"
+                            "name": "Trusted Relationship"
                         }
                     },
                     "Backdoor": {
                         "T1037": {
-                            "description": "Boot or Logon Initialization Script"
+                            "name": "Boot or Logon Initialization Script"
                         },
                         "T1053": {
-                            "description": "Scheduled Task/Job"
+                            "name": "Scheduled Task/Job"
                         },
                         "T1078": {
-                            "description": "Valid Accounts"
+                            "name": "Valid Accounts"
                         },
                         "T1098": {
-                            "description": "Account Manipulation"
+                            "name": "Account Manipulation"
                         },
                         "T1133": {
-                            "description": "External Remote Services"
+                            "name": "External Remote Services"
                         },
                         "T1136": {
-                            "description": "Create Account"
+                            "name": "Create Account"
                         },
                         "T1137": {
-                            "description": "Office Application Startup"
+                            "name": "Office Application Startup"
                         },
                         "T1176": {
-                            "description": "Browser Extensions"
+                            "name": "Browser Extensions"
                         },
                         "T1197": {
-                            "description": "BITS Jobs"
+                            "name": "BITS Jobs"
                         },
                         "T1205": {
-                            "description": "Traffic Signaling"
+                            "name": "Traffic Signaling"
                         },
                         "T1505": {
-                            "description": "Server Software Component"
+                            "name": "Server Software Component"
                         },
                         "T1525": {
-                            "description": "Implant Container Image"
+                            "name": "Implant Container Image"
                         },
                         "T1542": {
-                            "description": "Pre-OS Boot"
+                            "name": "Pre-OS Boot"
                         },
                         "T1543": {
-                            "description": "Create or Modify System Process"
+                            "name": "Create or Modify System Process"
                         },
                         "T1546": {
-                            "description": "Event Triggered Execution"
+                            "name": "Event Triggered Execution"
                         },
                         "T1547": {
-                            "description": "Boot or Logon Autostart Execution"
+                            "name": "Boot or Logon Autostart Execution"
                         },
                         "T1554": {
-                            "description": "Compromise Client Software Binary"
+                            "name": "Compromise Client Software Binary"
                         },
                         "T1574": {
-                            "description": "Hijack Execution Flow"
+                            "name": "Hijack Execution Flow"
                         }
                     },
                     "Brute force": {
                         "T1110": {
-                            "description": "Brute Force"
+                            "name": "Brute Force"
                         }
                     },
                     "C2": {
                         "T1001": {
-                            "description": "Data Obfuscation"
+                            "name": "Data Obfuscation"
                         },
                         "T1008": {
-                            "description": "Fallback Channels"
+                            "name": "Fallback Channels"
                         },
                         "T1071": {
-                            "description": "Application Layer Protocol"
+                            "name": "Application Layer Protocol"
                         },
                         "T1090": {
-                            "description": "Proxy"
+                            "name": "Proxy"
                         },
                         "T1092": {
-                            "description": "Communication through Removable Media"
+                            "name": "Communication through Removable Media"
                         },
                         "T1095": {
-                            "description": "Non-Application Layer Protocol"
+                            "name": "Non-Application Layer Protocol"
                         },
                         "T1102": {
-                            "description": "Web Service"
+                            "name": "Web Service"
                         },
                         "T1104": {
-                            "description": "Multi-Stage Channels"
+                            "name": "Multi-Stage Channels"
                         },
                         "T1105": {
-                            "description": "Ingress Tool Transfer"
+                            "name": "Ingress Tool Transfer"
                         },
                         "T1132": {
-                            "description": "Data Encoding"
+                            "name": "Data Encoding"
                         },
                         "T1205": {
-                            "description": "Traffic Signaling"
+                            "name": "Traffic Signaling"
                         },
                         "T1219": {
-                            "description": "Remote Access Software"
+                            "name": "Remote Access Software"
                         },
                         "T1568": {
-                            "description": "Dynamic Resolution"
+                            "name": "Dynamic Resolution"
                         },
                         "T1571": {
-                            "description": "Non-Standard Port"
+                            "name": "Non-Standard Port"
                         },
                         "T1572": {
-                            "description": "Protocol Tunneling"
+                            "name": "Protocol Tunneling"
                         },
                         "T1573": {
-                            "description": "Encrypted Channels"
+                            "name": "Encrypted Channels"
                         }
                     },
                     "Capture app data": {
                         "T1528": {
-                            "description": "Steal Application Access Token"
+                            "name": "Steal Application Access Token"
                         },
                         "T1539": {
-                            "description": "Steal Web Session Cookie"
+                            "name": "Steal Web Session Cookie"
                         }
                     },
                     "Capture stored data": {
                         "T1119": {
-                            "description": "Automated Collection"
+                            "name": "Automated Collection"
                         },
                         "T1555": {
-                            "description": "Credentials from Password Stores"
+                            "name": "Credentials from Password Stores"
                         },
                         "T1602": {
-                            "description": "Data from Configuration Repository"
+                            "name": "Data from Configuration Repository"
                         }
                     },
                     "Click fraud": {
                         "T1496": {
-                            "description": "Resource Hijacking"
+                            "name": "Resource Hijacking"
                         }
                     },
                     "Click fraud and cryptocurrency mining": {
                         "T1496": {
-                            "description": "Resource Hijacking"
+                            "name": "Resource Hijacking"
                         }
                     },
                     "Client-side attack": {
                         "T1203": {
-                            "description": "Exploitation for Client Execution"
+                            "name": "Exploitation for Client Execution"
                         }
                     },
                     "Cryptocurrency mining": {
                         "T1496": {
-                            "description": "Resource Hijacking"
+                            "name": "Resource Hijacking"
                         }
                     },
                     "Destroy data": {
                         "T1485": {
-                            "description": "Data Destruction"
+                            "name": "Data Destruction"
                         }
                     },
                     "Disable controls": {
                         "T1562": {
-                            "description": "Impair Defenses"
+                            "name": "Impair Defenses"
                         }
                     },
                     "DoS": {
                         "T1498": {
-                            "description": "Network Denial of Service"
+                            "name": "Network Denial of Service"
                         },
                         "T1499": {
-                            "description": "Endpoint Denial of Service"
+                            "name": "Endpoint Denial of Service"
                         }
                     },
                     "Downloader": {
                         "T1189": {
-                            "description": "Drive-by Compromise"
+                            "name": "Drive-by Compromise"
                         }
                     },
                     "Exploit misconfig": {
                         "T1068": {
-                            "description": "Exploitation for Privilege Escalation"
+                            "name": "Exploitation for Privilege Escalation"
                         },
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "Exploit vuln": {
                         "T1595.002": {
-                            "description": "Active Scanning: Vulnerability Scanning"
+                            "name": "Active Scanning: Vulnerability Scanning"
                         }
                     },
                     "Export data": {
                         "T1003.006": {
-                            "description": "OS Credential Dumping: DCSync"
+                            "name": "OS Credential Dumping: DCSync"
                         },
                         "T1011": {
-                            "description": "Exfiltration Over Other Network Medium"
+                            "name": "Exfiltration Over Other Network Medium"
                         },
                         "T1020": {
-                            "description": "Automated Exfiltration"
+                            "name": "Automated Exfiltration"
                         },
                         "T1041": {
-                            "description": "Exfiltration Over C2 Channels"
+                            "name": "Exfiltration Over C2 Channels"
                         },
                         "T1048": {
-                            "description": "Exfiltration Over Alternative Protocol"
+                            "name": "Exfiltration Over Alternative Protocol"
                         }
                     },
                     "In-memory": {
                         "T1055": {
-                            "description": "Process Injection"
+                            "name": "Process Injection"
                         }
                     },
                     "Modify data": {
                         "T1136": {
-                            "description": "Create Account"
+                            "name": "Create Account"
                         },
                         "T1562": {
-                            "description": "Impair Defenses"
+                            "name": "Impair Defenses"
                         }
                     },
                     "Packet sniffer": {
                         "T1040": {
-                            "description": "Network Sniffing"
+                            "name": "Network Sniffing"
                         }
                     },
                     "Password dumper": {
                         "T1003": {
-                            "description": "OS Credential Dumping"
+                            "name": "OS Credential Dumping"
                         },
                         "T1552": {
-                            "description": "Unsecured Credentials"
+                            "name": "Unsecured Credentials"
                         },
                         "T1555": {
-                            "description": "Credentials from Password Stores"
+                            "name": "Credentials from Password Stores"
                         }
                     },
                     "RAM scraper": {
                         "T1003.002": {
-                            "description": "OS Credential Dumping: Security Account Manager"
+                            "name": "OS Credential Dumping: Security Account Manager"
                         },
                         "T1003.004": {
-                            "description": "OS Credential Dumping: LSA Secrets"
+                            "name": "OS Credential Dumping: LSA Secrets"
                         },
                         "T1003.005": {
-                            "description": "OS Credential Dumping: Cached Domain Credentials"
+                            "name": "OS Credential Dumping: Cached Domain Credentials"
                         }
                     },
                     "RAT": {
                         "T1525": {
-                            "description": "Implant Container Image"
+                            "name": "Implant Container Image"
                         },
                         "T1543.003": {
-                            "description": "Create or Modify System Process: Windows Service"
+                            "name": "Create or Modify System Process: Windows Service"
                         }
                     },
                     "Ransomware": {
                         "T1486": {
-                            "description": "Data Encrypted for Impact"
+                            "name": "Data Encrypted for Impact"
                         }
                     },
                     "Rootkit": {
                         "T1014": {
-                            "description": "Rootkit"
+                            "name": "Rootkit"
                         },
                         "T1543": {
-                            "description": "Create or Modify System Process"
+                            "name": "Create or Modify System Process"
                         }
                     },
                     "SQLi": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Application"
+                            "name": "Exploit Public-Facing Application"
                         }
                     },
                     "Scan network": {
                         "T1016": {
-                            "description": "System Network Configuration Discovery"
+                            "name": "System Network Configuration Discovery"
                         },
                         "T1046": {
-                            "description": "Network Service Scanning"
+                            "name": "Network Service Scanning"
                         },
                         "T1049": {
-                            "description": "System Network Connections Discovery"
+                            "name": "System Network Connections Discovery"
                         }
                     },
                     "Spam": {
                         "T1566.001": {
-                            "description": "Phishing: Spearphishing Attachment"
+                            "name": "Phishing: Spearphishing Attachment"
                         },
                         "T1566.002": {
-                            "description": "Phishing: Spearphishing Link"
+                            "name": "Phishing: Spearphishing Link"
                         }
                     },
                     "Spyware/Keylogger": {
                         "T1056": {
-                            "description": "Input Capture"
+                            "name": "Input Capture"
                         }
                     },
                     "Trojan": {
                         "T1566.001": {
-                            "description": "Phishing: Spearphishing Attachment"
+                            "name": "Phishing: Spearphishing Attachment"
                         },
                         "T1566.002": {
-                            "description": "Phishing: Spearphishing Link"
+                            "name": "Phishing: Spearphishing Link"
                         }
                     },
                     "Worm": {
                         "T1080": {
-                            "description": "Taint Shared Content"
+                            "name": "Taint Shared Content"
                         },
                         "T1091": {
-                            "description": "Replication Through Removable Media"
+                            "name": "Replication Through Removable Media"
                         },
                         "T1189": {
-                            "description": "Drive-by Compromise"
+                            "name": "Drive-by Compromise"
                         },
                         "T1210": {
-                            "description": "Exploitation of Remote Services"
+                            "name": "Exploitation of Remote Services"
                         }
                     }
                 },
                 "vector": {
                     "Direct install": {
                         "T1047": {
-                            "description": "Windows Management Instrumentation"
+                            "name": "Windows Management Instrumentation"
                         },
                         "T1569.002": {
-                            "description": "System Services: Service Execution"
+                            "name": "System Services: Service Execution"
                         }
                     },
                     "Download by malware": {
                         "T1568": {
-                            "description": "Dynamic Resolution: Domain Generation Algorithm"
+                            "name": "Dynamic Resolution: Domain Generation Algorithm"
                         }
                     },
                     "Email attachment": {
                         "T1036": {
-                            "description": "Masquerading"
+                            "name": "Masquerading"
                         },
                         "T1140": {
-                            "description": "Deobfuscate/Decode Files or Information"
+                            "name": "Deobfuscate/Decode Files or Information"
                         },
                         "T1203": {
-                            "description": "Exploitation for Client Execution"
+                            "name": "Exploitation for Client Execution"
                         },
                         "T1204.002": {
-                            "description": "User Execution: Malicious File"
+                            "name": "User Execution: Malicious File"
                         },
                         "T1566.001": {
-                            "description": "Spearphishing Attachment"
+                            "name": "Spearphishing Attachment"
                         }
                     },
                     "Email autoexecute": {
                         "T1059.005": {
-                            "description": "Command and Scripting: Visual Basic"
+                            "name": "Command and Scripting: Visual Basic"
                         }
                     },
                     "Email link": {
                         "T1003.005": {
-                            "description": "OS Cred Dumping: Cached Domain Creds"
+                            "name": "OS Cred Dumping: Cached Domain Creds"
                         },
                         "T1204.001": {
-                            "description": "User Execution: Malicious Link"
+                            "name": "User Execution: Malicious Link"
                         },
                         "T1566.002": {
-                            "description": "Spearphishing Link"
+                            "name": "Spearphishing Link"
                         }
                     },
                     "Instant messaging": {
                         "T1566": {
-                            "description": "Phishing"
+                            "name": "Phishing"
                         }
                     },
                     "Network propagation": {
                         "1550": {
-                            "description": "User Alternate Authentication Material"
+                            "name": "User Alternate Authentication Material"
                         },
                         "T1021": {
-                            "description": "Remote Services"
+                            "name": "Remote Services"
                         },
                         "T1563": {
-                            "description": "Remote Service Session Hijacking"
+                            "name": "Remote Service Session Hijacking"
                         }
                     },
                     "Remote injection": {
                         "T1133": {
-                            "description": "External Remote Services"
+                            "name": "External Remote Services"
                         }
                     },
                     "Removable media": {
                         "T1091": {
-                            "description": "Replication Through Removable Media"
+                            "name": "Replication Through Removable Media"
                         }
                     },
                     "Software update": {
                         "T1072": {
-                            "description": "Software Deployment Tools"
+                            "name": "Software Deployment Tools"
                         },
                         "TT1195": {
-                            "description": "Supply Chain Compromise"
+                            "name": "Supply Chain Compromise"
                         }
                     },
                     "Web application": {
                         "T1133": {
-                            "description": "External Remote Services"
+                            "name": "External Remote Services"
                         }
                     },
                     "Web application - download": {
                         "T1583": {
-                            "description": "Acquire Infrastructure"
+                            "name": "Acquire Infrastructure"
                         },
                         "T1584": {
-                            "description": "Compromise Infrastructure"
+                            "name": "Compromise Infrastructure"
                         }
                     },
                     "Web application - drive-by": {
                         "T1176": {
-                            "description": "Browser Extensions"
+                            "name": "Browser Extensions"
                         },
                         "T1189": {
-                            "description": "Drive-by Compromise"
+                            "name": "Drive-by Compromise"
                         },
                         "T1212": {
-                            "description": "Exploitation for Credential Access"
+                            "name": "Exploitation for Credential Access"
                         }
                     }
                 }
