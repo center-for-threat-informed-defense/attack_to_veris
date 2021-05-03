@@ -1395,7 +1395,9 @@
         "T1496": {
             "description": "Resource Hijacking",
             "veris": [
-                "action.malware.variety.Cryptomining"
+                "action.malware.variety.Click fraud",
+                "action.malware.variety.Click fraud and cryptocurrency mining",
+                "action.malware.variety.Cryptocurrency mining"
             ]
         },
         "T1497": {
@@ -2079,6 +2081,8 @@
         "T1566.001": {
             "description": "Spearphishing Attachment",
             "veris": [
+                "action.malware.variety.Spam",
+                "action.malware.variety.Trojan",
                 "action.malware.vector.Email attachment"
             ]
         },
@@ -2613,6 +2617,21 @@
                             "description": "Exploitation for Client Execution"
                         }
                     },
+                    "Cache poisoning": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
+                    "Cryptanalysis": {
+                        "T1600": {
+                            "description": "Weaken Encryption"
+                        }
+                    },
+                    "CSRF": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
                     "DoS": {
                         "T1498": {
                             "description": "Network Denial of Service"
@@ -2630,6 +2649,9 @@
                         }
                     },
                     "Exploit vuln": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        },
                         "T1203": {
                             "description": "Exploitation for Client Execution"
                         },
@@ -2646,18 +2668,110 @@
                         }
                     },
                     "Forced browsing": {
+                        "T1539": {
+                            "description": "Steal Web Session Cookie"
+                        }
+                    },
+                    "Format string attack": {
+                        "T1068": {
+                            "description": "Exploitation for Privilege Escalation"
+                        },
                         "T1190": {
-                            "description": "Exploit Public-Facing Applications"
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
+                    "Fuzz testing": {
+                        "T1068": {
+                            "description": "Exploitation for Privilege Escalation"
+                        },
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
+                    "HTTP request smuggling": {
+                        "T1185": {
+                            "description": "Man in the Browser"
+                        },
+                        "T1203": {
+                            "description": "Exploitation for Client Execution"
+                        },
+                        "T1565.002": {
+                            "description": "Data Manipulation: Transmitted Data Manipulation"
+                        }
+                    },
+                    "HTTP request splitting": {
+                        "T1185": {
+                            "description": "Man in the Browser"
+                        },
+                        "T1203": {
+                            "description": "Exploitation for Client Execution"
+                        },
+                        "T1565.002": {
+                            "description": "Data Manipulation: Transmitted Data Manipulation"
+                        }
+                    },
+                    "HTTP response smuggling": {
+                        "T1185": {
+                            "description": "Man in the Browser"
+                        },
+                        "T1203": {
+                            "description": "Exploitation for Client Execution"
+                        },
+                        "T1565.002": {
+                            "description": "Data Manipulation: Transmitted Data Manipulation"
+                        }
+                    },
+                    "HTTP Response Splitting": {
+                        "T1185": {
+                            "description": "Man in the Browser"
+                        },
+                        "T1203": {
+                            "description": "Exploitation for Client Execution"
+                        },
+                        "T1565.002": {
+                            "description": "Data Manipulation: Transmitted Data Manipulation"
+                        }
+                    },
+                    "Insecure deserialization": {
+                        "T1068": {
+                            "description": "Exploitation for Privilege Escalation"
+                        },
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
+                    "Integer overflows": {
+                        "T1068": {
+                            "description": "Exploitation for Privilege Escalation"
+                        },
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
+                    "LDAP injection": {
+                        "T1068": {
+                            "description": "Exploitation for Privilege Escalation"
+                        },
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
                         }
                     },
                     "MitM": {
                         "T1539": {
                             "description": "Steal Web Session Cookie"
+                        },
+                        "T1557": {
+                            "description": "Man-in-the-Middle"
+                        }
+                    },
+                    "Null byte injection": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
                         }
                     },
                     "OS commanding": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Applications"
+                            "description": "Exploit Public-Facing Application"
                         }
                     },
                     "Offline cracking": {
@@ -2677,12 +2791,21 @@
                     },
                     "RFI": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Applications"
+                            "description": "Exploit Public-Facing Application"
                         }
                     },
+                    "Reverse engineering": {},
                     "SQLi": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Applications"
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
+                    "Routing detour": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        },
+                        "T1557": {
+                            "description": "Man-in-the-Middle"
                         }
                     },
                     "Session fixation": {
@@ -2691,6 +2814,39 @@
                         },
                         "T1212": {
                             "description": "Exploitation for Credential Access"
+                        }
+                    },
+                    "Session prediction": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
+                    "Session replay": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
+                    "Soap array abuse": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        },
+                        "T1499": {
+                            "description": "Endpoint Denial of Service"
+                        }
+                    },
+                    "Special element injection": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
+                    "SSI Injection": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
+                    "URL redirector abuse": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
                         }
                     },
                     "Use of backdoor or C2": {
@@ -2799,9 +2955,62 @@
                             "description": "Valid Accounts"
                         }
                     },
+                    "User breakout": {},
+                    "Virtual machine escape": {},
+                    "XML attribute blowup": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        },
+                        "T1499": {
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
+                    "XML entity expansion": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        },
+                        "T1499": {
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
+                    "XML external entities": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        },
+                        "T1213": {
+                            "description": "Data from Information Repository"
+                        },
+                        "T1499": {
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
+                    "XML injection": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        },
+                        "T1546": {
+                            "description": "Event Triggered Execution"
+                        },
+                        "T1574": {
+                            "description": "Hijack Execution Flow"
+                        }
+                    },
+                    "XPath injection": {
+                        "T1010": {
+                            "description": "Application Window Discovery"
+                        },
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
+                    "Xquery injection": {
+                        "T1190": {
+                            "description": "Exploit Public-Facing Application"
+                        }
+                    },
                     "XSS": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Applications"
+                            "description": "Exploit Public-Facing Application"
                         }
                     }
                 },
@@ -2958,7 +3167,7 @@
                     },
                     "Web application": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Applications"
+                            "description": "Exploit Public-Facing Application"
                         }
                     }
                 }
@@ -2967,13 +3176,13 @@
                 "variety": {
                     "Adminware": {
                         "T1072": {
-                            "description": "Exploit Public-Facing Applications"
+                            "description": "Exploit Public-Facing Application"
                         },
                         "T1554": {
-                            "description": "Exploit Public-Facing Applications"
+                            "description": "Exploit Public-Facing Application"
                         },
                         "T1602": {
-                            "description": "Exploit Public-Facing Applications"
+                            "description": "Exploit Public-Facing Application"
                         }
                     },
                     "Adware": {
@@ -3111,6 +3320,11 @@
                             "description": "Data from Configuration Repository"
                         }
                     },
+                    "Click fraud": {
+                        "T1496": {
+                            "description": "Resource Hijacking"
+                        }
+                    },
                     "Click fraud and cryptocurrency mining": {
                         "T1496": {
                             "description": "Resource Hijacking"
@@ -3119,6 +3333,11 @@
                     "Client-side attack": {
                         "T1203": {
                             "description": "Exploitation for Client Execution"
+                        }
+                    },
+                    "Cryptocurrency mining": {
+                        "T1496": {
+                            "description": "Resource Hijacking"
                         }
                     },
                     "Destroy data": {
@@ -3237,7 +3456,7 @@
                     },
                     "SQLi": {
                         "T1190": {
-                            "description": "Exploit Public-Facing Applications"
+                            "description": "Exploit Public-Facing Application"
                         }
                     },
                     "Scan network": {
@@ -3252,8 +3471,11 @@
                         }
                     },
                     "Spam": {
-                        "T1595": {
-                            "description": "Active Scanning"
+                        "T1566.001": {
+                            "description": "Phishing: Spearphishing Attachment"
+                        },
+                        "T1566.002": {
+                            "description": "Phishing: Spearphishing Link"
                         }
                     },
                     "Spyware/Keylogger": {
