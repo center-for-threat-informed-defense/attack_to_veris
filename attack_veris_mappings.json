@@ -3,7 +3,7 @@
         "T1001": {
             "description": "Data Obfuscation",
             "veris": [
-                "malware.variety.Export data"
+                "action.malware.variety.Export data"
             ]
         },
         "T1001.001": {
@@ -53,7 +53,7 @@
         "T1005": {
             "description": "Data from Local System",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1006": {
@@ -63,25 +63,25 @@
         "T1007": {
             "description": "System Service Discovery",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1008": {
             "description": "Fallback Channels",
             "veris": [
-                "malware.variety.C2"
+                "action.malware.variety.C2"
             ]
         },
         "T1010": {
             "description": "Application Windows Discovery",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1011": {
             "description": "Exfiltration Over Other Network Medium",
             "veris": [
-                "malware.variety.Export data"
+                "action.malware.variety.Export data"
             ]
         },
         "T1011.001": {
@@ -91,31 +91,31 @@
         "T1012": {
             "description": "Query Registry",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1014": {
             "description": "Rootkit",
             "veris": [
-                "malware.variety.Rootkit"
+                "action.malware.variety.Rootkit"
             ]
         },
         "T1016": {
             "description": "System Network Configuration Discovery",
             "veris": [
-                "malware.variety.Scan network"
+                "action.malware.variety.Scan network"
             ]
         },
         "T1018": {
             "description": "Remote System Discovery",
             "veris": [
-                "malware.variety.Scan network"
+                "action.malware.variety.Scan network"
             ]
         },
         "T1020": {
             "description": "Automated Exfiltration",
             "veris": [
-                "malware.variety.Export data"
+                "action.malware.variety.Export data"
             ]
         },
         "T1020.001": {
@@ -125,8 +125,8 @@
         "T1021": {
             "description": "Remote Services",
             "veris": [
-                "hacking.variety.Use of stolen creds",
-                "hacking.variety.Brute force"
+                "action.hacking.variety.Use of stolen creds",
+                "action.hacking.variety.Brute force"
             ]
         },
         "T1021.001": {
@@ -140,7 +140,7 @@
         "T1021.003": {
             "description": "Distributed Component Object Model",
             "veris": [
-                "malware.variety.Abuse of functionality"
+                "action.malware.variety.Abuse of functionality"
             ]
         },
         "T1021.004": {
@@ -154,37 +154,37 @@
         "T1021.006": {
             "description": "Windows Remote Management",
             "veris": [
-                "hacking.vector.Command shell"
+                "action.hacking.vector.Command shell"
             ]
         },
         "T1025": {
             "description": "Data from Removable Media",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1026": {
             "description": "Multiband Communication",
             "veris": [
-                "malware.variety.C2"
+                "action.malware.variety.C2"
             ]
         },
         "T1027": {
             "description": "Obfuscated Files or Information",
             "veris": [
-                "malware.variety.Export data"
+                "action.malware.variety.Export data"
             ]
         },
         "T1027.001": {
             "description": "Binary Padding",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1027.002": {
             "description": "Software Packing",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1027.003": {
@@ -194,43 +194,43 @@
         "T1027.004": {
             "description": "Compile After Delivery",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1027.005": {
             "description": "Indicator Removal from Tools",
             "veris": [
-                "malware.variety.Disable controls"
+                "action.malware.variety.Disable controls"
             ]
         },
         "T1029": {
             "description": "Scheduled Transfer",
             "veris": [
-                "malware.variety.Export data"
+                "action.malware.variety.Export data"
             ]
         },
         "T1030": {
             "description": "Data Transfer Size Limits",
             "veris": [
-                "malware.variety.Export data"
+                "action.malware.variety.Export data"
             ]
         },
         "T1033": {
             "description": "System Owner/User Discovery",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1034": {
             "description": "Path Interception",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1036": {
             "description": "Masquerading",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1036.001": {
@@ -256,7 +256,7 @@
         "T1036.006": {
             "description": "Space after Filename",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1037": {
@@ -266,13 +266,13 @@
         "T1037.001": {
             "description": "Logon Script (Windows)",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1037.002": {
             "description": "Logon Script (Mac)",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1037.003": {
@@ -282,7 +282,7 @@
         "T1037.004": {
             "description": "Rc.common",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1037.005": {
@@ -294,50 +294,50 @@
         "T1039": {
             "description": "Data from Network Shared Drive",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1040": {
             "description": "Network Sniffing",
             "veris": [
-                "malware.variety.Scan network"
+                "action.malware.variety.Scan network"
             ]
         },
         "T1041": {
             "description": "Exfiltration Over C2 Channel",
             "veris": [
-                "malware.variety.Export data"
+                "action.malware.variety.Export data"
             ]
         },
         "T1043": {
             "description": "Commonly Used Ports",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1044": {
             "description": "File System Permissions Weakness",
             "veris": [
-                "hacking.variety.Exploit misconfig",
-                "malware.variety.Exploit misconfig"
+                "action.hacking.variety.Exploit misconfig",
+                "action.malware.variety.Exploit misconfig"
             ]
         },
         "T1046": {
             "description": "Network Service Scanning",
             "veris": [
-                "malware.variety.Scan network"
+                "action.malware.variety.Scan network"
             ]
         },
         "T1047": {
             "description": "Windows Management Instrumentation",
             "veris": [
-                "hacking.vector.Command shell"
+                "action.hacking.vector.Command shell"
             ]
         },
         "T1048": {
             "description": "Exfiltration Over Alternative Protocol",
             "veris": [
-                "malware.variety.Export data"
+                "action.malware.variety.Export data"
             ]
         },
         "T1048.001": {
@@ -355,19 +355,19 @@
         "T1049": {
             "description": "System Network Connections Discovery",
             "veris": [
-                "malware.variety.Scan network"
+                "action.malware.variety.Scan network"
             ]
         },
         "T1051": {
             "description": "Shared Webroot",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1052": {
             "description": "Exfiltration Over Physical Medium",
             "veris": [
-                "malware.variety.Export data"
+                "action.malware.variety.Export data"
             ]
         },
         "T1052.001": {
@@ -397,7 +397,7 @@
         "T1053.005": {
             "description": "Scheduled Task",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1053.006": {
@@ -407,7 +407,7 @@
         "T1055": {
             "description": "Process Injection",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1055.001": {
@@ -437,19 +437,19 @@
         "T1055.011": {
             "description": "Extra Window Memory Injection",
             "veris": [
-                "malware.variety.Abuse of functionality"
+                "action.malware.variety.Abuse of functionality"
             ]
         },
         "T1055.012": {
             "description": "Process Hallowing",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1055.013": {
             "description": "Process Doppelganging",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1055.014": {
@@ -459,7 +459,7 @@
         "T1056": {
             "description": "Input Capture",
             "veris": [
-                "malware.variety.Capture app data"
+                "action.malware.variety.Capture app data"
             ]
         },
         "T1056.001": {
@@ -477,31 +477,31 @@
         "T1057": {
             "description": "Process Discovery",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1058": {
             "description": "Service Registry Permissions Weakness",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1059": {
             "description": "Command and Scripting Interpreter",
             "veris": [
-                "hacking.vector.Command shell"
+                "action.hacking.vector.Command shell"
             ]
         },
         "T1059.001": {
             "description": "PowerShell",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1059.002": {
             "description": "AppleScript",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1059.003": {
@@ -527,44 +527,44 @@
         "T1061": {
             "description": "Graphical User Interface",
             "veris": [
-                "hacking.vector.Desktop sharing"
+                "action.hacking.vector.Desktop sharing"
             ]
         },
         "T1062": {
             "description": "Hypervisor",
             "veris": [
-                "hacking.variety.Other"
+                "action.hacking.variety.Other"
             ]
         },
         "T1064": {
             "description": "Scripting",
             "veris": [
-                "hacking.vector.Command shell"
+                "action.hacking.vector.Command shell"
             ]
         },
         "T1065": {
             "description": "Uncommonly Used Ports",
             "veris": [
-                "malware.variety.C2"
+                "action.malware.variety.C2"
             ]
         },
         "T1067": {
             "description": "Bootkit",
             "veris": [
-                "malware.variety.Rootkit"
+                "action.malware.variety.Rootkit"
             ]
         },
         "T1068": {
             "description": "Exploitation for Privilege Escalation",
             "veris": [
-                "malware.variety.Exploit vuln",
-                "hacking.variety.Exploit vuln"
+                "action.malware.variety.Exploit vuln",
+                "action.hacking.variety.Exploit vuln"
             ]
         },
         "T1069": {
             "description": "Permission Groups Discovery",
             "veris": [
-                "malware.variety.Scan network"
+                "action.malware.variety.Scan network"
             ]
         },
         "T1069.001": {
@@ -582,7 +582,7 @@
         "T1070": {
             "description": "Indicator Removal on Host",
             "veris": [
-                "malware.variety.Disable controls"
+                "action.malware.variety.Disable controls"
             ]
         },
         "T1070.001": {
@@ -596,25 +596,25 @@
         "T1070.003": {
             "description": "Clear Command History",
             "veris": [
-                "malware.variety.Destroy data"
+                "action.malware.variety.Destroy data"
             ]
         },
         "T1070.004": {
             "description": "File Deletion",
             "veris": [
-                "malware.variety.Destroy data"
+                "action.malware.variety.Destroy data"
             ]
         },
         "T1070.005": {
             "description": "Network Share Connection Removal",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1070.006": {
             "description": "Timestomp",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1071": {
@@ -640,7 +640,7 @@
         "T1074": {
             "description": "Data Staged",
             "veris": [
-                "malware.variety.Export data"
+                "action.malware.variety.Export data"
             ]
         },
         "T1074.001": {
@@ -654,19 +654,19 @@
         "T1076": {
             "description": "Remote Desktop Protocol",
             "veris": [
-                "hacking.vector.Desktop sharing"
+                "action.hacking.vector.Desktop sharing"
             ]
         },
         "T1077": {
             "description": "Windows Admin Shares",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1078": {
             "description": "Valid Accounts",
             "veris": [
-                "hacking.VAriety.Use of stolen creds"
+                "action.hacking.VAriety.Use of stolen creds"
             ]
         },
         "T1078.001": {
@@ -688,31 +688,31 @@
         "T1079": {
             "description": "Multilayer Encryption",
             "veris": [
-                "malware.variety.C2"
+                "action.malware.variety.C2"
             ]
         },
         "T1080": {
             "description": "Taint Shared Content",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1082": {
             "description": "System Information Discovery",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1083": {
             "description": "File and Directory Discovery",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1087": {
             "description": "Account Discovery",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1087.001": {
@@ -734,7 +734,7 @@
         "T1090": {
             "description": "Connection Proxy",
             "veris": [
-                "malware.variety.C2"
+                "action.malware.variety.C2"
             ]
         },
         "T1090.001": {
@@ -748,25 +748,25 @@
         "T1090.003": {
             "description": "Multi-hop Proxy",
             "veris": [
-                "malware.variety.C2"
+                "action.malware.variety.C2"
             ]
         },
         "T1090.004": {
             "description": "Domain Fronting",
             "veris": [
-                "malware.variety.C2"
+                "action.malware.variety.C2"
             ]
         },
         "T1091": {
             "description": "Replication Through Removable Media",
             "veris": [
-                "malware.vector.Removable media"
+                "action.malware.vector.Removable media"
             ]
         },
         "T1092": {
             "description": "Communication Through Removable Media",
             "veris": [
-                "malware.vector.Removable media"
+                "action.malware.vector.Removable media"
             ]
         },
         "T1095": {
@@ -776,7 +776,7 @@
         "T1098": {
             "description": "Account Manipulation",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1098.002": {
@@ -794,7 +794,7 @@
         "T1102": {
             "description": "Web Service",
             "veris": [
-                "malware.variety.C2"
+                "action.malware.variety.C2"
             ]
         },
         "T1102.001": {
@@ -812,7 +812,7 @@
         "T1104": {
             "description": "Multi-Stage Channels",
             "veris": [
-                "malware.variety.C2"
+                "action.malware.variety.C2"
             ]
         },
         "T1105": {
@@ -822,20 +822,20 @@
         "T1106": {
             "description": "Execution through API",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1108": {
             "description": "Redundant Access",
             "veris": [
-                "malware.variety.Backdoor"
+                "action.malware.variety.Backdoor"
             ]
         },
         "T1110": {
             "description": "Brute Force",
             "veris": [
-                "malware.variety.Brute force",
-                "hacking.variety.Brute force"
+                "action.malware.variety.Brute force",
+                "action.hacking.variety.Brute force"
             ]
         },
         "T1110.002": {
@@ -853,26 +853,26 @@
         "T1111": {
             "description": "Two-Factor Authentication Interception",
             "veris": [
-                "hacking.variety.Other",
-                "malware.variety.Other"
+                "action.hacking.variety.Other",
+                "action.malware.variety.Other"
             ]
         },
         "T1112": {
             "description": "Modify Registry",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1113": {
             "description": "Screen Capture",
             "veris": [
-                "malware.variety.Capture app data"
+                "action.malware.variety.Capture app data"
             ]
         },
         "T1114": {
             "description": "Email Collection",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1114.001": {
@@ -890,43 +890,43 @@
         "T1115": {
             "description": "Clipboard Data",
             "veris": [
-                "malware.variety.RAM scraper"
+                "action.malware.variety.RAM scraper"
             ]
         },
         "T1119": {
             "description": "Automated Collection",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1120": {
             "description": "Peripheral Device Discovery",
             "veris": [
-                "malware.variety.Scan network"
+                "action.malware.variety.Scan network"
             ]
         },
         "T1123": {
             "description": "Audio Capture",
             "veris": [
-                "malware.variety.Capture app data"
+                "action.malware.variety.Capture app data"
             ]
         },
         "T1124": {
             "description": "System Time Discovery",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1125": {
             "description": "Video Capture",
             "veris": [
-                "malware.variety.Capture app data"
+                "action.malware.variety.Capture app data"
             ]
         },
         "T1127": {
             "description": "Trusted Developer Utilities Proxy Exeucution",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1127.01": {
@@ -936,14 +936,14 @@
         "T1129": {
             "description": "Execution through Module Load",
             "veris": [
-                "hacking.Varity.Abuse of functionality",
-                "hacking.variety.Exploit misconfig"
+                "action.hacking.Varity.Abuse of functionality",
+                "action.hacking.variety.Exploit misconfig"
             ]
         },
         "T1132": {
             "description": "Data Encoding",
             "veris": [
-                "malware.variety.C2"
+                "action.malware.variety.C2"
             ]
         },
         "T1132.001": {
@@ -957,13 +957,13 @@
         "T1133": {
             "description": "External Remote Services",
             "veris": [
-                "malware.variety.Exploit vuln"
+                "action.malware.variety.Exploit vuln"
             ]
         },
         "T1134": {
             "description": "Access Token Manipulation",
             "veris": [
-                "hacking.variety.Other"
+                "action.hacking.variety.Other"
             ]
         },
         "T1134.001": {
@@ -989,7 +989,7 @@
         "T1135": {
             "description": "Network Share Discovery",
             "veris": [
-                "malware.variety.Scan network"
+                "action.malware.variety.Scan network"
             ]
         },
         "T1136": {
@@ -1013,7 +1013,7 @@
         "T1137": {
             "description": "Office Application Startup",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1137.001": {
@@ -1043,19 +1043,19 @@
         "T1140": {
             "description": "Deobfuscate/Decode Files or Information",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1149": {
             "description": "LC_MAIN Hijacking",
             "veris": [
-                "hacking.variety.Other"
+                "action.hacking.variety.Other"
             ]
         },
         "T1153": {
             "description": "Source",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1175": {
@@ -1065,37 +1065,37 @@
         "T1176": {
             "description": "Browser Extensions",
             "veris": [
-                "malware.variety.Capture app data"
+                "action.malware.variety.Capture app data"
             ]
         },
         "T1185": {
             "description": "Man in the Browser",
             "veris": [
-                "malware.variety.Capture app data"
+                "action.malware.variety.Capture app data"
             ]
         },
         "T1187": {
             "description": "Forced Authentication",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1189": {
             "description": "Drive-by Compromise",
             "veris": [
-                "malware.vector.Web drive-by"
+                "action.malware.vector.Web drive-by"
             ]
         },
         "T1190": {
             "description": "Exploit Public-Facing Application",
             "veris": [
-                "malware.variety.Exploit vuln"
+                "action.malware.variety.Exploit vuln"
             ]
         },
         "T1195": {
             "description": "Supply Chain Compromise",
             "veris": [
-                "hacking.vector.Partner"
+                "action.hacking.vector.Partner"
             ]
         },
         "T1195.001": {
@@ -1113,51 +1113,51 @@
         "T1196": {
             "description": "Control Panel Items",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1197": {
             "description": "BITS Jobs",
             "veris": [
-                "malware.variety.Export data"
+                "action.malware.variety.Export data"
             ]
         },
         "T1199": {
             "description": "Trust Relationship",
             "veris": [
-                "hacking.vector.Partner"
+                "action.hacking.vector.Partner"
             ]
         },
         "T1200": {
             "description": "Hardware Additions",
             "veris": [
-                "malware.variety.Physical access",
-                "malware.vector.Direct install"
+                "action.malware.variety.Physical access",
+                "action.malware.vector.Direct install"
             ]
         },
         "T1201": {
             "description": "Password Policy Discovery",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1202": {
             "description": "Indirect Command Execution",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1203": {
             "description": "Exploitation for Client Execution",
             "veris": [
-                "malware.variety.Client-side attack",
-                "hacking.variety.Exploit vuln"
+                "action.malware.variety.Client-side attack",
+                "action.hacking.variety.Exploit vuln"
             ]
         },
         "T1204": {
             "description": "User Execution",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1204.001": {
@@ -1175,40 +1175,40 @@
         "T1205.001": {
             "description": "Port Knocking",
             "veris": [
-                "malware.variety.C2"
+                "action.malware.variety.C2"
             ]
         },
         "T1207": {
             "description": "DCShadow",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1210": {
             "description": "Exploitation of Remote Services",
             "veris": [
-                "malware.variety.Exploit vuln"
+                "action.malware.variety.Exploit vuln"
             ]
         },
         "T1211": {
             "description": "Exploitation for Defense Evasion",
             "veris": [
-                "malware.variety.Disable controls"
+                "action.malware.variety.Disable controls"
             ]
         },
         "T1212": {
             "description": "Exploitation for Credential Access",
             "veris": [
-                "malware.variety.Exploit vuln",
-                "malware.variety.Password dumper",
-                "hacking.variety.Exploit vuln",
-                "hacking.variety.Exploit misconfig"
+                "action.malware.variety.Exploit vuln",
+                "action.malware.variety.Password dumper",
+                "action.hacking.variety.Exploit vuln",
+                "action.hacking.variety.Exploit misconfig"
             ]
         },
         "T1213": {
             "description": "Data from Information Repositories",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1213.001": {
@@ -1222,7 +1222,7 @@
         "T1216": {
             "description": "Signed Script Proxy Execution",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1216.001": {
@@ -1232,19 +1232,19 @@
         "T1217": {
             "description": "Browser Bookmark Discovery",
             "veris": [
-                "malware.variety.Capture app data"
+                "action.malware.variety.Capture app data"
             ]
         },
         "T1218": {
             "description": "Signed Binary Proxy Execution",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1218.001": {
             "description": "Compiled HTML File",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1218.002": {
@@ -1254,19 +1254,19 @@
         "T1218.003": {
             "description": "CMSTP",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1218.004": {
             "description": "InstallUtil",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1218.005": {
             "description": "Mshta",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1218.007": {
@@ -1280,19 +1280,19 @@
         "T1218.009": {
             "description": "Regsvcs/Regasm",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1218.010": {
             "description": "Regsvr32",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1218.011": {
             "description": "Rundll32",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1218.012": {
@@ -1302,25 +1302,25 @@
         "T1219": {
             "description": "Remote Access Software",
             "veris": [
-                "malware.variety.Adminware"
+                "action.malware.variety.Adminware"
             ]
         },
         "T1220": {
             "description": ".XSL Script Processing",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1221": {
             "description": "Template Injection",
             "veris": [
-                "malware.variety.Client-side attack"
+                "action.malware.variety.Client-side attack"
             ]
         },
         "T1222": {
             "description": "File Permissions Modification",
             "veris": [
-                "malware.variety.Exploit misconfig"
+                "action.malware.variety.Exploit misconfig"
             ]
         },
         "T1222.001": {
@@ -1334,7 +1334,7 @@
         "T1480": {
             "description": "Execution Guardrails",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1480.001": {
@@ -1344,38 +1344,38 @@
         "T1482": {
             "description": "Domain Trust Discovery",
             "veris": [
-                "malware.variety.Scan network"
+                "action.malware.variety.Scan network"
             ]
         },
         "T1485": {
             "description": "Data Destruction",
             "veris": [
-                "malware.variety.Destroy data"
+                "action.malware.variety.Destroy data"
             ]
         },
         "T1486": {
             "description": "Data Encrypted for Impact",
             "veris": [
-                "malware.variety.Ransomware"
+                "action.malware.variety.Ransomware"
             ]
         },
         "T1489": {
             "description": "Service Stop",
             "veris": [
-                "malware.variety.Client-side attack"
+                "action.malware.variety.Client-side attack"
             ]
         },
         "T1490": {
             "description": "Inhibit System Recovery",
             "veris": [
-                "malware.variety.Disable controls"
+                "action.malware.variety.Disable controls"
             ]
         },
         "T1491": {
             "description": "Defacement",
             "veris": [
                 "Attribute.Integrity.variety.Defacement",
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1491.001": {
@@ -1389,19 +1389,19 @@
         "T1495": {
             "description": "Firmware Corruption",
             "veris": [
-                "malware.variety.Destroy data"
+                "action.malware.variety.Destroy data"
             ]
         },
         "T1496": {
             "description": "Resource Hijacking",
             "veris": [
-                "malware.variety.Cryptomining"
+                "action.malware.variety.Cryptomining"
             ]
         },
         "T1497": {
             "description": "Virtualization/Sandbox Evasion",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1497.001": {
@@ -1419,7 +1419,7 @@
         "T1498": {
             "description": "Network Denial of Service",
             "veris": [
-                "malware.variety.DoS"
+                "action.malware.variety.DoS"
             ]
         },
         "T1498.001": {
@@ -1433,7 +1433,7 @@
         "T1499": {
             "description": "Endpoint Denial of Service",
             "veris": [
-                "malware.variety.DoS"
+                "action.malware.variety.DoS"
             ]
         },
         "T1499.001": {
@@ -1467,14 +1467,14 @@
         "T1505.003": {
             "description": "Web Shell",
             "veris": [
-                "malware.variety.Backdoor",
-                "hacking.variety.Use of backdoor or C2"
+                "action.malware.variety.Backdoor",
+                "action.hacking.variety.Use of backdoor or C2"
             ]
         },
         "T1518.001": {
             "description": "Security Software Discovery",
             "veris": [
-                "malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data"
             ]
         },
         "T1525": {
@@ -1528,13 +1528,13 @@
         "T1542.001": {
             "description": "System Firmware",
             "veris": [
-                "malware.variety.Rootkit"
+                "action.malware.variety.Rootkit"
             ]
         },
         "T1542.002": {
             "description": "Component Firmware",
             "veris": [
-                "malware.variety.Rootkit"
+                "action.malware.variety.Rootkit"
             ]
         },
         "T1542.004": {
@@ -1552,13 +1552,13 @@
         "T1543.001": {
             "description": "Launch Agent",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1543.002": {
             "description": "Systemd Service",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1543.003": {
@@ -1568,7 +1568,7 @@
         "T1543.004": {
             "description": "Launch Daemon",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546": {
@@ -1578,75 +1578,75 @@
         "T1546.001": {
             "description": "Change Default File Association",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546.002": {
             "description": "Screensaver",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1546.003": {
             "description": "Windows Management Instrumentation Event Subscription",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1546.004": {
             "description": ".bash_profile and .bashrc",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1546.005": {
             "description": "Trap",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546.006": {
             "description": "LC_LOAD_DYLIB Addition",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546.007": {
             "description": "Netsh Helper DLL",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546.008": {
             "description": ".Accessibility Features",
             "veris": [
-                "hacking.variety.Abuse of functionality",
-                "hacking.variety.Exploit misconfig",
-                "malware.variety.Exploit misconfig"
+                "action.hacking.variety.Abuse of functionality",
+                "action.hacking.variety.Exploit misconfig",
+                "action.malware.variety.Exploit misconfig"
             ]
         },
         "T1546.009": {
             "description": "AppCert DLLs",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546.010": {
             "description": "AppInit DLLs",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546.011": {
             "description": "Application Shimming",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1546.012": {
             "description": "Image File Execution Options Injection",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1546.013": {
@@ -1660,7 +1660,7 @@
         "T1546.015": {
             "description": "Component Object Model Hijacking",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1547": {
@@ -1670,57 +1670,57 @@
         "T1547.002": {
             "description": "Authentication Package",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1547.003": {
             "description": "Time Providers",
             "veris": [
-                "hacking.variety.Other",
-                "malware.variety.Other"
+                "action.hacking.variety.Other",
+                "action.malware.variety.Other"
             ]
         },
         "T1547.004": {
             "description": "Winlogon Helper Dll",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1547.005": {
             "description": "Security Support Provider",
             "veris": [
-                "malware.variety.Password dumper"
+                "action.malware.variety.Password dumper"
             ]
         },
         "T1547.006": {
             "description": "Kernel Modules and Extensions",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1547.007": {
             "description": "Re-opened Applications",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1547.008": {
             "description": "LSASS Driver",
             "veris": [
-                "malware.variety.Password dumper",
-                "hacking.variety.Abuse of functionality"
+                "action.malware.variety.Password dumper",
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1547.009": {
             "description": "Shortcut Modification",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1547.01": {
             "description": "Registry Run Keys / Startup Folder",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1547.010": {
@@ -1734,7 +1734,7 @@
         "T1547.101": {
             "description": "Port Monitors",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1548": {
@@ -1744,23 +1744,23 @@
         "T1548.001": {
             "description": "Setuid and Setgid",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1548.002": {
             "description": "Bypass User Account Control",
             "veris": [
-                "hacking.variety.Other",
-                "hacking.variety.Exploit misconfig",
-                "malware.variety.Exploit misconfig"
+                "action.hacking.variety.Other",
+                "action.hacking.variety.Exploit misconfig",
+                "action.malware.variety.Exploit misconfig"
             ]
         },
         "T1548.003": {
             "description": "Sudo and Sudo Caching",
             "veris": [
-                "hacking.variety.Other",
-                "malware.variety.Other",
-                "malware.variety.Client-side attack"
+                "action.hacking.variety.Other",
+                "action.malware.variety.Other",
+                "action.malware.variety.Client-side attack"
             ]
         },
         "T1548.004": {
@@ -1778,13 +1778,13 @@
         "T1550.002": {
             "description": "Pass the Hash",
             "veris": [
-                "malware.variety.Password dumper"
+                "action.malware.variety.Password dumper"
             ]
         },
         "T1550.003": {
             "description": "Pass the Ticket",
             "veris": [
-                "malware.variety.Password dumper"
+                "action.malware.variety.Password dumper"
             ]
         },
         "T1550.004": {
@@ -1798,28 +1798,28 @@
         "T1552.001": {
             "description": "Credentials in Files",
             "veris": [
-                "malware.variety.Password dumper"
+                "action.malware.variety.Password dumper"
             ]
         },
         "T1552.002": {
             "description": "Credentials in Registry",
             "veris": [
-                "malware.variety.Password dumper"
+                "action.malware.variety.Password dumper"
             ]
         },
         "T1552.003": {
             "description": "Bash History",
             "veris": [
-                "hacking.variety.Abuse of functionality",
-                "hacking.variety.Exploit misconfig"
+                "action.hacking.variety.Abuse of functionality",
+                "action.hacking.variety.Exploit misconfig"
             ]
         },
         "T1552.004": {
             "description": "Install Root Certificate",
             "veris": [
-                "malware.variety.Export data",
-                "hacking.variety.Other",
-                "malware.variety.Other"
+                "action.malware.variety.Export data",
+                "action.hacking.variety.Other",
+                "action.malware.variety.Other"
             ]
         },
         "T1552.005": {
@@ -1837,13 +1837,13 @@
         "T1553.001": {
             "description": "Gatekeeper Bypass",
             "veris": [
-                "hacking.variety.Other"
+                "action.hacking.variety.Other"
             ]
         },
         "T1553.002": {
             "description": "Code Signing",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1553.003": {
@@ -1861,13 +1861,13 @@
         "T1555.001": {
             "description": "Keychain",
             "veris": [
-                "malware.variety.Password dumper"
+                "action.malware.variety.Password dumper"
             ]
         },
         "T1555.002": {
             "description": "Securityd Memory",
             "veris": [
-                "malware.variety.Password dumper"
+                "action.malware.variety.Password dumper"
             ]
         },
         "T1555.003": {
@@ -1885,7 +1885,7 @@
         "T1556.002": {
             "description": "Password Filter DLL",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1556.003": {
@@ -1903,7 +1903,7 @@
         "T1557.001": {
             "description": "LLMNR/NBT-NS Poisoning and SMB Relay",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1557.002": {
@@ -1925,7 +1925,7 @@
         "T1558.003": {
             "description": "Kerbroasting",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1558.004": {
@@ -1943,7 +1943,7 @@
         "T1559.002": {
             "description": "Dynamic Data Exchange",
             "veris": [
-                "malware.variety.Export data"
+                "action.malware.variety.Export data"
             ]
         },
         "T1560": {
@@ -1969,13 +1969,13 @@
         "T1561.001": {
             "description": "Disk Content Wipe",
             "veris": [
-                "malware.variety.Destroy data"
+                "action.malware.variety.Destroy data"
             ]
         },
         "T1561.002": {
             "description": "Disk Structure Wipe",
             "veris": [
-                "malware.variety.Destroy data"
+                "action.malware.variety.Destroy data"
             ]
         },
         "T1562": {
@@ -1997,7 +1997,7 @@
         "T1562.006": {
             "description": "Indicator Blocking",
             "veris": [
-                "malware.variety.Disable controls"
+                "action.malware.variety.Disable controls"
             ]
         },
         "T1562.007": {
@@ -2027,25 +2027,25 @@
         "T1564.001": {
             "description": "Hidden Files and Directories",
             "veris": [
-                "malware.variety.Unknown"
+                "action.malware.variety.Unknown"
             ]
         },
         "T1564.002": {
             "description": "Hidden Users",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1564.003": {
             "description": "Hidden Window",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1564.004": {
             "description": "NTFS File Attributes",
             "veris": [
-                "hacking.variety.Other"
+                "action.hacking.variety.Other"
             ]
         },
         "T1564.006": {
@@ -2063,13 +2063,13 @@
         "T1565.002": {
             "description": "Transmitted Data Manipulation",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1565.003": {
             "description": "Runtime Data Manipulation",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1566": {
@@ -2079,13 +2079,13 @@
         "T1566.001": {
             "description": "Spearphishing Attachment",
             "veris": [
-                "malware.vector.Email attachment"
+                "action.malware.vector.Email attachment"
             ]
         },
         "T1566.002": {
             "description": "Spearphishing Link",
             "veris": [
-                "malware.vector.Email link"
+                "action.malware.vector.Email link"
             ]
         },
         "T1567": {
@@ -2111,7 +2111,7 @@
         "T1568.002": {
             "description": "Domain Generation Algorithms",
             "veris": [
-                "malware.variety.C2"
+                "action.malware.variety.C2"
             ]
         },
         "T1568.003": {
@@ -2125,13 +2125,13 @@
         "T1569.001": {
             "description": "Launchctl",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1569.002": {
             "description": "Service Execution",
             "veris": [
-                "hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1570": {
@@ -2165,22 +2165,22 @@
         "T1574.001": {
             "description": "DLL Search Order Hijacking",
             "veris": [
-                "hacking.variety.Exploit vuln",
-                "malware.variety.Exploit vuln"
+                "action.hacking.variety.Exploit vuln",
+                "action.malware.variety.Exploit vuln"
             ]
         },
         "T1574.002": {
             "description": "DLL Side-Loading",
             "veris": [
-                "hacking.variety.Exploit vuln",
-                "malware.variety.Exploit vuln"
+                "action.hacking.variety.Exploit vuln",
+                "action.malware.variety.Exploit vuln"
             ]
         },
         "T1574.004": {
             "description": "Dylib Hijacking",
             "veris": [
-                "hacking.variety.Exploit vuln",
-                "malware.variety.Exploit vuln"
+                "action.hacking.variety.Exploit vuln",
+                "action.malware.variety.Exploit vuln"
             ]
         },
         "T1574.005": {
@@ -2202,7 +2202,7 @@
         "T1574.011": {
             "description": "Plist Modification",
             "veris": [
-                "malware.variety.Client-side attack"
+                "action.malware.variety.Client-side attack"
             ]
         },
         "T1574.012": {
@@ -2460,7 +2460,7 @@
         "T1595.001": {
             "description": "Scanning IP Blocks",
             "veris": [
-                "malware.variety.Other"
+                "action.malware.variety.Other"
             ]
         },
         "T1595.002": {
@@ -2510,21 +2510,21 @@
         "T1598.001": {
             "description": "Spearphishing Service",
             "veris": [
-                "malware.vector.Email link",
-                "malware.vector.Email attachment",
-                "malware.vector.Email autoexecute"
+                "action.malware.vector.Email link",
+                "action.malware.vector.Email attachment",
+                "action.malware.vector.Email autoexecute"
             ]
         },
         "T1598.002": {
             "description": "Spearphishing Attachment",
             "veris": [
-                "malware.vector.Email attachment"
+                "action.malware.vector.Email attachment"
             ]
         },
         "T1598.003": {
             "description": "Spearphishing Link",
             "veris": [
-                "malware.vector.Email link"
+                "action.malware.vector.Email link"
             ]
         },
         "T1599": {
