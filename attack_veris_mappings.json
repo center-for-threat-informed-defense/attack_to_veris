@@ -426,7 +426,7 @@
             ]
         },
         "T1048.004": {
-            "name": "Exfiltration over Unencrypted/Obfuscated Non-C2 Protocol",
+            "name": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
             "veris": [
                 "action.malware.variety.Export data"
             ]
