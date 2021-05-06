@@ -54,7 +54,7 @@
         "T1003.004": {
             "name": "OS Credential Dumping: LSA Secrets",
             "veris": [
-                "action.malware.variety.Ram scraper"
+                "action.malware.variety.RAM scraper"
             ]
         },
         "T1003.005": {
