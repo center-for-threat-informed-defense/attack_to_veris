@@ -60,7 +60,7 @@
         "T1003.005": {
             "name": "OS Credential Dumping: Cached Domain Credentials",
             "veris": [
-                "action.malware.variety.Ram scraper",
+                "action.malware.varietyRAM scraper",
                 "action.malware.vector.Email link"
             ]
         },
