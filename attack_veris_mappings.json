@@ -42,7 +42,7 @@
         "T1003.002": {
             "name": "OS Credential Dumping: Security Account Manager",
             "veris": [
-                "action.malware.variety.Ram scraper"
+                "action.malware.variety.RAM scraper"
             ]
         },
         "T1003.003": {
