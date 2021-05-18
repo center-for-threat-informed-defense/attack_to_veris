@@ -2708,7 +2708,7 @@
         "T1565.002": {
             "name": "Data Manipulation: Transmitted Data Manipulation",
             "veris": [
-                "action.hacking.variety.HTTP Response splitting",
+                "action.hacking.variety.HTTP Response Splitting",
                 "action.hacking.variety.HTTP request smuggling",
                 "action.hacking.variety.HTTP request splitting",
                 "action.hacking.variety.HTTP response smuggling",
