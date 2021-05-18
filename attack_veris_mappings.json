@@ -1,4 +1,9 @@
 {
+    "metadata": {
+        "attack_version": "8.2",
+        "mappings_version": "1.2",
+        "veris_version": "1.3.5"
+    },
     "attack_to_veris": {
         "T1001": {
             "name": "Data Obfuscation",
@@ -3521,11 +3526,6 @@
                 "action.hacking.variety.Footprinting"
             ]
         }
-    },
-    "metadata": {
-        "attack_version": "8.2",
-        "mappings_version": "1.2",
-        "veris_version": "1.3.5"
     },
     "veris_to_attack": {
         "action": {
