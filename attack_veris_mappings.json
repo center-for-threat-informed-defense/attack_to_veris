@@ -3365,7 +3365,7 @@
             "name": "Phishing for Information",
             "veris": [
                 "action.social.variety.Phishing",
-                "action.social.variety.pretexting"
+                "action.social.variety.Pretexting"
             ]
         },
         "T1598.001": {
