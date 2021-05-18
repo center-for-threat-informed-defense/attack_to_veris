@@ -3476,7 +3476,7 @@
         "T1608.004": {
             "name": "Stage Capabilities: Drive-by Target",
             "veris": [
-                "action.malware.vector.Web drive-by"
+                "action.malware.vector.Web application - drive-by"
             ]
         },
         "T1608.005": {
