@@ -1019,7 +1019,7 @@
         "T1098.004": {
             "name": "Account Manipulation: SSH Authorized Keys",
             "veris": [
-                "action.malware.variety.capture app data",
+                "action.malware.variety.Capture app data",
                 "action.malware.variety.Capture stored data"
             ]
         },
