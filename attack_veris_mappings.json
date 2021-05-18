@@ -1425,7 +1425,7 @@
                 "action.hacking.variety.Cache poisoning",
                 "action.hacking.variety.Exploit vuln",
                 "action.hacking.variety.Format string attack",
-                "action.hacking.variety.FuSzz testing",
+                "action.hacking.variety.Fuzz testing",
                 "action.hacking.variety.Insecure deserialization",
                 "action.hacking.variety.Integer overflows",
                 "action.hacking.variety.LDAP injection",
