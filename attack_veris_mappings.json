@@ -3050,7 +3050,7 @@
         "T1585.001": {
             "name": "Establish Accounts: Social Media Accounts",
             "veris": [
-                "action.social.variety.pretexting"
+                "action.social.variety.Pretexting"
             ]
         },
         "T1585.002": {
