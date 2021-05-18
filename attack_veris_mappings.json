@@ -3008,7 +3008,7 @@
         "T1584.001": {
             "name": "Compromise Infrastructure: Domains",
             "veris": [
-                "action.social.variety.pretexting"
+                "action.social.variety.Pretexting"
             ]
         },
         "T1584.002": {
