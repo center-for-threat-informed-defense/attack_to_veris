@@ -10,19 +10,19 @@
             ]
         },
         "T1001.001": {
-            "name": "Junk Data",
+            "name": "Data Obfuscation: Junk Data",
             "veris": [
                 "action.malware.variety.C2"
             ]
         },
         "T1001.002": {
-            "name": "Steganography",
+            "name": "Data Obfuscation: Steganography",
             "veris": [
                 "action.hacking.variety.Other"
             ]
         },
         "T1001.003": {
-            "name": "Protocol Impersonation",
+            "name": "Data Obfuscation: Protocol Impersonation",
             "veris": [
                 "action.malware.variety.Other"
             ]
