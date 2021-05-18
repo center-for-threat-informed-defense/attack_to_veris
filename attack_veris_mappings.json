@@ -3225,7 +3225,7 @@
         "T1591.002": {
             "name": "Gather Victim Org Information: Business Relationships",
             "veris": [
-                "action.hacking.variety.other"
+                "action.hacking.variety.Other"
             ]
         },
         "T1591.003": {
