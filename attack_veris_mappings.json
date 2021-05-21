@@ -3561,6 +3561,9 @@
                         "T1129": {
                             "name": "Shared Modules"
                         },
+                        "T1187": {
+                            "name": "Forced Authentication"
+                        },
                         "T1202": {
                             "name": "Indirect Command Execution"
                         },
@@ -3606,6 +3609,9 @@
                         "T1218.012": {
                             "name": "Signed Binary Proxy Execution: Verclsid"
                         },
+                        "T1220": {
+                            "name": "XSL Script Processing"
+                        },
                         "T1484": {
                             "name": "Domain Policy Modification"
                         },
@@ -3638,6 +3644,12 @@
                         },
                         "T1569": {
                             "name": "System Services"
+                        },
+                        "T1603": {
+                            "name": "Scheduled Task/Job"
+                        },
+                        "T1609": {
+                            "name": "Container Administration Command"
                         }
                     },
                     "Brute force": {
@@ -3702,6 +3714,18 @@
                         }
                     },
                     "Footprinting": {
+                        "T1007": {
+                            "name": "System Service Discovery"
+                        },
+                        "T1018": {
+                            "name": "Remote System Discovery"
+                        },
+                        "T1033": {
+                            "name": "System Owner/User Discovery"
+                        },
+                        "T1057": {
+                            "name": "Process Discovery"
+                        },
                         "T1069": {
                             "name": "Permission Groups Discovery"
                         },
@@ -3713,6 +3737,12 @@
                         },
                         "T1069.003": {
                             "name": "Permission Groups Discovery: Cloud Groups"
+                        },
+                        "T1082": {
+                            "name": "System Information Discovery"
+                        },
+                        "T1083": {
+                            "name": "File and Directory Discovery"
                         },
                         "T1087": {
                             "name": "Account Discovery"
@@ -3729,11 +3759,23 @@
                         "T1087.004": {
                             "name": "Account Discovery: Cloud Account"
                         },
+                        "T1120": {
+                            "name": "Peripheral Device Discovery"
+                        },
+                        "T1124": {
+                            "name": "System Time Discovery"
+                        },
+                        "T1201": {
+                            "name": "Password Policy Discovery"
+                        },
                         "T1480": {
                             "name": "Execution Guardrails"
                         },
                         "T1480.001": {
                             "name": "Execution Guardrails: Environmental Keying"
+                        },
+                        "T1482": {
+                            "name": "Domain Trust Discovery"
                         },
                         "T1518": {
                             "name": "Software Discovery"
@@ -3809,6 +3851,9 @@
                         }
                     },
                     "Forced browsing": {
+                        "T1221": {
+                            "name": "Template Injection"
+                        },
                         "T1539": {
                             "name": "Steal Web Session Cookie"
                         }
@@ -4391,6 +4436,12 @@
                         },
                         "T1578": {
                             "name": "Modify Cloud Compute Infrastructure"
+                        },
+                        "T1610": {
+                            "name": "Deploy Container"
+                        },
+                        "T1620": {
+                            "name": "Build Image on Host"
                         }
                     },
                     "Inter-tenant": {
@@ -4410,8 +4461,8 @@
                         }
                     },
                     "Physical Access": {
-                        "T0000": {
-                            "name": "INACTIVE"
+                        "T1200": {
+                            "name": "Hardware Additions"
                         }
                     },
                     "VPN": {
@@ -4422,6 +4473,9 @@
                     "Web application": {
                         "T1190": {
                             "name": "Exploit Public-Facing Application"
+                        },
+                        "T1606": {
+                            "name": "Forge Web Credentials"
                         }
                     },
                     "Other": {
@@ -4434,6 +4488,9 @@
             "malware": {
                 "variety": {
                     "Adminware": {
+                        "T1006": {
+                            "name": "Direct Volume Access"
+                        },
                         "T1072": {
                             "name": "Software Deployment Tools"
                         },
@@ -4561,6 +4618,15 @@
                         }
                     },
                     "Capture app data": {
+                        "T1115": {
+                            "name": "Clipboard Data"
+                        },
+                        "T1123": {
+                            "name": "Audio Capture"
+                        },
+                        "T1125": {
+                            "name": "Video Capture"
+                        },
                         "T1217": {
                             "name": "Browser Bookmark Discovery"
                         },
@@ -4572,6 +4638,18 @@
                         }
                     },
                     "Capture stored data": {
+                        "T1005": {
+                            "name": "Data from Local System"
+                        },
+                        "T1012": {
+                            "name": "Query Registry"
+                        },
+                        "T1025": {
+                            "name": "Data from Removable Media"
+                        },
+                        "T1039": {
+                            "name": "Data from Network Shared Drive"
+                        },
                         "T1119": {
                             "name": "Automated Collection"
                         },
@@ -4610,6 +4688,9 @@
                     "Client-side attack": {
                         "T1203": {
                             "name": "Exploitation for Client Execution"
+                        },
+                        "T1548.003": {
+                            "name": "Abuse Elevation Control Mechanism: Sudo and Sudo Caching"
                         }
                     },
                     "Cryptocurrency mining": {
@@ -4644,6 +4725,9 @@
                         },
                         "T1485": {
                             "name": "Data Destruction"
+                        },
+                        "T1495": {
+                            "name": "Firmware Corruption"
                         },
                         "T1561": {
                             "name": "Disk Wipe"
@@ -4694,6 +4778,9 @@
                         }
                     },
                     "Exploit vuln": {
+                        "T11211": {
+                            "name": "Exploitation for Defense Evasion"
+                        },
                         "T1595.002": {
                             "name": "Active Scanning: Vulnerability Scanning"
                         }
@@ -4707,6 +4794,12 @@
                         },
                         "T1020": {
                             "name": "Automated Exfiltration"
+                        },
+                        "T1029": {
+                            "name": "Scheduled Transfer"
+                        },
+                        "T1030": {
+                            "name": "Data Transfer Size Limit"
                         },
                         "T1041": {
                             "name": "Exfiltration Over C2 Channel"
@@ -4736,6 +4829,9 @@
                     "In-memory": {
                         "T1055": {
                             "name": "Process Injection"
+                        },
+                        "T1115": {
+                            "name": "Clipboard Data"
                         }
                     },
                     "Modify data": {
@@ -4784,6 +4880,12 @@
                     "Ransomware": {
                         "T1486": {
                             "name": "Data Encrypted for Impact"
+                        },
+                        "T1489": {
+                            "name": "Service Stop"
+                        },
+                        "T1490": {
+                            "name": "Inhibit System Recovery"
                         }
                     },
                     "Rootkit": {
@@ -4996,6 +5098,9 @@
                         },
                         "T1563": {
                             "name": "Remote Service Session Hijacking"
+                        },
+                        "T1570": {
+                            "name": "Lateral Tool Transfer"
                         }
                     },
                     "Remote injection": {
@@ -5113,6 +5218,9 @@
                         }
                     },
                     "Modify configuration": {
+                        "T1207": {
+                            "name": "Rogue Domain Controller"
+                        },
                         "T1556": {
                             "name": "Modify Authentication Process"
                         },
