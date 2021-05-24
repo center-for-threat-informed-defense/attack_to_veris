@@ -508,8 +508,7 @@
         "T1055": {
             "name": "Process Injection",
             "veris": [
-                "action.malware.variety.In-memory",
-                "action.malware.variety.Other"
+                "action.malware.variety.In-memory"
             ]
         },
         "T1055.001": {
@@ -2323,7 +2322,7 @@
         "T1553.002": {
             "name": "Subvert Trust Controls: Code Signing",
             "veris": [
-                "action.malware.variety.Other"
+                "action.hacking.variety.Other"
             ]
         },
         "T1553.003": {
@@ -2805,14 +2804,14 @@
             "name": "Encrypted Channel: Symmetric Cryptography",
             "veris": [
                 "action.hacking.variety.Other",
-                "action.malware.variety.Other"
+                "action.malware.variety.C2"
             ]
         },
         "T1573.002": {
             "name": "Encrypted Channel: Asymmetric Cryptography",
             "veris": [
                 "action.hacking.variety.Other",
-                "action.malware.variety.Other"
+                "action.malware.variety.C2"
             ]
         },
         "T1574": {
@@ -2981,18 +2980,20 @@
         "T1584": {
             "name": "Compromise Infrastructure",
             "veris": [
-                "action.malware.vector.Web application - download"
+                "action.hacking.variety.Other"
             ]
         },
         "T1584.001": {
             "name": "Compromise Infrastructure: Domains",
             "veris": [
+                "action.hacking.variety.Other",
                 "action.social.variety.pretexting"
             ]
         },
         "T1584.002": {
             "name": "Compromise Infrastructure: DNS Server",
             "veris": [
+                "action.hacking.variety.Other",
                 "action.malware.variety.C2"
             ]
         },
@@ -3011,6 +3012,7 @@
         "T1584.005": {
             "name": "Compromise Infrastructure: Botnet",
             "veris": [
+                "action.hacking.variety.Other",
                 "action.hacking.variety.DoS"
             ]
         },
@@ -4948,6 +4950,18 @@
                         }
                     },
                     "Other": {
+                        "T1001": {
+                            "name": "Data Obfuscation"
+                        },
+                        "T1001.001": {
+                            "name": "Data Obfuscation: Junk Data"
+                        },
+                        "T1001.002": {
+                            "name": "Data Obfuscation: Steganography"
+                        },
+                        "T1001.003": {
+                            "name": "Data Obfuscation: Protocol Impersonation"
+                        },
                         "T1027": {
                             "name": "Obfuscated Files or Information"
                         },
@@ -4965,6 +4979,72 @@
                         },
                         "T1027.005": {
                             "name": "Obfuscated Files or Information: Indicator Removal from Tools"
+                        },
+                        "T1036.004": {
+                            "name": "Masquerading: Masquerade Task or Service"
+                        },
+                        "T1071.001": {
+                            "name": "Application Layer Protocol: Web Protocols"
+                        },
+                        "T1080": {
+                            "name": "Taint Shared Content"
+                        },
+                        "T1090": {
+                            "name": "Proxy"
+                        },
+                        "T1090.001": {
+                            "name": "Proxy: Internal Proxy"
+                        },
+                        "T1090.002": {
+                            "name": "Proxy: External Proxy"
+                        },
+                        "T1090.003": {
+                            "name": "Proxy: Multi-hop Proxy"
+                        },
+                        "T1090.004": {
+                            "name": "Proxy: Domain Fronting"
+                        },
+                        "T1111": {
+                            "name": "Two-Factor Authentication Interception"
+                        },
+                        "T1132": {
+                            "name": "Data Encoding"
+                        },
+                        "T1132.001": {
+                            "name": "Data Encoding: Standard Encoding"
+                        },
+                        "T1132.002": {
+                            "name": "Data Encoding: Non-Standard Encoding"
+                        },
+                        "T1140": {
+                            "name": "Deobfuscate/Decode Files or Information"
+                        },
+                        "T1204": {
+                            "name": "User Execution"
+                        },
+                        "T1204.001": {
+                            "name": "User Execution: Malicious Link"
+                        },
+                        "T1204.002": {
+                            "name": "User Execution: Malicious File"
+                        },
+                        "T1204.003": {
+                            "name": "User Execution: Malicious Image"
+                        },
+                        "T1497": {
+                            "name": "Virtualization/Sandbox Evasion"
+                        },
+                        "T1497.001": {
+                            "name": "Virtualization/Sandbox Evasion: System Checks"
+                        },
+                        "T1497.002": {
+                            "name": "Virtualization/Sandbox Evasion: User Activity Based Checks"
+                        },
+                        "T1497.003": {
+                            "name": "Virtualization/Sandbox Evasion: Time Based Evasion"
+                        },
+                        "T1548.003": {
+                            "name": "Abuse Elevation Control Mechanism: Sudo and Sudo Caching"
                         },
                         "T1553": {
                             "name": "Subvert Trust Controls"
@@ -4987,20 +5067,29 @@
                         "T1553.006": {
                             "name": "Subvert Trust Controls: Code Signing Policy Modification"
                         },
+                        "T1565": {
+                            "name": "Data Manipulation"
+                        },
+                        "T1565.001": {
+                            "name": "Data Manipulation: Stored Data Manipulation"
+                        },
+                        "T1565.002": {
+                            "name": "Data Manipulation: Transmitted Data Manipulation"
+                        },
+                        "T1565.003": {
+                            "name": "Data Manipulation: Runtime Data Manipulation"
+                        },
                         "T1587.001": {
                             "name": "Develop Capabilities: Malware"
                         },
                         "T1587.004": {
                             "name": "Develop Capabilities: Exploits"
                         },
-                        "T1588.001": {
-                            "name": "Obtain Capabilities: Malware"
+                        "T1603": {
+                            "name": "Scheduled Task/Job"
                         },
-                        "T1588.005": {
-                            "name": "Obtain Capabilities: Exploits"
-                        },
-                        "T1588.006": {
-                            "name": "Obtain Capabilities: Vulnerabilities"
+                        "T1606": {
+                            "name": "Forge Web Credentials"
                         },
                         "T1608": {
                             "name": "Stage Capabilities"
@@ -5019,6 +5108,9 @@
                         },
                         "T1608.005": {
                             "name": "Stage Capabilities: Link Target"
+                        },
+                        "T1612": {
+                            "name": "Build Image on Host"
                         }
                     }
                 },
