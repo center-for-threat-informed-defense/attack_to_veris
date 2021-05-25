@@ -6,6 +6,7 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
+    name: Mapping Tests
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python 3.8
