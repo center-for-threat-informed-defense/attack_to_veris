@@ -2568,25 +2568,25 @@
         "T1564": {
             "name": "Hide Artifacts",
             "veris": [
-                "action.malware.variety.Rootkit"
+                "action.hacking.variety.Other"
             ]
         },
         "T1564.001": {
             "name": "Hide Artifacts: Hidden Files and Directories",
             "veris": [
-                "action.malware.variety.Unknown"
+                "action.hacking.variety.Other"
             ]
         },
         "T1564.002": {
             "name": "Hide Artifacts: Hidden Users",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Other"
             ]
         },
         "T1564.003": {
             "name": "Hide Artifacts: Hidden Window",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Other"
             ]
         },
         "T1564.004": {
@@ -2604,13 +2604,13 @@
         "T1564.006": {
             "name": "Hide Artifacts: Run Virtual Instance",
             "veris": [
-                "action.hacking.vector.Hypervisor"
+                "action.hacking.variety.Other"
             ]
         },
         "T1564.007": {
             "name": "Hide Artifacts: VBA Stomping",
             "veris": [
-                "action.malware.variety.Trojan"
+                "action.hacking.variety.Other"
             ]
         },
         "T1565": {
