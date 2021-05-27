@@ -763,35 +763,36 @@
         "T1071": {
             "name": "Application Layer Protocol",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Other",
+                "action.malware.variety.Other"
             ]
         },
         "T1071.001": {
             "name": "Application Layer Protocol: Web Protocols",
             "veris": [
-                "action.hacking.variety.Abuse of functionality",
-                "action.hacking.variety.Use of backdoor or C2",
+                "action.hacking.variety.Other",
                 "action.malware.variety.Other"
             ]
         },
         "T1071.002": {
             "name": "Application Layer Protocol: File Transfer Protocols",
             "veris": [
-                "action.hacking.variety.Abuse of functionality",
-                "action.malware.variety.Export data"
+                "action.hacking.variety.Other",
+                "action.malware.variety.Other"
             ]
         },
         "T1071.003": {
             "name": "Application Layer Protocol: Mail Protocols",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Other",
+                "action.malware.variety.Other"
             ]
         },
         "T1071.004": {
             "name": "Application Layer Protocol: DNS",
             "veris": [
-                "action.hacking.variety.Abuse of functionality",
-                "action.malware.variety.C2"
+                "action.hacking.variety.Other",
+                "action.malware.variety.Other"
             ]
         },
         "T1072": {
@@ -1172,19 +1173,19 @@
         "T1132": {
             "name": "Data Encoding",
             "veris": [
-                "action.malware.variety.Other"
+                "action.malware.variety.C2"
             ]
         },
         "T1132.001": {
             "name": "Data Encoding: Standard Encoding",
             "veris": [
-                "action.malware.variety.Other"
+                "action.malware.variety.C2"
             ]
         },
         "T1132.002": {
             "name": "Data Encoding: Non-Standard Encoding",
             "veris": [
-                "action.malware.variety.Other"
+                "action.malware.variety.C2"
             ]
         },
         "T1133": {
@@ -2439,20 +2440,19 @@
         "T1557": {
             "name": "Man-in-the-Middle",
             "veris": [
-                "action.hacking.variety.MitM",
-                "action.hacking.variety.Routing detour"
+                "action.hacking.variety.MitM"
             ]
         },
         "T1557.001": {
             "name": "Man-in-the-Middle: LLMNR/NBT-NS Poisoning and SMB Relay",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "action.hacking.variety.MitM"
             ]
         },
         "T1557.002": {
             "name": "Man-in-the-Middle: ARP Cache Poisoning",
             "veris": [
-                "action.hacking.variety.Exploit vuln.Cache poisoning"
+                "action.hacking.variety.MitM"
             ]
         },
         "T1558": {
@@ -2501,6 +2501,7 @@
         "T1559.002": {
             "name": "Inter-Process Communication: Dynamic Data Exchange",
             "veris": [
+                "action.hacking.variety.Abuse of functionality",
                 "action.malware.variety.Export data"
             ]
         },
@@ -2690,23 +2691,32 @@
         "T1566": {
             "name": "Phishing",
             "veris": [
-                "action.malware.vector.Instant messaging"
+                "action.social.variety.Phishing"
             ]
         },
         "T1566.001": {
             "name": "Phishing: Spearphishing Attachment",
             "veris": [
-                "action.malware.variety.Spam",
                 "action.malware.variety.Trojan",
-                "action.malware.vector.Email attachment"
+                "action.malware.vector.Email attachment",
+                "action.social.variety.Phishing"
             ]
         },
         "T1566.002": {
             "name": "Phishing: Spearphishing Link",
             "veris": [
-                "action.malware.variety.Spam",
                 "action.malware.variety.Trojan",
-                "action.malware.vector.Email link"
+                "action.malware.vector.Email link",
+                "action.social.variety.Phishing"
+            ]
+        },
+        "T1566.003": {
+            "name": "Phishing: Spearphishing via Servie",
+            "veris": [
+                "action.malware.variety.Trojan",
+                "action.malware.vector.Email attachment",
+                "action.malware.vector.Email link",
+                "action.social.variety.Phishing"
             ]
         },
         "T1567": {
@@ -2816,16 +2826,13 @@
         "T1574": {
             "name": "Hijack Execution Flow",
             "veris": [
-                "action.hacking.variety.Use of backdoor or C2",
-                "action.hacking.variety.XML injection",
-                "action.hacking.vector.Backdoor or C2",
-                "action.malware.variety.Backdoor"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1574.001": {
             "name": "Hijack Execution Flow: DLL Search Order Hijacking",
             "veris": [
-                "action.hacking.variety.Exploit misconfig",
+                "action.hacking.variety.Abuse of functionality",
                 "action.hacking.variety.Exploit vuln",
                 "action.hacking.variety.Path traversal",
                 "action.malware.variety.Exploit vuln"
@@ -2834,7 +2841,7 @@
         "T1574.002": {
             "name": "Hijack Execution Flow: DLL Side-Loading",
             "veris": [
-                "action.hacking.variety.Exploit misconfig",
+                "action.hacking.variety.Abuse of functionality",
                 "action.hacking.variety.Exploit vuln",
                 "action.malware.variety.Exploit vuln"
             ]
@@ -2842,6 +2849,7 @@
         "T1574.004": {
             "name": "Hijack Execution Flow: Dylib Hijacking",
             "veris": [
+                "action.hacking.variety.Abuse of functionality",
                 "action.hacking.variety.Exploit vuln",
                 "action.malware.variety.Exploit vuln"
             ]
@@ -2849,6 +2857,7 @@
         "T1574.005": {
             "name": "Hijack Execution Flow: Executable Installer File Permissions Weakness",
             "veris": [
+                "action.hacking.variety.Abuse of functionality",
                 "action.hacking.variety.Exploit misconfig",
                 "action.malware.variety.Exploit misconfig"
             ]
@@ -2856,6 +2865,7 @@
         "T1574.006": {
             "name": "Hijack Execution Flow: Dynamic Linker Hijacking",
             "veris": [
+                "action.hacking.variety.Abuse of functionality",
                 "action.hacking.variety.Exploit misconfig",
                 "action.malware.variety.Exploit misconfig"
             ]
@@ -2878,15 +2888,26 @@
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
+        "T1574.010": {
+            "name": "Hijack Execution Flow: Services File Permissions Weakness",
+            "veris": [
+
+                "action.hacking.variety.Abuse of functionality",
+                "action.hacking.variety.Exploit misconfig"
+            ]
+        },
         "T1574.011": {
             "name": "Hijack Execution Flow: Services Registry Permissions Weakness",
             "veris": [
-                "action.malware.variety.Client-side attack"
+
+                "action.hacking.variety.Abuse of functionality",
+                "action.hacking.variety.Exploit misconfig"
             ]
         },
         "T1574.012": {
             "name": "Hijack Execution Flow: COR_PROFILER",
             "veris": [
+                "action.hacking.variety.Abuse of functionality",
                 "action.malware.variety.Disable controls"
             ]
         },
@@ -3048,6 +3069,7 @@
         "T1586.001": {
             "name": "Compromise Accounts: Social Media Accounts",
             "veris": [
+                "action.hacking.variety.Use of stolen creds",
                 "action.social.variety.Phishing"
             ]
         },
@@ -3365,21 +3387,24 @@
         "T1598.001": {
             "name": "Phishing for Information: Spearphishing Service",
             "veris": [
-                "action.malware.vector.Email link",
-                "action.malware.vector.Email attachment",
-                "action.malware.vector.Email autoexecute"
+                "action.social.variety.Phishing",
+                "action.social.variety.Pretexting"
             ]
         },
         "T1598.002": {
             "name": "Phishing for Information: Spearphishing Attachment",
             "veris": [
-                "action.malware.vector.Email attachment"
+                "action.malware.vector.Email attachment",
+                "action.social.variety.Phishing",
+                "action.social.variety.Pretexting"
             ]
         },
         "T1598.003": {
             "name": "Phishing for Information: Spearphishing Link",
             "veris": [
-                "action.malware.vector.Email link"
+                "action.malware.vector.Email link",
+                "action.social.variety.Phishing",
+                "action.social.variety.Pretexting"
             ]
         },
         "T1599": {
