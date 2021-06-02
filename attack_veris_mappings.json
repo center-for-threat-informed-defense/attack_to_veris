@@ -414,7 +414,7 @@
                 "action.malware.variety.Export data"
             ]
         },
-        "T1048.004": {
+        "T1048.003": {
             "name": "Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
             "veris": [
                 "action.malware.variety.Export data"
@@ -642,18 +642,6 @@
             "name": "Command and Scripting Interpreter: Network Device CLI",
             "veris": [
                 "action.hacking.vector.Command shell"
-            ]
-        },
-        "T1064": {
-            "name": "Scripting",
-            "veris": [
-                "action.hacking.vector.Command shell"
-            ]
-        },
-        "T1065": {
-            "name": "Uncommonly Used Ports",
-            "veris": [
-                "action.malware.variety.C2"
             ]
         },
         "T1068": {
