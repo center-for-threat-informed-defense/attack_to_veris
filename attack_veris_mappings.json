@@ -2711,7 +2711,7 @@
             ]
         },
         "T1566.003": {
-            "name": "Phishing: Spearphishing via Servie",
+            "name": "Phishing: Spearphishing via Service",
             "veris": [
                 "action.malware.variety.Trojan",
                 "action.malware.vector.Email attachment",
