@@ -228,12 +228,6 @@
                 "action.malware.variety.Capture stored data"
             ]
         },
-        "T1026": {
-            "name": "Multiband Communication",
-            "veris": [
-                "action.malware.variety.C2"
-            ]
-        },
         "T1027": {
             "name": "Obfuscated Files or Information",
             "veris": [
@@ -286,12 +280,6 @@
             "name": "System Owner/User Discovery",
             "veris": [
                 "action.malware.variety.Capture stored data"
-            ]
-        },
-        "T1034": {
-            "name": "Path Interception",
-            "veris": [
-                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1036": {
@@ -392,13 +380,6 @@
             "name": "Exfiltration Over C2 Channel",
             "veris": [
                 "action.malware.variety.Export data"
-            ]
-        },
-        "T1044": {
-            "name": "File System Permissions Weakness",
-            "veris": [
-                "action.hacking.variety.Exploit misconfig",
-                "action.malware.variety.Exploit misconfig"
             ]
         },
         "T1046": {
@@ -661,12 +642,6 @@
             "name": "Command and Scripting Interpreter: Network Device CLI",
             "veris": [
                 "action.hacking.vector.Command shell"
-            ]
-        },
-        "T1061": {
-            "name": "Graphical User Interface",
-            "veris": [
-                "action.hacking.vector.Desktop sharing"
             ]
         },
         "T1064": {
@@ -1318,12 +1293,6 @@
                 "action.malware.vector.Email attachment"
             ]
         },
-        "T1175": {
-            "name": "Component Object Model and Distributed COM",
-            "veris": [
-                "action.hacking.variety.Abuse of functionality"
-            ]
-        },
         "T1176": {
             "name": "Browser Extensions",
             "veris": [
@@ -1416,12 +1385,6 @@
             "name": "Supply Chain Compromise: Compromise Hardware Supply Chain",
             "veris": [
                 "action.hacking.vector.Partner"
-            ]
-        },
-        "T1196": {
-            "name": "Control Panel Items",
-            "veris": [
-                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1197": {
@@ -3473,12 +3436,6 @@
                 "action.hacking.variety.Footprinting"
             ]
         },
-        "T1603": {
-            "name": "Scheduled Task/Job",
-            "veris": [
-                "action.malware.variety.Other"
-            ]
-        },
         "T1606": {
             "name": "Forge Web Credentials",
             "veris": [
@@ -3670,9 +3627,6 @@
                         },
                         "T1569": {
                             "name": "System Services"
-                        },
-                        "T1603": {
-                            "name": "Scheduled Task/Job"
                         },
                         "T1609": {
                             "name": "Container Administration Command"
@@ -4183,7 +4137,7 @@
                         "T1078.004": {
                             "name": "Valid Accounts: Cloud Accounts"
                         },
-                        "T1078.005": {
+                        "T1134.005": {
                             "name": "Access Token Manipulation: SID-History Injection"
                         },
                         "T1134": {
@@ -4466,7 +4420,7 @@
                         "T1610": {
                             "name": "Deploy Container"
                         },
-                        "T1620": {
+                        "T1612": {
                             "name": "Build Image on Host"
                         }
                     },
@@ -5103,9 +5057,6 @@
                         },
                         "T1587.004": {
                             "name": "Develop Capabilities: Exploits"
-                        },
-                        "T1603": {
-                            "name": "Scheduled Task/Job"
                         },
                         "T1606": {
                             "name": "Forge Web Credentials"
