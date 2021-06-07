@@ -1428,27 +1428,27 @@
         "T1204": {
             "name": "User Execution",
             "veris": [
-                "action.malware.variety.Unknown"
+                "action.social.variety.phishing"
             ]
         },
         "T1204.001": {
             "name": "User Execution: Malicious Link",
             "veris": [
-                "action.malware.variety.Unknown",
+                "action.social.variety.phishing",
                 "action.malware.vector.Email link"
             ]
         },
         "T1204.002": {
             "name": "User Execution: Malicious File",
             "veris": [
-                "action.malware.variety.Unknown",
+                "action.social.variety.phishing",
                 "action.malware.vector.Email attachment"
             ]
         },
         "T1204.003": {
             "name": "User Execution: Malicious Image",
             "veris": [
-                "action.malware.variety.Unknown"
+                "action.social.variety.phishing"
             ]
         },
         "T1205": {
@@ -1657,6 +1657,24 @@
             "name": "Domain Trust Discovery",
             "veris": [
                 "action.malware.variety.Scan network"
+            ]
+        },
+        "T1484": {
+            "name": "Domain Policy Modification",
+            "veris": [
+                "attribute.integrity.variety.Modify configuration"
+            ]
+        },
+        "T1484.001": {
+            "name": "Domain Policy Modification: Group Policy Modification",
+            "veris": [
+                "attribute.integrity.variety.Modify configuration"
+            ]
+        },
+        "T1484.002": {
+            "name": "Domain Policy Modification: Domain Trust Modification",
+            "veris": [
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1485": {
@@ -1935,121 +1953,121 @@
         "T1543": {
             "name": "Create or Modify System Process",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1543.001": {
             "name": "Create or Modify System Process: Launch Agent",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1543.002": {
             "name": "Create or Modify System Process: Systemd Service",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1543.003": {
             "name": "Create or Modify System Process: Windows Service",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1543.004": {
             "name": "Create or Modify System Process: Launch Daemon",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1546": {
             "name": "Event Triggered Execution",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.001": {
             "name": "Event Triggered Execution: Change Default File Association",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.002": {
             "name": "Event Triggered Execution: Screensaver",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.003": {
             "name": "Event Triggered Execution: Windows Management Instrumentation Event Subscription",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.004": {
             "name": "Event Triggered Execution: Unix Shell Configuration Modification",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.005": {
             "name": "Event Triggered Execution: Trap",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.006": {
             "name": "Event Triggered Execution: LC_LOAD_DYLIB Addition",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.007": {
             "name": "Event Triggered Execution: Netsh Helper DLL",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.008": {
             "name": "Event Triggered Execution: Accessibility Features",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.009": {
             "name": "Event Triggered Execution: AppCert DLLs",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.010": {
             "name": "Event Triggered Execution: AppInit DLLs",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.011": {
             "name": "Event Triggered Execution: Application Shimming",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.012": {
             "name": "Event Triggered Execution: Image File Execution Options Injection",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.013": {
             "name": "Event Triggered Execution: PowerShell Profile",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.014": {
             "name": "Event Triggered Execution: Emond",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.015": {
@@ -3584,15 +3602,6 @@
                         "T1220": {
                             "name": "XSL Script Processing"
                         },
-                        "T1484": {
-                            "name": "Domain Policy Modification"
-                        },
-                        "T1484.001": {
-                            "name": "Domain Policy Modification: Group Policy Modification"
-                        },
-                        "T1484.002": {
-                            "name": "Domain Policy Modification: Domain Trust Modification"
-                        },
                         "T1548": {
                             "name": "Abuse Elevation Control Mechanism"
                         },
@@ -4102,12 +4111,6 @@
                         "T1542": {
                             "name": "Pre-OS Boot"
                         },
-                        "T1543": {
-                            "name": "Create or Modify System Process"
-                        },
-                        "T1546": {
-                            "name": "Event Triggered Execution"
-                        },
                         "T1554": {
                             "name": "Compromise Client Software Binary"
                         },
@@ -4226,9 +4229,6 @@
                     "XML injection": {
                         "T1190": {
                             "name": "Exploit Public-Facing Application"
-                        },
-                        "T1546": {
-                            "name": "Event Triggered Execution"
                         },
                         "T1574": {
                             "name": "Hijack Execution Flow"
@@ -4379,12 +4379,6 @@
                         "T1542": {
                             "name": "Pre-OS Boot"
                         },
-                        "T1543": {
-                            "name": "Create or Modify System Process"
-                        },
-                        "T1546": {
-                            "name": "Event Triggered Execution"
-                        },
                         "T1547": {
                             "name": "Boot or Logon Autostart Execution"
                         },
@@ -4531,12 +4525,6 @@
                         },
                         "T1542": {
                             "name": "Pre-OS Boot"
-                        },
-                        "T1543": {
-                            "name": "Create or Modify System Process"
-                        },
-                        "T1546": {
-                            "name": "Event Triggered Execution"
                         },
                         "T1554": {
                             "name": "Compromise Client Software Binary"
@@ -4861,9 +4849,6 @@
                     "RAT": {
                         "T1525": {
                             "name": "Implant Internal Image"
-                        },
-                        "T1543.003": {
-                            "name": "Create or Modify System Process: Windows Service"
                         }
                     },
                     "Ransomware": {
@@ -4880,9 +4865,6 @@
                     "Rootkit": {
                         "T1014": {
                             "name": "Rootkit"
-                        },
-                        "T1543": {
-                            "name": "Create or Modify System Process"
                         }
                     },
                     "Scan network": {
@@ -5014,18 +4996,6 @@
                         },
                         "T1140": {
                             "name": "Deobfuscate/Decode Files or Information"
-                        },
-                        "T1204": {
-                            "name": "User Execution"
-                        },
-                        "T1204.001": {
-                            "name": "User Execution: Malicious Link"
-                        },
-                        "T1204.002": {
-                            "name": "User Execution: Malicious File"
-                        },
-                        "T1204.003": {
-                            "name": "User Execution: Malicious Image"
                         },
                         "T1548.003": {
                             "name": "Abuse Elevation Control Mechanism: Sudo and Sudo Caching"
@@ -5258,6 +5228,18 @@
                         }
                     },
                     "Phishing": {
+                        "T1204": {
+                            "name": "User Execution"
+                        },
+                        "T1204.001": {
+                            "name": "User Execution: Malicious Link"
+                        },
+                        "T1204.002": {
+                            "name": "User Execution: Malicious File"
+                        },
+                        "T1204.003": {
+                            "name": "User Execution: Malicious Image"
+                        },
                         "T1586": {
                             "name": "Compromise Accounts"
                         },
@@ -5335,8 +5317,53 @@
             "integrity": {
                 "variety": {
                     "Alter behavior": {
-                        "T0000": {
-                            "name": "INACTIVE"
+                        "T1546": {
+                            "name": "Event Triggered Execution"
+                        },
+                        "T1546.001": {
+                            "name": "Event Triggered Execution: Change Default File Association"
+                        },
+                        "T1546.002": {
+                            "name": "Event Triggered Execution: Screensaver"
+                        },
+                        "T1546.003": {
+                            "name": "Event Triggered Execution: Windows Management Instrumentation Event Subscription"
+                        },
+                        "T1546.004": {
+                            "name": "Event Triggered Execution: Unix Shell Configuration Modification"
+                        },
+                        "T1546.005": {
+                            "name": "Event Triggered Execution: Trap"
+                        },
+                        "T1546.006": {
+                            "name": "Event Triggered Execution: LC_LOAD_DYLIB Addition"
+                        },
+                        "T1546.007": {
+                            "name": "Event Triggered Execution: Netsh Helper DLL"
+                        },
+                        "T1546.008": {
+                            "name": "Event Triggered Execution: Accessibility Features"
+                        },
+                        "T1546.009": {
+                            "name": "Event Triggered Execution: AppCert DLLs"
+                        },
+                        "T1546.010": {
+                            "name": "Event Triggered Execution: AppInit DLLs"
+                        },
+                        "T1546.011": {
+                            "name": "Event Triggered Execution: Application Shimming"
+                        },
+                        "T1546.012": {
+                            "name": "Event Triggered Execution: Image File Execution Options Injection"
+                        },
+                        "T1546.013": {
+                            "name": "Event Triggered Execution: PowerShell Profile"
+                        },
+                        "T1546.014": {
+                            "name": "Event Triggered Execution: Emond"
+                        },
+                        "T1546.015": {
+                            "name": "Event Triggered Execution: Component Object Model Hijacking"
                         }
                     },
                     "Created account": {
@@ -5397,8 +5424,32 @@
                         "T1207": {
                             "name": "Rogue Domain Controller"
                         },
+                        "T1484": {
+                            "name": "Domain Policy Modification"
+                        },
+                        "T1484.001": {
+                            "name": "Domain Policy Modification: Group Policy Modification"
+                        },
+                        "T1484.002": {
+                            "name": "Domain Policy Modification: Domain Trust Modification"
+                        },
                         "T1547": {
                             "name": "Boot or Logon Autostart Execution"
+                        },
+                        "T1543": {
+                            "name": "Create or Modify System Process"
+                        },
+                        "T1543.001": {
+                            "name": "Create or Modify System Process: Launch Agent"
+                        },
+                        "T1543.002": {
+                            "name": "Create or Modify System Process: Systemd Service"
+                        },
+                        "T1543.003": {
+                            "name": "Create or Modify System Process: Windows Service"
+                        },
+                        "T1543.04": {
+                            "name": "Create or Modify System Process: Launch Daemon"
                         },
                         "T1547.001": {
                             "name": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder"
