@@ -52,7 +52,7 @@ Within those axes, the scope is further narrowed based on whether the adversary 
 
 <p><strong>Axis Scope</strong></p>
 <strong>Axis | Description | In Scope | Comments</strong>
------|-------------|----------|---------
+----- | ------------- |---------- | ---------
 <strong>Actor</strong> | Whose actions affected the asset? | No | While ATT&CK does catalog threat groups, it does not describe them using a mappable taxonomy 
 <strong>Action</strong> | What actions affected the asset? | Yes | 
 <strong>Asset</strong> | Which assets were affected? | No | Does not describe adversary behavior 
