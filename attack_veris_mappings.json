@@ -1428,27 +1428,27 @@
         "T1204": {
             "name": "User Execution",
             "veris": [
-                "action.social.variety.phishing"
+                "action.social.variety.Phishing"
             ]
         },
         "T1204.001": {
             "name": "User Execution: Malicious Link",
             "veris": [
-                "action.social.variety.phishing",
+                "action.social.variety.Phishing",
                 "action.malware.vector.Email link"
             ]
         },
         "T1204.002": {
             "name": "User Execution: Malicious File",
             "veris": [
-                "action.social.variety.phishing",
+                "action.social.variety.Phishing",
                 "action.malware.vector.Email attachment"
             ]
         },
         "T1204.003": {
             "name": "User Execution: Malicious Image",
             "veris": [
-                "action.social.variety.phishing"
+                "action.social.variety.Phishing"
             ]
         },
         "T1205": {
@@ -5448,7 +5448,7 @@
                         "T1543.003": {
                             "name": "Create or Modify System Process: Windows Service"
                         },
-                        "T1543.04": {
+                        "T1543.004": {
                             "name": "Create or Modify System Process: Launch Daemon"
                         },
                         "T1547.001": {
