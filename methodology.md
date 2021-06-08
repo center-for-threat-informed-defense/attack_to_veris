@@ -50,12 +50,12 @@ Within those axes, the scope is further narrowed based on whether the adversary 
 </p>
 
 <p><strong>Axis Scope</strong></p>
-| Axis | Description | In Scope | Comments |
-| ----- | ------------- |---------- | --------- |
-| <strong>Actor</strong> | Whose actions affected the asset? | No | While ATT&CK does catalog threat groups, it does not describe them using a mappable taxonomy |
-| <strong>Action</strong> | What actions affected the asset? | Yes | 
-| <strong>Asset</strong> | Which assets were affected? | No | Does not describe adversary behavior |
-| <strong>Attributes</strong> | How was the asset affected? | Yes | 
+| Axis | Description | In Scope | Comments |<br>
+| ---- | ----------- |--------- | -------- |<br>
+| <strong>Actor</strong> | Whose actions affected the asset? | No | While ATT&CK does catalog threat groups, it does not describe them using a mappable taxonomy | <br>
+| <strong>Action</strong> | What actions affected the asset? | Yes | <br>
+| <strong>Asset</strong> | Which assets were affected? | No | Does not describe adversary behavior | <br>
+| <strong>Attributes</strong> | How was the asset affected? | Yes | <br>
 
 <p>
 Within those axes, the scope is further narrowed based on whether the adversary behaviors for a particular enumeration category align to ATT&CK. For example, ATT&CK does not cover unintentional errors or natural disasters and therefore the <strong>Error</strong> and <strong>Environmental</strong> enumeration categories in the <strong>Action</strong> axis are not mapped.
