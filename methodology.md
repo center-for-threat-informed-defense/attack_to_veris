@@ -1,9 +1,8 @@
 <h1>Mapping Methodology</h1>
 
-___
 <h2>Background</h2>
 <p>
-The [Vocabulary for Event Recording and Incident Sharing](http://veriscommunity.net) (VERIS) is a set of metrics designed to provide a common language for describing security incidents in a structured and repeatable manner. The overall goal is to lay a foundation from which we can constructively and cooperatively learn from our experiences to better measure and manage risk.
+The [Vocabulary for Event Recording and Incident Sharing (VERIS)](http://veriscommunity.net)is a set of metrics designed to provide a common language for describing security incidents in a structured and repeatable manner. The overall goal is to lay a foundation from which we can constructively and cooperatively learn from our experiences to better measure and manage risk.
 </p>
 VERIS employs a threat model with four axes, the “A4” model, to describe incidents. The four axes are:
 <ul>
@@ -50,12 +49,12 @@ First, the scope is narrowed by examining only those axes that describe adversar
 Within those axes, the scope is further narrowed based on whether the adversary behaviors for a particular enumeration category align to ATT&CK. For example, ATT&CK does not cover unintentional errors or natural disasters and therefore the Error and Environmental enumeration categories in the Action axis are not mapped.
 </p>
 
-<p>**Axis Scope**</p>
-**| Axis | Description | In Scope | Comments |**
+<p><strong>Axis Scope</strong></p>
+| Axis | Description | In Scope | Comments |
 | ----- | ------------- |---------- | --------- |
 | <strong>Actor</strong> | Whose actions affected the asset? | No | While ATT&CK does catalog threat groups, it does not describe them using a mappable taxonomy |
 | <strong>Action</strong> | What actions affected the asset? | Yes | 
-| <strong>Asset</strong> | Which assets were affected? | No | Does not describe adversary behavior 
+| <strong>Asset</strong> | Which assets were affected? | No | Does not describe adversary behavior |
 | <strong>Attributes</strong> | How was the asset affected? | Yes | 
 
 <p>
