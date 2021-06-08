@@ -4084,9 +4084,6 @@
                         "T1133": {
                             "name": "External Remote Services"
                         },
-                        "T1136": {
-                            "name": "Create Account"
-                        },
                         "T1137": {
                             "name": "Office Application Startup"
                         },
@@ -4352,9 +4349,6 @@
                         "T1133": {
                             "name": "External Remote Services"
                         },
-                        "T1136": {
-                            "name": "Create Account"
-                        },
                         "T1137": {
                             "name": "Office Application Startup"
                         },
@@ -4501,9 +4495,6 @@
                         },
                         "T1133": {
                             "name": "External Remote Services"
-                        },
-                        "T1136": {
-                            "name": "Create Account"
                         },
                         "T1137": {
                             "name": "Office Application Startup"
@@ -4806,9 +4797,6 @@
                         }
                     },
                     "Modify data": {
-                        "T1136": {
-                            "name": "Create Account"
-                        },
                         "T1562": {
                             "name": "Impair Defenses"
                         }
@@ -5367,8 +5355,17 @@
                         }
                     },
                     "Created account": {
-                        "T0000": {
-                            "name": "INACTIVE"
+                        "T1136": {
+                            "name": "Create Account"
+                        },
+                        "T1136.001": {
+                            "name": "Create Account: Local Account"
+                        },
+                        "T1136.002": {
+                            "name": "Create Account: Domain Account"
+                        },
+                        "T1136.003": {
+                            "name": "Create Account: Cloud Account"
                         }
                     },
                     "Defacement": {
@@ -5393,8 +5390,14 @@
                         }
                     },
                     "Log tampering": {
-                        "T0000": {
-                            "name": "INACTIVE"
+                        "T1070": {
+                            "name": "Indicator Removal on Host"
+                        },
+                        "T1070.001": {
+                            "name": "Indicator Removal on Host: Clear Windows Event Logs"
+                        },
+                        "T1070.002": {
+                            "name": "Indicator Removal on Host: Clear Linux or Mac System Logs"
                         }
                     },
                     "Misrepresentation": {
