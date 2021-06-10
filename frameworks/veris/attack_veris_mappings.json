@@ -684,19 +684,22 @@
         "T1070": {
             "name": "Indicator Removal on Host",
             "veris": [
-                "action.malware.variety.Destroy data"
+                "action.malware.variety.Destroy data",
+                "attribute.integrity.variety.Log tampering"
             ]
         },
         "T1070.001": {
             "name": "Indicator Removal on Host: Clear Windows Event Logs",
             "veris": [
-                "action.malware.variety.Destroy data"
+                "action.malware.variety.Destroy data",
+                "attribute.integrity.variety.Log tampering"
             ]
         },
         "T1070.002": {
             "name": "Indicator Removal on Host: Clear Linux or Mac System Logs",
             "veris": [
-                "action.malware.variety.Destroy data"
+                "action.malware.variety.Destroy data",
+                "attribute.integrity.variety.Log tampering"
             ]
         },
         "T1070.003": {
@@ -726,36 +729,36 @@
         "T1071": {
             "name": "Application Layer Protocol",
             "veris": [
-                "action.hacking.variety.Other",
-                "action.malware.variety.Other"
+                "action.hacking.variety.Use of backdoor or C2",
+                "action.malware.variety.Unknown"
             ]
         },
         "T1071.001": {
             "name": "Application Layer Protocol: Web Protocols",
             "veris": [
-                "action.hacking.variety.Other",
-                "action.malware.variety.Other"
+                "action.hacking.variety.Use of backdoor or C2",
+                "action.malware.variety.Unknown"
             ]
         },
         "T1071.002": {
             "name": "Application Layer Protocol: File Transfer Protocols",
             "veris": [
-                "action.hacking.variety.Other",
-                "action.malware.variety.Other"
+                "action.hacking.variety.Use of backdoor or C2",
+                "action.malware.variety.Unknown"
             ]
         },
         "T1071.003": {
             "name": "Application Layer Protocol: Mail Protocols",
             "veris": [
-                "action.hacking.variety.Other",
-                "action.malware.variety.Other"
+                "action.hacking.variety.Use of backdoor or C2",
+                "action.malware.variety.Unknown"
             ]
         },
         "T1071.004": {
             "name": "Application Layer Protocol: DNS",
             "veris": [
-                "action.hacking.variety.Other",
-                "action.malware.variety.Other"
+                "action.hacking.variety.Use of backdoor or C2",
+                "action.malware.variety.Unknown"
             ]
         },
         "T1072": {
@@ -1117,13 +1120,13 @@
         "T1127": {
             "name": "Trusted Developer Utilities Proxy Execution",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Unknown"
             ]
         },
         "T1127.001": {
             "name": "Trusted Developer Utilities Proxy Execution: MSBuild",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "action.hacking.variety.Unknown"
             ]
         },
         "T1129": {
@@ -1277,7 +1280,6 @@
         "T1140": {
             "name": "Deobfuscate/Decode Files or Information",
             "veris": [
-                "action.malware.variety.Other",
                 "action.malware.vector.Email attachment"
             ]
         },
@@ -1426,27 +1428,27 @@
         "T1204": {
             "name": "User Execution",
             "veris": [
-                "action.malware.variety.Other"
+                "action.social.variety.Phishing"
             ]
         },
         "T1204.001": {
             "name": "User Execution: Malicious Link",
             "veris": [
-                "action.malware.variety.Other",
+                "action.social.variety.Phishing",
                 "action.malware.vector.Email link"
             ]
         },
         "T1204.002": {
             "name": "User Execution: Malicious File",
             "veris": [
-                "action.malware.variety.Other",
+                "action.social.variety.Phishing",
                 "action.malware.vector.Email attachment"
             ]
         },
         "T1204.003": {
             "name": "User Execution: Malicious Image",
             "veris": [
-                "action.malware.variety.Other"
+                "action.social.variety.Phishing"
             ]
         },
         "T1205": {
@@ -1657,6 +1659,24 @@
                 "action.malware.variety.Scan network"
             ]
         },
+        "T1484": {
+            "name": "Domain Policy Modification",
+            "veris": [
+                "attribute.integrity.variety.Modify configuration"
+            ]
+        },
+        "T1484.001": {
+            "name": "Domain Policy Modification: Group Policy Modification",
+            "veris": [
+                "attribute.integrity.variety.Modify configuration"
+            ]
+        },
+        "T1484.002": {
+            "name": "Domain Policy Modification: Domain Trust Modification",
+            "veris": [
+                "attribute.integrity.variety.Modify configuration"
+            ]
+        },
         "T1485": {
             "name": "Data Destruction",
             "veris": [
@@ -1716,25 +1736,25 @@
         "T1497": {
             "name": "Virtualization/Sandbox Evasion",
             "veris": [
-                "action.malware.variety.Other"
+                "action.malware.variety.Unknown"
             ]
         },
         "T1497.001": {
             "name": "Virtualization/Sandbox Evasion: System Checks",
             "veris": [
-                "action.malware.variety.Other"
+                "action.malware.variety.Unknown"
             ]
         },
         "T1497.002": {
             "name": "Virtualization/Sandbox Evasion: User Activity Based Checks",
             "veris": [
-                "action.malware.variety.Other"
+                "action.malware.variety.Unknown"
             ]
         },
         "T1497.003": {
             "name": "Virtualization/Sandbox Evasion: Time Based Evasion",
             "veris": [
-                "action.malware.variety.Other"
+                "action.malware.variety.Unknown"
             ]
         },
         "T1498": {
@@ -1788,25 +1808,25 @@
         "T1505": {
             "name": "Server Software Component",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Unknown"
             ]
         },
         "T1505.001": {
             "name": "Server Software Component: SQL Stored Procedures",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Unknown"
             ]
         },
         "T1505.002": {
             "name": "Server Software Component: Transport Agent",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Unknown"
             ]
         },
         "T1505.003": {
             "name": "Server Software Component: Web Shell",
             "veris": [
-                "action.hacking.variety.Other",
+                "action.hacking.variety.Unknown",
                 "action.hacking.variety.Use of backdoor or C2",
                 "action.malware.variety.Backdoor"
             ]
@@ -1933,121 +1953,121 @@
         "T1543": {
             "name": "Create or Modify System Process",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1543.001": {
             "name": "Create or Modify System Process: Launch Agent",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1543.002": {
             "name": "Create or Modify System Process: Systemd Service",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1543.003": {
             "name": "Create or Modify System Process: Windows Service",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1543.004": {
             "name": "Create or Modify System Process: Launch Daemon",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1546": {
             "name": "Event Triggered Execution",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.001": {
             "name": "Event Triggered Execution: Change Default File Association",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.002": {
             "name": "Event Triggered Execution: Screensaver",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.003": {
             "name": "Event Triggered Execution: Windows Management Instrumentation Event Subscription",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.004": {
             "name": "Event Triggered Execution: Unix Shell Configuration Modification",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.005": {
             "name": "Event Triggered Execution: Trap",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.006": {
             "name": "Event Triggered Execution: LC_LOAD_DYLIB Addition",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.007": {
             "name": "Event Triggered Execution: Netsh Helper DLL",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.008": {
             "name": "Event Triggered Execution: Accessibility Features",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.009": {
             "name": "Event Triggered Execution: AppCert DLLs",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.010": {
             "name": "Event Triggered Execution: AppInit DLLs",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.011": {
             "name": "Event Triggered Execution: Application Shimming",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.012": {
             "name": "Event Triggered Execution: Image File Execution Options Injection",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.013": {
             "name": "Event Triggered Execution: PowerShell Profile",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.014": {
             "name": "Event Triggered Execution: Emond",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1546.015": {
@@ -2059,79 +2079,91 @@
         "T1547": {
             "name": "Boot or Logon Autostart Execution",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1547.001": {
             "name": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1547.002": {
             "name": "Boot or Logon Autostart Execution: Authentication Package",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1547.003": {
             "name": "Boot or Logon Autostart Execution: Time Providers",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1547.004": {
             "name": "Boot or Logon Autostart Execution: Winlogon Helper DLL",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1547.005": {
             "name": "Boot or Logon Autostart Execution: Security Support Provider",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1547.006": {
             "name": "Boot or Logon Autostart Execution: Kernel Modules and Extensions",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1547.007": {
             "name": "Boot or Logon Autostart Execution: Re-opened Applications",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1547.008": {
             "name": "Boot or Logon Autostart Execution: LSASS Driver",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1547.009": {
             "name": "Boot or Logon Autostart Execution: Shortcut Modification",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1547.010": {
             "name": "Boot or Logon Autostart Execution: Port Monitors",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1547.011": {
             "name": "Boot or Logon Autostart Execution: Plist Modification",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1547.012": {
             "name": "Boot or Logon Autostart Execution: Print Processors",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
+            ]
+        },
+        "T1547.013": {
+            "name": "Boot or Logon Autostart Execution: XDG Autostart Entries",
+            "veris": [
+                "attribute.integrity.variety.Modify configuration"
+            ]
+        },
+        "T1547.014": {
+            "name": "Boot or Logon Autostart Execution: Active Setup",
+            "veris": [
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1548": {
@@ -2150,7 +2182,6 @@
             "name": "Abuse Elevation Control Mechanism: Bypass User Account Control",
             "veris": [
                 "action.hacking.variety.Abuse of functionality",
-                "action.hacking.variety.Other",
                 "action.hacking.variety.Exploit misconfig",
                 "action.malware.variety.Exploit misconfig"
             ]
@@ -2160,8 +2191,6 @@
             "veris": [
                 "action.hacking.variety.Abuse of functionality",
                 "action.hacking.variety.Exploit misconfig",
-                "action.hacking.variety.Other",
-                "action.malware.variety.Other",
                 "action.malware.variety.Client-side attack"
             ]
         },
@@ -2175,13 +2204,13 @@
         "T1550": {
             "name": "Use Alternate Authentication Material",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Unknown"
             ]
         },
         "T1550.001": {
             "name": "Use Alternate Authentication Material: Application Access Token",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Unknown"
             ]
         },
         "T1550.002": {
@@ -2189,20 +2218,20 @@
             "veris": [
                 "action.hacking.variety.Pass-the-hash",
                 "action.malware.variety.Password dumper",
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Unknown"
             ]
         },
         "T1550.003": {
             "name": "Use Alternate Authentication Material: Pass the Ticket",
             "veris": [
-                "action.hacking.variety.Other",
+                "action.hacking.variety.Unknown",
                 "action.hacking.variety.Use of stolen creds"
             ]
         },
         "T1550.004": {
             "name": "Use Alternate Authentication Material: Web Session Cookie",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Unknown"
             ]
         },
         "T1552": {
@@ -2261,44 +2290,44 @@
         "T1553": {
             "name": "Subvert Trust Controls",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Exploit misconfig"
             ]
         },
         "T1553.001": {
             "name": "Subvert Trust Controls: Gatekeeper Bypass",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Exploit misconfig"
             ]
         },
         "T1553.002": {
             "name": "Subvert Trust Controls: Code Signing",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Exploit misconfig"
             ]
         },
         "T1553.003": {
             "name": "Subvert Trust Controls: SIP and Trust Provider Hijacking",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Exploit misconfig"
             ]
         },
         "T1553.004": {
             "name": "Subvert Trust Controls: Install Root Certificate",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Exploit misconfig"
             ]
         },
         "T1553.005": {
             "name": "Subvert Trust Controls: Mark-of-the-Web Bypass",
             "veris": [
-                "action.hacking.variety.Other",
+                "action.hacking.variety.Exploit misconfig",
                 "action.malware.variety.Disable controls"
             ]
         },
         "T1553.006": {
             "name": "Subvert Trust Controls: Code Signing Policy Modification",
             "veris": [
-                "action.hacking.variety.Other",
+                "action.hacking.variety.Exploit misconfig",
                 "action.malware.variety.Disable controls"
             ]
         },
@@ -2356,13 +2385,12 @@
         "T1556": {
             "name": "Modify Authentication Process",
             "veris": [
-                "action.hacking.variety.Other"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1556.001": {
             "name": "Modify Authentication Process: Domain Controller Authentication",
             "veris": [
-                "action.hacking.variety.Other",
                 "action.malware.variety.Disable controls",
                 "attribute.integrity.variety.Modify configuration"
             ]
@@ -2370,22 +2398,19 @@
         "T1556.002": {
             "name": "Modify Authentication Process: Password Filter DLL",
             "veris": [
-                "action.hacking.variety.Other",
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1556.003": {
             "name": "Modify Authentication Process: Pluggable Authentication Modules",
             "veris": [
-                "action.hacking.variety.Other",
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1556.004": {
             "name": "Modify Authentication Process: Network Device Authentication",
             "veris": [
-                "action.hacking.variety.Other",
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1557": {
@@ -2562,13 +2587,13 @@
         "T1564": {
             "name": "Hide Artifacts",
             "veris": [
-                "action.malware.variety.Rootkit"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1564.001": {
             "name": "Hide Artifacts: Hidden Files and Directories",
             "veris": [
-                "action.malware.variety.Unknown"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1564.002": {
@@ -2586,24 +2611,26 @@
         "T1564.004": {
             "name": "Hide Artifacts: NTFS File Attributes",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1564.005": {
             "name": "Hide Artifacts: Hidden File System",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Abuse of functionality"
             ]
         },
         "T1564.006": {
             "name": "Hide Artifacts: Run Virtual Instance",
             "veris": [
+                "action.hacking.variety.Abuse of functionality",
                 "action.hacking.vector.Hypervisor"
             ]
         },
         "T1564.007": {
             "name": "Hide Artifacts: VBA Stomping",
             "veris": [
+                "action.hacking.variety.Abuse of functionality",
                 "action.malware.variety.Trojan"
             ]
         },
@@ -2842,7 +2869,6 @@
         "T1574.010": {
             "name": "Hijack Execution Flow: Services File Permissions Weakness",
             "veris": [
-
                 "action.hacking.variety.Abuse of functionality",
                 "action.hacking.variety.Exploit misconfig"
             ]
@@ -2850,7 +2876,6 @@
         "T1574.011": {
             "name": "Hijack Execution Flow: Services Registry Permissions Weakness",
             "veris": [
-
                 "action.hacking.variety.Abuse of functionality",
                 "action.hacking.variety.Exploit misconfig"
             ]
@@ -2903,47 +2928,47 @@
         "T1583": {
             "name": "Acquire Infrastructure",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Unknown"
             ]
         },
         "T1583.001": {
             "name": "Acquire Infrastructure: Domains",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.hacking.variety.Unknown"
             ]
         },
         "T1583.002": {
             "name": "Acquire Infrastructure: DNS Server",
             "veris": [
-                "action.hacking.variety.Other",
+                "action.hacking.variety.Unknown",
                 "action.malware.variety.C2"
             ]
         },
         "T1583.003": {
             "name": "Acquire Infrastructure: Virtual Private Server",
             "veris": [
-                "action.hacking.variety.Other",
+                "action.hacking.variety.Unknown",
                 "action.hacking.variety.Forced browsing"
             ]
         },
         "T1583.004": {
             "name": "Acquire Infrastructure: Server",
             "veris": [
-                "action.hacking.variety.Other",
+                "action.hacking.variety.Unknown",
                 "action.hacking.variety.Forced browsing"
             ]
         },
         "T1583.005": {
             "name": "Acquire Infrastructure: Botnet",
             "veris": [
-                "action.hacking.variety.Other",
+                "action.hacking.variety.Unknown",
                 "action.hacking.variety.DoS"
             ]
         },
         "T1583.006": {
             "name": "Acquire Infrastructure: Web Services",
             "veris": [
-                "action.hacking.variety.Other",
+                "action.hacking.variety.Unknown",
                 "action.malware.variety.C2",
                 "action.hacking.variety.Forced browsing"
             ]
@@ -3523,12 +3548,6 @@
                         "T1106": {
                             "name": "Native API"
                         },
-                        "T1127": {
-                            "name": "Trusted Developer Utilities Proxy Execution"
-                        },
-                        "T1127.001": {
-                            "name": "Trusted Developer Utilities Proxy Execution: MSBuild"
-                        },
                         "T1129": {
                             "name": "Shared Modules"
                         },
@@ -3582,18 +3601,6 @@
                         },
                         "T1220": {
                             "name": "XSL Script Processing"
-                        },
-                        "T1484": {
-                            "name": "Domain Policy Modification"
-                        },
-                        "T1484.001": {
-                            "name": "Domain Policy Modification: Group Policy Modification"
-                        },
-                        "T1484.002": {
-                            "name": "Domain Policy Modification: Domain Trust Modification"
-                        },
-                        "T1547": {
-                            "name": "Boot or Logon Autostart Execution"
                         },
                         "T1548": {
                             "name": "Abuse Elevation Control Mechanism"
@@ -4003,6 +4010,35 @@
                             "name": "Exploit Public-Facing Application"
                         }
                     },
+                    "Unknown": {
+                        "T1127": {
+                            "name": "Trusted Developer Utilities Proxy Execution"
+                        },
+                        "T1127.001": {
+                            "name": "Trusted Developer Utilities Proxy Execution: MSBuild"
+                        },
+                        "T1583": {
+                            "name": "Acquire Infrastructure"
+                        },
+                        "T1583.001": {
+                            "name": "Acquire Infrastructure: Domains"
+                        },
+                        "T1583.002": {
+                            "name": "Acquire Infrastructure: DNS Server"
+                        },
+                        "T1583.003": {
+                            "name": "Acquire Infrastructure: Virtual Private Server"
+                        },
+                        "T1583.004": {
+                            "name": "Acquire Infrastructure: Server"
+                        },
+                        "T1583.005": {
+                            "name": "Acquire Infrastructure: Botnet"
+                        },
+                        "T1583.006": {
+                            "name": "Acquire Infrastructure: Web Services"
+                        }
+                    },
                     "URL redirector abuse": {
                         "T1190": {
                             "name": "Exploit Public-Facing Application"
@@ -4014,9 +4050,6 @@
                         },
                         "T1008": {
                             "name": "Fallback Channels"
-                        },
-                        "T1037": {
-                            "name": "Boot or Logon Initialization Scripts"
                         },
                         "T1053": {
                             "name": "Scheduled Task/Job"
@@ -4036,9 +4069,6 @@
                         "T1095": {
                             "name": "Non-Application Layer Protocol"
                         },
-                        "T1098": {
-                            "name": "Account Manipulation"
-                        },
                         "T1102": {
                             "name": "Web Service"
                         },
@@ -4053,9 +4083,6 @@
                         },
                         "T1133": {
                             "name": "External Remote Services"
-                        },
-                        "T1136": {
-                            "name": "Create Account"
                         },
                         "T1137": {
                             "name": "Office Application Startup"
@@ -4080,15 +4107,6 @@
                         },
                         "T1542": {
                             "name": "Pre-OS Boot"
-                        },
-                        "T1543": {
-                            "name": "Create or Modify System Process"
-                        },
-                        "T1546": {
-                            "name": "Event Triggered Execution"
-                        },
-                        "T1547": {
-                            "name": "Boot or Logon Autostart Execution"
                         },
                         "T1554": {
                             "name": "Compromise Client Software Binary"
@@ -4125,11 +4143,23 @@
                         "T1078.004": {
                             "name": "Valid Accounts: Cloud Accounts"
                         },
-                        "T1134.005": {
-                            "name": "Access Token Manipulation: SID-History Injection"
-                        },
                         "T1134": {
                             "name": "Access Token Manipulation"
+                        },
+                        "T1134.001": {
+                            "name": "Access Token Manipulation: Token Impersonation/Theft"
+                        },
+                        "T1134.002": {
+                            "name": "Access Token Manipulation: Create Process with Token"
+                        },
+                        "T1134.003": {
+                            "name": "Access Token Manipulation: Make and Impersonate Token"
+                        },
+                        "T1134.004": {
+                            "name": "Access Token Manipulation: Parent PID Spoofing"
+                        },
+                        "T1134.005": {
+                            "name": "Access Token Manipulation: SID-History Injection"
                         },
                         "T1558": {
                             "name": "Steal or Forge Kerberos Tickets"
@@ -4196,9 +4226,6 @@
                     "XML injection": {
                         "T1190": {
                             "name": "Exploit Public-Facing Application"
-                        },
-                        "T1546": {
-                            "name": "Event Triggered Execution"
                         },
                         "T1574": {
                             "name": "Hijack Execution Flow"
@@ -4289,9 +4316,6 @@
                         "T1008": {
                             "name": "Fallback Channels"
                         },
-                        "T1037": {
-                            "name": "Boot or Logon Initialization Scripts"
-                        },
                         "T1053": {
                             "name": "Scheduled Task/Job"
                         },
@@ -4310,9 +4334,6 @@
                         "T1095": {
                             "name": "Non-Application Layer Protocol"
                         },
-                        "T1098": {
-                            "name": "Account Manipulation"
-                        },
                         "T1102": {
                             "name": "Web Service"
                         },
@@ -4327,9 +4348,6 @@
                         },
                         "T1133": {
                             "name": "External Remote Services"
-                        },
-                        "T1136": {
-                            "name": "Create Account"
                         },
                         "T1137": {
                             "name": "Office Application Startup"
@@ -4354,12 +4372,6 @@
                         },
                         "T1542": {
                             "name": "Pre-OS Boot"
-                        },
-                        "T1543": {
-                            "name": "Create or Modify System Process"
-                        },
-                        "T1546": {
-                            "name": "Event Triggered Execution"
                         },
                         "T1547": {
                             "name": "Boot or Logon Autostart Execution"
@@ -4475,23 +4487,14 @@
                         }
                     },
                     "Backdoor": {
-                        "T1037": {
-                            "name": "Boot or Logon Initialization Scripts"
-                        },
                         "T1053": {
                             "name": "Scheduled Task/Job"
                         },
                         "T1078": {
                             "name": "Valid Accounts"
                         },
-                        "T1098": {
-                            "name": "Account Manipulation"
-                        },
                         "T1133": {
                             "name": "External Remote Services"
-                        },
-                        "T1136": {
-                            "name": "Create Account"
                         },
                         "T1137": {
                             "name": "Office Application Startup"
@@ -4513,15 +4516,6 @@
                         },
                         "T1542": {
                             "name": "Pre-OS Boot"
-                        },
-                        "T1543": {
-                            "name": "Create or Modify System Process"
-                        },
-                        "T1546": {
-                            "name": "Event Triggered Execution"
-                        },
-                        "T1547": {
-                            "name": "Boot or Logon Autostart Execution"
                         },
                         "T1554": {
                             "name": "Compromise Client Software Binary"
@@ -4803,9 +4797,6 @@
                         }
                     },
                     "Modify data": {
-                        "T1136": {
-                            "name": "Create Account"
-                        },
                         "T1562": {
                             "name": "Impair Defenses"
                         }
@@ -4827,6 +4818,9 @@
                         }
                     },
                     "RAM scraper": {
+                        "T1003.001": {
+                            "name": "OS Credential Dumping: LSASS Memory"
+                        },
                         "T1003.002": {
                             "name": "OS Credential Dumping: Security Account Manager"
                         },
@@ -4835,14 +4829,14 @@
                         },
                         "T1003.005": {
                             "name": "OS Credential Dumping: Cached Domain Credentials"
+                        },
+                        "T1003.007": {
+                            "name": "OS Credential Dumping: Proc Filesystem"
                         }
                     },
                     "RAT": {
                         "T1525": {
                             "name": "Implant Internal Image"
-                        },
-                        "T1543.003": {
-                            "name": "Create or Modify System Process: Windows Service"
                         }
                     },
                     "Ransomware": {
@@ -4859,9 +4853,6 @@
                     "Rootkit": {
                         "T1014": {
                             "name": "Rootkit"
-                        },
-                        "T1543": {
-                            "name": "Create or Modify System Process"
                         }
                     },
                     "Scan network": {
@@ -4894,6 +4885,20 @@
                         },
                         "T1566.002": {
                             "name": "Phishing: Spearphishing Link"
+                        }
+                    },
+                    "Unknown": {
+                        "T1497": {
+                            "name": "Virtualization/Sandbox Evasion"
+                        },
+                        "T1497.001": {
+                            "name": "Virtualization/Sandbox Evasion: System Checks"
+                        },
+                        "T1497.002": {
+                            "name": "Virtualization/Sandbox Evasion: User Activity Based Checks"
+                        },
+                        "T1497.003": {
+                            "name": "Virtualization/Sandbox Evasion: Time Based Evasion"
                         }
                     },
                     "Worm": {
@@ -4979,30 +4984,6 @@
                         },
                         "T1140": {
                             "name": "Deobfuscate/Decode Files or Information"
-                        },
-                        "T1204": {
-                            "name": "User Execution"
-                        },
-                        "T1204.001": {
-                            "name": "User Execution: Malicious Link"
-                        },
-                        "T1204.002": {
-                            "name": "User Execution: Malicious File"
-                        },
-                        "T1204.003": {
-                            "name": "User Execution: Malicious Image"
-                        },
-                        "T1497": {
-                            "name": "Virtualization/Sandbox Evasion"
-                        },
-                        "T1497.001": {
-                            "name": "Virtualization/Sandbox Evasion: System Checks"
-                        },
-                        "T1497.002": {
-                            "name": "Virtualization/Sandbox Evasion: User Activity Based Checks"
-                        },
-                        "T1497.003": {
-                            "name": "Virtualization/Sandbox Evasion: Time Based Evasion"
                         },
                         "T1548.003": {
                             "name": "Abuse Elevation Control Mechanism: Sudo and Sudo Caching"
@@ -5204,7 +5185,49 @@
             },
             "social": {
                 "variety": {
+                    "Baiting": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Bribery": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Elicitation": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Extortion": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Forgery": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Influence": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
                     "Phishing": {
+                        "T1204": {
+                            "name": "User Execution"
+                        },
+                        "T1204.001": {
+                            "name": "User Execution: Malicious Link"
+                        },
+                        "T1204.002": {
+                            "name": "User Execution: Malicious File"
+                        },
+                        "T1204.003": {
+                            "name": "User Execution: Malicious Image"
+                        },
                         "T1586": {
                             "name": "Compromise Accounts"
                         },
@@ -5249,6 +5272,31 @@
                         "T1598.003": {
                             "name": "Phishing for Information: Spearphishing Link"
                         }
+                    },
+                    "Propaganda": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Scam": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Spam": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Other": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Unknown": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
                     }
                 }
             }
@@ -5256,6 +5304,70 @@
         "attribute": {
             "integrity": {
                 "variety": {
+                    "Alter behavior": {
+                        "T1546": {
+                            "name": "Event Triggered Execution"
+                        },
+                        "T1546.001": {
+                            "name": "Event Triggered Execution: Change Default File Association"
+                        },
+                        "T1546.002": {
+                            "name": "Event Triggered Execution: Screensaver"
+                        },
+                        "T1546.003": {
+                            "name": "Event Triggered Execution: Windows Management Instrumentation Event Subscription"
+                        },
+                        "T1546.004": {
+                            "name": "Event Triggered Execution: Unix Shell Configuration Modification"
+                        },
+                        "T1546.005": {
+                            "name": "Event Triggered Execution: Trap"
+                        },
+                        "T1546.006": {
+                            "name": "Event Triggered Execution: LC_LOAD_DYLIB Addition"
+                        },
+                        "T1546.007": {
+                            "name": "Event Triggered Execution: Netsh Helper DLL"
+                        },
+                        "T1546.008": {
+                            "name": "Event Triggered Execution: Accessibility Features"
+                        },
+                        "T1546.009": {
+                            "name": "Event Triggered Execution: AppCert DLLs"
+                        },
+                        "T1546.010": {
+                            "name": "Event Triggered Execution: AppInit DLLs"
+                        },
+                        "T1546.011": {
+                            "name": "Event Triggered Execution: Application Shimming"
+                        },
+                        "T1546.012": {
+                            "name": "Event Triggered Execution: Image File Execution Options Injection"
+                        },
+                        "T1546.013": {
+                            "name": "Event Triggered Execution: PowerShell Profile"
+                        },
+                        "T1546.014": {
+                            "name": "Event Triggered Execution: Emond"
+                        },
+                        "T1546.015": {
+                            "name": "Event Triggered Execution: Component Object Model Hijacking"
+                        }
+                    },
+                    "Created account": {
+                        "T1136": {
+                            "name": "Create Account"
+                        },
+                        "T1136.001": {
+                            "name": "Create Account: Local Account"
+                        },
+                        "T1136.002": {
+                            "name": "Create Account: Domain Account"
+                        },
+                        "T1136.003": {
+                            "name": "Create Account: Cloud Account"
+                        }
+                    },
                     "Defacement": {
                         "T1491": {
                             "name": "Defacement"
@@ -5267,9 +5379,122 @@
                             "name": "Defacement: External Defacement"
                         }
                     },
+                    "Fraudulent transaction": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Hardware tampering": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Log tampering": {
+                        "T1070": {
+                            "name": "Indicator Removal on Host"
+                        },
+                        "T1070.001": {
+                            "name": "Indicator Removal on Host: Clear Windows Event Logs"
+                        },
+                        "T1070.002": {
+                            "name": "Indicator Removal on Host: Clear Linux or Mac System Logs"
+                        }
+                    },
+                    "Misrepresentation": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
                     "Modify configuration": {
+                        "T1037": {
+                            "name": "Boot or Logon Initialization Scripts"
+                        },
+                        "T1037.001": {
+                            "name": "Boot or Logon Initialization Scripts: Logon Script (Windows)"
+                        },
+                        "T1037.002": {
+                            "name": "Boot or Logon Initialization Scripts: Logon Script (Mac)"
+                        },
+                        "T1037.003": {
+                            "name": "Boot or Logon Initialization Scripts: Network Logon Script"
+                        },
+                        "T1037.004": {
+                            "name": "Boot or Logon Initialization Scripts: RC Scripts"
+                        },
+                        "T1037.005": {
+                            "name": "Boot or Logon Initialization Scripts: Startup Items"
+                        },
                         "T1207": {
                             "name": "Rogue Domain Controller"
+                        },
+                        "T1484": {
+                            "name": "Domain Policy Modification"
+                        },
+                        "T1484.001": {
+                            "name": "Domain Policy Modification: Group Policy Modification"
+                        },
+                        "T1484.002": {
+                            "name": "Domain Policy Modification: Domain Trust Modification"
+                        },
+                        "T1547": {
+                            "name": "Boot or Logon Autostart Execution"
+                        },
+                        "T1543": {
+                            "name": "Create or Modify System Process"
+                        },
+                        "T1543.001": {
+                            "name": "Create or Modify System Process: Launch Agent"
+                        },
+                        "T1543.002": {
+                            "name": "Create or Modify System Process: Systemd Service"
+                        },
+                        "T1543.003": {
+                            "name": "Create or Modify System Process: Windows Service"
+                        },
+                        "T1543.004": {
+                            "name": "Create or Modify System Process: Launch Daemon"
+                        },
+                        "T1547.001": {
+                            "name": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder"
+                        },
+                        "T1547.002": {
+                            "name": "Boot or Logon Autostart Execution: Authentication Package"
+                        },
+                        "T1547.003": {
+                            "name": "Boot or Logon Autostart Execution: Time Providers"
+                        },
+                        "T1547.004": {
+                            "name": "Boot or Logon Autostart Execution: Winlogon Helper DLL"
+                        },
+                        "T1547.005": {
+                            "name": "Boot or Logon Autostart Execution: Security Support Provider"
+                        },
+                        "T1547.006": {
+                            "name": "Boot or Logon Autostart Execution: Kernel Modules and Extensions"
+                        },
+                        "T1547.007": {
+                            "name": "Boot or Logon Autostart Execution: Re-opened Applications"
+                        },
+                        "T1547.008": {
+                            "name": "Boot or Logon Autostart Execution: LSASS Driver"
+                        },
+                        "T1547.009": {
+                            "name": "Boot or Logon Autostart Execution: Shortcut Modification"
+                        },
+                        "T1547.010": {
+                            "name": "Boot or Logon Autostart Execution: Port Monitors"
+                        },
+                        "T1547.011": {
+                            "name": "Boot or Logon Autostart Execution: Plist Modification"
+                        },
+                        "T1547.012": {
+                            "name": "Boot or Logon Autostart Execution: Print Processors"
+                        },
+                        "T1547.013": {
+                            "name": "Boot or Logon Autostart Execution: XDG Autostart Entries"
+                        },
+                        "T1547.014": {
+                            "name": "Boot or Logon Autostart Execution: Active Setup"
                         },
                         "T1556": {
                             "name": "Modify Authentication Process"
@@ -5285,6 +5510,48 @@
                         },
                         "T1556.004": {
                             "name": "Modify Authentication Process: Network Device Authentication"
+                        }
+                    },
+                    "Modify data": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Modify privileges": {
+                        "T1098": {
+                            "name": "Account Manipulation"
+                        },
+                        "T1098.001": {
+                            "name": "Account Manipulation: Additional Cloud Credentials"
+                        },
+                        "T1098.002": {
+                            "name": "Account Manipulation: Exchange Email Delegate Permissions"
+                        },
+                        "T1098.003": {
+                            "name": "Account Manipulation: Add Office 365 Global Administrator Role"
+                        },
+                        "T1098.004": {
+                            "name": "Account Manipulation: SSH Authorized Keys"
+                        }
+                    },
+                    "Repurpose": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Software installation": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Other": {
+                        "T0000": {
+                            "name": "INACTIVE"
+                        }
+                    },
+                    "Unknown": {
+                        "T0000": {
+                            "name": "INACTIVE"
                         }
                     }
                 }
