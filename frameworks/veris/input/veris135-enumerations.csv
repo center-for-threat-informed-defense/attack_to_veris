@@ -71,6 +71,94 @@ action,hacking,result,Deploy payload,"e.g. cryptomining, ransomware, etc"
 action,hacking,result,Other,The result of the hacking action is not listed
 action,hacking,result,Unknown,The result of the hacking action is unknown
 action,hacking,result,NA,The hacking action did not have a result
+action,malware,variety,Adminware,"System or network utilities (e.g., PsTools, Netcat)"
+action,malware,variety,Adware,Adware
+action,malware,variety,Backdoor,Backdoor (enable remote access). Child of 'RAT' when combined with 'Trojan'
+action,malware,variety,Brute force,Brute force attack
+action,malware,variety,C2,Command and control (C2)
+action,malware,variety,Capture app data,Capture data from application or system process
+action,malware,variety,Capture stored data,Capture data stored on system disk
+action,malware,variety,Click fraud,"Click fraud, whether or not cryptocurrency mining.  Also mark 'Click fraud or cryptocurrency mining'. Child of 'Click fraud and cryptocurrency mining'."
+action,malware,variety,Click fraud and cryptocurrency mining,Click fraud or cryptocurrency mining. Parent of 'Click fraud' and 'Cryptocurrency mining'.
+action,malware,variety,Client-side attack,"Client-side or browser attack (e.g., redirection, XSS, MitB)"
+action,malware,variety,Cryptocurrency mining,"Cryptocurrency mining, whether or not click fraud. Child of 'Click fraud and cryptocurrency mining'."
+action,malware,variety,Destroy data,Destroy or corrupt stored data
+action,malware,variety,In-memory,(malware never stored to persistent storage)
+action,malware,variety,Modify data,Malware which compromises a legitimate file rather than creating new filess
+action,malware,variety,Disable controls,Disable or interfere with security controls
+action,malware,variety,DoS,DoS attack
+action,malware,variety,Downloader,Downloader (pull updates or other malware)
+action,malware,variety,Exploit misconfig,Exploit a misconfiguration (vs vuln or weakness)
+action,malware,variety,Exploit vuln,"Exploit vulnerability in code (vs misconfig or weakness). This can be used with other malware enumerations, (such as Remote injection when a Remote injection vuln exists.)"
+action,malware,variety,Export data,Export data to another site or system
+action,malware,variety,Packet sniffer,Packet sniffer (capture data from network)
+action,malware,variety,Password dumper,Password dumper (extract credential hashes)
+action,malware,variety,RAM scraper,RAM scraper or memory parser (capture data from volatile memory)
+action,malware,variety,Ransomware,Ransomware (encrypt or seize stored data)
+action,malware,variety,RAT,Remote Access Trojan.  Parent of 'Backdoor' and 'Trojan'
+action,malware,variety,Rootkit,Rootkit (maintain local privileges and stealth)
+action,malware,variety,Scan network,Scan or footprint network
+action,malware,variety,Spam,Send spam
+action,malware,variety,Spyware/Keylogger,"Spyware, keylogger or form-grabber (capture user input or activity)"
+action,malware,variety,SQL injection,SQL injection attack
+action,malware,variety,Trojan,An application which appears legitimate but hides malicious functionality. Child of 'RAT' when combined with 'Backdoor'
+action,malware,variety,Worm,Worm (propagate to other systems or devices)
+action,malware,variety,Other,Other
+action,malware,variety,Unknown,Unknown
+action,malware,vector,Direct install,Directly installed or inserted by threat agent (after system access)
+action,malware,vector,Download by malware,Downloaded and installed by local malware
+action,malware,vector,Email,"Email. Parent to 'Email attachment', 'Email autoexecute', 'Email link', 'Email unknown'"
+action,malware,vector,Email attachment,Email via user-executed attachment. Child of 'Email'
+action,malware,vector,Email autoexecute,Email via automatic execution. Child of 'Email'
+action,malware,vector,Email link,Email via embedded link. Child of 'Email'
+action,malware,vector,Email unknown,"Email but sub-variety (attachment, autoexecute, link, etc) not known. Child of 'Email'"
+action,malware,vector,Email other,"Email sub-variety known, but not one of those listed (attachment, link, autoexecute, etc). Child of 'Email'"
+action,malware,vector,Instant messaging,Instant Messaging
+action,malware,vector,Network propagation,Network propagation
+action,malware,vector,Remote injection,Remotely injected by agent (i.e. via SQLi)
+action,malware,vector,Removable media,Removable storage media or devices
+action,malware,vector,Software update,Included in automated software update
+action,malware,vector,Web application,Web application. Parent of 'Web application - download' and 'Web application - drive-by.
+action,malware,vector,Web application - download,Web via user-executed or downloaded content. Child of 'Web application'.
+action,malware,vector,Web application - drive-by,"Web via auto-executed or ""drive-by"" infection. Child of 'Web application'."
+action,malware,vector,Other,Other
+action,malware,vector,Unknown,Unknown
+action,malware,result,Infiltrate,The malware action resulted in additional security access
+action,malware,result,Exfiltrate,The malware action exfiltrated data from the victim
+action,malware,result,Elevate,The malware action resulted in additional security permissions
+action,malware,result,Lateral movement,The malware action used security access or permissions already acuired
+action,malware,result,Deploy payload,"e.g. cryptomining, ransomware, etc"
+action,malware,result,Other,The result of the malware action is not listed
+action,malware,result,Unknown,The result of the malware action is unknown
+action,malware,result,NA,The malware action did not have a result
+action,misuse,variety,Data mishandling,Handling of data in an unapproved manner
+action,misuse,variety,Email misuse,Inappropriate use of email or IM
+action,misuse,variety,Illicit content,Storage or distribution of illicit content
+action,misuse,variety,Knowledge abuse,Abuse of private or entrusted knowledge
+action,misuse,variety,Net misuse,Inappropriate use of network or Web access including cloud services
+action,misuse,variety,Possession abuse,Abuse of physical access to asset
+action,misuse,variety,Privilege abuse,Abuse of system access privileges
+action,misuse,variety,Snap picture,Actor photographs the confidentiality data variety.
+action,misuse,variety,Unapproved hardware,Use of unapproved hardware or devices
+action,misuse,variety,Unapproved software,Use of unapproved software or services
+action,misuse,variety,Unapproved workaround,Unapproved workaround or shortcut
+action,misuse,variety,Other, Other
+action,misuse,variety,Unknown,Unknown
+action,misuse,vector,LAN access,Local network access within corporate facility
+action,misuse,vector,Non-corporate,Non-corporate facilities or networks
+action,misuse,vector,Physical access,Physical access within corporate facility
+action,misuse,vector,Remote access,Remote access connection to corporate network (i.e. VPN)
+action,misuse,vector,Web application,Web application
+action,misuse,vector,Other,Other
+action,misuse,vector,Unknown,Unknown
+action,misuse,result,Infiltrate,Do not use. Misuse inherently implies having permission so none can be gained.
+action,misuse,result,Exfiltrate,The misuse action exfiltrated data from the victim
+action,misuse,result,Elevate,Do not use. Misuse inherently implies having permission so none can be elevated.
+action,misuse,result,Lateral movement,The misuse action used security access or permissions already acuired
+action,misuse,result,Deploy payload,"e.g. cryptomining, ransomware, etc"
+action,misuse,result,Other,The result of the misuse action is not listed
+action,misuse,result,Unknown,The result of the misuse action is unknown
+action,misuse,result,NA,The misuse action did not have a result
 action,social,variety,Baiting,Baiting (planting infected media)
 action,social,variety,Bribery,Bribery or solicitation
 action,social,variety,Elicitation,Elicitation (subtle extraction of info through conversation)
@@ -124,34 +212,6 @@ action,social,result,Deploy payload,"e.g. cryptomining, ransomware, etc"
 action,social,result,Other,The result of the social action is not listed
 action,social,result,Unknown,The result of the social action is unknown
 action,social,result,NA,The social action did not have a result
-action,misuse,variety,Data mishandling,Handling of data in an unapproved manner
-action,misuse,variety,Email misuse,Inappropriate use of email or IM
-action,misuse,variety,Illicit content,Storage or distribution of illicit content
-action,misuse,variety,Knowledge abuse,Abuse of private or entrusted knowledge
-action,misuse,variety,Net misuse,Inappropriate use of network or Web access including cloud services
-action,misuse,variety,Possession abuse,Abuse of physical access to asset
-action,misuse,variety,Privilege abuse,Abuse of system access privileges
-action,misuse,variety,Snap picture,Actor photographs the confidentiality data variety.
-action,misuse,variety,Unapproved hardware,Use of unapproved hardware or devices
-action,misuse,variety,Unapproved software,Use of unapproved software or services
-action,misuse,variety,Unapproved workaround,Unapproved workaround or shortcut
-action,misuse,variety,Other, Other
-action,misuse,variety,Unknown,Unknown
-action,misuse,vector,LAN access,Local network access within corporate facility
-action,misuse,vector,Non-corporate,Non-corporate facilities or networks
-action,misuse,vector,Physical access,Physical access within corporate facility
-action,misuse,vector,Remote access,Remote access connection to corporate network (i.e. VPN)
-action,misuse,vector,Web application,Web application
-action,misuse,vector,Other,Other
-action,misuse,vector,Unknown,Unknown
-action,misuse,result,Infiltrate,Do not use. Misuse inherently implies having permission so none can be gained.
-action,misuse,result,Exfiltrate,The misuse action exfiltrated data from the victim
-action,misuse,result,Elevate,Do not use. Misuse inherently implies having permission so none can be elevated.
-action,misuse,result,Lateral movement,The misuse action used security access or permissions already acuired
-action,misuse,result,Deploy payload,"e.g. cryptomining, ransomware, etc"
-action,misuse,result,Other,The result of the misuse action is not listed
-action,misuse,result,Unknown,The result of the misuse action is unknown
-action,misuse,result,NA,The misuse action did not have a result
 attribute,integrity,variety,Alter behavior,Influence or alter human behavior
 attribute,integrity,variety,Created account,Created new user account
 attribute,integrity,variety,Defacement,Deface content

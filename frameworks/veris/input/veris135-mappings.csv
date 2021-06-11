@@ -26,7 +26,7 @@ DATE DELIVERED,VERIS PATH,RELATIONSHIP TYPE,TECHNIQUE ID
 06/07/21,action.hacking.variety.Cryptanalysis,related-to,T1600
 06/07/21,action.hacking.variety.CSRF,related-to,T1190
 06/07/21,action.hacking.variety.DoS,related-to,T1498
-06/07/21,action.hacking.variety.DoS,related-to,T1499 
+06/07/21,action.hacking.variety.DoS,related-to,T1499
 06/07/21,action.hacking.variety.Exploit misconfig,related-to,T1574.001
 06/07/21,action.hacking.variety.Exploit misconfig,related-to,T1574.002
 06/07/21,action.hacking.variety.Exploit misconfig,related-to,T1553
@@ -125,8 +125,8 @@ DATE DELIVERED,VERIS PATH,RELATIONSHIP TYPE,TECHNIQUE ID
 06/07/21,action.hacking.variety.Use of backdoor or C2,related-to,T1572
 06/07/21,action.hacking.variety.Use of backdoor or C2,related-to,T1573
 06/07/21,action.hacking.variety.Use of backdoor or C2,related-to,T1574
-06/07/21,action.hacking.variety.Use of stolen creds,related-to,T1078 
-06/07/21,action.hacking.variety.Virtual machine escape,related-to,T1511
+06/07/21,action.hacking.variety.Use of stolen creds,related-to,T1078
+06/07/21,action.hacking.variety.Virtual machine escape,related-to,T1611
 06/07/21,action.hacking.variety.XML attribute blowup,related-to,T1190
 06/07/21,action.hacking.variety.XML attribute blowup,related-to,T1499
 06/07/21,action.hacking.variety.XML entity expansion,related-to,T1190
@@ -139,10 +139,10 @@ DATE DELIVERED,VERIS PATH,RELATIONSHIP TYPE,TECHNIQUE ID
 06/07/21,action.hacking.variety.XML injection,related-to,T1574
 06/07/21,action.hacking.variety.XPath injection,related-to,T1190
 06/07/21,action.hacking.variety.XPath injection,related-to,T1010
-06/07/21,action.hacking.variety.Xquery injection,related-to,T1190
+06/07/21,action.hacking.variety.XQuery injection,related-to,T1190
 06/07/21,action.hacking.variety.XSS,related-to,T1190
-06/07/21,action.hacking.variety.Other,related-to,T1001.002 
-06/07/21,action.hacking.variety.Other,related-to,T1021 
+06/07/21,action.hacking.variety.Other,related-to,T1001.002
+06/07/21,action.hacking.variety.Other,related-to,T1021
 06/07/21,action.hacking.variety.Other,related-to,T1021.001
 06/07/21,action.hacking.variety.Other,related-to,T1021.002
 06/07/21,action.hacking.variety.Other,related-to,T1021.003
@@ -159,7 +159,7 @@ DATE DELIVERED,VERIS PATH,RELATIONSHIP TYPE,TECHNIQUE ID
 06/07/21,action.hacking.variety.Other,related-to,T1036.006
 06/07/21,action.hacking.variety.Other,related-to,T1080
 06/07/21,action.hacking.variety.Other,related-to,T1111
-06/07/21,action.hacking.variety.Other,related-to,T1631
+06/07/21,action.hacking.variety.Other,related-to,T1531
 06/07/21,action.hacking.variety.Other,related-to,T1534
 06/07/21,action.hacking.variety.Other,related-to,T1565
 06/07/21,action.hacking.variety.Other,related-to,T1565.001
@@ -189,7 +189,7 @@ DATE DELIVERED,VERIS PATH,RELATIONSHIP TYPE,TECHNIQUE ID
 06/07/21,action.hacking.variety.Other,related-to,T1587.003
 06/07/21,action.hacking.variety.Other,related-to,T1587.004
 06/07/21,action.hacking.variety.Other,related-to,T1588
-06/07/21,action.hacking.variety.Other,related-to,T1588.001 
+06/07/21,action.hacking.variety.Other,related-to,T1588.001
 06/07/21,action.hacking.variety.Other,related-to,T1588.002
 06/07/21,action.hacking.variety.Other,related-to,T1588.003
 06/07/21,action.hacking.variety.Other,related-to,T1588.004
@@ -246,7 +246,7 @@ DATE DELIVERED,VERIS PATH,RELATIONSHIP TYPE,TECHNIQUE ID
 06/07/21,action.hacking.vector.Backdoor or C2,related-to,T1572
 06/07/21,action.hacking.vector.Backdoor or C2,related-to,T1573
 06/07/21,action.hacking.vector.Backdoor or C2,related-to,T1574
-06/07/21,action.hacking.vector.Command shell,related-to,T1059 
+06/07/21,action.hacking.vector.Command shell,related-to,T1059
 06/07/21,action.hacking.vector.Desktop sharing,related-to,T1133
 06/07/21,action.hacking.vector.Desktop sharing software,related-to,T1133
 06/07/21,action.hacking.vector.Hypervisor,related-to,T1497
