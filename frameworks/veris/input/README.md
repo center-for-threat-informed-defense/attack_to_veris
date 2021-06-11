@@ -1,4 +1,5 @@
 | file | about |
-|---|---|
-| veris135-mappings.csv | comma-separated values expressing relationships between the VERIS vocabulary and ATT&CK Techniques. The techniqueID and controlID columns are regular expressions, which allows for easier mapping to control families and sub-techniques. |
-| config.json | Provides necessary metadata identifying the VERIS framework version, the ATT&CK domain and version, and mapping version. |
+|:---|:---|
+| veris135-enumeration.csv | comma-separated values expressing the VERIS 1.3.5 for the **Actors**, and **Attribute** Axes.  |
+| veris135-mappings.csv | comma-separated values expressing relationships between a VERIS entry to an ATT&CK Technique. |
+| config.json | Provides necessary metadata identifying the VERIS framework version, ATT&CK version, the ATT&CK domain, and mapping version. |
