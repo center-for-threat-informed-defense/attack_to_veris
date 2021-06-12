@@ -81,18 +81,22 @@ if __name__ == "__main__":
     parser.add_argument("-input-enumerations",
                         dest="in_enumerations",
                         help="csv file with VERIS entries",
+                        type=lambda path: pathlib.Path(path),
                         default=pathlib.Path("input", "veris135-enumerations.csv"))
     parser.add_argument("-input-mappings",
                         dest="in_mappings",
                         help="csv file with mappings between VERIS and ATT&CK",
+                        type=lambda path: pathlib.Path(path),
                         default=pathlib.Path("input", "veris135-mappings.csv"))
     parser.add_argument("-output-enumerations",
                         dest="out_enumerations",
                         help="output STIX bundle file for the veris entries.",
+                        type=lambda path: pathlib.Path(path),
                         default=pathlib.Path("stix", "veris135-enumerations.json"))
     parser.add_argument("-output-mappings",
                         dest="out_mappings",
                         help="output STIX bundle file for the mappings.",
+                        type=lambda path: pathlib.Path(path),
                         default=pathlib.Path("stix", "veris135-mappings.json"))
 
     args = parser.parse_args()
