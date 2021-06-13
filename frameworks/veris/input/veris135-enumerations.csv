@@ -59,7 +59,7 @@ action,hacking,vector,Hypervisor,Hypervisor break-out attack
 action,hacking,vector,Inter-tenant,Penetration of another VM or web site on shared device or infrastructure
 action,hacking,vector,Other,Other
 action,hacking,vector,Partner,Partner connection or credential
-action,hacking,vector,Physical access,"Physical access or connection (i.e., at keyboard or via cable) "
+action,hacking,vector,Physical access,"Physical access or connection (i.e., at keyboard or via cable)"
 action,hacking,vector,VPN,VPN
 action,hacking,vector,Web application,Web application
 action,hacking,vector,Unknown,Unknown
@@ -142,7 +142,7 @@ action,misuse,variety,Snap picture,Actor photographs the confidentiality data va
 action,misuse,variety,Unapproved hardware,Use of unapproved hardware or devices
 action,misuse,variety,Unapproved software,Use of unapproved software or services
 action,misuse,variety,Unapproved workaround,Unapproved workaround or shortcut
-action,misuse,variety,Other, Other
+action,misuse,variety,Other,Other
 action,misuse,variety,Unknown,Unknown
 action,misuse,vector,LAN access,Local network access within corporate facility
 action,misuse,vector,Non-corporate,Non-corporate facilities or networks

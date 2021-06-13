@@ -257,68 +257,6 @@ DATE DELIVERED,VERIS PATH,RELATIONSHIP TYPE,TECHNIQUE ID
 06/07/21,action.hacking.vector.Partner,related-to,T1195
 06/07/21,action.hacking.vector.VPN,related-to,T1133
 06/07/21,action.hacking.vector.Web application,related-to,T1190
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.001
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.002
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.003
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.004
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.005
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.006
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.007
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.008
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.009
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.010
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.011
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.012
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.013
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.014
-06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.015
-06/07/21,attribute.integrity.variety.Created account,related-to,T1136
-06/07/21,attribute.integrity.variety.Created account,related-to,T1136.001
-06/07/21,attribute.integrity.variety.Created account,related-to,T1136.002
-06/07/21,attribute.integrity.variety.Created account,related-to,T1136.003
-06/07/21,attribute.integrity.variety.Defacement,related-to,T1491
-06/07/21,attribute.integrity.variety.Defacement,related-to,T1491.001
-06/07/21,attribute.integrity.variety.Defacement,related-to,T1491.002
-06/07/21,attribute.integrity.variety.Log tampering,related-to,T1070
-06/07/21,attribute.integrity.variety.Log tampering,related-to,T1070.001
-06/07/21,attribute.integrity.variety.Log tampering,related-to,T1070.002
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1037
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1037.001
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1037.002
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1037.003
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1037.004
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1037.005
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.001
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.002
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.003
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.004
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.005
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.006
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.007
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.008
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.009
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.010
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.011
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.012
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.013
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1556
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1556.001
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1556.002
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1556.003
-06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1556.004
-06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1547.014
-06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1556
-06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1556.001
-06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1556.002
-06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1556.003
-06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1556.004
-06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1098
-06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1098.001
-06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1098.002
-06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1098.003
-06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1098.004
 06/07/21,action.malware.variety.Adminware,related-to,T1072
 06/07/21,action.malware.variety.Adminware,related-to,T1554
 06/07/21,action.malware.variety.Adminware,related-to,T1602
@@ -522,3 +460,65 @@ DATE DELIVERED,VERIS PATH,RELATIONSHIP TYPE,TECHNIQUE ID
 06/07/21,action.social.variety.Pretexting,related-to,T1598.001
 06/07/21,action.social.variety.Pretexting,related-to,T1598.002
 06/07/21,action.social.variety.Pretexting,related-to,T1598.003
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.001
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.002
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.003
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.004
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.005
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.006
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.007
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.008
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.009
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.010
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.011
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.012
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.013
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.014
+06/07/21,attribute.integrity.variety.Alter behavior,related-to,T1546.015
+06/07/21,attribute.integrity.variety.Created account,related-to,T1136
+06/07/21,attribute.integrity.variety.Created account,related-to,T1136.001
+06/07/21,attribute.integrity.variety.Created account,related-to,T1136.002
+06/07/21,attribute.integrity.variety.Created account,related-to,T1136.003
+06/07/21,attribute.integrity.variety.Defacement,related-to,T1491
+06/07/21,attribute.integrity.variety.Defacement,related-to,T1491.001
+06/07/21,attribute.integrity.variety.Defacement,related-to,T1491.002
+06/07/21,attribute.integrity.variety.Log tampering,related-to,T1070
+06/07/21,attribute.integrity.variety.Log tampering,related-to,T1070.001
+06/07/21,attribute.integrity.variety.Log tampering,related-to,T1070.002
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1037
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1037.001
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1037.002
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1037.003
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1037.004
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1037.005
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.001
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.002
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.003
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.004
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.005
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.006
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.007
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.008
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.009
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.010
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.011
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.012
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1547.013
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1556
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1556.001
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1556.002
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1556.003
+06/07/21,attribute.integrity.variety.Modify configuration,related-to,T1556.004
+06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1547.014
+06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1556
+06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1556.001
+06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1556.002
+06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1556.003
+06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1556.004
+06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1098
+06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1098.001
+06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1098.002
+06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1098.003
+06/07/21,attribute.integrity.variety.Modify privileges,related-to,T1098.004
