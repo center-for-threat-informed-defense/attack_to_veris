@@ -1,15 +1,13 @@
 # Copyright (c) 2021, MITRE Engenuity. Approved for public release.
-# See LICENSE for complete terms
-
-# pip install requests stix2
+# See LICENSE for complete terms.
 
 import argparse
-import collections
 import json
 import pathlib
 
+import numpy
+import pandas
 import requests
-import stix2
 
 
 def get_argparse():
@@ -17,10 +15,17 @@ def get_argparse():
     argparser = argparse.ArgumentParser(description=desc)
 
     argparser.add_argument(
-        "-mappings_location",
-        type=str,
-        default="../attack_veris_mappings.json",
-        help="The ATT&CK release version to use.",
+        "-config_location",
+        type=lambda path: pathlib.Path(path),
+        default=pathlib.Path("..", "frameworks", "veris", "input", "config.json"),
+        help="The path to the config metadata location.",
+    )
+
+    argparser.add_argument(
+        "-spreadsheet_location",
+        type=lambda path: pathlib.Path(path),
+        default=pathlib.Path("..", "frameworks", "veris", "veris-mappings.xlsx"),
+        help="The path to the spreadsheet location.",
     )
 
     argparser.add_argument(
@@ -50,67 +55,34 @@ def get_mappings_file(mappings_location):
 def get_veris_enum():
     """Downloads the latest VERIS enum"""
     veris_enum_dict = requests.get(
-        "https://raw.githubusercontent.com/vz-risk/VCDB/master/vcdb-enum.json",
+        "https://raw.githubusercontent.com/vz-risk/VCDB/1.3.5/vcdb-labels.json",
         verify=True,
     ).json()
     return veris_enum_dict
 
-def get_stix2_data_source(attack_version):
+
+def get_stix2_source(attack_version):
     """Downloads ATT&CK knowledge base using the provided version"""
+    attackid_to_stixid = {}
     stix_bundle = requests.get(
-        f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{attack_version}/enterprise-attack/enterprise-attack.json",
+        f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{attack_version}/"
+        f"enterprise-attack/enterprise-attack.json",
         verify=True,
     ).json()
-    ms_source = stix2.MemorySource(stix_data=stix_bundle["objects"])
-    return ms_source
 
+    for attack_object in stix_bundle["objects"]:
+        if attack_object["type"] == "attack-pattern":
+            if "external_references" not in attack_object:
+                continue  # skip objects without IDs
+            if attack_object.get("revoked", False):
+                continue  # skip revoked objects
+            if attack_object.get("x_mitre_deprecated", False):
+                continue  # skip deprecated objects
 
-def get_technique_by_id(src, technique_id):
-    """Get ATT&CK Technique by ID"""
-    results = remove_revoked_deprecated(
-        src.query([
-            stix2.Filter("type", "=", "attack-pattern"),
-            stix2.Filter("external_references.external_id", "=", technique_id),
-        ])
-    )
+            # map attack ID to stix ID
+            attackid_to_stixid[attack_object["external_references"][0]["external_id"]] = attack_object["id"]
 
-    # assert len(results) == 1, f"[-] Check entry with ID: {technique_id}, not found on knowledge base"
-    if len(results) <= 0:
-        # TODO: temporary section to be replaced by assert
-        print(f"[-] Check entry with ID: {technique_id}, not found on knowledge base or it is deprecated/revoked")
-        return None
-    stix2_technique = results[0]
-
-    return stix2_technique
-
-
-def remove_revoked_deprecated(stix_objects):
-    """Remove any revoked or deprecated objects from queries made to the data source"""
-    # Note we use .get() because the property may not be present in the JSON data. The default is False
-    # if the property is not set.
-    return list(
-        filter(
-            lambda x: x.get("x_mitre_deprecated", False) is False and x.get("revoked", False) is False,
-            stix_objects,
-        )
-    )
-
-
-def get_parent_technique(technique_id):
-    """Separates parent technique from sub technique TXXXX.YYY"""
-    return technique_id.split(".")[0]
-
-
-def flatten_dictionary(d, parent_key='', sep='$$'):
-    """Given a highly nested dict structure, flatten it and compress keys"""
-    items = []
-    for k, v in d.items():
-        new_key = parent_key + sep + k if parent_key else k
-        if isinstance(v, collections.MutableMapping):
-            items.extend(flatten_dictionary(v, new_key, sep=sep).items())
-        else:
-            items.append((new_key, v))
-    return dict(items)
+    return attackid_to_stixid
 
 
 def validate_mappings_metadata(mappings_location, attack_version, veris_version):
@@ -118,103 +90,77 @@ def validate_mappings_metadata(mappings_location, attack_version, veris_version)
     mappings_dict = get_mappings_file(mappings_location)
 
     # Checks presence of metadata key
-    assert "metadata" in mappings_dict, "[-] No Metadata Found..."
-
-    mappings_meta = mappings_dict["metadata"]
+    assert mappings_dict, "[-] No Metadata Found..."
 
     # Checks metadata info matches the validator options
-    assert attack_version == mappings_meta["attack_version"], f"[-] ATT&CK Version does not match JSON contents"
-    assert veris_version == mappings_meta["veris_version"], f"[-] VERIS Version does not match JSON contents"
+    assert attack_version == mappings_dict["attack_version"], f"[-] ATT&CK Version does not match JSON contents"
+    assert veris_version == mappings_dict["veris_version"], f"[-] VERIS Version does not match JSON contents"
 
 
-def validate_mapping_entries(mappings_location, attack_version):
+def validate_mapping_entries(spreadsheet_location, attack_version):
     """Walks over forward and reverse mappings checking the ATT&CK entry is valid.
     1) The ATT&CK ID is correct 2) The ATT&CK name is correct 3) The VERIS path is correct"""
-    mem_source = get_stix2_data_source(attack_version)
-    mappings_dict = get_mappings_file(mappings_location)
+    attack_source = get_stix2_source(attack_version)
     veris_enum = get_veris_enum()
 
+    sheet1 = 'Action.Hacking.Variety'
+    sheet2 = 'Action.Hacking.Vector'
+    sheet3 = 'Action.Malware.Variety'
+    sheet4 = 'Action.Malware.Vector'
+    sheet5 = 'Action.Social.Variety'
+    sheet6 = 'Attribute.Integrity.Variety'
+
+    xls = pandas.ExcelFile(spreadsheet_location)
+    df1 = pandas.read_excel(xls, sheet1)
+    df2 = pandas.read_excel(xls, sheet2)
+    df3 = pandas.read_excel(xls, sheet3)
+    df4 = pandas.read_excel(xls, sheet4)
+    df5 = pandas.read_excel(xls, sheet5)
+    df6 = pandas.read_excel(xls, sheet6)
+
+    sheets = [
+        (df1, sheet1),
+        (df2, sheet2),
+        (df3, sheet3),
+        (df4, sheet4),
+        (df5, sheet5),
+        (df6, sheet6),
+    ]
+
     print("\t\t[+] VERIS to ATT&CK mappings check...")
-    for key_full_path, property_value in flatten_dictionary(mappings_dict["veris_to_attack"]).items():
-        veris_path = key_full_path.split("$$")[0:4]
-        technique_id = key_full_path.split("$$")[4]
-        property_name = key_full_path.split("$$")[5]
+    fail_test = False
 
-        if technique_id == "T0000" and property_name == "name":
-            assert property_value == "INACTIVE"
-            continue
+    for sheet, name in sheets:
+        name = name.lower()
+        veris_path = None
 
-        parent_technique = None
-        stix2_technique = get_technique_by_id(mem_source, technique_id)
-        if not stix2_technique:
-            continue
-        if stix2_technique.get("x_mitre_is_subtechnique", False) is True:
-            parent_technique = get_technique_by_id(mem_source, get_parent_technique(technique_id))
+        for idx, row in sheet.iterrows():
+            if row[0] is not numpy.nan:
+                veris_path = f'{name}.{row[0]}'
+            attack_technique = row[1]
 
-        if parent_technique:
-            technique_name = f"{parent_technique.name}: {stix2_technique.name}"
-        else:
-            technique_name = f"{stix2_technique.name}"
+            if attack_technique not in attack_source:
+                print(f"[-] In Sheet '{name}', under '{veris_path}', the technique ID '{attack_technique}' is invalid (revoked or deprecated)")
+                fail_test = True
 
-        if property_name == "name" and technique_name != property_value:
-            # TODO: temporary section to be replaced by assert
-            veris_full_key = ".".join(key_full_path.split("$$")[0:4])
-            print(f"[-] Check entry with VERIS path: '{veris_full_key}', {technique_id} 'name' property does not match. '{technique_name}' != '{property_value}'")
+            try:
+                axes, category, sub_category, veris_name = veris_path.split(".")
+                veris_enum[axes][category][sub_category][veris_name]
+            except (KeyError, ValueError):
+                print(f"[-] In Sheet '{name}', the VERIS path '{veris_path}' is invalid")
+                fail_test = True
 
-        test_enum = veris_enum
-        for veris_section in veris_path[0:3]:
-            if veris_section in test_enum:
-                test_enum = test_enum[veris_section]
+    assert fail_test is False
 
-        if veris_path[-1] not in test_enum:
-            veris_full_key = ".".join(key_full_path.split("$$")[0:4])
-            print(f"[-] Check entry with VERIS path: '{veris_full_key}', not a valid path")
-
-    print("\t\t[+] ATT&CK to VERIS mappings check...")
-    for technique_id, mapping in mappings_dict["attack_to_veris"].items():
-        if technique_id == "T0000":
-            assert mapping["name"] == "INACTIVE"
-            continue
-
-        parent_technique = None
-        stix2_technique = get_technique_by_id(mem_source, technique_id)
-        if not stix2_technique:
-            continue
-        if stix2_technique.get("x_mitre_is_subtechnique", False) is True:
-            parent_technique = get_technique_by_id(mem_source, get_parent_technique(technique_id))
-
-        if parent_technique:
-            technique_name = f"{parent_technique.name}: {stix2_technique.name}"
-        else:
-            technique_name = f"{stix2_technique.name}"
-
-        assert "name" in mapping, f"[-] Check entry with ID: {technique_id}, missing 'name' property"
-        if technique_name != mapping["name"]:
-            # TODO: temporary section to be replaced by assert
-            print(f"[-] Check entry with ID: {technique_id}, 'name' property does not match. '{technique_name}' != '{mapping['name']}'")
-
-        for veris_path in mapping["veris"]:
-            veris_parts = veris_path.split(".")
-
-            test_enum = veris_enum
-            for veris_section in veris_parts[0:3]:
-                if veris_section in test_enum:
-                    test_enum = test_enum[veris_section]
-
-            if veris_parts[-1] not in test_enum:
-                print(f"[-] Check entry with VERIS path: '{veris_path}', not a valid path")
-
-
-# TODO: Check that for each forward entry in the mappings a reverse mapping also exists.
 
 if __name__ == "__main__":
     parser = get_argparse()
     args = parser.parse_args()
 
     print("[+] Starting Execution")
-    print(f"[+] Mappings Location: {args.mappings_location}\tATT&CK Version: {args.attack_version}\tVERIS Version: {args.veris_version}")
-    validate_mappings_metadata(args.mappings_location, args.attack_version, args.veris_version)
+    print(f"[+] Mappings Location: {args.spreadsheet_location}\tATT&CK Version: {args.attack_version}\tVERIS Version: {args.veris_version}")
+    validate_mappings_metadata(args.config_location, args.attack_version, args.veris_version)
     print("\t[+] Metadata Validation passed")
-    validate_mapping_entries(args.mappings_location, args.attack_version)
+    validate_mapping_entries(args.spreadsheet_location, args.attack_version)
     print("\t[+] Mappings Validation passed")
     print("[+] Finished Execution")
