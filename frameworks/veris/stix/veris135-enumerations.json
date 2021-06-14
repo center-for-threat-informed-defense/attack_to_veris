@@ -8,7 +8,7 @@
                 {
                     "external_id": "action.hacking.variety.Abuse of functionality",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--1ac57ee4-9939-4b6a-a249-27c028ada43f",
@@ -26,7 +26,7 @@
                 {
                     "external_id": "action.hacking.variety.Brute force",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--6c73b11e-af2e-4872-9837-887d95ab4f12",
@@ -44,7 +44,7 @@
                 {
                     "external_id": "action.hacking.variety.Buffer overflow",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--01d40bce-0027-469f-bd4f-f830a6c5aa5f",
@@ -62,7 +62,7 @@
                 {
                     "external_id": "action.hacking.variety.Cache poisoning",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--5dbe487f-6afa-4df9-ace6-aad1c28dadd9",
@@ -80,7 +80,7 @@
                 {
                     "external_id": "action.hacking.variety.Cryptanalysis",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--4431911b-d13a-4113-be54-cf57aab7a57d",
@@ -98,7 +98,7 @@
                 {
                     "external_id": "action.hacking.variety.CSRF",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--4489f3ec-a1b2-44fd-90cf-b1b884880c29",
@@ -116,7 +116,7 @@
                 {
                     "external_id": "action.hacking.variety.DoS",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--e7227000-db42-4545-9bef-849ef985a345",
@@ -134,7 +134,7 @@
                 {
                     "external_id": "action.hacking.variety.Exploit misconfig",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--ed02f33d-3475-45d1-b4c8-158cf1bed1ac",
@@ -152,7 +152,7 @@
                 {
                     "external_id": "action.hacking.variety.Exploit vuln",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--717b8d97-6fcb-47df-aa9f-3ac59d763dc6",
@@ -170,7 +170,7 @@
                 {
                     "external_id": "action.hacking.variety.Footprinting",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--383c4b8a-cb6d-47e4-bc49-9659a6fdfbff",
@@ -188,7 +188,7 @@
                 {
                     "external_id": "action.hacking.variety.Forced browsing",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--a84d954a-0b0a-48f3-b1f7-17e2675456d1",
@@ -206,7 +206,7 @@
                 {
                     "external_id": "action.hacking.variety.Format string attack",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--f21195b4-74ae-4f4d-b398-28105226df24",
@@ -224,7 +224,7 @@
                 {
                     "external_id": "action.hacking.variety.Fuzz testing",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--24a3bc84-9716-427c-8675-de0e97f6cbfd",
@@ -242,7 +242,7 @@
                 {
                     "external_id": "action.hacking.variety.HTTP request smuggling",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--8d444aa9-5087-4896-bdb5-0202d197bfe0",
@@ -260,7 +260,7 @@
                 {
                     "external_id": "action.hacking.variety.HTTP request splitting",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--aaa9dbf8-da3a-41a2-a262-5d2652592ea3",
@@ -278,7 +278,7 @@
                 {
                     "external_id": "action.hacking.variety.HTTP response smuggling",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--0d2870bf-fa55-479f-a1a1-a19d32f2a19b",
@@ -296,7 +296,7 @@
                 {
                     "external_id": "action.hacking.variety.HTTP Response Splitting",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--11e48fd7-cf3b-4253-959c-9d594de6564f",
@@ -314,7 +314,7 @@
                 {
                     "external_id": "action.hacking.variety.Insecure deserialization",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--d8bc430e-3ae4-40b2-b22b-b1bb5174ef5f",
@@ -332,7 +332,7 @@
                 {
                     "external_id": "action.hacking.variety.Integer overflows",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--c05a1f1f-bc64-4839-9e27-a4d723545a1c",
@@ -350,7 +350,7 @@
                 {
                     "external_id": "action.hacking.variety.LDAP injection",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--5df3effe-8d87-439a-ab09-d565de130f58",
@@ -368,7 +368,7 @@
                 {
                     "external_id": "action.hacking.variety.Mail command injection",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--d8ee451f-db20-453b-ae7b-b14a9f7e2ba1",
@@ -386,7 +386,7 @@
                 {
                     "external_id": "action.hacking.variety.MitM",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--e6462554-67eb-4c0a-a7a1-9ae10ce614e3",
@@ -404,7 +404,7 @@
                 {
                     "external_id": "action.hacking.variety.Null byte injection",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--d990ec81-f649-4f94-9ce9-ab4225077532",
@@ -422,7 +422,7 @@
                 {
                     "external_id": "action.hacking.variety.Offline cracking",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--fe4dc980-4fa4-44ce-9c99-4595642b02a1",
@@ -440,7 +440,7 @@
                 {
                     "external_id": "action.hacking.variety.OS commanding",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--2f90cb5b-7fec-4e50-afef-f86bb54069a7",
@@ -458,7 +458,7 @@
                 {
                     "external_id": "action.hacking.variety.Pass-the-hash",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--61e85fa9-c368-4718-8b90-41384da7f085",
@@ -476,7 +476,7 @@
                 {
                     "external_id": "action.hacking.variety.Path traversal",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--1aae9127-f46b-4cfa-87d7-6c9234f428cc",
@@ -494,7 +494,7 @@
                 {
                     "external_id": "action.hacking.variety.Reverse engineering",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--3092965d-2c65-4f66-94a4-f0ed3359c8e8",
@@ -512,7 +512,7 @@
                 {
                     "external_id": "action.hacking.variety.RFI",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--135230bc-9248-4664-b8d3-56c3113fa879",
@@ -530,7 +530,7 @@
                 {
                     "external_id": "action.hacking.variety.Routing detour",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--60e18280-e4ea-49d7-8cd5-eceadb0e659b",
@@ -548,7 +548,7 @@
                 {
                     "external_id": "action.hacking.variety.Session fixation",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--6aa0733a-0bdd-4a68-bbbb-49c03614d338",
@@ -566,7 +566,7 @@
                 {
                     "external_id": "action.hacking.variety.Session prediction",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--a7f99845-c2ab-4bd1-8123-788e19a0881b",
@@ -584,7 +584,7 @@
                 {
                     "external_id": "action.hacking.variety.Session replay",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--0a461731-6a8f-480b-8365-7a1d8042c347",
@@ -602,7 +602,7 @@
                 {
                     "external_id": "action.hacking.variety.Soap array abuse",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--96841787-27ea-4618-bf79-6f385885204f",
@@ -620,7 +620,7 @@
                 {
                     "external_id": "action.hacking.variety.Special element injection",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--b98b9f9f-8b71-403a-8ef4-bdbd62e65092",
@@ -638,7 +638,7 @@
                 {
                     "external_id": "action.hacking.variety.SQLi",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--e32cfb11-06bc-4d7b-9b23-82faf29f0f88",
@@ -656,7 +656,7 @@
                 {
                     "external_id": "action.hacking.variety.SSI injection",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--a2d3a252-4ab6-455c-961c-ea8c44016884",
@@ -674,7 +674,7 @@
                 {
                     "external_id": "action.hacking.variety.URL redirector abuse",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--eb1581eb-f86b-4c37-a628-bcb9417526a5",
@@ -692,7 +692,7 @@
                 {
                     "external_id": "action.hacking.variety.Use of backdoor or C2",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--df336202-4757-4523-b3d3-649a8364ae1b",
@@ -710,7 +710,7 @@
                 {
                     "external_id": "action.hacking.variety.Use of stolen creds",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--a7c080d2-52cb-44f5-bc8a-ac6d83d9f499",
@@ -728,7 +728,7 @@
                 {
                     "external_id": "action.hacking.variety.User breakout",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--40f9e718-b391-44ac-be99-95c7a7cdd485",
@@ -746,7 +746,7 @@
                 {
                     "external_id": "action.hacking.variety.Virtual machine escape",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--bd89e236-2437-4cae-96ed-c171f4bd83a9",
@@ -764,7 +764,7 @@
                 {
                     "external_id": "action.hacking.variety.XML attribute blowup",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--ed904fd3-f172-4043-ab67-973c84f04114",
@@ -782,7 +782,7 @@
                 {
                     "external_id": "action.hacking.variety.XML entity expansion",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--cbea46c8-da39-4040-995d-d7932029c1d2",
@@ -800,7 +800,7 @@
                 {
                     "external_id": "action.hacking.variety.XML external entities",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--9143fd23-c6c5-4443-a5ad-f39701afd00c",
@@ -818,7 +818,7 @@
                 {
                     "external_id": "action.hacking.variety.XML injection",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--e6a65026-f6d8-4cd3-a5cc-fe06c727ae35",
@@ -836,7 +836,7 @@
                 {
                     "external_id": "action.hacking.variety.XPath injection",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--129bd7d3-cd94-467e-81ab-856538d94efd",
@@ -854,7 +854,7 @@
                 {
                     "external_id": "action.hacking.variety.XQuery injection",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--d675d055-67c5-4f4c-88b4-d31c16d3e66c",
@@ -872,7 +872,7 @@
                 {
                     "external_id": "action.hacking.variety.XSS",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--f06c47e7-222c-401f-90b4-2173950e4902",
@@ -890,7 +890,7 @@
                 {
                     "external_id": "action.hacking.variety.Other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--41726554-a93c-4126-a0a1-d3a4ee173b6b",
@@ -908,7 +908,7 @@
                 {
                     "external_id": "action.hacking.variety.Unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--60ed987b-b92a-4d66-918b-f62fccf493cb",
@@ -926,7 +926,7 @@
                 {
                     "external_id": "action.hacking.vector.3rd party desktop",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--e8cce768-4e21-40a2-9bd2-977839508c2b",
@@ -944,7 +944,7 @@
                 {
                     "external_id": "action.hacking.vector.Backdoor or C2",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--3c8c0227-50a5-4016-9255-da5307d9ed28",
@@ -962,7 +962,7 @@
                 {
                     "external_id": "action.hacking.vector.Command shell",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--f27c585e-db81-4252-a60e-686bdf64c659",
@@ -980,7 +980,7 @@
                 {
                     "external_id": "action.hacking.vector.Desktop sharing",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--1532a434-7540-4c05-9c95-636e9531fc98",
@@ -998,7 +998,7 @@
                 {
                     "external_id": "action.hacking.vector.Desktop sharing software",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--7944420b-b8f3-4357-8662-f4d8388d32bb",
@@ -1016,7 +1016,7 @@
                 {
                     "external_id": "action.hacking.vector.Hypervisor",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--e6c492f7-621a-4892-b72c-b528d62cabff",
@@ -1034,7 +1034,7 @@
                 {
                     "external_id": "action.hacking.vector.Inter-tenant",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--ba660c42-704a-4c83-86c5-f175c2203d0b",
@@ -1052,7 +1052,7 @@
                 {
                     "external_id": "action.hacking.vector.Other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--55af3137-2cb4-40b8-9ac5-d21fd63c5e84",
@@ -1070,7 +1070,7 @@
                 {
                     "external_id": "action.hacking.vector.Partner",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--67681ef9-9307-4a3c-9ea2-d140e296f908",
@@ -1088,7 +1088,7 @@
                 {
                     "external_id": "action.hacking.vector.Physical access",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--cd6c01b3-6ca1-4a58-9590-88f733e2ff94",
@@ -1106,7 +1106,7 @@
                 {
                     "external_id": "action.hacking.vector.VPN",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--7384d4b7-b6e8-4b43-8537-8e82b56b525c",
@@ -1124,7 +1124,7 @@
                 {
                     "external_id": "action.hacking.vector.Web application",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--19593787-9f69-4503-8ff4-7983db97ef8b",
@@ -1142,7 +1142,7 @@
                 {
                     "external_id": "action.hacking.vector.Unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--f16ea9f8-71c7-4037-83b0-c83ae1c63778",
@@ -1160,7 +1160,7 @@
                 {
                     "external_id": "action.hacking.result.Infiltrate",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--259272e6-d7d4-469b-9e8a-44dc4e9f9ad2",
@@ -1178,7 +1178,7 @@
                 {
                     "external_id": "action.hacking.result.Exfiltrate",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--1b3dc55c-98c4-46c3-b60d-f7a470c337c2",
@@ -1196,7 +1196,7 @@
                 {
                     "external_id": "action.hacking.result.Elevate",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--fb7ff7ce-4bf2-45a2-b78e-146720d1927d",
@@ -1214,7 +1214,7 @@
                 {
                     "external_id": "action.hacking.result.Lateral movement",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--01056392-cf62-4984-a9ae-44a63699aa1e",
@@ -1232,7 +1232,7 @@
                 {
                     "external_id": "action.hacking.result.Deploy payload",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--61ac9a55-9ca3-4c6d-9e58-504c20f0e083",
@@ -1250,7 +1250,7 @@
                 {
                     "external_id": "action.hacking.result.Other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--f3b51700-9a19-4651-9cee-986a92a6791d",
@@ -1268,7 +1268,7 @@
                 {
                     "external_id": "action.hacking.result.Unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--1dd379f2-dd7e-49f9-a297-f4f48ccc543b",
@@ -1286,7 +1286,7 @@
                 {
                     "external_id": "action.hacking.result.NA",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--e6145f4d-3529-45c9-9b12-3d6901cc0526",
@@ -1304,7 +1304,7 @@
                 {
                     "external_id": "action.malware.variety.Adminware",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--84591e7d-b145-4875-8a8a-f2af1012a12d",
@@ -1322,7 +1322,7 @@
                 {
                     "external_id": "action.malware.variety.Adware",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--ec151a20-cd05-4e9a-b28c-fbf1379d1214",
@@ -1340,7 +1340,7 @@
                 {
                     "external_id": "action.malware.variety.Backdoor",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--815ae6a1-d42a-46f1-b685-4c1aa71e8c37",
@@ -1358,7 +1358,7 @@
                 {
                     "external_id": "action.malware.variety.Brute force",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--167803d4-5745-43a7-b3b2-f4d1b214e8ea",
@@ -1376,7 +1376,7 @@
                 {
                     "external_id": "action.malware.variety.C2",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--86cfbca2-e689-4f9d-b516-2fc56f62f2a6",
@@ -1394,7 +1394,7 @@
                 {
                     "external_id": "action.malware.variety.Capture app data",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--d9cba765-b394-47c7-a11f-37d7c2294bcc",
@@ -1412,7 +1412,7 @@
                 {
                     "external_id": "action.malware.variety.Capture stored data",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--0db6e567-e964-4a43-be16-6ad96608170d",
@@ -1430,7 +1430,7 @@
                 {
                     "external_id": "action.malware.variety.Click fraud",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--64bf0a4e-0ddd-48eb-99d8-0b4dee39bd63",
@@ -1448,7 +1448,7 @@
                 {
                     "external_id": "action.malware.variety.Click fraud and cryptocurrency mining",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--56e72d95-2fd0-4e4e-b8d1-c281b0842f39",
@@ -1466,7 +1466,7 @@
                 {
                     "external_id": "action.malware.variety.Client-side attack",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--3bcca305-0936-46cf-ab9b-20262c075cb0",
@@ -1484,7 +1484,7 @@
                 {
                     "external_id": "action.malware.variety.Cryptocurrency mining",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--3d0fd64e-ae5b-41da-b59a-5762d8eb5b68",
@@ -1502,7 +1502,7 @@
                 {
                     "external_id": "action.malware.variety.Destroy data",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--b2de53e3-7b58-4b54-b5e4-8f9b65ce9a87",
@@ -1520,7 +1520,7 @@
                 {
                     "external_id": "action.malware.variety.In-memory",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--c9909423-e081-4e41-b026-d076fab1c96f",
@@ -1538,7 +1538,7 @@
                 {
                     "external_id": "action.malware.variety.Modify data",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--a490c1f3-2620-47c5-9f88-dcd8a85c010e",
@@ -1556,7 +1556,7 @@
                 {
                     "external_id": "action.malware.variety.Disable controls",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--c9c604fd-833f-414c-b706-a035d33e2baa",
@@ -1574,7 +1574,7 @@
                 {
                     "external_id": "action.malware.variety.DoS",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--ea303d2f-20ed-4044-8592-c23bb8cd73cd",
@@ -1592,7 +1592,7 @@
                 {
                     "external_id": "action.malware.variety.Downloader",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--dab37318-b8cf-4862-af32-d42751e8c212",
@@ -1610,7 +1610,7 @@
                 {
                     "external_id": "action.malware.variety.Exploit misconfig",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--d6f8a497-db2d-4bca-90d8-279cc11624d8",
@@ -1628,7 +1628,7 @@
                 {
                     "external_id": "action.malware.variety.Exploit vuln",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--fe916ef7-dffc-4b20-8d69-01de2ba91e58",
@@ -1646,7 +1646,7 @@
                 {
                     "external_id": "action.malware.variety.Export data",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--fd0ef192-f3b7-4be6-8706-cb36fd2ba772",
@@ -1664,7 +1664,7 @@
                 {
                     "external_id": "action.malware.variety.Packet sniffer",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--66f270bb-d2a7-450b-bb1d-f71573507a97",
@@ -1682,7 +1682,7 @@
                 {
                     "external_id": "action.malware.variety.Password dumper",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--38a93be1-105c-479b-a602-38c2cc8601aa",
@@ -1700,7 +1700,7 @@
                 {
                     "external_id": "action.malware.variety.RAM scraper",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--dc880e0c-3229-439a-b958-516f91b19330",
@@ -1718,7 +1718,7 @@
                 {
                     "external_id": "action.malware.variety.Ransomware",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--476f3924-2ba0-443f-9247-3e6b4e410c87",
@@ -1736,7 +1736,7 @@
                 {
                     "external_id": "action.malware.variety.RAT",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--0225ef07-4542-4334-af5c-f1d28fa8b708",
@@ -1754,7 +1754,7 @@
                 {
                     "external_id": "action.malware.variety.Rootkit",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--dc857a26-5141-454e-a362-81de6d98702b",
@@ -1772,7 +1772,7 @@
                 {
                     "external_id": "action.malware.variety.Scan network",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--f591127b-17b2-4983-bfc2-43919df5eaa2",
@@ -1790,7 +1790,7 @@
                 {
                     "external_id": "action.malware.variety.Spam",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--6b2eeb06-9f6c-401e-9b42-3b6e8416fa94",
@@ -1808,7 +1808,7 @@
                 {
                     "external_id": "action.malware.variety.Spyware/Keylogger",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--0342708b-ae02-46fd-8ff1-02db939675cd",
@@ -1826,7 +1826,7 @@
                 {
                     "external_id": "action.malware.variety.SQL injection",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--cffb0302-17ab-4534-a179-c0c9cfac3441",
@@ -1844,7 +1844,7 @@
                 {
                     "external_id": "action.malware.variety.Trojan",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--f1b75043-bc0e-4032-949e-23149f191d57",
@@ -1862,7 +1862,7 @@
                 {
                     "external_id": "action.malware.variety.Worm",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--dedab24f-02ff-406a-b0cb-16b08013b4a7",
@@ -1880,7 +1880,7 @@
                 {
                     "external_id": "action.malware.variety.Other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--255bb527-b536-43a5-96cb-a9f4ac42f17b",
@@ -1898,7 +1898,7 @@
                 {
                     "external_id": "action.malware.variety.Unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--035453ed-195b-4dfd-91e9-6733551f02bb",
@@ -1916,7 +1916,7 @@
                 {
                     "external_id": "action.malware.vector.Direct install",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--fc94cc25-270f-4141-af48-3d60922d9ed3",
@@ -1934,7 +1934,7 @@
                 {
                     "external_id": "action.malware.vector.Download by malware",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--55b6b5bb-2a4f-497c-a061-d98306eb5dd4",
@@ -1952,7 +1952,7 @@
                 {
                     "external_id": "action.malware.vector.Email",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--9329c7a3-7779-4299-9184-39a04a3ffb21",
@@ -1970,7 +1970,7 @@
                 {
                     "external_id": "action.malware.vector.Email attachment",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--4cab21f5-f4c1-4a60-b431-09238e1e1ae9",
@@ -1988,7 +1988,7 @@
                 {
                     "external_id": "action.malware.vector.Email autoexecute",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--330001d6-efb0-49ba-8af5-5f64957c2401",
@@ -2006,7 +2006,7 @@
                 {
                     "external_id": "action.malware.vector.Email link",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--453ace45-f235-487c-b65d-de1e3b9eb3c8",
@@ -2024,7 +2024,7 @@
                 {
                     "external_id": "action.malware.vector.Email unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--19290a75-9cc9-4697-a6d0-5b16e72eaae4",
@@ -2042,7 +2042,7 @@
                 {
                     "external_id": "action.malware.vector.Email other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--39584d9d-27a9-4b0b-a74e-374da7abcabf",
@@ -2060,7 +2060,7 @@
                 {
                     "external_id": "action.malware.vector.Instant messaging",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--b17e8a7e-91df-4459-993f-b8b70ddef385",
@@ -2078,7 +2078,7 @@
                 {
                     "external_id": "action.malware.vector.Network propagation",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--f08bbc02-5cd7-4ba7-abc6-93303dc0f597",
@@ -2096,7 +2096,7 @@
                 {
                     "external_id": "action.malware.vector.Remote injection",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--3e0a8832-bf90-4769-84f7-0e6a26d832c1",
@@ -2114,7 +2114,7 @@
                 {
                     "external_id": "action.malware.vector.Removable media",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--f1b45abf-a0ec-4bbd-9eff-acc479d05ac8",
@@ -2132,7 +2132,7 @@
                 {
                     "external_id": "action.malware.vector.Software update",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--c6205765-0639-4ffc-9030-1e31b4bb8929",
@@ -2150,7 +2150,7 @@
                 {
                     "external_id": "action.malware.vector.Web application",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--58ea232a-a9c0-47f1-a15f-1406cf4af014",
@@ -2168,7 +2168,7 @@
                 {
                     "external_id": "action.malware.vector.Web application - download",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--3754a59b-c59d-4786-af9c-b07b63ba871c",
@@ -2186,7 +2186,7 @@
                 {
                     "external_id": "action.malware.vector.Web application - drive-by",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--4615bfdf-a94d-4fda-9ab6-5c094ed54821",
@@ -2204,7 +2204,7 @@
                 {
                     "external_id": "action.malware.vector.Other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--3b322f46-4468-4395-8f32-6baa22dcef3d",
@@ -2222,7 +2222,7 @@
                 {
                     "external_id": "action.malware.vector.Unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--46ec9819-b06e-40b2-9a10-084212bc92c0",
@@ -2240,7 +2240,7 @@
                 {
                     "external_id": "action.malware.result.Infiltrate",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--50382e5f-1fc9-4196-9716-86b5ac85b1d8",
@@ -2258,7 +2258,7 @@
                 {
                     "external_id": "action.malware.result.Exfiltrate",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--3ba65739-756a-431a-9bf1-3965d77b5a65",
@@ -2276,7 +2276,7 @@
                 {
                     "external_id": "action.malware.result.Elevate",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--04e7cc2d-23fa-49e4-a2fd-04715d2eaf79",
@@ -2294,7 +2294,7 @@
                 {
                     "external_id": "action.malware.result.Lateral movement",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--477d9ceb-a0c1-4b19-bd98-33f5016dbc69",
@@ -2312,7 +2312,7 @@
                 {
                     "external_id": "action.malware.result.Deploy payload",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--21c18ba4-5121-4262-ba56-290a837166f3",
@@ -2330,7 +2330,7 @@
                 {
                     "external_id": "action.malware.result.Other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--5376c646-82ef-4b38-8e9c-8b50235a02df",
@@ -2348,7 +2348,7 @@
                 {
                     "external_id": "action.malware.result.Unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--f77e15e2-f17d-4df2-936f-7f9400ad23fd",
@@ -2366,7 +2366,7 @@
                 {
                     "external_id": "action.malware.result.NA",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--8c54c8cb-bad2-402c-a581-bf8804e7f1b8",
@@ -2384,7 +2384,7 @@
                 {
                     "external_id": "action.misuse.variety.Data mishandling",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--21284c27-1211-4439-a463-e0eb31e1468a",
@@ -2402,7 +2402,7 @@
                 {
                     "external_id": "action.misuse.variety.Email misuse",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--a1241b11-b683-4701-a042-be541757c621",
@@ -2420,7 +2420,7 @@
                 {
                     "external_id": "action.misuse.variety.Illicit content",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--f7977849-4ca2-45b1-91d5-b9ef83b3a2b4",
@@ -2438,7 +2438,7 @@
                 {
                     "external_id": "action.misuse.variety.Knowledge abuse",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--af81088e-ca6d-4a4e-991c-e132e7b6ed98",
@@ -2456,7 +2456,7 @@
                 {
                     "external_id": "action.misuse.variety.Net misuse",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--32372b5d-e351-4df3-8060-eec96464837f",
@@ -2474,7 +2474,7 @@
                 {
                     "external_id": "action.misuse.variety.Possession abuse",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--53e7f931-7867-4f9c-b889-a8bfc65f3e83",
@@ -2492,7 +2492,7 @@
                 {
                     "external_id": "action.misuse.variety.Privilege abuse",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--445b5477-6ec3-4153-91b9-15204f068ef6",
@@ -2510,7 +2510,7 @@
                 {
                     "external_id": "action.misuse.variety.Snap picture",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--9f2ed4c9-3a7e-4ed3-863a-9dd1634afa9f",
@@ -2528,7 +2528,7 @@
                 {
                     "external_id": "action.misuse.variety.Unapproved hardware",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--0b850436-229c-4c47-a2e6-2e0c2c5475bf",
@@ -2546,7 +2546,7 @@
                 {
                     "external_id": "action.misuse.variety.Unapproved software",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--3d29e096-2105-457d-806c-45541fe6cbc0",
@@ -2564,7 +2564,7 @@
                 {
                     "external_id": "action.misuse.variety.Unapproved workaround",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--08c9e3d6-593a-48e9-99d0-b23522e580fa",
@@ -2582,7 +2582,7 @@
                 {
                     "external_id": "action.misuse.variety.Other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--30f1915c-e481-42c4-b60e-e892d5acb2ad",
@@ -2600,7 +2600,7 @@
                 {
                     "external_id": "action.misuse.variety.Unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--8220936a-f282-4641-9413-98d593f7959e",
@@ -2618,7 +2618,7 @@
                 {
                     "external_id": "action.misuse.vector.LAN access",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--868f90f8-63a6-4e07-ab39-18974449c601",
@@ -2636,7 +2636,7 @@
                 {
                     "external_id": "action.misuse.vector.Non-corporate",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--1035cbc5-ede9-4a44-823e-4ba24e91ba7a",
@@ -2654,7 +2654,7 @@
                 {
                     "external_id": "action.misuse.vector.Physical access",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--c5112ffa-507a-450f-8bb0-eeb6ad521381",
@@ -2672,7 +2672,7 @@
                 {
                     "external_id": "action.misuse.vector.Remote access",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--f18e1d60-8c1c-4a47-9345-c3603b4757db",
@@ -2690,7 +2690,7 @@
                 {
                     "external_id": "action.misuse.vector.Web application",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--2ea62050-22c4-43e8-a9ed-79139a079d5f",
@@ -2708,7 +2708,7 @@
                 {
                     "external_id": "action.misuse.vector.Other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--037dc95c-9a6c-49bc-be4f-27fb0d42ea45",
@@ -2726,7 +2726,7 @@
                 {
                     "external_id": "action.misuse.vector.Unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--58768a50-935a-4544-b0f7-9fe432487bfc",
@@ -2744,7 +2744,7 @@
                 {
                     "external_id": "action.misuse.result.Infiltrate",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--11d96d51-c6e6-4445-8b59-ce8687a81f4d",
@@ -2762,7 +2762,7 @@
                 {
                     "external_id": "action.misuse.result.Exfiltrate",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--41173204-1c0b-4a89-a74c-302283e729e3",
@@ -2780,7 +2780,7 @@
                 {
                     "external_id": "action.misuse.result.Elevate",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--a0e6c4c2-68aa-48e6-9e5f-e5aa2969dad6",
@@ -2798,7 +2798,7 @@
                 {
                     "external_id": "action.misuse.result.Lateral movement",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--69199f94-d7ec-4029-80fc-a2724e1c9df2",
@@ -2816,7 +2816,7 @@
                 {
                     "external_id": "action.misuse.result.Deploy payload",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--7b69855b-e5da-4235-b590-2b86803f2d49",
@@ -2834,7 +2834,7 @@
                 {
                     "external_id": "action.misuse.result.Other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--2a9dd0d3-747f-4504-8c95-69d8ac3e7006",
@@ -2852,7 +2852,7 @@
                 {
                     "external_id": "action.misuse.result.Unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--2ac4682f-76b1-48bd-9991-babd803e3ec8",
@@ -2870,7 +2870,7 @@
                 {
                     "external_id": "action.misuse.result.NA",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--d572a5ea-38e8-4708-a113-b9e94ebb50fa",
@@ -2888,7 +2888,7 @@
                 {
                     "external_id": "action.social.variety.Baiting",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--6500d23a-49aa-4c13-b2f1-71b290146737",
@@ -2906,7 +2906,7 @@
                 {
                     "external_id": "action.social.variety.Bribery",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--59a64894-6062-4e66-80fc-6630d04dd906",
@@ -2924,7 +2924,7 @@
                 {
                     "external_id": "action.social.variety.Elicitation",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--29cb1735-6d45-47d4-bccb-807b181d0653",
@@ -2942,7 +2942,7 @@
                 {
                     "external_id": "action.social.variety.Extortion",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--2fdfffa5-28f3-4b5a-89c4-3724e54b4b64",
@@ -2960,7 +2960,7 @@
                 {
                     "external_id": "action.social.variety.Forgery",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--c842a849-d536-46c9-a3e9-d0a0cf3c6d1a",
@@ -2978,7 +2978,7 @@
                 {
                     "external_id": "action.social.variety.Influence",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--1ada1a0e-0fcd-495c-93c3-b303dc97e9ba",
@@ -2996,7 +2996,7 @@
                 {
                     "external_id": "action.social.variety.Phishing",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--01689aed-194e-4031-8c25-5388cb9b4535",
@@ -3014,7 +3014,7 @@
                 {
                     "external_id": "action.social.variety.Pretexting",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--a19b64b0-17ff-42a7-b17c-100b133d2052",
@@ -3032,7 +3032,7 @@
                 {
                     "external_id": "action.social.variety.Propaganda",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--c321cc94-7efa-4c52-bd10-bd76fc050546",
@@ -3050,7 +3050,7 @@
                 {
                     "external_id": "action.social.variety.Scam",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--55c2acb0-a7da-45fc-b7e7-1f9fd47eb870",
@@ -3068,7 +3068,7 @@
                 {
                     "external_id": "action.social.variety.Spam",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--f4e274df-bf1d-433d-ad0b-f2b35a409121",
@@ -3086,7 +3086,7 @@
                 {
                     "external_id": "action.social.variety.Other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--79800cac-248b-4c7c-b3e5-8f7969ef7553",
@@ -3104,7 +3104,7 @@
                 {
                     "external_id": "action.social.variety.Unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--3058a23d-9924-4e4b-a48f-ca715a7476bb",
@@ -3122,7 +3122,7 @@
                 {
                     "external_id": "action.social.vector.Documents",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--27be4ea6-2f77-422e-9106-0308ed438dad",
@@ -3140,7 +3140,7 @@
                 {
                     "external_id": "action.social.vector.Email",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--313a6087-e8e7-4795-9de6-af1f83c4464a",
@@ -3158,7 +3158,7 @@
                 {
                     "external_id": "action.social.vector.IM",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--c1c08417-a763-4d7a-9e06-bfa648da27ce",
@@ -3176,7 +3176,7 @@
                 {
                     "external_id": "action.social.vector.In-person",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--30741e94-22fd-485e-baad-a5cd4f451d5e",
@@ -3194,7 +3194,7 @@
                 {
                     "external_id": "action.social.vector.Phone",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--c7bec95f-bae2-4617-ae16-e8fd72c981b4",
@@ -3212,7 +3212,7 @@
                 {
                     "external_id": "action.social.vector.Removable media",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--999122e3-c7d2-4809-b2e7-33df2b66054b",
@@ -3230,7 +3230,7 @@
                 {
                     "external_id": "action.social.vector.SMS",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--817d353f-3e7c-46df-9f88-a815d1c22e5c",
@@ -3248,7 +3248,7 @@
                 {
                     "external_id": "action.social.vector.Social media",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--2b94702d-6356-4c33-bab2-ee080980a400",
@@ -3266,7 +3266,7 @@
                 {
                     "external_id": "action.social.vector.Software",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--14816fd2-48d1-482e-b8f1-9e38f86e9a35",
@@ -3284,7 +3284,7 @@
                 {
                     "external_id": "action.social.vector.Website",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--7a4a198c-5f13-482d-8010-47a2f3cc4c6f",
@@ -3302,7 +3302,7 @@
                 {
                     "external_id": "action.social.vector.Other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--f0fa57c8-3cbd-453f-811d-72ce51d2894b",
@@ -3320,7 +3320,7 @@
                 {
                     "external_id": "action.social.vector.Unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--b5e9e0ce-3d78-4010-ac27-0d7297f702ba",
@@ -3338,7 +3338,7 @@
                 {
                     "external_id": "action.social.target.Auditor",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--dc92790f-bd3a-4b1b-a980-4c390ce4fbbf",
@@ -3356,7 +3356,7 @@
                 {
                     "external_id": "action.social.target.Call center",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--aeba53e1-9b61-41af-82ca-e8fea4debc96",
@@ -3374,7 +3374,7 @@
                 {
                     "external_id": "action.social.target.Cashier",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--54375997-ffe9-46ad-a2d1-f6efab7f2835",
@@ -3392,7 +3392,7 @@
                 {
                     "external_id": "action.social.target.Customer",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--9d210e5d-1e70-484a-b30d-cd3bb805374e",
@@ -3410,7 +3410,7 @@
                 {
                     "external_id": "action.social.target.Developer",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--cf846bf5-e062-472c-9966-d9fe65550fec",
@@ -3428,7 +3428,7 @@
                 {
                     "external_id": "action.social.target.End-user",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--a7e6a9f4-37e2-4518-8e38-15baff8cd9c6",
@@ -3446,7 +3446,7 @@
                 {
                     "external_id": "action.social.target.End-user or employee",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--56f3266d-bba4-4f13-82d1-cf41cddf8ca6",
@@ -3464,7 +3464,7 @@
                 {
                     "external_id": "action.social.target.Executive",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--eac77593-bf70-42e0-bdb7-85e849f89266",
@@ -3482,7 +3482,7 @@
                 {
                     "external_id": "action.social.target.Finance",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--16654d8b-4e0c-4ff3-b149-363d77c4952a",
@@ -3500,7 +3500,7 @@
                 {
                     "external_id": "action.social.target.Former employee",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--90f89563-a956-48bb-81d9-77223fe126b9",
@@ -3518,7 +3518,7 @@
                 {
                     "external_id": "action.social.target.Guard",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--1e84b3e8-d06f-4e15-b51d-31e05798f605",
@@ -3536,7 +3536,7 @@
                 {
                     "external_id": "action.social.target.Helpdesk",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--cbf74e18-4b7c-4c5c-8d39-bff0d71e0eab",
@@ -3554,7 +3554,7 @@
                 {
                     "external_id": "action.social.target.Human resources",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--d3026340-5e02-4851-942d-a2cb13533fc0",
@@ -3572,7 +3572,7 @@
                 {
                     "external_id": "action.social.target.Maintenance",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--91b84aea-70ad-4f76-9c85-0b17e59fe752",
@@ -3590,7 +3590,7 @@
                 {
                     "external_id": "action.social.target.Manager",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--327def76-5574-4972-9380-217fe79d273f",
@@ -3608,7 +3608,7 @@
                 {
                     "external_id": "action.social.target.Other employee",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--93c79b87-796f-4701-8f47-48a8434c0086",
@@ -3626,7 +3626,7 @@
                 {
                     "external_id": "action.social.target.Partner",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--6587b675-1909-499a-a797-3d215688021f",
@@ -3644,7 +3644,7 @@
                 {
                     "external_id": "action.social.target.System admin",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--3542d68b-f69b-44ad-a5e2-b4363733c908",
@@ -3662,7 +3662,7 @@
                 {
                     "external_id": "action.social.target.Other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--df902b6c-bfb6-4d58-a10a-a57e9c9dba30",
@@ -3680,7 +3680,7 @@
                 {
                     "external_id": "action.social.target.Unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--c1547f47-6c04-4b2b-b543-d77fa991def0",
@@ -3698,7 +3698,7 @@
                 {
                     "external_id": "action.social.result.Infiltrate",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--0641a4e0-a226-4ef8-ad21-21406d97c688",
@@ -3716,7 +3716,7 @@
                 {
                     "external_id": "action.social.result.Exfiltrate",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--40aefb54-1251-4ae0-ba6d-a9dc4d0e7e25",
@@ -3734,7 +3734,7 @@
                 {
                     "external_id": "action.social.result.Elevate",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--a9aac637-afa5-4cac-9d93-0212b49eb90d",
@@ -3752,7 +3752,7 @@
                 {
                     "external_id": "action.social.result.Lateral movement",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--a4abb41c-7658-43b5-80c8-f57aa7dfe1cb",
@@ -3770,7 +3770,7 @@
                 {
                     "external_id": "action.social.result.Deploy payload",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--d79cd8cf-92d5-4c7e-b8f6-4ca514f9feba",
@@ -3788,7 +3788,7 @@
                 {
                     "external_id": "action.social.result.Other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--e7e15ae4-ecf4-4cef-90c3-c30fd4b91d48",
@@ -3806,7 +3806,7 @@
                 {
                     "external_id": "action.social.result.Unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--08ba5068-bf79-479e-ad78-1e3631070449",
@@ -3824,7 +3824,7 @@
                 {
                     "external_id": "action.social.result.NA",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-actions"
+                    "url": "https://veriscommunity.net/enums.html#section-actions"
                 }
             ],
             "id": "attack-pattern--015e9f0a-8d26-41f7-bb84-6ccb5fe78c68",
@@ -3842,7 +3842,7 @@
                 {
                     "external_id": "attribute.integrity.variety.Alter behavior",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-attributes"
+                    "url": "https://veriscommunity.net/enums.html#section-attributes"
                 }
             ],
             "id": "attack-pattern--95fe7b8c-9fef-47d5-a18d-b969d561613b",
@@ -3860,7 +3860,7 @@
                 {
                     "external_id": "attribute.integrity.variety.Created account",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-attributes"
+                    "url": "https://veriscommunity.net/enums.html#section-attributes"
                 }
             ],
             "id": "attack-pattern--73dd4116-575a-4574-ad85-ed90513fabc5",
@@ -3878,7 +3878,7 @@
                 {
                     "external_id": "attribute.integrity.variety.Defacement",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-attributes"
+                    "url": "https://veriscommunity.net/enums.html#section-attributes"
                 }
             ],
             "id": "attack-pattern--198c59e3-b1df-4dd9-a3b5-70b51eec7dfc",
@@ -3896,7 +3896,7 @@
                 {
                     "external_id": "attribute.integrity.variety.Fraudulent transaction",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-attributes"
+                    "url": "https://veriscommunity.net/enums.html#section-attributes"
                 }
             ],
             "id": "attack-pattern--75d7d101-4723-4ab5-bc2b-02a2650aed8e",
@@ -3914,7 +3914,7 @@
                 {
                     "external_id": "attribute.integrity.variety.Hardware tampering",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-attributes"
+                    "url": "https://veriscommunity.net/enums.html#section-attributes"
                 }
             ],
             "id": "attack-pattern--ee965a0e-641d-48a5-b9ab-a35c6a22f881",
@@ -3932,7 +3932,7 @@
                 {
                     "external_id": "attribute.integrity.variety.Log tampering",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-attributes"
+                    "url": "https://veriscommunity.net/enums.html#section-attributes"
                 }
             ],
             "id": "attack-pattern--b19c2713-4533-401a-85a3-d92780323d99",
@@ -3950,7 +3950,7 @@
                 {
                     "external_id": "attribute.integrity.variety.Misrepresentation",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-attributes"
+                    "url": "https://veriscommunity.net/enums.html#section-attributes"
                 }
             ],
             "id": "attack-pattern--12988f09-d8d4-4502-85e3-c5f865b31f94",
@@ -3968,7 +3968,7 @@
                 {
                     "external_id": "attribute.integrity.variety.Modify configuration",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-attributes"
+                    "url": "https://veriscommunity.net/enums.html#section-attributes"
                 }
             ],
             "id": "attack-pattern--a3ee9069-bbd9-48cd-8983-8ed94e180298",
@@ -3986,7 +3986,7 @@
                 {
                     "external_id": "attribute.integrity.variety.Modify data",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-attributes"
+                    "url": "https://veriscommunity.net/enums.html#section-attributes"
                 }
             ],
             "id": "attack-pattern--360ee572-85b1-4310-8eba-233f1e8add33",
@@ -4004,7 +4004,7 @@
                 {
                     "external_id": "attribute.integrity.variety.Modify privileges",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-attributes"
+                    "url": "https://veriscommunity.net/enums.html#section-attributes"
                 }
             ],
             "id": "attack-pattern--99d69629-92ec-4350-9105-38309457776b",
@@ -4022,7 +4022,7 @@
                 {
                     "external_id": "attribute.integrity.variety.Repurpose",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-attributes"
+                    "url": "https://veriscommunity.net/enums.html#section-attributes"
                 }
             ],
             "id": "attack-pattern--6737af21-1207-4d9e-9ed5-fc76a3ddc50e",
@@ -4040,7 +4040,7 @@
                 {
                     "external_id": "attribute.integrity.variety.Software installation",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-attributes"
+                    "url": "https://veriscommunity.net/enums.html#section-attributes"
                 }
             ],
             "id": "attack-pattern--ab6f56f6-6b5b-454f-a84e-1be3a1b73f56",
@@ -4058,7 +4058,7 @@
                 {
                     "external_id": "attribute.integrity.variety.Other",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-attributes"
+                    "url": "https://veriscommunity.net/enums.html#section-attributes"
                 }
             ],
             "id": "attack-pattern--bf3e3af7-d553-4f96-ad2d-3b258f3d213c",
@@ -4076,7 +4076,7 @@
                 {
                     "external_id": "attribute.integrity.variety.Unknown",
                     "source_name": "veris",
-                    "url": "http://veriscommunity.net/enums.html#section-attributes"
+                    "url": "https://veriscommunity.net/enums.html#section-attributes"
                 }
             ],
             "id": "attack-pattern--cc01c60d-d33c-417d-922f-19df07b2f7bf",

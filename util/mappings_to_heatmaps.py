@@ -145,18 +145,18 @@ def get_framework_overview_layers(veris_objects, mappings, attack_data, domain, 
         }
     ]
 
-    for familyID in family_id_to_veris_entries:
-        veris_family = MemoryStore(stix_data=family_id_to_veris_entries[familyID])
+    for family_id in family_id_to_veris_entries:
+        veris_family = MemoryStore(stix_data=family_id_to_veris_entries[family_id])
         techniques_in_family = to_technique_list(veris_family, mappings, attack_data, family_id_to_veris_entries,
                                                  family_id_to_name, id_to_family)
         if len(techniques_in_family) > 0:  # don't build heatmaps with no mappings
             # build family overview mapping
             out_layers.append({
-                "outfile": pathlib.Path("by_axes", family_id_to_name[familyID].replace(" ", "_").replace("/", "_"),
-                                        f"{familyID}-overview.json"),
+                "outfile": pathlib.Path("by_axes", family_id_to_name[family_id].replace(" ", "_").replace("/", "_"),
+                                        f"{family_id}-overview.json"),
                 "layer": layer(
-                    f"{family_id_to_name[familyID]} overview",
-                    f"{framework_name} heatmap for entries in the {family_id_to_name[familyID]} axes, scores are the number of associated entries",
+                    f"{family_id_to_name[family_id]} overview",
+                    f"{framework_name} heatmap for entries in the {family_id_to_name[family_id]} axes, scores are the number of associated entries",
                     domain,
                     techniques_in_family,
                     version
@@ -164,7 +164,7 @@ def get_framework_overview_layers(veris_objects, mappings, attack_data, domain, 
             })
 
             # build layer for each veris object
-            for veris_object in family_id_to_veris_entries[familyID]:
+            for veris_object in family_id_to_veris_entries[family_id]:
                 veris_ms = MemoryStore(stix_data=veris_object)
                 veris_id = veris_object["external_references"][0]["external_id"]
                 techniques_mapped_to_veris = to_technique_list(veris_ms, mappings, attack_data,
@@ -174,7 +174,7 @@ def get_framework_overview_layers(veris_objects, mappings, attack_data, domain, 
                 # don't build heatmaps with no mappings
                 if len(techniques_mapped_to_veris) > 0:
                     out_layers.append({
-                        "outfile": pathlib.Path("by_axes", family_id_to_name[familyID].replace(" ", "_"),
+                        "outfile": pathlib.Path("by_axes", family_id_to_name[family_id].replace(" ", "_"),
                                                 f"{'_'.join(veris_id.split(' ')).replace('/', '_')}.json"),
                         "layer": layer(
                             f"{veris_id} mappings",

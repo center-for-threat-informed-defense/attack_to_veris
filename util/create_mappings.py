@@ -15,7 +15,6 @@ def generate_veris_enumerations(veris_location, veris_version):
     veris_url = f"https://raw.githubusercontent.com/vz-risk/VCDB/{veris_version}/vcdb-labels.json"
     json_enum = requests.get(veris_url).json()
     axes = {"action": ["hacking", "malware", "misuse", "social"], "attribute": ["integrity"]}
-    counter = 1
 
     with veris_location.open('w', newline='\n', encoding='utf-8') as csvfile:
         fieldnames = ['AXES', 'CATEGORY', 'SUB CATEGORY', 'VALUE', 'DESCRIPTION']
@@ -27,7 +26,6 @@ def generate_veris_enumerations(veris_location, veris_version):
                 sub_categories = json_enum[axes_name][axes_value]
                 for sub_category, category_value in sub_categories.items():
                     for category_name, category_description in category_value.items():
-                        counter += 1
                         writer.writerow({
                             'AXES': axes_name,
                             'CATEGORY': axes_value,
