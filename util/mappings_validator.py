@@ -6,8 +6,9 @@ import json
 import pathlib
 
 import numpy
-import pandas
 import requests
+
+from create_mappings import get_sheets
 
 
 def get_argparse():
@@ -103,29 +104,7 @@ def validate_mapping_entries(spreadsheet_location, attack_version):
     attack_source = get_stix2_source(attack_version)
     veris_enum = get_veris_enum()
 
-    sheet1 = 'Action.Hacking.Variety'
-    sheet2 = 'Action.Hacking.Vector'
-    sheet3 = 'Action.Malware.Variety'
-    sheet4 = 'Action.Malware.Vector'
-    sheet5 = 'Action.Social.Variety'
-    sheet6 = 'Attribute.Integrity.Variety'
-
-    xls = pandas.ExcelFile(spreadsheet_location)
-    df1 = pandas.read_excel(xls, sheet1)
-    df2 = pandas.read_excel(xls, sheet2)
-    df3 = pandas.read_excel(xls, sheet3)
-    df4 = pandas.read_excel(xls, sheet4)
-    df5 = pandas.read_excel(xls, sheet5)
-    df6 = pandas.read_excel(xls, sheet6)
-
-    sheets = [
-        (df1, sheet1),
-        (df2, sheet2),
-        (df3, sheet3),
-        (df4, sheet4),
-        (df5, sheet5),
-        (df6, sheet6),
-    ]
+    sheets = get_sheets(spreadsheet_location)
 
     print("\t\t[+] VERIS to ATT&CK mappings check...")
     fail_test = False
