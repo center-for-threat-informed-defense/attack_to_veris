@@ -183,43 +183,43 @@
         "T1021": {
             "name": "Remote Services",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.malware.variety.Adminware"
             ]
         },
         "T1021.001": {
             "name": "Remote Services: Remote Desktop Protocol",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.malware.variety.Adminware"
             ]
         },
         "T1021.002": {
             "name": "Remote Services: SMB/Windows Admin Shares",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.malware.variety.Adminware"
             ]
         },
         "T1021.003": {
             "name": "Remote Services: Distributed Component Object Model",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.malware.variety.Adminware"
             ]
         },
         "T1021.004": {
             "name": "Remote Services: SSH",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.malware.variety.Adminware"
             ]
         },
         "T1021.005": {
             "name": "Remote Services: VNC",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.malware.variety.Adminware"
             ]
         },
         "T1021.006": {
             "name": "Remote Services: Windows Remote Management",
             "veris": [
-                "action.hacking.variety.Other"
+                "action.malware.variety.Adminware"
             ]
         },
         "T1025": {
@@ -285,82 +285,79 @@
         "T1036": {
             "name": "Masquerading",
             "veris": [
-                "action.hacking.variety.Other"
+                "attribute.integrity.variety.Misrepresentation"
             ]
         },
         "T1036.001": {
             "name": "Masquerading: Invalid Code Signature",
             "veris": [
-                "action.hacking.variety.Other"
+                "attribute.integrity.variety.Misrepresentation"
             ]
         },
         "T1036.002": {
             "name": "Masquerading: Right-to-Left Override",
             "veris": [
-                "action.hacking.variety.Other",
-                "action.social.variety.Phishing",
-                "action.social.variety.Forgery"
+                "attribute.integrity.variety.Misrepresentation"
             ]
         },
         "T1036.003": {
             "name": "Masquerading: Rename System Utilities",
             "veris": [
-                "action.hacking.variety.Other",
-                "action.malware.variety.Rootkit"
+                "attribute.integrity.variety.Misrepresentation"
             ]
         },
         "T1036.004": {
             "name": "Masquerading: Masquerade Task or Service",
             "veris": [
-                "action.malware.variety.Other"
+                "attribute.integrity.variety.Misrepresentation"
             ]
         },
         "T1036.005": {
             "name": "Masquerading: Match Legitimate Name or Location",
             "veris": [
-                "action.hacking.variety.Other"
+                "attribute.integrity.variety.Misrepresentation"
             ]
         },
         "T1036.006": {
             "name": "Masquerading: Space after Filename",
             "veris": [
-                "action.hacking.variety.Other"
+                "attribute.integrity.variety.Misrepresentation"
             ]
         },
         "T1037": {
             "name": "Boot or Logon Initialization Scripts",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1037.001": {
             "name": "Boot or Logon Initialization Scripts: Logon Script (Windows)",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1037.002": {
             "name": "Boot or Logon Initialization Scripts: Logon Script (Mac)",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1037.003": {
             "name": "Boot or Logon Initialization Scripts: Network Logon Script",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1037.004": {
             "name": "Boot or Logon Initialization Scripts: RC Scripts",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1037.005": {
             "name": "Boot or Logon Initialization Scripts: Startup Items",
             "veris": [
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Modify configuration"
             ]
         },
         "T1039": {
@@ -1078,13 +1075,13 @@
             "name": "Email Collection: Email Forwarding Rule",
             "veris": [
                 "action.malware.variety.Capture app data",
-                "action.hacking.variety.Abuse of functionality"
+                "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1115": {
             "name": "Clipboard Data",
             "veris": [
-                "action.malware.variety.RAM scraper"
+                "action.malware.variety.In-memory"
             ]
         },
         "T1119": {
@@ -1380,9 +1377,6 @@
         "T1197": {
             "name": "BITS Jobs",
             "veris": [
-                "action.hacking.variety.Use of backdoor or C2",
-                "action.hacking.vector.Backdoor or C2",
-                "action.malware.variety.Backdoor",
                 "action.malware.variety.Export data"
             ]
         },
@@ -1605,10 +1599,7 @@
         "T1219": {
             "name": "Remote Access Software",
             "veris": [
-                "action.hacking.variety.Use of backdoor or C2",
-                "action.hacking.vector.Backdoor or C2",
-                "action.malware.variety.Adminware",
-                "action.malware.variety.C2"
+                "action.malware.variety.Adminware"
             ]
         },
         "T1220": {
@@ -3620,6 +3611,12 @@
                         "T1559": {
                             "name": "Inter-Process Communication"
                         },
+                        "T1559.001": {
+                            "name": "Inter-Process Communication: Component Object Model"
+                        },
+                        "T1559.002": {
+                            "name": "Inter-Process Communication: Dynamic Data Exchange"
+                        },
                         "T1569": {
                             "name": "System Services"
                         },
@@ -4045,26 +4042,14 @@
                         }
                     },
                     "Use of backdoor or C2": {
-                        "T1001": {
-                            "name": "Data Obfuscation"
-                        },
                         "T1008": {
                             "name": "Fallback Channels"
-                        },
-                        "T1053": {
-                            "name": "Scheduled Task/Job"
                         },
                         "T1071": {
                             "name": "Application Layer Protocol"
                         },
-                        "T1078": {
-                            "name": "Valid Accounts"
-                        },
                         "T1090": {
                             "name": "Proxy"
-                        },
-                        "T1092": {
-                            "name": "Communication Through Removable Media"
                         },
                         "T1095": {
                             "name": "Non-Application Layer Protocol"
@@ -4075,41 +4060,17 @@
                         "T1104": {
                             "name": "Multi-Stage Channels"
                         },
-                        "T1105": {
-                            "name": "Ingress Tool Transfer"
-                        },
                         "T1132": {
                             "name": "Data Encoding"
                         },
                         "T1133": {
                             "name": "External Remote Services"
                         },
-                        "T1137": {
-                            "name": "Office Application Startup"
-                        },
-                        "T1176": {
-                            "name": "Browser Extensions"
-                        },
-                        "T1197": {
-                            "name": "BITS Jobs"
-                        },
                         "T1205": {
                             "name": "Traffic Signaling"
                         },
-                        "T1219": {
-                            "name": "Remote Access Software"
-                        },
-                        "T1505": {
-                            "name": "Server Software Component"
-                        },
                         "T1525": {
                             "name": "Implant Internal Image"
-                        },
-                        "T1542": {
-                            "name": "Pre-OS Boot"
-                        },
-                        "T1554": {
-                            "name": "Compromise Client Software Binary"
                         },
                         "T1568": {
                             "name": "Dynamic Resolution"
@@ -4122,9 +4083,6 @@
                         },
                         "T1573": {
                             "name": "Encrypted Channel"
-                        },
-                        "T1574": {
-                            "name": "Hijack Execution Flow"
                         }
                     },
                     "Use of stolen creds": {
@@ -4310,20 +4268,11 @@
                         }
                     },
                     "Backdoor or C2": {
-                        "T1001": {
-                            "name": "Data Obfuscation"
-                        },
                         "T1008": {
                             "name": "Fallback Channels"
                         },
-                        "T1053": {
-                            "name": "Scheduled Task/Job"
-                        },
                         "T1071": {
                             "name": "Application Layer Protocol"
-                        },
-                        "T1078": {
-                            "name": "Valid Accounts"
                         },
                         "T1090": {
                             "name": "Proxy"
@@ -4340,23 +4289,11 @@
                         "T1104": {
                             "name": "Multi-Stage Channels"
                         },
-                        "T1105": {
-                            "name": "Ingress Tool Transfer"
-                        },
                         "T1132": {
                             "name": "Data Encoding"
                         },
                         "T1133": {
                             "name": "External Remote Services"
-                        },
-                        "T1137": {
-                            "name": "Office Application Startup"
-                        },
-                        "T1176": {
-                            "name": "Browser Extensions"
-                        },
-                        "T1197": {
-                            "name": "BITS Jobs"
                         },
                         "T1205": {
                             "name": "Traffic Signaling"
@@ -4364,20 +4301,8 @@
                         "T1219": {
                             "name": "Remote Access Software"
                         },
-                        "T1505": {
-                            "name": "Server Software Component"
-                        },
                         "T1525": {
                             "name": "Implant Internal Image"
-                        },
-                        "T1542": {
-                            "name": "Pre-OS Boot"
-                        },
-                        "T1547": {
-                            "name": "Boot or Logon Autostart Execution"
-                        },
-                        "T1554": {
-                            "name": "Compromise Client Software Binary"
                         },
                         "T1568": {
                             "name": "Dynamic Resolution"
@@ -4390,9 +4315,6 @@
                         },
                         "T1573": {
                             "name": "Encrypted Channel"
-                        },
-                        "T1574": {
-                            "name": "Hijack Execution Flow"
                         }
                     },
                     "Command shell": {
@@ -4471,14 +4393,35 @@
                         "T1006": {
                             "name": "Direct Volume Access"
                         },
+                        "T1021": {
+                            "name": "Remote Services"
+                        },
+                        "T1021.001": {
+                            "name": "Remote Services: Remote Desktop Protocol"
+                        },
+                        "T1021.002": {
+                            "name": "Remote Services: SMB/Windows Admin Shares"
+                        },
+                        "T1021.003": {
+                            "name": "Remote Services: Distributed Component Object Model"
+                        },
+                        "T1021.004": {
+                            "name": "Remote Services: SSH"
+                        },
+                        "T1021.005": {
+                            "name": "Remote Services: VNC"
+                        },
+                        "T1021.006": {
+                            "name": "Remote Services: Windows Remote Management"
+                        },
                         "T1072": {
                             "name": "Software Deployment Tools"
                         },
+                        "T1219": {
+                            "name": "Remote Access Software"
+                        },
                         "T1554": {
                             "name": "Compromise Client Software Binary"
-                        },
-                        "T1602": {
-                            "name": "Data from Configuration Repository"
                         }
                     },
                     "Adware": {
@@ -4527,6 +4470,18 @@
                     "Brute force": {
                         "T1110": {
                             "name": "Brute Force"
+                        },
+                        "T1110.001": {
+                            "name": "Brute Force: Password Guessing"
+                        },
+                        "T1110.002": {
+                            "name": "Brute Force: Password Cracking"
+                        },
+                        "T1110.003": {
+                            "name": "Brute Force: Password Spraying"
+                        },
+                        "T1110.004": {
+                            "name": "Brute Force: Credential Stuffing"
                         }
                     },
                     "C2": {
@@ -4563,9 +4518,6 @@
                         "T1205": {
                             "name": "Traffic Signaling"
                         },
-                        "T1219": {
-                            "name": "Remote Access Software"
-                        },
                         "T1568": {
                             "name": "Dynamic Resolution"
                         },
@@ -4580,8 +4532,17 @@
                         }
                     },
                     "Capture app data": {
-                        "T1115": {
-                            "name": "Clipboard Data"
+                        "T1114": {
+                            "name": "Email Collection"
+                        },
+                        "T1114.001": {
+                            "name": "Email Collection: Local Email Collection"
+                        },
+                        "T1114.002": {
+                            "name": "Email Collection: Remote Email Collection"
+                        },
+                        "T1114.003": {
+                            "name": "Email Collection: Email Forwarding Rule"
                         },
                         "T1123": {
                             "name": "Audio Capture"
@@ -4734,9 +4695,6 @@
                         },
                         "T1548.002": {
                             "name": "Abuse Elevation Control Mechanism: Bypass User Account Control"
-                        },
-                        "T1558": {
-                            "name": "Steal or Forge Kerberos Tickets"
                         }
                     },
                     "Exploit vuln": {
@@ -4946,9 +4904,6 @@
                         "T1027.005": {
                             "name": "Obfuscated Files or Information: Indicator Removal from Tools"
                         },
-                        "T1036.004": {
-                            "name": "Masquerading: Masquerade Task or Service"
-                        },
                         "T1071.001": {
                             "name": "Application Layer Protocol: Web Protocols"
                         },
@@ -5073,9 +5028,6 @@
                         }
                     },
                     "Email attachment": {
-                        "T1036": {
-                            "name": "Masquerading"
-                        },
                         "T1140": {
                             "name": "Deobfuscate/Decode Files or Information"
                         },
@@ -5121,9 +5073,6 @@
                         }
                     },
                     "Network propagation": {
-                        "T1021": {
-                            "name": "Remote Services"
-                        },
                         "T1550": {
                             "name": "Use Alternate Authentication Material"
                         },
@@ -5305,6 +5254,9 @@
             "integrity": {
                 "variety": {
                     "Alter behavior": {
+                        "T1114.003": {
+                            "name": "Email Collection: Email Forwarding Rule"
+                        },
                         "T1546": {
                             "name": "Event Triggered Execution"
                         },
