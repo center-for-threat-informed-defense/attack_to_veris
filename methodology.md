@@ -41,7 +41,7 @@ Within those axes, the scope is further narrowed based on whether the adversary 
 | **Action** | What actions affected the asset? | Yes | |
 | **Asset** | Which assets were affected? | No | Does not describe adversary behavior. |
 | **Attributes** | How was the asset affected? | Yes | |
-| **Value Chain** | Capabilities and investments an attacker must aquire prior to the actions on target. | Yes | |
+| **Value Chain** | Capabilities and investments an attacker must aquire prior to the actions on target. | Yes | Aligns with TA0042 Resource Development |
 
 Within those axes, the scope is further narrowed based on whether the adversary behaviors for a particular enumeration category align to ATT&CK. For example, ATT&CK does not cover unintentional errors or natural disasters and therefore the **Error** and **Environmental** enumeration categories in the **Action** axis are not mapped.
 
@@ -68,10 +68,10 @@ Within those axes, the scope is further narrowed based on whether the adversary 
 
 | Category | Description | In Scope | Comments |
 | --- | --- | --- | --- |
-| **Development** | Software that must be developed to accomplish the actions on target | Yes | Aligns with TA0042 Resource Development |
-| **Distribution** | Services used to distribute actor content | Yes | Aligns with TA0042 Resource Development |
-| **Non-Distribution Services** | Services used other than those used for distribution of actor content | Yes | Aligns with TA0042 Resource Development |
-| **Targeting** | Things that identify exploitable opportunities | Yes | Aligns with TA0042 Resource Development |
+| **Development** | Software that must be developed to accomplish the actions on target | Yes | |
+| **Distribution** | Services used to distribute actor content | Yes | |
+| **Non-Distribution Services** | Services used other than those used for distribution of actor content | Yes | |
+| **Targeting** | Things that identify exploitable opportunities | Yes | |
 | **Cash-Out** | Methods for converting something into currency | No | Describes activities after involvement with victim |
 | **Money Laundering** | Methods for concealing the origins of illegally obtained money | No | Describes activities after involvement with victim |
 
