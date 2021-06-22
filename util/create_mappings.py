@@ -14,7 +14,10 @@ def generate_veris_enumerations(veris_location, veris_version):
     and categories described below."""
     veris_url = f"https://raw.githubusercontent.com/vz-risk/VCDB/{veris_version}/vcdb-labels.json"
     json_enum = requests.get(veris_url).json()
-    axes = {"action": ["hacking", "malware", "misuse", "social"], "attribute": ["integrity"]}
+    axes = {"action": ["hacking", "malware", "misuse", "social"],
+            "attribute": ["integrity"],
+            "value_chain": ["development", "non-distribution services", "targeting", "distribution"],
+            }
 
     with veris_location.open('w', newline='\n', encoding='utf-8') as csvfile:
         fieldnames = ['AXES', 'CATEGORY', 'SUB CATEGORY', 'VALUE', 'DESCRIPTION']
@@ -89,12 +92,13 @@ def generate_csv_spreadsheet(spreadsheet_location, mappings_location):
                 if row[0] is not numpy.nan:
                     veris_path = f'{name}.{row[0]}'
 
-                writer.writerow({
-                    'DATE DELIVERED': strf_time,
-                    'VERIS PATH': veris_path,
-                    'RELATIONSHIP TYPE': relationship_type,
-                    'TECHNIQUE ID': row[1].strip()
-                })
+                if row[1] is not numpy.nan:
+                    writer.writerow({
+                        'DATE DELIVERED': strf_time,
+                        'VERIS PATH': veris_path,
+                        'RELATIONSHIP TYPE': relationship_type,
+                        'TECHNIQUE ID': row[1]  # .strip()
+                    })
 
 
 def generate_json_mappings(spreadsheet_location, config_location, json_mappings_location):
