@@ -16,7 +16,6 @@ def dict_lookup(lookup_dict, term):
         pdb.set_trace()
         message = f"ERROR: cannot find '{term}' in lookup dictionary..."
         print(Fore.RED + message,  Fore.RESET)
-        raise RuntimeError(message)
         exit()
     return lookup_dict[term]
 
