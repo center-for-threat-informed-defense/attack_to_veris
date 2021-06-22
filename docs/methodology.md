@@ -3,7 +3,7 @@
 ## Background
 The [Vocabulary for Event Recording and Incident Sharing (VERIS)](http://veriscommunity.net) is a set of metrics designed to provide a common language for describing security incidents in a structured and repeatable manner. The overall goal is to lay a foundation from which we can constructively and cooperatively learn from our experiences to better measure and manage risk.
 
-VERIS employs a threat model with four axes, the "A4" model, to describe incidents. The four axes are:
+VERIS employs a threat model with four primary axes, the "A4" model, to describe incidents. The four axes are:
 - **Actors:** Whose actions affected the asset?
 - **Actions:** What actions affected the asset?
 - **Assets:** Which assets were affected?
@@ -11,7 +11,9 @@ VERIS employs a threat model with four axes, the "A4" model, to describe inciden
 
 Each axis has a categorized set of values, called an enumeration, associated with it. Incidents are classified with one or more of those enumeration values for each axis.  Examples of incidents mapped to VERIS can be seen in the VERIS Community Database.
 
-In this document, VERIS enumeration values follow the form `[Axis].[Category].[Subcategory].[Value]`, e.g. **Action.Malware.Hacking.C2** corresponds to the C2 value in the Action axis, Malware category, Hacking subcategory.
+One other axis outside the 4A model that was scrutinized was the **Value Chain**, which represented pre-attack activities. These activities are essential to a successful campaign and are very closely associated with an entire category of behavior.
+
+In this document, VERIS enumeration values follow the form `[Axis].[Category].[Subcategory].[Value]`, e.g. **Action.Malware.Variety.C2** corresponds to the C2 value in the Action axis, Malware category, Variety subcategory.
 
 MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. ATT&CK focuses on how external adversaries compromise and operate within computer information networks.
 
@@ -39,6 +41,7 @@ Within those axes, the scope is further narrowed based on whether the adversary 
 | **Action** | What actions affected the asset? | Yes | |
 | **Asset** | Which assets were affected? | No | Does not describe adversary behavior. |
 | **Attributes** | How was the asset affected? | Yes | |
+| **Value Chain** | Capabilities and investments an attacker must aquire prior to the actions on target. | Yes | Aligns with TA0042 Resource Development |
 
 Within those axes, the scope is further narrowed based on whether the adversary behaviors for a particular enumeration category align to ATT&CK. For example, ATT&CK does not cover unintentional errors or natural disasters and therefore the **Error** and **Environmental** enumeration categories in the **Action** axis are not mapped.
 
@@ -61,11 +64,21 @@ Within those axes, the scope is further narrowed based on whether the adversary 
 | **Integrity/Authenticity** | State of system changed | Partial | Describes both tactical and strategic goals. Tactical goals were in-scope and mapped to ATT&CK. |
 | **Availability/Utility** | Availability of system(s) impacted | No | Describes strategic goals and adversary intent, which is out of scope for ATT&CK. |
 
+**Value Chain Axis Scope**
+
+| Category | Description | In Scope | Comments |
+| --- | --- | --- | --- |
+| **Development** | Software that must be developed to accomplish the actions on target | Yes | |
+| **Distribution** | Services used to distribute actor content | Yes | |
+| **Non-Distribution Services** | Services used other than those used for distribution of actor content | Yes | |
+| **Targeting** | Things that identify exploitable opportunities | Yes | |
+| **Cash-Out** | Methods for converting something into currency | No | Describes activities after involvement with victim |
+| **Money Laundering** | Methods for concealing the origins of illegally obtained money | No | Describes activities after involvement with victim |
+
 ## Mapping Philosophy and Process
 Based on those scoping decisions, the mappings were created by analyzing each in-scope ATT&CK technique/sub-technique and each in-scope VERIS enumeration value.
 
 VERIS and ATT&CK are at different levels of abstraction and cannot always perfectly describe the adversary behaviors that they are meant to represent. Some amount of analyst judgment is required, and as always when analyst judgment is involved, there can be differences of opinion. These design decisions document the judgment of the project team and why they made the decisions that they did. They explain why certain mappings are there and others are not.
-
 
 ## Design Decisions
 
