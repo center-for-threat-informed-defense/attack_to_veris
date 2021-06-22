@@ -42,7 +42,9 @@ def get_sheets(spreadsheet_location):
     sheet3 = 'Action.Malware.Variety'
     sheet4 = 'Action.Malware.Vector'
     sheet5 = 'Action.Social.Variety'
-    sheet6 = 'Attribute.Integrity.Variety'
+    sheet6 = 'Action.Social.Vector'
+    sheet7 = 'Attribute.Integrity.Variety'
+    sheet8 = 'Value_chain'
 
     xls = pandas.ExcelFile(spreadsheet_location)
     df1 = pandas.read_excel(xls, sheet1)
@@ -51,6 +53,8 @@ def get_sheets(spreadsheet_location):
     df4 = pandas.read_excel(xls, sheet4)
     df5 = pandas.read_excel(xls, sheet5)
     df6 = pandas.read_excel(xls, sheet6)
+    df7 = pandas.read_excel(xls, sheet7)
+    df8 = pandas.read_excel(xls, sheet8)
 
     sheets = [
         (df1, sheet1),
@@ -59,6 +63,8 @@ def get_sheets(spreadsheet_location):
         (df4, sheet4),
         (df5, sheet5),
         (df6, sheet6),
+        (df7, sheet7),
+        (df8, sheet8),
     ]
     return sheets
 
