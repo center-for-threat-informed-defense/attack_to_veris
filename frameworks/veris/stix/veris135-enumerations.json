@@ -1,8 +1,8 @@
 {
-    "id": "bundle--36fc3b07-ffc0-47c9-9cf5-49bd6cec1286",
+    "id": "bundle--c34c28a4-ba46-4b7e-991f-debb73d2017b",
     "objects": [
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.425Z",
             "description": "Abuse of functionality",
             "external_references": [
                 {
@@ -15,12 +15,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Abuse of functionality"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.425Z",
             "name": "Abuse of functionality",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.426Z",
             "description": "Brute force or password guessing attacks",
             "external_references": [
                 {
@@ -33,12 +33,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Brute force"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.426Z",
             "name": "Brute force",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.426Z",
             "description": "Buffer overflow. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -51,12 +51,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Buffer overflow"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.426Z",
             "name": "Buffer overflow",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.426Z",
             "description": "Cache poisoning. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -69,12 +69,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Cache poisoning"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.426Z",
             "name": "Cache poisoning",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.426Z",
             "description": "Cryptanalysis. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -87,12 +87,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Cryptanalysis"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.426Z",
             "name": "Cryptanalysis",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.426Z",
             "description": "Cross-site request forgery. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -105,12 +105,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.CSRF"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.426Z",
             "name": "CSRF",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.426Z",
             "description": "Denial of service",
             "external_references": [
                 {
@@ -123,12 +123,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.DoS"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.426Z",
             "name": "DoS",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.427Z",
             "description": "Exploit a misconfiguration (vs vuln or weakness)",
             "external_references": [
                 {
@@ -141,12 +141,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Exploit misconfig"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.427Z",
             "name": "Exploit misconfig",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.427Z",
             "description": "Exploit vulnerability in code (vs misconfig or weakness). This can be used with other hacking enumerations, (such as XSS when an XSS vuln exists.). Parent of many hacking varieties.",
             "external_references": [
                 {
@@ -159,12 +159,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Exploit vuln"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.427Z",
             "name": "Exploit vuln",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.427Z",
             "description": "Footprinting and fingerprinting",
             "external_references": [
                 {
@@ -177,12 +177,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Footprinting"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.427Z",
             "name": "Footprinting",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.427Z",
             "description": "Forced browsing or predictable resource location. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -195,12 +195,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Forced browsing"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.427Z",
             "name": "Forced browsing",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.427Z",
             "description": "Format string attack. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -213,12 +213,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Format string attack"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.427Z",
             "name": "Format string attack",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.427Z",
             "description": "Fuzz testing. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -231,12 +231,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Fuzz testing"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.427Z",
             "name": "Fuzz testing",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.428Z",
             "description": "HTTP request smuggling. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -249,12 +249,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.HTTP request smuggling"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.428Z",
             "name": "HTTP request smuggling",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.428Z",
             "description": "HTTP request splitting. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -267,12 +267,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.HTTP request splitting"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.428Z",
             "name": "HTTP request splitting",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.428Z",
             "description": "HTTP response smuggling. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -285,12 +285,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.HTTP response smuggling"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.428Z",
             "name": "HTTP response smuggling",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.428Z",
             "description": "HTTP Response Splitting. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -303,12 +303,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.HTTP Response Splitting"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.428Z",
             "name": "HTTP Response Splitting",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.428Z",
             "description": "iterating over sequential or obvious values. https://www.owasp.org/index.php/Top_10-2017_A8-Insecure_Deserialization. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -321,12 +321,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Insecure deserialization"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.428Z",
             "name": "Insecure deserialization",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.428Z",
             "description": "Integer overflows. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -339,12 +339,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Integer overflows"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.428Z",
             "name": "Integer overflows",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.428Z",
             "description": "LDAP injection. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -357,12 +357,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.LDAP injection"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.428Z",
             "name": "LDAP injection",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.429Z",
             "description": "Mail command injection. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -375,12 +375,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Mail command injection"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.429Z",
             "name": "Mail command injection",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.429Z",
             "description": "Man-in-the-middle attack. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -393,12 +393,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.MitM"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.429Z",
             "name": "MitM",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.429Z",
             "description": "Null byte injection. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -411,12 +411,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Null byte injection"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.429Z",
             "name": "Null byte injection",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.429Z",
             "description": "Offline password or key cracking (e.g., rainbow tables, Hashcat, JtR)",
             "external_references": [
                 {
@@ -429,12 +429,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Offline cracking"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.429Z",
             "name": "Offline cracking",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.429Z",
             "description": "OS commanding. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -447,12 +447,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.OS commanding"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.429Z",
             "name": "OS commanding",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.429Z",
             "description": "Pass-the-hash",
             "external_references": [
                 {
@@ -465,12 +465,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Pass-the-hash"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.429Z",
             "name": "Pass-the-hash",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.429Z",
             "description": "Path traversal. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -483,12 +483,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Path traversal"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.429Z",
             "name": "Path traversal",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.430Z",
             "description": "Reverse engineering. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -501,12 +501,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Reverse engineering"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.430Z",
             "name": "Reverse engineering",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.430Z",
             "description": "Remote file inclusion. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -519,12 +519,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.RFI"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.430Z",
             "name": "RFI",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.430Z",
             "description": "Routing detour. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -537,12 +537,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Routing detour"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.430Z",
             "name": "Routing detour",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.430Z",
             "description": "Session fixation. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -555,12 +555,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Session fixation"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.430Z",
             "name": "Session fixation",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.430Z",
             "description": "Credential or session prediction. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -573,12 +573,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Session prediction"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.430Z",
             "name": "Session prediction",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.430Z",
             "description": "Session replay. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -591,12 +591,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Session replay"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.430Z",
             "name": "Session replay",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.431Z",
             "description": "Soap array abuse. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -609,12 +609,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Soap array abuse"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.431Z",
             "name": "Soap array abuse",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.431Z",
             "description": "Special element injection. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -627,12 +627,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Special element injection"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.431Z",
             "name": "Special element injection",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.431Z",
             "description": "SQL injection. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -645,12 +645,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.SQLi"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.431Z",
             "name": "SQLi",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.431Z",
             "description": "SSI injection. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -663,12 +663,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.SSI injection"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.431Z",
             "name": "SSI injection",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.431Z",
             "description": "URL redirector abuse. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -681,12 +681,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.URL redirector abuse"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.431Z",
             "name": "URL redirector abuse",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.431Z",
             "description": "Use of Backdoor or C2 channel",
             "external_references": [
                 {
@@ -699,12 +699,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Use of backdoor or C2"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.431Z",
             "name": "Use of backdoor or C2",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.431Z",
             "description": "Use of stolen authentication credentials (including credential stuffing)",
             "external_references": [
                 {
@@ -717,12 +717,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Use of stolen creds"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.431Z",
             "name": "Use of stolen creds",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.432Z",
             "description": "Elevation of privilege by another customer in shared environment. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -735,12 +735,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.User breakout"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.432Z",
             "name": "User breakout",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.432Z",
             "description": "Virtual machine escape. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -753,12 +753,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Virtual machine escape"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.432Z",
             "name": "Virtual machine escape",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.432Z",
             "description": "XML attribute blowup. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -771,12 +771,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.XML attribute blowup"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.432Z",
             "name": "XML attribute blowup",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.432Z",
             "description": "XML entity expansion. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -789,12 +789,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.XML entity expansion"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.432Z",
             "name": "XML entity expansion",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.432Z",
             "description": "XML external entities. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -807,12 +807,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.XML external entities"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.432Z",
             "name": "XML external entities",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.432Z",
             "description": "XML injection. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -825,12 +825,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.XML injection"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.432Z",
             "name": "XML injection",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.432Z",
             "description": "XPath injection. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -843,12 +843,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.XPath injection"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.432Z",
             "name": "XPath injection",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.433Z",
             "description": "XQuery injection. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -861,12 +861,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.XQuery injection"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.433Z",
             "name": "XQuery injection",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.433Z",
             "description": "Cross-site scripting. Child of 'Exploit vuln'.",
             "external_references": [
                 {
@@ -879,12 +879,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.XSS"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.433Z",
             "name": "XSS",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.433Z",
             "description": "Other",
             "external_references": [
                 {
@@ -897,12 +897,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Other"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.433Z",
             "name": "Other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.433Z",
             "description": "Unknown",
             "external_references": [
                 {
@@ -915,12 +915,12 @@
             "labels": [
                 "veris-path:action.hacking.variety.Unknown"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.433Z",
             "name": "Unknown",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.433Z",
             "description": "3rd party online desktop sharing (LogMeIn, Go2Assist)",
             "external_references": [
                 {
@@ -933,12 +933,12 @@
             "labels": [
                 "veris-path:action.hacking.vector.3rd party desktop"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.433Z",
             "name": "3rd party desktop",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.433Z",
             "description": "Backdoor or command and control channel",
             "external_references": [
                 {
@@ -951,12 +951,12 @@
             "labels": [
                 "veris-path:action.hacking.vector.Backdoor or C2"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.433Z",
             "name": "Backdoor or C2",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.433Z",
             "description": "Remote shell",
             "external_references": [
                 {
@@ -969,12 +969,12 @@
             "labels": [
                 "veris-path:action.hacking.vector.Command shell"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.433Z",
             "name": "Command shell",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.434Z",
             "description": "Graphical desktop sharing (RDP, VNC, PCAnywhere, Citrix)",
             "external_references": [
                 {
@@ -987,12 +987,12 @@
             "labels": [
                 "veris-path:action.hacking.vector.Desktop sharing"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.434Z",
             "name": "Desktop sharing",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.434Z",
             "description": "Superset of 'Desktop sharing' and '3rd party desktop'.  Please use in place of the other two",
             "external_references": [
                 {
@@ -1005,12 +1005,12 @@
             "labels": [
                 "veris-path:action.hacking.vector.Desktop sharing software"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.434Z",
             "name": "Desktop sharing software",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.434Z",
             "description": "Hypervisor break-out attack",
             "external_references": [
                 {
@@ -1023,12 +1023,12 @@
             "labels": [
                 "veris-path:action.hacking.vector.Hypervisor"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.434Z",
             "name": "Hypervisor",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.434Z",
             "description": "Penetration of another VM or web site on shared device or infrastructure",
             "external_references": [
                 {
@@ -1041,12 +1041,12 @@
             "labels": [
                 "veris-path:action.hacking.vector.Inter-tenant"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.434Z",
             "name": "Inter-tenant",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.434Z",
             "description": "Other",
             "external_references": [
                 {
@@ -1059,12 +1059,12 @@
             "labels": [
                 "veris-path:action.hacking.vector.Other"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.434Z",
             "name": "Other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.434Z",
             "description": "Partner connection or credential",
             "external_references": [
                 {
@@ -1077,13 +1077,13 @@
             "labels": [
                 "veris-path:action.hacking.vector.Partner"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.434Z",
             "name": "Partner",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
-            "description": "Physical access or connection (i.e., at keyboard or via cable) ",
+            "created": "2021-06-22T14:13:25.434Z",
+            "description": "Physical access or connection (i.e., at keyboard or via cable)",
             "external_references": [
                 {
                     "external_id": "action.hacking.vector.Physical access",
@@ -1095,12 +1095,12 @@
             "labels": [
                 "veris-path:action.hacking.vector.Physical access"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.434Z",
             "name": "Physical access",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.435Z",
             "description": "VPN",
             "external_references": [
                 {
@@ -1113,12 +1113,12 @@
             "labels": [
                 "veris-path:action.hacking.vector.VPN"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.435Z",
             "name": "VPN",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.435Z",
             "description": "Web application",
             "external_references": [
                 {
@@ -1131,12 +1131,12 @@
             "labels": [
                 "veris-path:action.hacking.vector.Web application"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.435Z",
             "name": "Web application",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.435Z",
             "description": "Unknown",
             "external_references": [
                 {
@@ -1149,12 +1149,12 @@
             "labels": [
                 "veris-path:action.hacking.vector.Unknown"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.435Z",
             "name": "Unknown",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.435Z",
             "description": "The hacking action resulted in additional security access",
             "external_references": [
                 {
@@ -1167,12 +1167,12 @@
             "labels": [
                 "veris-path:action.hacking.result.Infiltrate"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.435Z",
             "name": "Infiltrate",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.435Z",
             "description": "The hacking action exfiltrated data from the victim",
             "external_references": [
                 {
@@ -1185,12 +1185,12 @@
             "labels": [
                 "veris-path:action.hacking.result.Exfiltrate"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.435Z",
             "name": "Exfiltrate",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.435Z",
             "description": "The hacking action resulted in additional security permissions",
             "external_references": [
                 {
@@ -1203,12 +1203,12 @@
             "labels": [
                 "veris-path:action.hacking.result.Elevate"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.435Z",
             "name": "Elevate",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.436Z",
             "description": "The hacking action used security access or permissions already acuired",
             "external_references": [
                 {
@@ -1221,12 +1221,12 @@
             "labels": [
                 "veris-path:action.hacking.result.Lateral movement"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.436Z",
             "name": "Lateral movement",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.436Z",
             "description": "e.g. cryptomining, ransomware, etc",
             "external_references": [
                 {
@@ -1239,12 +1239,12 @@
             "labels": [
                 "veris-path:action.hacking.result.Deploy payload"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.436Z",
             "name": "Deploy payload",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.436Z",
             "description": "The result of the hacking action is not listed",
             "external_references": [
                 {
@@ -1257,12 +1257,12 @@
             "labels": [
                 "veris-path:action.hacking.result.Other"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.436Z",
             "name": "Other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.436Z",
             "description": "The result of the hacking action is unknown",
             "external_references": [
                 {
@@ -1275,12 +1275,12 @@
             "labels": [
                 "veris-path:action.hacking.result.Unknown"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.436Z",
             "name": "Unknown",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.436Z",
             "description": "The hacking action did not have a result",
             "external_references": [
                 {
@@ -1293,12 +1293,12 @@
             "labels": [
                 "veris-path:action.hacking.result.NA"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.436Z",
             "name": "NA",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.436Z",
             "description": "System or network utilities (e.g., PsTools, Netcat)",
             "external_references": [
                 {
@@ -1311,12 +1311,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Adminware"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.436Z",
             "name": "Adminware",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.436Z",
             "description": "Adware",
             "external_references": [
                 {
@@ -1329,12 +1329,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Adware"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.436Z",
             "name": "Adware",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.437Z",
             "description": "Backdoor (enable remote access). Child of 'RAT' when combined with 'Trojan'",
             "external_references": [
                 {
@@ -1347,12 +1347,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Backdoor"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.437Z",
             "name": "Backdoor",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.437Z",
             "description": "Brute force attack",
             "external_references": [
                 {
@@ -1365,12 +1365,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Brute force"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.437Z",
             "name": "Brute force",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.437Z",
             "description": "Command and control (C2)",
             "external_references": [
                 {
@@ -1383,12 +1383,12 @@
             "labels": [
                 "veris-path:action.malware.variety.C2"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.437Z",
             "name": "C2",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.437Z",
             "description": "Capture data from application or system process",
             "external_references": [
                 {
@@ -1401,12 +1401,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Capture app data"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.437Z",
             "name": "Capture app data",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.437Z",
             "description": "Capture data stored on system disk",
             "external_references": [
                 {
@@ -1419,12 +1419,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Capture stored data"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.437Z",
             "name": "Capture stored data",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.437Z",
             "description": "Click fraud, whether or not cryptocurrency mining.  Also mark 'Click fraud or cryptocurrency mining'. Child of 'Click fraud and cryptocurrency mining'.",
             "external_references": [
                 {
@@ -1437,12 +1437,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Click fraud"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.437Z",
             "name": "Click fraud",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.437Z",
             "description": "Click fraud or cryptocurrency mining. Parent of 'Click fraud' and 'Cryptocurrency mining'.",
             "external_references": [
                 {
@@ -1455,12 +1455,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Click fraud and cryptocurrency mining"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.437Z",
             "name": "Click fraud and cryptocurrency mining",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.438Z",
             "description": "Client-side or browser attack (e.g., redirection, XSS, MitB)",
             "external_references": [
                 {
@@ -1473,12 +1473,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Client-side attack"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.438Z",
             "name": "Client-side attack",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.438Z",
             "description": "Cryptocurrency mining, whether or not click fraud. Child of 'Click fraud and cryptocurrency mining'.",
             "external_references": [
                 {
@@ -1491,12 +1491,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Cryptocurrency mining"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.438Z",
             "name": "Cryptocurrency mining",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.438Z",
             "description": "Destroy or corrupt stored data",
             "external_references": [
                 {
@@ -1509,12 +1509,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Destroy data"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.438Z",
             "name": "Destroy data",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.438Z",
             "description": "(malware never stored to persistent storage)",
             "external_references": [
                 {
@@ -1527,12 +1527,12 @@
             "labels": [
                 "veris-path:action.malware.variety.In-memory"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.438Z",
             "name": "In-memory",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.438Z",
             "description": "Malware which compromises a legitimate file rather than creating new filess",
             "external_references": [
                 {
@@ -1545,12 +1545,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Modify data"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.438Z",
             "name": "Modify data",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.438Z",
             "description": "Disable or interfere with security controls",
             "external_references": [
                 {
@@ -1563,12 +1563,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Disable controls"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.438Z",
             "name": "Disable controls",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.438Z",
             "description": "DoS attack",
             "external_references": [
                 {
@@ -1581,12 +1581,12 @@
             "labels": [
                 "veris-path:action.malware.variety.DoS"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.438Z",
             "name": "DoS",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.439Z",
             "description": "Downloader (pull updates or other malware)",
             "external_references": [
                 {
@@ -1599,12 +1599,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Downloader"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.439Z",
             "name": "Downloader",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.439Z",
             "description": "Exploit a misconfiguration (vs vuln or weakness)",
             "external_references": [
                 {
@@ -1617,12 +1617,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Exploit misconfig"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.439Z",
             "name": "Exploit misconfig",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.439Z",
             "description": "Exploit vulnerability in code (vs misconfig or weakness). This can be used with other malware enumerations, (such as Remote injection when a Remote injection vuln exists.)",
             "external_references": [
                 {
@@ -1635,12 +1635,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Exploit vuln"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.439Z",
             "name": "Exploit vuln",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.439Z",
             "description": "Export data to another site or system",
             "external_references": [
                 {
@@ -1653,12 +1653,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Export data"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.439Z",
             "name": "Export data",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.439Z",
             "description": "Packet sniffer (capture data from network)",
             "external_references": [
                 {
@@ -1671,12 +1671,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Packet sniffer"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.439Z",
             "name": "Packet sniffer",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.439Z",
             "description": "Password dumper (extract credential hashes)",
             "external_references": [
                 {
@@ -1689,12 +1689,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Password dumper"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.439Z",
             "name": "Password dumper",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.439Z",
             "description": "RAM scraper or memory parser (capture data from volatile memory)",
             "external_references": [
                 {
@@ -1707,12 +1707,12 @@
             "labels": [
                 "veris-path:action.malware.variety.RAM scraper"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.439Z",
             "name": "RAM scraper",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.440Z",
             "description": "Ransomware (encrypt or seize stored data)",
             "external_references": [
                 {
@@ -1725,12 +1725,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Ransomware"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.440Z",
             "name": "Ransomware",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.440Z",
             "description": "Remote Access Trojan.  Parent of 'Backdoor' and 'Trojan'",
             "external_references": [
                 {
@@ -1743,12 +1743,12 @@
             "labels": [
                 "veris-path:action.malware.variety.RAT"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.440Z",
             "name": "RAT",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.440Z",
             "description": "Rootkit (maintain local privileges and stealth)",
             "external_references": [
                 {
@@ -1761,12 +1761,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Rootkit"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.440Z",
             "name": "Rootkit",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.440Z",
             "description": "Scan or footprint network",
             "external_references": [
                 {
@@ -1779,12 +1779,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Scan network"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.440Z",
             "name": "Scan network",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.440Z",
             "description": "Send spam",
             "external_references": [
                 {
@@ -1797,12 +1797,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Spam"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.440Z",
             "name": "Spam",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.585Z",
+            "created": "2021-06-22T14:13:25.440Z",
             "description": "Spyware, keylogger or form-grabber (capture user input or activity)",
             "external_references": [
                 {
@@ -1815,12 +1815,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Spyware/Keylogger"
             ],
-            "modified": "2021-06-11T19:59:57.585Z",
+            "modified": "2021-06-22T14:13:25.440Z",
             "name": "Spyware/Keylogger",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.440Z",
             "description": "SQL injection attack",
             "external_references": [
                 {
@@ -1833,12 +1833,12 @@
             "labels": [
                 "veris-path:action.malware.variety.SQL injection"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.440Z",
             "name": "SQL injection",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.441Z",
             "description": "An application which appears legitimate but hides malicious functionality. Child of 'RAT' when combined with 'Backdoor'",
             "external_references": [
                 {
@@ -1851,12 +1851,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Trojan"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.441Z",
             "name": "Trojan",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.441Z",
             "description": "Worm (propagate to other systems or devices)",
             "external_references": [
                 {
@@ -1869,12 +1869,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Worm"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.441Z",
             "name": "Worm",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.441Z",
             "description": "Other",
             "external_references": [
                 {
@@ -1887,12 +1887,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Other"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.441Z",
             "name": "Other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.441Z",
             "description": "Unknown",
             "external_references": [
                 {
@@ -1905,12 +1905,12 @@
             "labels": [
                 "veris-path:action.malware.variety.Unknown"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.441Z",
             "name": "Unknown",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.441Z",
             "description": "Directly installed or inserted by threat agent (after system access)",
             "external_references": [
                 {
@@ -1923,12 +1923,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Direct install"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.441Z",
             "name": "Direct install",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.441Z",
             "description": "Downloaded and installed by local malware",
             "external_references": [
                 {
@@ -1941,12 +1941,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Download by malware"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.441Z",
             "name": "Download by malware",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.441Z",
             "description": "Email. Parent to 'Email attachment', 'Email autoexecute', 'Email link', 'Email unknown'",
             "external_references": [
                 {
@@ -1959,12 +1959,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Email"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.441Z",
             "name": "Email",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.442Z",
             "description": "Email via user-executed attachment. Child of 'Email'",
             "external_references": [
                 {
@@ -1977,12 +1977,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Email attachment"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.442Z",
             "name": "Email attachment",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.442Z",
             "description": "Email via automatic execution. Child of 'Email'",
             "external_references": [
                 {
@@ -1995,12 +1995,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Email autoexecute"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.442Z",
             "name": "Email autoexecute",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.442Z",
             "description": "Email via embedded link. Child of 'Email'",
             "external_references": [
                 {
@@ -2013,12 +2013,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Email link"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.442Z",
             "name": "Email link",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.442Z",
             "description": "Email but sub-variety (attachment, autoexecute, link, etc) not known. Child of 'Email'",
             "external_references": [
                 {
@@ -2031,12 +2031,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Email unknown"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.442Z",
             "name": "Email unknown",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.442Z",
             "description": "Email sub-variety known, but not one of those listed (attachment, link, autoexecute, etc). Child of 'Email'",
             "external_references": [
                 {
@@ -2049,12 +2049,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Email other"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.442Z",
             "name": "Email other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.442Z",
             "description": "Instant Messaging",
             "external_references": [
                 {
@@ -2067,12 +2067,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Instant messaging"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.442Z",
             "name": "Instant messaging",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.442Z",
             "description": "Network propagation",
             "external_references": [
                 {
@@ -2085,12 +2085,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Network propagation"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.442Z",
             "name": "Network propagation",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.443Z",
             "description": "Remotely injected by agent (i.e. via SQLi)",
             "external_references": [
                 {
@@ -2103,12 +2103,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Remote injection"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.443Z",
             "name": "Remote injection",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.443Z",
             "description": "Removable storage media or devices",
             "external_references": [
                 {
@@ -2121,12 +2121,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Removable media"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.443Z",
             "name": "Removable media",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.443Z",
             "description": "Included in automated software update",
             "external_references": [
                 {
@@ -2139,12 +2139,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Software update"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.443Z",
             "name": "Software update",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.443Z",
             "description": "Web application. Parent of 'Web application - download' and 'Web application - drive-by.",
             "external_references": [
                 {
@@ -2157,12 +2157,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Web application"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.443Z",
             "name": "Web application",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.443Z",
             "description": "Web via user-executed or downloaded content. Child of 'Web application'.",
             "external_references": [
                 {
@@ -2175,12 +2175,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Web application - download"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.443Z",
             "name": "Web application - download",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.443Z",
             "description": "Web via auto-executed or \"drive-by\" infection. Child of 'Web application'.",
             "external_references": [
                 {
@@ -2193,12 +2193,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Web application - drive-by"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.443Z",
             "name": "Web application - drive-by",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.444Z",
             "description": "Other",
             "external_references": [
                 {
@@ -2211,12 +2211,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Other"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.444Z",
             "name": "Other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.444Z",
             "description": "Unknown",
             "external_references": [
                 {
@@ -2229,12 +2229,12 @@
             "labels": [
                 "veris-path:action.malware.vector.Unknown"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.444Z",
             "name": "Unknown",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.444Z",
             "description": "The malware action resulted in additional security access",
             "external_references": [
                 {
@@ -2247,12 +2247,12 @@
             "labels": [
                 "veris-path:action.malware.result.Infiltrate"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.444Z",
             "name": "Infiltrate",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.444Z",
             "description": "The malware action exfiltrated data from the victim",
             "external_references": [
                 {
@@ -2265,12 +2265,12 @@
             "labels": [
                 "veris-path:action.malware.result.Exfiltrate"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.444Z",
             "name": "Exfiltrate",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.444Z",
             "description": "The malware action resulted in additional security permissions",
             "external_references": [
                 {
@@ -2283,12 +2283,12 @@
             "labels": [
                 "veris-path:action.malware.result.Elevate"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.444Z",
             "name": "Elevate",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.444Z",
             "description": "The malware action used security access or permissions already acuired",
             "external_references": [
                 {
@@ -2301,12 +2301,12 @@
             "labels": [
                 "veris-path:action.malware.result.Lateral movement"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.444Z",
             "name": "Lateral movement",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.445Z",
             "description": "e.g. cryptomining, ransomware, etc",
             "external_references": [
                 {
@@ -2319,12 +2319,12 @@
             "labels": [
                 "veris-path:action.malware.result.Deploy payload"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.445Z",
             "name": "Deploy payload",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.445Z",
             "description": "The result of the malware action is not listed",
             "external_references": [
                 {
@@ -2337,12 +2337,12 @@
             "labels": [
                 "veris-path:action.malware.result.Other"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.445Z",
             "name": "Other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.445Z",
             "description": "The result of the malware action is unknown",
             "external_references": [
                 {
@@ -2355,12 +2355,12 @@
             "labels": [
                 "veris-path:action.malware.result.Unknown"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.445Z",
             "name": "Unknown",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.445Z",
             "description": "The malware action did not have a result",
             "external_references": [
                 {
@@ -2373,12 +2373,12 @@
             "labels": [
                 "veris-path:action.malware.result.NA"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.445Z",
             "name": "NA",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.445Z",
             "description": "Handling of data in an unapproved manner",
             "external_references": [
                 {
@@ -2391,12 +2391,12 @@
             "labels": [
                 "veris-path:action.misuse.variety.Data mishandling"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.445Z",
             "name": "Data mishandling",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.445Z",
             "description": "Inappropriate use of email or IM",
             "external_references": [
                 {
@@ -2409,12 +2409,12 @@
             "labels": [
                 "veris-path:action.misuse.variety.Email misuse"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.445Z",
             "name": "Email misuse",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.445Z",
             "description": "Storage or distribution of illicit content",
             "external_references": [
                 {
@@ -2427,12 +2427,12 @@
             "labels": [
                 "veris-path:action.misuse.variety.Illicit content"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.445Z",
             "name": "Illicit content",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.446Z",
             "description": "Abuse of private or entrusted knowledge",
             "external_references": [
                 {
@@ -2445,12 +2445,12 @@
             "labels": [
                 "veris-path:action.misuse.variety.Knowledge abuse"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.446Z",
             "name": "Knowledge abuse",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.446Z",
             "description": "Inappropriate use of network or Web access including cloud services",
             "external_references": [
                 {
@@ -2463,12 +2463,12 @@
             "labels": [
                 "veris-path:action.misuse.variety.Net misuse"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.446Z",
             "name": "Net misuse",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.446Z",
             "description": "Abuse of physical access to asset",
             "external_references": [
                 {
@@ -2481,12 +2481,12 @@
             "labels": [
                 "veris-path:action.misuse.variety.Possession abuse"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.446Z",
             "name": "Possession abuse",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.446Z",
             "description": "Abuse of system access privileges",
             "external_references": [
                 {
@@ -2499,12 +2499,12 @@
             "labels": [
                 "veris-path:action.misuse.variety.Privilege abuse"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.446Z",
             "name": "Privilege abuse",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.446Z",
             "description": "Actor photographs the confidentiality data variety.",
             "external_references": [
                 {
@@ -2517,12 +2517,12 @@
             "labels": [
                 "veris-path:action.misuse.variety.Snap picture"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.446Z",
             "name": "Snap picture",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.446Z",
             "description": "Use of unapproved hardware or devices",
             "external_references": [
                 {
@@ -2535,12 +2535,12 @@
             "labels": [
                 "veris-path:action.misuse.variety.Unapproved hardware"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.446Z",
             "name": "Unapproved hardware",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.446Z",
             "description": "Use of unapproved software or services",
             "external_references": [
                 {
@@ -2553,12 +2553,12 @@
             "labels": [
                 "veris-path:action.misuse.variety.Unapproved software"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.446Z",
             "name": "Unapproved software",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.447Z",
             "description": "Unapproved workaround or shortcut",
             "external_references": [
                 {
@@ -2571,13 +2571,13 @@
             "labels": [
                 "veris-path:action.misuse.variety.Unapproved workaround"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.447Z",
             "name": "Unapproved workaround",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
-            "description": " Other",
+            "created": "2021-06-22T14:13:25.447Z",
+            "description": "Other",
             "external_references": [
                 {
                     "external_id": "action.misuse.variety.Other",
@@ -2589,12 +2589,12 @@
             "labels": [
                 "veris-path:action.misuse.variety.Other"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.447Z",
             "name": "Other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.447Z",
             "description": "Unknown",
             "external_references": [
                 {
@@ -2607,12 +2607,12 @@
             "labels": [
                 "veris-path:action.misuse.variety.Unknown"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.447Z",
             "name": "Unknown",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.447Z",
             "description": "Local network access within corporate facility",
             "external_references": [
                 {
@@ -2625,12 +2625,12 @@
             "labels": [
                 "veris-path:action.misuse.vector.LAN access"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.447Z",
             "name": "LAN access",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.447Z",
             "description": "Non-corporate facilities or networks",
             "external_references": [
                 {
@@ -2643,12 +2643,12 @@
             "labels": [
                 "veris-path:action.misuse.vector.Non-corporate"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.447Z",
             "name": "Non-corporate",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.447Z",
             "description": "Physical access within corporate facility",
             "external_references": [
                 {
@@ -2661,12 +2661,12 @@
             "labels": [
                 "veris-path:action.misuse.vector.Physical access"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.447Z",
             "name": "Physical access",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.447Z",
             "description": "Remote access connection to corporate network (i.e. VPN)",
             "external_references": [
                 {
@@ -2679,12 +2679,12 @@
             "labels": [
                 "veris-path:action.misuse.vector.Remote access"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.447Z",
             "name": "Remote access",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.448Z",
             "description": "Web application",
             "external_references": [
                 {
@@ -2697,12 +2697,12 @@
             "labels": [
                 "veris-path:action.misuse.vector.Web application"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.448Z",
             "name": "Web application",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.448Z",
             "description": "Other",
             "external_references": [
                 {
@@ -2715,12 +2715,12 @@
             "labels": [
                 "veris-path:action.misuse.vector.Other"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.448Z",
             "name": "Other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.448Z",
             "description": "Unknown",
             "external_references": [
                 {
@@ -2733,12 +2733,12 @@
             "labels": [
                 "veris-path:action.misuse.vector.Unknown"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.448Z",
             "name": "Unknown",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.448Z",
             "description": "Do not use. Misuse inherently implies having permission so none can be gained.",
             "external_references": [
                 {
@@ -2751,12 +2751,12 @@
             "labels": [
                 "veris-path:action.misuse.result.Infiltrate"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.448Z",
             "name": "Infiltrate",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.448Z",
             "description": "The misuse action exfiltrated data from the victim",
             "external_references": [
                 {
@@ -2769,12 +2769,12 @@
             "labels": [
                 "veris-path:action.misuse.result.Exfiltrate"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.448Z",
             "name": "Exfiltrate",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.448Z",
             "description": "Do not use. Misuse inherently implies having permission so none can be elevated.",
             "external_references": [
                 {
@@ -2787,12 +2787,12 @@
             "labels": [
                 "veris-path:action.misuse.result.Elevate"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.448Z",
             "name": "Elevate",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.448Z",
             "description": "The misuse action used security access or permissions already acuired",
             "external_references": [
                 {
@@ -2805,12 +2805,12 @@
             "labels": [
                 "veris-path:action.misuse.result.Lateral movement"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.448Z",
             "name": "Lateral movement",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.449Z",
             "description": "e.g. cryptomining, ransomware, etc",
             "external_references": [
                 {
@@ -2823,12 +2823,12 @@
             "labels": [
                 "veris-path:action.misuse.result.Deploy payload"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.449Z",
             "name": "Deploy payload",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.449Z",
             "description": "The result of the misuse action is not listed",
             "external_references": [
                 {
@@ -2841,12 +2841,12 @@
             "labels": [
                 "veris-path:action.misuse.result.Other"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.449Z",
             "name": "Other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.449Z",
             "description": "The result of the misuse action is unknown",
             "external_references": [
                 {
@@ -2859,12 +2859,12 @@
             "labels": [
                 "veris-path:action.misuse.result.Unknown"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.449Z",
             "name": "Unknown",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.449Z",
             "description": "The misuse action did not have a result",
             "external_references": [
                 {
@@ -2877,12 +2877,12 @@
             "labels": [
                 "veris-path:action.misuse.result.NA"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.449Z",
             "name": "NA",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.449Z",
             "description": "Baiting (planting infected media)",
             "external_references": [
                 {
@@ -2895,12 +2895,12 @@
             "labels": [
                 "veris-path:action.social.variety.Baiting"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.449Z",
             "name": "Baiting",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.449Z",
             "description": "Bribery or solicitation",
             "external_references": [
                 {
@@ -2913,12 +2913,12 @@
             "labels": [
                 "veris-path:action.social.variety.Bribery"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.449Z",
             "name": "Bribery",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.449Z",
             "description": "Elicitation (subtle extraction of info through conversation)",
             "external_references": [
                 {
@@ -2931,12 +2931,12 @@
             "labels": [
                 "veris-path:action.social.variety.Elicitation"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.449Z",
             "name": "Elicitation",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.450Z",
             "description": "Extortion or blackmail",
             "external_references": [
                 {
@@ -2949,12 +2949,12 @@
             "labels": [
                 "veris-path:action.social.variety.Extortion"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.450Z",
             "name": "Extortion",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.450Z",
             "description": "Forgery or counterfeiting (fake hardware, software, documents, etc)",
             "external_references": [
                 {
@@ -2967,12 +2967,12 @@
             "labels": [
                 "veris-path:action.social.variety.Forgery"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.450Z",
             "name": "Forgery",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.450Z",
             "description": "Influence tactics (Leveraging authority or obligation, framing, etc)",
             "external_references": [
                 {
@@ -2985,12 +2985,12 @@
             "labels": [
                 "veris-path:action.social.variety.Influence"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.450Z",
             "name": "Influence",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.450Z",
             "description": "Phishing (or any type of *ishing)",
             "external_references": [
                 {
@@ -3003,12 +3003,12 @@
             "labels": [
                 "veris-path:action.social.variety.Phishing"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.450Z",
             "name": "Phishing",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.450Z",
             "description": "Pretexting (dialogue leveraging invented scenario)",
             "external_references": [
                 {
@@ -3021,12 +3021,12 @@
             "labels": [
                 "veris-path:action.social.variety.Pretexting"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.450Z",
             "name": "Pretexting",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.450Z",
             "description": "Propaganda or disinformation",
             "external_references": [
                 {
@@ -3039,12 +3039,12 @@
             "labels": [
                 "veris-path:action.social.variety.Propaganda"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.450Z",
             "name": "Propaganda",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.451Z",
             "description": "Online scam or hoax (e.g., scareware, 419 scam, auction fraud)",
             "external_references": [
                 {
@@ -3057,12 +3057,12 @@
             "labels": [
                 "veris-path:action.social.variety.Scam"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.451Z",
             "name": "Scam",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.451Z",
             "description": "Spam (unsolicited or undesired email and advertisements)",
             "external_references": [
                 {
@@ -3075,12 +3075,12 @@
             "labels": [
                 "veris-path:action.social.variety.Spam"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.451Z",
             "name": "Spam",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.451Z",
             "description": "Other",
             "external_references": [
                 {
@@ -3093,12 +3093,12 @@
             "labels": [
                 "veris-path:action.social.variety.Other"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.451Z",
             "name": "Other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.451Z",
             "description": "Unknown",
             "external_references": [
                 {
@@ -3111,12 +3111,12 @@
             "labels": [
                 "veris-path:action.social.variety.Unknown"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.451Z",
             "name": "Unknown",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.451Z",
             "description": "Documents",
             "external_references": [
                 {
@@ -3129,12 +3129,12 @@
             "labels": [
                 "veris-path:action.social.vector.Documents"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.451Z",
             "name": "Documents",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.451Z",
             "description": "Email",
             "external_references": [
                 {
@@ -3147,12 +3147,12 @@
             "labels": [
                 "veris-path:action.social.vector.Email"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.451Z",
             "name": "Email",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.451Z",
             "description": "Instant messaging",
             "external_references": [
                 {
@@ -3165,12 +3165,12 @@
             "labels": [
                 "veris-path:action.social.vector.IM"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.451Z",
             "name": "IM",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.452Z",
             "description": "In-person",
             "external_references": [
                 {
@@ -3183,12 +3183,12 @@
             "labels": [
                 "veris-path:action.social.vector.In-person"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.452Z",
             "name": "In-person",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.452Z",
             "description": "Phone",
             "external_references": [
                 {
@@ -3201,12 +3201,12 @@
             "labels": [
                 "veris-path:action.social.vector.Phone"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.452Z",
             "name": "Phone",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.452Z",
             "description": "Removable storage media",
             "external_references": [
                 {
@@ -3219,12 +3219,12 @@
             "labels": [
                 "veris-path:action.social.vector.Removable media"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.452Z",
             "name": "Removable media",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.452Z",
             "description": "SMS or texting",
             "external_references": [
                 {
@@ -3237,12 +3237,12 @@
             "labels": [
                 "veris-path:action.social.vector.SMS"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.452Z",
             "name": "SMS",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.452Z",
             "description": "Social media or networking",
             "external_references": [
                 {
@@ -3255,12 +3255,12 @@
             "labels": [
                 "veris-path:action.social.vector.Social media"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.452Z",
             "name": "Social media",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.452Z",
             "description": "Software",
             "external_references": [
                 {
@@ -3273,12 +3273,12 @@
             "labels": [
                 "veris-path:action.social.vector.Software"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.452Z",
             "name": "Software",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.453Z",
             "description": "Website",
             "external_references": [
                 {
@@ -3291,12 +3291,12 @@
             "labels": [
                 "veris-path:action.social.vector.Website"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.453Z",
             "name": "Website",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.453Z",
             "description": "Other",
             "external_references": [
                 {
@@ -3309,12 +3309,12 @@
             "labels": [
                 "veris-path:action.social.vector.Other"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.453Z",
             "name": "Other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.453Z",
             "description": "Unknown",
             "external_references": [
                 {
@@ -3327,12 +3327,12 @@
             "labels": [
                 "veris-path:action.social.vector.Unknown"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.453Z",
             "name": "Unknown",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.453Z",
             "description": "Auditor",
             "external_references": [
                 {
@@ -3345,12 +3345,12 @@
             "labels": [
                 "veris-path:action.social.target.Auditor"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.453Z",
             "name": "Auditor",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.453Z",
             "description": "Call center staff",
             "external_references": [
                 {
@@ -3363,12 +3363,12 @@
             "labels": [
                 "veris-path:action.social.target.Call center"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.453Z",
             "name": "Call center",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.453Z",
             "description": "Cashier, teller or waiter",
             "external_references": [
                 {
@@ -3381,12 +3381,12 @@
             "labels": [
                 "veris-path:action.social.target.Cashier"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.453Z",
             "name": "Cashier",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.453Z",
             "description": "Customer (B2C)",
             "external_references": [
                 {
@@ -3399,12 +3399,12 @@
             "labels": [
                 "veris-path:action.social.target.Customer"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.453Z",
             "name": "Customer",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.454Z",
             "description": "Software developer",
             "external_references": [
                 {
@@ -3417,12 +3417,12 @@
             "labels": [
                 "veris-path:action.social.target.Developer"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.454Z",
             "name": "Developer",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.454Z",
             "description": "End-user of the victim's products and/or services. Child of 'End-user or employee'",
             "external_references": [
                 {
@@ -3435,12 +3435,12 @@
             "labels": [
                 "veris-path:action.social.target.End-user"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.454Z",
             "name": "End-user",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.454Z",
             "description": "End-user or regular employee not otherwise listed. Parent of 'End-user' or 'Other employee'",
             "external_references": [
                 {
@@ -3453,12 +3453,12 @@
             "labels": [
                 "veris-path:action.social.target.End-user or employee"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.454Z",
             "name": "End-user or employee",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.454Z",
             "description": "Senior staff with legal responsibility such as board members and corporate officers",
             "external_references": [
                 {
@@ -3471,12 +3471,12 @@
             "labels": [
                 "veris-path:action.social.target.Executive"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.454Z",
             "name": "Executive",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.454Z",
             "description": "Finance or accounting staff",
             "external_references": [
                 {
@@ -3489,12 +3489,12 @@
             "labels": [
                 "veris-path:action.social.target.Finance"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.454Z",
             "name": "Finance",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.454Z",
             "description": "Former employee",
             "external_references": [
                 {
@@ -3507,12 +3507,12 @@
             "labels": [
                 "veris-path:action.social.target.Former employee"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.454Z",
             "name": "Former employee",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.454Z",
             "description": "Security guard",
             "external_references": [
                 {
@@ -3525,12 +3525,12 @@
             "labels": [
                 "veris-path:action.social.target.Guard"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.454Z",
             "name": "Guard",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.455Z",
             "description": "Helpdesk staff",
             "external_references": [
                 {
@@ -3543,12 +3543,12 @@
             "labels": [
                 "veris-path:action.social.target.Helpdesk"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.455Z",
             "name": "Helpdesk",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.455Z",
             "description": "Human resources staff",
             "external_references": [
                 {
@@ -3561,12 +3561,12 @@
             "labels": [
                 "veris-path:action.social.target.Human resources"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.455Z",
             "name": "Human resources",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.455Z",
             "description": "Maintenance or janitorial staff",
             "external_references": [
                 {
@@ -3579,12 +3579,12 @@
             "labels": [
                 "veris-path:action.social.target.Maintenance"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.455Z",
             "name": "Maintenance",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.455Z",
             "description": "Manager or supervisor",
             "external_references": [
                 {
@@ -3597,12 +3597,12 @@
             "labels": [
                 "veris-path:action.social.target.Manager"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.455Z",
             "name": "Manager",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.455Z",
             "description": "Regular employee not otherwise listed. Child of 'End-user or employee'",
             "external_references": [
                 {
@@ -3615,12 +3615,12 @@
             "labels": [
                 "veris-path:action.social.target.Other employee"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.455Z",
             "name": "Other employee",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.455Z",
             "description": "Partner (B2B)",
             "external_references": [
                 {
@@ -3633,12 +3633,12 @@
             "labels": [
                 "veris-path:action.social.target.Partner"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.455Z",
             "name": "Partner",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.456Z",
             "description": "System or network administrator",
             "external_references": [
                 {
@@ -3651,12 +3651,12 @@
             "labels": [
                 "veris-path:action.social.target.System admin"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.456Z",
             "name": "System admin",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.456Z",
             "description": "Other",
             "external_references": [
                 {
@@ -3669,12 +3669,12 @@
             "labels": [
                 "veris-path:action.social.target.Other"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.456Z",
             "name": "Other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.456Z",
             "description": "Unknown",
             "external_references": [
                 {
@@ -3687,12 +3687,12 @@
             "labels": [
                 "veris-path:action.social.target.Unknown"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.456Z",
             "name": "Unknown",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.456Z",
             "description": "The social action resulted in additional security access",
             "external_references": [
                 {
@@ -3705,12 +3705,12 @@
             "labels": [
                 "veris-path:action.social.result.Infiltrate"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.456Z",
             "name": "Infiltrate",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.456Z",
             "description": "The social action exfiltrated data from the victim",
             "external_references": [
                 {
@@ -3723,12 +3723,12 @@
             "labels": [
                 "veris-path:action.social.result.Exfiltrate"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.456Z",
             "name": "Exfiltrate",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.456Z",
             "description": "The social action resulted in additional security permissions",
             "external_references": [
                 {
@@ -3741,12 +3741,12 @@
             "labels": [
                 "veris-path:action.social.result.Elevate"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.456Z",
             "name": "Elevate",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.456Z",
             "description": "The social action used security access or permissions already acuired",
             "external_references": [
                 {
@@ -3759,12 +3759,12 @@
             "labels": [
                 "veris-path:action.social.result.Lateral movement"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.456Z",
             "name": "Lateral movement",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.457Z",
             "description": "e.g. cryptomining, ransomware, etc",
             "external_references": [
                 {
@@ -3777,12 +3777,12 @@
             "labels": [
                 "veris-path:action.social.result.Deploy payload"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.457Z",
             "name": "Deploy payload",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.457Z",
             "description": "The result of the social action is not listed",
             "external_references": [
                 {
@@ -3795,12 +3795,12 @@
             "labels": [
                 "veris-path:action.social.result.Other"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.457Z",
             "name": "Other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.457Z",
             "description": "The result of the social action is unknown",
             "external_references": [
                 {
@@ -3813,12 +3813,12 @@
             "labels": [
                 "veris-path:action.social.result.Unknown"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.457Z",
             "name": "Unknown",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.457Z",
             "description": "The social action did not have a result",
             "external_references": [
                 {
@@ -3831,12 +3831,12 @@
             "labels": [
                 "veris-path:action.social.result.NA"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.457Z",
             "name": "NA",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.457Z",
             "description": "Influence or alter human behavior",
             "external_references": [
                 {
@@ -3849,12 +3849,12 @@
             "labels": [
                 "veris-path:attribute.integrity.variety.Alter behavior"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.457Z",
             "name": "Alter behavior",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.457Z",
             "description": "Created new user account",
             "external_references": [
                 {
@@ -3867,12 +3867,12 @@
             "labels": [
                 "veris-path:attribute.integrity.variety.Created account"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.457Z",
             "name": "Created account",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.457Z",
             "description": "Deface content",
             "external_references": [
                 {
@@ -3885,12 +3885,12 @@
             "labels": [
                 "veris-path:attribute.integrity.variety.Defacement"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.457Z",
             "name": "Defacement",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.458Z",
             "description": "Initiate fraudulent transaction",
             "external_references": [
                 {
@@ -3903,12 +3903,12 @@
             "labels": [
                 "veris-path:attribute.integrity.variety.Fraudulent transaction"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.458Z",
             "name": "Fraudulent transaction",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.458Z",
             "description": "Hardware tampering or physical alteration",
             "external_references": [
                 {
@@ -3921,12 +3921,12 @@
             "labels": [
                 "veris-path:attribute.integrity.variety.Hardware tampering"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.458Z",
             "name": "Hardware tampering",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.458Z",
             "description": "Log tampering or modification",
             "external_references": [
                 {
@@ -3939,12 +3939,12 @@
             "labels": [
                 "veris-path:attribute.integrity.variety.Log tampering"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.458Z",
             "name": "Log tampering",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.458Z",
             "description": "compromise of authenticity (e.g. masquerading as the legitimate owner of an account)",
             "external_references": [
                 {
@@ -3957,12 +3957,12 @@
             "labels": [
                 "veris-path:attribute.integrity.variety.Misrepresentation"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.458Z",
             "name": "Misrepresentation",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.458Z",
             "description": "Modified configuration or services",
             "external_references": [
                 {
@@ -3975,12 +3975,12 @@
             "labels": [
                 "veris-path:attribute.integrity.variety.Modify configuration"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.458Z",
             "name": "Modify configuration",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.458Z",
             "description": "Modified stored data or content",
             "external_references": [
                 {
@@ -3993,12 +3993,12 @@
             "labels": [
                 "veris-path:attribute.integrity.variety.Modify data"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.458Z",
             "name": "Modify data",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.459Z",
             "description": "Modified privileges or permissions",
             "external_references": [
                 {
@@ -4011,12 +4011,12 @@
             "labels": [
                 "veris-path:attribute.integrity.variety.Modify privileges"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.459Z",
             "name": "Modify privileges",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.459Z",
             "description": "Repurposed asset for unauthorized function",
             "external_references": [
                 {
@@ -4029,12 +4029,12 @@
             "labels": [
                 "veris-path:attribute.integrity.variety.Repurpose"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.459Z",
             "name": "Repurpose",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.459Z",
             "description": "Software installation or code modification",
             "external_references": [
                 {
@@ -4047,12 +4047,12 @@
             "labels": [
                 "veris-path:attribute.integrity.variety.Software installation"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.459Z",
             "name": "Software installation",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.459Z",
             "description": "Other",
             "external_references": [
                 {
@@ -4065,12 +4065,12 @@
             "labels": [
                 "veris-path:attribute.integrity.variety.Other"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.459Z",
             "name": "Other",
             "type": "attack-pattern"
         },
         {
-            "created": "2021-06-11T19:59:57.600Z",
+            "created": "2021-06-22T14:13:25.459Z",
             "description": "Unknown",
             "external_references": [
                 {
@@ -4083,7 +4083,7 @@
             "labels": [
                 "veris-path:attribute.integrity.variety.Unknown"
             ],
-            "modified": "2021-06-11T19:59:57.600Z",
+            "modified": "2021-06-22T14:13:25.459Z",
             "name": "Unknown",
             "type": "attack-pattern"
         }
