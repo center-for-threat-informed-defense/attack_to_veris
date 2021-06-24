@@ -430,6 +430,27 @@
                 "action.hacking.variety.Abuse of functionality"
             ]
         },
+        "T1563": {
+            "name": "Remote Service Session Hijacking",
+            "veris": [
+                "action.hacking.variety.Abuse of functionality",
+                "action.malware.vector.Network propagation"
+            ]
+        },
+        "T1563.001": {
+            "name": "Remote Service Session Hijacking: SSH Hijacking",
+            "veris": [
+                "action.hacking.variety.Abuse of functionality",
+                "action.malware.vector.Network propagation"
+            ]
+        },
+        "T1563.002": {
+            "name": "Remote Service Session Hijacking: RDP Hijacking",
+            "veris": [
+                "action.hacking.variety.Abuse of functionality",
+                "action.malware.vector.Network propagation"
+            ]
+        },
         "T1564": {
             "name": "Hide Artifacts",
             "veris": [
@@ -611,6 +632,7 @@
                 "action.hacking.vector.Other",
                 "action.hacking.vector.Unknown",
                 "action.hacking.vector.VPN",
+                "action.hacking.vector.Web application",
                 "action.malware.variety.Downloader",
                 "action.malware.variety.Other",
                 "action.malware.variety.SQL injection",
@@ -646,7 +668,6 @@
                 "attribute.integrity.variety.Hardware tampering",
                 "attribute.integrity.variety.Other",
                 "attribute.integrity.variety.Software installation",
-                "attribute.integrity.variety.Unknown",
                 "value_chain.development.variety.NA",
                 "value_chain.development.variety.Unknown",
                 "value_chain.distribution.variety.Direct",
@@ -1347,7 +1368,7 @@
             "name": "Use Alternate Authentication Material: Pass the Hash",
             "veris": [
                 "action.hacking.variety.Pass-the-hash",
-                "action.hacking.variety.Unknown",
+                "action.hacking.variety.Use of stolen creds",
                 "action.malware.variety.Password dumper"
             ]
         },
@@ -1440,7 +1461,6 @@
                 "action.hacking.vector.3rd party desktop",
                 "action.hacking.vector.Backdoor or C2",
                 "action.hacking.vector.Desktop sharing software",
-                "action.hacking.vector.Web application",
                 "action.malware.variety.Backdoor",
                 "action.malware.variety.Exploit vuln",
                 "action.malware.vector.Remote injection",
@@ -1637,10 +1657,28 @@
                 "action.hacking.variety.Use of stolen creds"
             ]
         },
+        "T1550": {
+            "name": "Use Alternate Authentication Material",
+            "veris": [
+                "action.hacking.variety.Use of stolen creds",
+                "action.malware.vector.Network propagation"
+            ]
+        },
+        "T1550.001": {
+            "name": "Use Alternate Authentication Material: Application Access Token",
+            "veris": [
+                "action.hacking.variety.Use of stolen creds"
+            ]
+        },
         "T1550.003": {
             "name": "Use Alternate Authentication Material: Pass the Ticket",
             "veris": [
-                "action.hacking.variety.Unknown",
+                "action.hacking.variety.Use of stolen creds"
+            ]
+        },
+        "T1550.004": {
+            "name": "Use Alternate Authentication Material: Web Session Cookies",
+            "veris": [
                 "action.hacking.variety.Use of stolen creds"
             ]
         },
@@ -1730,46 +1768,6 @@
             "name": "Two-Factor Authentication Interception",
             "veris": [
                 "action.hacking.variety.Unknown"
-            ]
-        },
-        "T1550": {
-            "name": "Use Alternate Authentication Material",
-            "veris": [
-                "action.hacking.variety.Unknown",
-                "action.malware.vector.Network propagation"
-            ]
-        },
-        "T1550.001": {
-            "name": "Use Alternate Authentication Material: Application Access Token",
-            "veris": [
-                "action.hacking.variety.Unknown"
-            ]
-        },
-        "T1550.004": {
-            "name": "Use Alternate Authentication Material: Web Session Cookies",
-            "veris": [
-                "action.hacking.variety.Unknown"
-            ]
-        },
-        "T1563": {
-            "name": "Remote Service Session Hijacking",
-            "veris": [
-                "action.hacking.variety.Unknown",
-                "action.malware.vector.Network propagation"
-            ]
-        },
-        "T1563.001": {
-            "name": "Remote Service Session Hijacking: SSH Hijacking",
-            "veris": [
-                "action.hacking.variety.Unknown",
-                "action.malware.vector.Network propagation"
-            ]
-        },
-        "T1563.002": {
-            "name": "Remote Service Session Hijacking: RDP Hijacking",
-            "veris": [
-                "action.hacking.variety.Unknown",
-                "action.malware.vector.Network propagation"
             ]
         },
         "T1583": {
@@ -1977,7 +1975,7 @@
             "name": "Account Access Removal",
             "veris": [
                 "action.hacking.variety.Unknown",
-                "attribute.integrity.variety.Modify privileges"
+                "attribute.integrity.variety.Unknown"
             ]
         },
         "T1037": {
@@ -2294,27 +2292,6 @@
                 "action.malware.variety.Capture app data"
             ]
         },
-        "T1555.003": {
-            "name": "Credentials from Password Stores: Credentials from Web Browser",
-            "veris": [
-                "action.malware.variety.Capture app data",
-                "action.malware.variety.Capture stored data"
-            ]
-        },
-        "T1555.004": {
-            "name": "Credentials from Password Stores: Windows Credential Manager",
-            "veris": [
-                "action.malware.variety.Capture app data",
-                "action.malware.variety.Capture stored data"
-            ]
-        },
-        "T1555.005": {
-            "name": "Credentials from Password Stores: Password Managers",
-            "veris": [
-                "action.malware.variety.Capture app data",
-                "action.malware.variety.Capture stored data"
-            ]
-        },
         "T1003.002": {
             "name": "OS Credential Dumping: Security Account Manager",
             "veris": [
@@ -2391,80 +2368,6 @@
             "name": "Data from Cloud Storage Object",
             "veris": [
                 "action.malware.variety.Capture stored data"
-            ]
-        },
-        "T1552": {
-            "name": "Unsecured Credentials",
-            "veris": [
-                "action.malware.variety.Capture stored data"
-            ]
-        },
-        "T1552.001": {
-            "name": "Unsecured Credentials: Credentials in Files",
-            "veris": [
-                "action.malware.variety.Capture stored data",
-                "action.malware.variety.Password dumper"
-            ]
-        },
-        "T1552.002": {
-            "name": "Unsecured Credentials: Credentials in Registry",
-            "veris": [
-                "action.malware.variety.Capture stored data",
-                "action.malware.variety.Password dumper"
-            ]
-        },
-        "T1552.003": {
-            "name": "Unsecured Credentials: Bash History",
-            "veris": [
-                "action.malware.variety.Capture stored data",
-                "action.malware.variety.Password dumper"
-            ]
-        },
-        "T1552.004": {
-            "name": "Unsecured Credentials: Private Keys",
-            "veris": [
-                "action.malware.variety.Capture stored data"
-            ]
-        },
-        "T1552.005": {
-            "name": "Unsecured Credentials: Cloud Instance Metadata API",
-            "veris": [
-                "action.malware.variety.Capture stored data",
-                "action.malware.variety.Password dumper"
-            ]
-        },
-        "T1552.006": {
-            "name": "Unsecured Credentials: Group Policy Preferences",
-            "veris": [
-                "action.malware.variety.Capture stored data",
-                "action.malware.variety.Password dumper"
-            ]
-        },
-        "T1552.007": {
-            "name": "Unsecured Credentials: Container API",
-            "veris": [
-                "action.malware.variety.Capture stored data"
-            ]
-        },
-        "T1555": {
-            "name": "Credentials from Password Stores",
-            "veris": [
-                "action.malware.variety.Capture stored data"
-            ]
-        },
-        "T1555.001": {
-            "name": "Credentials from Password Stores: Keychain",
-            "veris": [
-                "action.malware.variety.Capture stored data",
-                "action.malware.variety.Password dumper"
-            ]
-        },
-        "T1555.002": {
-            "name": "Credentials from Password Stores: Securityd Memory",
-            "veris": [
-                "action.malware.variety.Capture stored data",
-                "action.malware.variety.Password dumper",
-                "action.malware.variety.RAM scraper"
             ]
         },
         "T1496": {
@@ -3089,6 +2992,79 @@
                 "action.malware.vector.Email link"
             ]
         },
+        "T1552.001": {
+            "name": "Unsecured Credentials: Credentials in Files",
+            "veris": [
+                "action.malware.variety.Password dumper"
+            ]
+        },
+        "T1552.002": {
+            "name": "Unsecured Credentials: Credentials in Registry",
+            "veris": [
+                "action.malware.variety.Password dumper"
+            ]
+        },
+        "T1552.003": {
+            "name": "Unsecured Credentials: Bash History",
+            "veris": [
+                "action.malware.variety.Password dumper"
+            ]
+        },
+        "T1552.004": {
+            "name": "Unsecured Credentials: Private Keys",
+            "veris": [
+                "action.malware.variety.Password dumper"
+            ]
+        },
+        "T1552.005": {
+            "name": "Unsecured Credentials: Cloud Instance Metadata API",
+            "veris": [
+                "action.malware.variety.Password dumper"
+            ]
+        },
+        "T1552.006": {
+            "name": "Unsecured Credentials: Group Policy Preferences",
+            "veris": [
+                "action.malware.variety.Password dumper"
+            ]
+        },
+        "T1555": {
+            "name": "Credentials from Password Stores",
+            "veris": [
+                "action.malware.variety.Password dumper"
+            ]
+        },
+        "T1555.001": {
+            "name": "Credentials from Password Stores: Keychain",
+            "veris": [
+                "action.malware.variety.Password dumper"
+            ]
+        },
+        "T1555.002": {
+            "name": "Credentials from Password Stores: Securityd Memory",
+            "veris": [
+                "action.malware.variety.Password dumper",
+                "action.malware.variety.RAM scraper"
+            ]
+        },
+        "T1555.003": {
+            "name": "Credentials from Password Stores: Credentials from Web Browser",
+            "veris": [
+                "action.malware.variety.Password dumper"
+            ]
+        },
+        "T1555.004": {
+            "name": "Credentials from Password Stores: Windows Credential Manager",
+            "veris": [
+                "action.malware.variety.Password dumper"
+            ]
+        },
+        "T1555.005": {
+            "name": "Credentials from Password Stores: Password Managers",
+            "veris": [
+                "action.malware.variety.Password dumper"
+            ]
+        },
         "T1486": {
             "name": "Data Encrypted for Impact",
             "veris": [
@@ -3187,6 +3163,15 @@
                 "value_chain.targeting.variety.Organizational Information"
             ]
         },
+        "T1204.003": {
+            "name": "User Execution: Malicious Image",
+            "veris": [
+                "action.malware.variety.Trojan",
+                "action.malware.variety.Unknown",
+                "action.social.variety.Phishing",
+                "action.social.variety.Pretexting"
+            ]
+        },
         "T1080": {
             "name": "Taint Shared Content",
             "veris": [
@@ -3216,8 +3201,7 @@
         "T1140": {
             "name": "Deobfuscate/Decode Files or Information",
             "veris": [
-                "action.malware.variety.Unknown",
-                "action.malware.vector.Email attachment"
+                "action.malware.variety.Unknown"
             ]
         },
         "T1204": {
@@ -3241,14 +3225,6 @@
                 "action.malware.variety.Unknown",
                 "action.malware.vector.Email attachment",
                 "action.social.variety.Phishing"
-            ]
-        },
-        "T1204.003": {
-            "name": "User Execution: Malicious Image",
-            "veris": [
-                "action.malware.variety.Unknown",
-                "action.social.variety.Phishing",
-                "action.social.variety.Pretexting"
             ]
         },
         "T1608": {
@@ -3959,6 +3935,15 @@
                         "T1559.002": {
                             "name": "Inter-Process Communication: Dynamic Data Exchange"
                         },
+                        "T1563": {
+                            "name": "Remote Service Session Hijacking"
+                        },
+                        "T1563.001": {
+                            "name": "Remote Service Session Hijacking: SSH Hijacking"
+                        },
+                        "T1563.002": {
+                            "name": "Remote Service Session Hijacking: RDP Hijacking"
+                        },
                         "T1564": {
                             "name": "Hide Artifacts"
                         },
@@ -4646,8 +4631,20 @@
                         "T1134.005": {
                             "name": "Access Token Manipulation: SID-History Injection"
                         },
+                        "T1550": {
+                            "name": "Use Alternate Authentication Material"
+                        },
+                        "T1550.001": {
+                            "name": "Use Alternate Authentication Material: Application Access Token"
+                        },
+                        "T1550.002": {
+                            "name": "Use Alternate Authentication Material: Pass the Hash"
+                        },
                         "T1550.003": {
                             "name": "Use Alternate Authentication Material: Pass the Ticket"
+                        },
+                        "T1550.004": {
+                            "name": "Use Alternate Authentication Material: Web Session Cookies"
                         },
                         "T1558": {
                             "name": "Steal or Forge Kerberos Tickets"
@@ -4748,30 +4745,6 @@
                         },
                         "T1127.001": {
                             "name": "Trusted Developer Utilities Proxy Execution: MSBuild"
-                        },
-                        "T1550": {
-                            "name": "Use Alternate Authentication Material"
-                        },
-                        "T1550.001": {
-                            "name": "Use Alternate Authentication Material: Application Access Token"
-                        },
-                        "T1550.002": {
-                            "name": "Use Alternate Authentication Material: Pass the Hash"
-                        },
-                        "T1550.003": {
-                            "name": "Use Alternate Authentication Material: Pass the Ticket"
-                        },
-                        "T1550.004": {
-                            "name": "Use Alternate Authentication Material: Web Session Cookies"
-                        },
-                        "T1563": {
-                            "name": "Remote Service Session Hijacking"
-                        },
-                        "T1563.001": {
-                            "name": "Remote Service Session Hijacking: SSH Hijacking"
-                        },
-                        "T1563.002": {
-                            "name": "Remote Service Session Hijacking: RDP Hijacking"
                         },
                         "T1574": {
                             "name": "Hijack Execution Flow"
@@ -5095,8 +5068,8 @@
                         }
                     },
                     "Web application": {
-                        "T1133": {
-                            "name": "External Remote Services"
+                        "NaN": {
+                            "name": NaN
                         }
                     },
                     "Other": {
@@ -5354,15 +5327,6 @@
                         },
                         "T1539": {
                             "name": "Steal Web Session Cookie"
-                        },
-                        "T1555.003": {
-                            "name": "Credentials from Password Stores: Credentials from Web Browser"
-                        },
-                        "T1555.004": {
-                            "name": "Credentials from Password Stores: Windows Credential Manager"
-                        },
-                        "T1555.005": {
-                            "name": "Credentials from Password Stores: Password Managers"
                         }
                     },
                     "Capture stored data": {
@@ -5410,48 +5374,6 @@
                         },
                         "T1530": {
                             "name": "Data from Cloud Storage Object"
-                        },
-                        "T1552": {
-                            "name": "Unsecured Credentials"
-                        },
-                        "T1552.001": {
-                            "name": "Unsecured Credentials: Credentials in Files"
-                        },
-                        "T1552.002": {
-                            "name": "Unsecured Credentials: Credentials in Registry"
-                        },
-                        "T1552.003": {
-                            "name": "Unsecured Credentials: Bash History"
-                        },
-                        "T1552.004": {
-                            "name": "Unsecured Credentials: Private Keys"
-                        },
-                        "T1552.005": {
-                            "name": "Unsecured Credentials: Cloud Instance Metadata API"
-                        },
-                        "T1552.006": {
-                            "name": "Unsecured Credentials: Group Policy Preferences"
-                        },
-                        "T1552.007": {
-                            "name": "Unsecured Credentials: Container API"
-                        },
-                        "T1555": {
-                            "name": "Credentials from Password Stores"
-                        },
-                        "T1555.001": {
-                            "name": "Credentials from Password Stores: Keychain"
-                        },
-                        "T1555.002": {
-                            "name": "Credentials from Password Stores: Securityd Memory"
-                        },
-                        "T1555.003": {
-                            "name": "Credentials from Password Stores: Credentials from Web Browser"
-                        },
-                        "T1555.004": {
-                            "name": "Credentials from Password Stores: Windows Credential Manager"
-                        },
-                        "T1555.005": {
-                            "name": "Credentials from Password Stores: Password Managers"
                         },
                         "T1602": {
                             "name": "Data from Configuration Repository"
@@ -5906,17 +5828,32 @@
                         "T1552.003": {
                             "name": "Unsecured Credentials: Bash History"
                         },
+                        "T1552.004": {
+                            "name": "Unsecured Credentials: Private Keys"
+                        },
                         "T1552.005": {
                             "name": "Unsecured Credentials: Cloud Instance Metadata API"
                         },
                         "T1552.006": {
                             "name": "Unsecured Credentials: Group Policy Preferences"
                         },
+                        "T1555": {
+                            "name": "Credentials from Password Stores"
+                        },
                         "T1555.001": {
                             "name": "Credentials from Password Stores: Keychain"
                         },
                         "T1555.002": {
                             "name": "Credentials from Password Stores: Securityd Memory"
+                        },
+                        "T1555.003": {
+                            "name": "Credentials from Password Stores: Credentials from Web Browser"
+                        },
+                        "T1555.004": {
+                            "name": "Credentials from Password Stores: Windows Credential Manager"
+                        },
+                        "T1555.005": {
+                            "name": "Credentials from Password Stores: Password Managers"
                         }
                     },
                     "RAM scraper": {
@@ -6032,6 +5969,9 @@
                         }
                     },
                     "Trojan": {
+                        "T1204.003": {
+                            "name": "User Execution: Malicious Image"
+                        },
                         "T1554": {
                             "name": "Compromise Client Software Binary"
                         },
@@ -6170,9 +6110,6 @@
                         },
                         "T1059.007": {
                             "name": "Command and Scripting: JavaScript"
-                        },
-                        "T1140": {
-                            "name": "Deobfuscate/Decode Files or Information"
                         },
                         "T1203": {
                             "name": "Exploitation for Client Execution"
@@ -6725,9 +6662,6 @@
                         "T1098.004": {
                             "name": "Account Manipulation: SSH Authorized Keys"
                         },
-                        "T1531": {
-                            "name": "Account Access Removal"
-                        },
                         "T1547.014": {
                             "name": "Boot or Logon Autostart Execution: Active Setup"
                         },
@@ -6763,8 +6697,8 @@
                         }
                     },
                     "Unknown": {
-                        "NaN": {
-                            "name": NaN
+                        "T1531": {
+                            "name": "Account Access Removal"
                         }
                     }
                 }
