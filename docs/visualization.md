@@ -17,7 +17,7 @@ _Note: because of the great amount of objects it will take a big amount of resou
 The Excel spreadsheet provided list all mappings for the VERIS framework in a tabular format. You can find the spreadsheets within the `/frameworks/` folder:
 - [VERIS Mappings Spreadsheet](/frameworks/veris/veris-mappings.xlsx)
 
-The [listMappings](/util/) script can be used to generate this same information in additional formats:
+The [listMappings](/src/) script can be used to generate this same information in additional formats:
 - Excel spreadsheet
 - CSV
 - HTML table
@@ -25,7 +25,7 @@ The [listMappings](/util/) script can be used to generate this same information 
 
 ## Appending VERIS Framework objects into ATT&CK
 
-The [append_mappings.py](/util/append_mappings.py) utility script creates a STIX Bundle where veris objects, mappings and ATT&CK content are together in a single file. This section describes the usage of these specialty bundles, which can be found on this repo alongside their data in the framework `stix` folders:
+The [append_mappings.py](/src/append_mappings.py) utility script creates a STIX Bundle where veris objects, mappings and ATT&CK content are together in a single file. This section describes the usage of these specialty bundles, which can be found on this repo alongside their data in the framework `stix` folders:
 - [VERIS Appended STIX Bundle](/frameworks/veris/stix/veris135-enterprise-attack.json)
 
 _Note: append_mappings.py will add veris objects to the STIX Bundle if they are mapped to ATT&CK. If you want to build the STIX Bundle with the full set of veris objects, run append_mappings.py with the `--allow-unmapped` flag._ 
