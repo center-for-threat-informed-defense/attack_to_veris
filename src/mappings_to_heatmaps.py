@@ -248,7 +248,7 @@ def get_x_mitre(ms, type="attack-pattern"):
     return keys
 
 
-if __name__ == "__main__":
+def get_argparse():
     parser = argparse.ArgumentParser(description="Create ATT&CK Navigator layers from VERIS mappings")
     parser.add_argument("-framework",
                         help="the name of the framework",
@@ -283,7 +283,11 @@ if __name__ == "__main__":
                         action="store_true",
                         help="if flag specified, will build a markdown file listing the output files "
                              "for easy access in the Navigator")
+    return parser
 
+
+if __name__ == "__main__":
+    parser = get_argparse()
     args = parser.parse_args()
 
     print("downloading ATT&CK data... ", end="", flush=True)

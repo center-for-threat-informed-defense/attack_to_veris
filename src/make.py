@@ -38,7 +38,7 @@ def main():
         mappings_file = find_file_with_suffix("-mappings.json", pathlib.Path(framework_folder, "stix"))
 
         # run the utility scripts
-        os.chdir("util")
+        os.chdir("src")
         subprocess.run([
             sys.executable, "mappings_to_heatmaps.py",
             "-veris-objects", pathlib.Path("..", framework_folder, "stix", veris_file),

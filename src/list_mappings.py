@@ -40,15 +40,7 @@ def mappings_to_dataframe(attack_bundle, veris_bundle, mappings_bundle):
     return pandas.DataFrame(rows)
 
 
-if __name__ == "__main__":
-    # extension to df export function name
-    extension_to_pd_export = {
-        "xlsx": "to_excel",
-        "csv": "to_csv",
-        "html": "to_html",
-        "md": "to_markdown"
-    }
-    allowed_extension_list = ", ".join(extension_to_pd_export.keys())
+def get_argparse():
     parser = argparse.ArgumentParser(description="List mappings in human readable formats")
     parser.add_argument("-veris-objects",
                         dest="veris_objects",
@@ -73,7 +65,19 @@ if __name__ == "__main__":
                              f"from the extension. Allowed extensions: {allowed_extension_list}",
                         type=lambda path: pathlib.Path(path),
                         default=pathlib.Path("..", "frameworks", "veris", "veris-mappings.md"))
+    return parser
 
+
+if __name__ == "__main__":
+    # extension to df export function name
+    extension_to_pd_export = {
+        "xlsx": "to_excel",
+        "csv": "to_csv",
+        "html": "to_html",
+        "md": "to_markdown"
+    }
+    allowed_extension_list = ", ".join(extension_to_pd_export.keys())
+    parser = get_argparse()
     args = parser.parse_args()
 
     extension = args.output.name.split(".")[-1]
