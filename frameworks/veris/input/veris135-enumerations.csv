@@ -226,3 +226,48 @@ attribute,integrity,variety,Repurpose,Repurposed asset for unauthorized function
 attribute,integrity,variety,Software installation,Software installation or code modification
 attribute,integrity,variety,Other,Other
 attribute,integrity,variety,Unknown,Unknown
+value_chain,development,variety,Bot,"A small program that can be distributed, installed, and controlled en mass."
+value_chain,development,variety,Exploit,"Code to exploit a vulnerability, including web injects."
+value_chain,development,variety,Exploit Kits,Code sets capable of selecting and trying multiple exploits against a target.
+value_chain,development,variety,Payload,The portion a program that causes a negative effect.
+value_chain,development,variety,Persona,"A fake representation of a person, such as fake social media profiles"
+value_chain,development,variety,Ransomware,Ransomware (encrypt or seize stored data)
+value_chain,development,variety,Trojan,A program which masquerades as another program to get a target to execute malicious content
+value_chain,development,variety,Website,Development of any full website controlled by the attacker
+value_chain,development,variety,NA,No type of development was necessary
+value_chain,development,variety,Other,"The variety of development required is known, but is not listed."
+value_chain,development,variety,Unknown,Nothing is known about the need for or type of development investment other than it was present.
+value_chain,non-distribution services,variety,C2,"Command and control. Separate from distribution of mawlare or bots, this is how they are maintained"
+value_chain,non-distribution services,variety,Counter AV,Services for testing if malware is detected by anti-virus
+value_chain,non-distribution services,variety,DNS,DNS services including fast flux
+value_chain,non-distribution services,variety,Escrow,Something kept in the custody of a third party until a condition has been fulfilled.
+value_chain,non-distribution services,variety,Hashcracking,i.e. converting hashes into the text that produce them
+value_chain,non-distribution services,variety,Marketplace,Use of a marketplace was required as part of this incident.
+value_chain,non-distribution services,variety,Proxy,A proxy service (either formally or informally hosted) is used by the actor to obscure their source
+value_chain,non-distribution services,variety,VPN,A VPN service (either formally or informally hosted) is used by the actor to obscure their source
+value_chain,non-distribution services,variety,NA,No type of non-distribution service was necessary
+value_chain,non-distribution services,variety,Other,"The variety of non-distribution service required is known, but is not listed"
+value_chain,non-distribution services,variety,Unknown,Nothing is known about the need for or type of non-distribution service investment other than it was present.
+value_chain,targeting,variety,Default credentials,Credentials the system came with
+value_chain,targeting,variety,Email addresses,Email addresses
+value_chain,targeting,variety,Lost or stolen credentials,"lost or stolen credentials, including credental stuffing, used to pick an organization as a target"
+value_chain,targeting,variety,Misconfigurations,Knowledge of system misconfigurations used to pick an organization as a target
+value_chain,targeting,variety,Partner,The actor used access to a partner to target the victim.
+value_chain,targeting,variety,Personal Information,"Information on individuals such as title, interests, physical location, etc, used to pick an organization as a target"
+value_chain,targeting,variety,Organizational Information,"Information on an organization such as org chart, technologies in use, financial assets, etc, used to pick them as a target"
+value_chain,targeting,variety,Vulnerabilities,"Knowledge of software vulnerabilities, both at an organization or associated with a specific vendor's product, used to pick them as a target."
+value_chain,targeting,variety,Weaknesses,Knowledge of weaknesses other than vulnerability and misconfigurations used to pick an organization as a target
+value_chain,targeting,variety,NA,No type of targeting was necessary. (This includes targeted.Targeted since the victim was chosen without targeting.
+value_chain,targeting,variety,Other,"The variety of targeting was known, but is not listed"
+value_chain,targeting,variety,Unknown,Nothing is known about the need for or type of targeting investment other than it was present.
+value_chain,distribution,variety,Botnet,For content distributed from a collection of bots.
+value_chain,distribution,variety,Compromised server,"malicious content added to a benign server, such as a webserver, by the actor, without the permission or necessarily knowledge of the server’s owner"
+value_chain,distribution,variety,Direct,Distributed directly from the actor's computer
+value_chain,distribution,variety,Email,Distribution by email including anonymous/one time and spam
+value_chain,distribution,variety,Loader,malware that loads other malware
+value_chain,distribution,variety,Partner,"The actor distributed the attack to the victim through a partner, (i.e. supply chain attack)."
+value_chain,distribution,variety,Phone,Distribution over the Plain Old Telephone System (POTS).
+value_chain,distribution,variety,Website,"Malicious content shared intentionally, including bullet-proof hosting"
+value_chain,distribution,variety,NA,No type of distribution was necessary
+value_chain,distribution,variety,Other,"The variety of distribution was known, but is not listed"
+value_chain,distribution,variety,Unknown,Nothing is known about the need for or type of distribution investment other than it was present.

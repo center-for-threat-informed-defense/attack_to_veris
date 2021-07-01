@@ -103,7 +103,6 @@ def validate_mapping_entries(spreadsheet_location, attack_version):
     1) The ATT&CK ID is correct 2) The ATT&CK name is correct 3) The VERIS path is correct"""
     attack_source = get_stix2_source(attack_version)
     veris_enum = get_veris_enum()
-
     sheets = get_sheets(spreadsheet_location)
 
     print("\t\t[+] VERIS to ATT&CK mappings check...")
@@ -111,6 +110,7 @@ def validate_mapping_entries(spreadsheet_location, attack_version):
 
     for sheet, name in sheets:
         name = name.lower()
+        print(f"\t\t\t[+] checking sheet: {name}")
         veris_path = None
 
         for idx, row in sheet.iterrows():
@@ -118,7 +118,10 @@ def validate_mapping_entries(spreadsheet_location, attack_version):
                 veris_path = f'{name}.{row[0]}'
             attack_technique = row[1]
 
-            if attack_technique not in attack_source:
+            if attack_technique is numpy.nan:
+                # Don't validate the attack_technique if the cell is blank (aka is numpy.nan)
+                pass
+            elif attack_technique not in attack_source:
                 print(f"[-] In Sheet '{name}', under '{veris_path}', the technique ID '{attack_technique}' is invalid (revoked or deprecated)")
                 fail_test = True
 

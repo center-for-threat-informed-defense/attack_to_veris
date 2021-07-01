@@ -12,7 +12,10 @@ from tqdm import tqdm
 def dict_lookup(lookup_dict, term):
     """:return item from dictionary if present. Exits otherwise"""
     if term not in lookup_dict:
-        print(Fore.RED + f"ERROR: cannot find '{term}' in lookup dictionary...",  Fore.RESET)
+        import pdb
+        pdb.set_trace()
+        message = f"ERROR: cannot find '{term}' in lookup dictionary..."
+        print(Fore.RED + message,  Fore.RESET)
         exit()
     return lookup_dict[term]
 
