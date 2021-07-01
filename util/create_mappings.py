@@ -93,6 +93,7 @@ def generate_csv_spreadsheet(spreadsheet_location, mappings_location):
                     veris_path = f'{name}.{row[0]}'
 
                 if row[1] is not numpy.nan:
+                    # Any rows without a mapping will have value numpy.nan (which are skipped)
                     writer.writerow({
                         'DATE DELIVERED': strf_time,
                         'VERIS PATH': veris_path,
@@ -120,6 +121,9 @@ def generate_json_mappings(spreadsheet_location, config_location, json_mappings_
         for idx, row in sheet.iterrows():
             if row[0] is not numpy.nan:
                 veris_path = f'{name}.{row[0]}'
+            if row[1] is numpy.nan:
+                # Any rows without a mapping will have value numpy.nan (which are skipped)
+                continue
             axes, category, sub_category, veris_name = veris_path.split(".")
             attack_id, technique_name = row[1], row[2]
 

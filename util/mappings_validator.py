@@ -119,7 +119,7 @@ def validate_mapping_entries(spreadsheet_location, attack_version):
             attack_technique = row[1]
 
             if attack_technique is numpy.nan:
-                # Don't validate the attack_technique if the cell if blank (aka is numpy.nan)
+                # Don't validate the attack_technique if the cell is blank (aka is numpy.nan)
                 pass
             elif attack_technique not in attack_source:
                 print(f"[-] In Sheet '{name}', under '{veris_path}', the technique ID '{attack_technique}' is invalid (revoked or deprecated)")
