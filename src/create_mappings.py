@@ -72,6 +72,12 @@ def get_sheets(spreadsheet_location):
     return sheets
 
 
+def get_sheet_by_name(spreadsheet_location, sheet_name):
+    """Helper method to retrieve a single sheet from a spreadsheet"""
+    xls = pandas.ExcelFile(spreadsheet_location)
+    return pandas.read_excel(xls, sheet_name)
+
+
 def generate_csv_spreadsheet(spreadsheet_location, mappings_location):
     """Reads the main XSLX mappings file and creates a spreadsheet for the
     mappings in CSV"""
