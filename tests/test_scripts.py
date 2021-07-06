@@ -79,3 +79,27 @@ def test_mappings_to_heatmaps(dir_location):
     ])
     child_process.wait(timeout=60)
     assert child_process.returncode == 0
+
+
+def test_mappings_validator(dir_location):
+    config_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "config.json")
+    spreadsheet_location = pathlib.Path(dir_location, "frameworks", "veris", "veris-mappings.xlsx")
+    json_location = pathlib.Path(dir_location, "frameworks", "veris", "veris-mappings.json")
+    script_location = f"{dir_location}/src/mappings_validator.py"
+    child_process = subprocess.Popen([
+        sys.executable, script_location,
+        "-config-location", config_location,
+        "-spreadsheet-location", spreadsheet_location,
+        "-json-location", json_location,
+    ])
+    child_process.wait(timeout=60)
+    assert child_process.returncode == 0
+
+
+def test_make(dir_location):
+    script_location = f"{dir_location}/src/make.py"
+    child_process = subprocess.Popen([
+        sys.executable, script_location,
+    ])
+    child_process.wait(timeout=60)
+    assert child_process.returncode == 0

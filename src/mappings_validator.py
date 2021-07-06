@@ -16,44 +16,50 @@ def get_argparse():
     argparser = argparse.ArgumentParser(description=desc)
 
     argparser.add_argument(
-        "-config_location",
+        "-config-location",
+        dest="config_location",
         type=lambda path: pathlib.Path(path),
         default=pathlib.Path("..", "frameworks", "veris", "input", "config.json"),
         help="The path to the config metadata location.",
     )
 
     argparser.add_argument(
-        "-spreadsheet_location",
+        "-spreadsheet-location",
+        dest="spreadsheet_location",
         type=lambda path: pathlib.Path(path),
         default=pathlib.Path("..", "frameworks", "veris", "veris-mappings.xlsx"),
         help="The path to the spreadsheet mappings location.",
     )
 
     argparser.add_argument(
-        "-json_location",
+        "-json-location",
+        dest="json_location",
         type=lambda path: pathlib.Path(path),
         default=pathlib.Path("..", "frameworks", "veris", "veris-mappings.json"),
         help="The path to the JSON mappings location.",
     )
 
     argparser.add_argument(
-        "-attack_version",
+        "-attack-version",
+        dest="attack_version",
         type=str,
         default="9.0",
         help="The ATT&CK release version to use.",
     )
 
     argparser.add_argument(
-        "-veris_version",
+        "-veris-version",
+        dest="veris_version",
         type=str,
         default="1.3.5",
         help="The VERIS release version to use.",
     )
 
     argparser.add_argument(
-        "-metadata_version",
+        "-metadata-version",
+        dest="metadata_version",
         type=str,
-        default="",
+        default="1.9",
         help="The Metadata version to check against.",
     )
 
