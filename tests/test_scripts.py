@@ -86,13 +86,20 @@ def test_mappings_validator(dir_location):
     spreadsheet_location = pathlib.Path(dir_location, "frameworks", "veris", "veris-mappings.xlsx")
     json_location = pathlib.Path(dir_location, "frameworks", "veris", "veris-mappings.json")
     script_location = f"{dir_location}/src/mappings_validator.py"
+    need_pop = False
+    if 'PYTHONPATH' not in os.environ:
+        os.environ['PYTHONPATH'] = dir_location
+        need_pop = True
     child_process = subprocess.Popen([
         sys.executable, script_location,
         "-config-location", config_location,
         "-spreadsheet-location", spreadsheet_location,
         "-json-location", json_location,
-    ])
+    ], env=os.environ)
     child_process.wait(timeout=60)
+    if need_pop:
+        # cleanup purposes
+        os.environ.pop('PYTHONPATH', None)
     assert child_process.returncode == 0
 
 
@@ -101,5 +108,5 @@ def test_make(dir_location):
     child_process = subprocess.Popen([
         sys.executable, script_location,
     ])
-    child_process.wait(timeout=60)
+    child_process.wait(timeout=90)
     assert child_process.returncode == 0
