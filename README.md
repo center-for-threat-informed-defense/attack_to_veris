@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/center-for-threat-informed-defense/attack_to_veris/branch/main/graph/badge.svg)](https://codecov.io/gh/center-for-threat-informed-defense/attack_to_veris)
+[![codecov](https://codecov.io/gh/center-for-threat-informed-defense/attack_to_veris/branch/main/graph/badge.svg?token=0DJ6K1YX6E)](https://codecov.io/gh/center-for-threat-informed-defense/attack_to_veris)
 
 # VERIS Framework Mappings to ATT&CK
 Vocabulary for Event Recording and Incident Sharing (VERIS), is used by Verizon and others as a common representation and data model for describing the demographics, metadata, and some technical details about cybersecurity incidents. As a standard representation, it allows for the analysis of data across a variety of incidents and is used, among other things, to generate the Verizon Data Breach Investigation Report (DBIR).
