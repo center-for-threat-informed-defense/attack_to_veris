@@ -2,6 +2,6 @@
     "framework_id": "VERIS",
     "attack_domain": "enterprise-attack",
     "attack_version": "9.0",
-    "mappings_version": "1.4",
+    "mappings_version": "1.9",
     "veris_version": "1.3.5"
 }

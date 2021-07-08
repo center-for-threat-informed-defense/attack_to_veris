@@ -14,6 +14,17 @@ def save_bundle(bundle, path):
     print("done!")
 
 
+def get_attack_data(version, domain):
+    """helper function to download and wrap attack data in a stix2.Bundle"""
+    attack_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/{domain}/{domain}.json"
+    return Bundle(requests.get(attack_url, verify=True).json()["objects"], allow_custom=True)
+
+
+def load_bundle(pathlib_object):
+    with pathlib_object.open("r", encoding="utf-8") as f:
+        return Bundle(json.load(f)["objects"], allow_custom=True)
+
+
 def append_mappings(attack_bundle, veris_bundle, mappings_bundle, allow_unmapped=False):
     """append the veris objects and mappings to the provided ATT&CK STIX Bundle. By default
     only the veris objects that are mapped to ATT&CK will appear in the output from this function
@@ -38,7 +49,7 @@ def append_mappings(attack_bundle, veris_bundle, mappings_bundle, allow_unmapped
     return Bundle(*out_objects, allow_custom=True)
 
 
-if __name__ == "__main__":
+def get_argparse():
     parser = argparse.ArgumentParser(description="append veris framework objects and mappings with ATT&CK")
     parser.add_argument("-veris-objects",
                         dest="veris_objects",
@@ -68,22 +79,23 @@ if __name__ == "__main__":
                         help="filepath to write the output stix bundle to",
                         type=lambda path: pathlib.Path(path),
                         default=pathlib.Path("..", "frameworks", "veris", "stix", "veris135-enterprise-attack.json"))
+    return parser
 
+
+if __name__ == "__main__":
+    parser = get_argparse()
     args = parser.parse_args()
 
     print("downloading ATT&CK data... ", end="", flush=True)
-    attack_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{args.version}/{args.domain}/{args.domain}.json"
-    attack_data = Bundle(requests.get(attack_url).json()["objects"], allow_custom=True)
+    attack_data = get_attack_data(args.version, args.domain)
     print("done")
 
     print("loading veris framework... ", end="", flush=True)
-    with args.veris_objects.open("r", encoding="utf-8") as f:
-        veris_objects = Bundle(json.load(f)["objects"], allow_custom=True)
+    veris_objects = load_bundle(args.veris_objects)
     print("done")
 
     print("loading mappings... ", end="", flush=True)
-    with args.mappings.open("r", encoding="utf-8") as f:
-        mappings = Bundle(json.load(f)["objects"])
+    mappings = load_bundle(args.mappings)
     print("done")
 
     print("appending veris data... ", end="", flush=True)

@@ -72,6 +72,12 @@ def get_sheets(spreadsheet_location):
     return sheets
 
 
+def get_sheet_by_name(spreadsheet_location, sheet_name):
+    """Helper method to retrieve a single sheet from a spreadsheet"""
+    xls = pandas.ExcelFile(spreadsheet_location)
+    return pandas.read_excel(xls, sheet_name)
+
+
 def generate_csv_spreadsheet(spreadsheet_location, mappings_location):
     """Reads the main XSLX mappings file and creates a spreadsheet for the
     mappings in CSV"""
@@ -154,7 +160,7 @@ def generate_json_mappings(spreadsheet_location, config_location, json_mappings_
         json.dump(json_mappings, f, indent=4, sort_keys=False, ensure_ascii=False)
 
 
-if __name__ == '__main__':
+def get_argparse():
     parser = argparse.ArgumentParser(description="Create ATT&CK Navigator layers from VERIS mappings")
     parser.add_argument("-config-location",
                         dest="config_location",
@@ -186,7 +192,11 @@ if __name__ == '__main__':
                         help="the veris version to use",
                         type=str,
                         default="1.3.5")
+    return parser
 
+
+if __name__ == '__main__':
+    parser = get_argparse()
     args = parser.parse_args()
 
     generate_veris_enumerations(args.veris_location, args.veris_version)

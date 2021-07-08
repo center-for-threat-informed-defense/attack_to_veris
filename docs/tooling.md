@@ -21,14 +21,14 @@ From the root directory of this repository:
 ## Usage
 
 ### Rebuilding the STIX data
-To rebuild all the data in the repository based on the most up-to-date input data, run `python make.py` within the root directory of the repository.
+To rebuild all the data in the repository based on the most up-to-date input data, run `python make.py` within the src/ directory of the repository.
 
 To rebuild the STIX data for the VERIS framework:
 1. run `python parser.py` from within the folder of the given framework. This will rebuild the raw STIX data from the input spreadsheets.
-2. use the scripts in [util](/util/) to regenerate the ancillary veris data such as ATT&CK Navigator layers.
+2. use the scripts in [src](/src/) to regenerate the ancillary veris data such as ATT&CK Navigator layers.
 
 ### Utility scripts
-The [/util/](/util/) folder includes utility scripts designed to work with generic frameworks and mappings that implement the format described in [the STIX format document](/docs/STIX_format.md). Please see the readme in the util folder for more details of the functionality of these scripts. The output of these scripts is already present within the framework folders; the scripts are provided for users who wish to extend or otherwise modify the defined mappings and need to rebuild the artifacts provided by this repository.
+The [/src/](/src/) folder includes utility scripts designed to work with generic frameworks and mappings that implement the format described in [the STIX format document](/docs/STIX_format.md). Please see the readme in the util folder for more details of the functionality of these scripts. The output of these scripts is already present within the framework folders; the scripts are provided for users who wish to extend or otherwise modify the defined mappings and need to rebuild the artifacts provided by this repository.
 
 ## Tooling Architecture 
 If you wish to extend or otherwise modify the mappings provided in this repository, the data in the `/input/` folder of the framework may be modified. The python scripts provided in this repository transform this input data into the various output formats listed above. Please see the [install](#install) section for more on how to set up this repository for local use if you intend to extend the defined mappings. 

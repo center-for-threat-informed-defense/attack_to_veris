@@ -6,7 +6,7 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Mapping Tests
+    name: ATT&CK To VERIS Tests
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python 3.8
@@ -21,3 +21,9 @@ jobs:
       - name: Run tests
         run: |
           tox
+      - name: Upload Coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_SECRET }}
+          files: coverage.xml
+          verbose: true
