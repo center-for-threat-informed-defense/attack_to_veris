@@ -1,12 +1,11 @@
 import json
-import pathlib
 import uuid
 
-import pandas
-import requests
 from colorama import Fore
 from stix2.v20 import Bundle, Relationship
 from tqdm import tqdm
+import pandas
+import requests
 
 
 def dict_lookup(lookup_dict, term):
@@ -20,7 +19,7 @@ def dict_lookup(lookup_dict, term):
     return lookup_dict[term]
 
 
-def parse_mappings(mappings_path, veris_entries, relationship_ids):
+def parse_mappings(mappings_path, veris_entries, relationship_ids, config_location):
     """Parses the VERIS mappings and returns a STIX Bundle
     with relationship objects conveying the mappings in STIX format.
 
@@ -29,12 +28,13 @@ def parse_mappings(mappings_path, veris_entries, relationship_ids):
     :param relationship_ids is a dict of format
         {relationship-source-id---relationship-target-id -> relationship-id} which
         maps relationships to desired STIX IDs
+    :param config_location:  the filepath to the configuration JSON file.
     :return stix2 Bundle
     """
 
     print("reading framework config...", end="", flush=True)
     # load the mapping config
-    with pathlib.Path("input", "config.json").open("r", encoding="utf-8") as f:
+    with config_location.open("r", encoding="utf-8") as f:
         config = json.load(f)
         version = config["attack_version"]
         domain = config["attack_domain"]
@@ -45,7 +45,7 @@ def parse_mappings(mappings_path, veris_entries, relationship_ids):
     # load ATT&CK STIX data
     print("downloading ATT&CK data... ", end="", flush=True)
     attack_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/{domain}/{domain}.json"
-    attack_data = requests.get(attack_url).json()["objects"]
+    attack_data = requests.get(attack_url, verify=True).json()["objects"]
     print("done")
 
     # build mapping of attack ID to stix ID

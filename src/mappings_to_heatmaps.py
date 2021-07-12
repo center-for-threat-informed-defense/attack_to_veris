@@ -18,7 +18,7 @@ def technique(attack_id, mapped_veris):
     }
 
 
-def layer(name, description, domain, techniques, version):
+def create_layer(name, description, domain, techniques, version):
     """create a Layer"""
     min_mappings = min(map(lambda t: t["score"], techniques)) if len(techniques) > 0 else 0
     max_mappings = max(map(lambda t: t["score"], techniques)) if len(techniques) > 0 else 100
@@ -134,7 +134,7 @@ def get_framework_overview_layers(veris_objects, mappings, attack_data, domain, 
     out_layers = [
         {
             "outfile": pathlib.Path(f"{framework_name}-overview.json"),
-            "layer": layer(
+            "layer": create_layer(
                 f"{framework_name} overview",
                 f"{framework_name} heatmap overview of veris mappings, scores are the number of associated entries",
                 domain,
@@ -154,9 +154,10 @@ def get_framework_overview_layers(veris_objects, mappings, attack_data, domain, 
             out_layers.append({
                 "outfile": pathlib.Path("by_axes", family_id_to_name[family_id].replace(" ", "_").replace("/", "_"),
                                         f"{family_id}-overview.json"),
-                "layer": layer(
+                "layer": create_layer(
                     f"{family_id_to_name[family_id]} overview",
-                    f"{framework_name} heatmap for entries in the {family_id_to_name[family_id]} axes, scores are the number of associated entries",
+                    f"{framework_name} heatmap for entries in the {family_id_to_name[family_id]} "
+                    f"axes, scores are the number of associated entries",
                     domain,
                     techniques_in_family,
                     version
@@ -176,7 +177,7 @@ def get_framework_overview_layers(veris_objects, mappings, attack_data, domain, 
                     out_layers.append({
                         "outfile": pathlib.Path("by_axes", family_id_to_name[family_id].replace(" ", "_"),
                                                 f"{'_'.join(veris_id.split(' ')).replace('/', '_')}.json"),
-                        "layer": layer(
+                        "layer": create_layer(
                             f"{veris_id} mappings",
                             f"{framework_name} {veris_id} mappings",
                             domain,
@@ -226,9 +227,10 @@ def get_layers_by_property(veris_objects, mappings, attack_data, domain, framewo
             # build layer for this technique set
             out_layers.append({
                 "outfile": pathlib.Path(f"by_{property_name}", f"{value}.json"),
-                "layer": layer(
+                "layer": create_layer(
                     f"{property_name}={value} mappings",
-                    f"techniques where the {property_name} of associated veris entries {'includes' if is_list_type else 'is'} {value}",
+                    f"techniques where the {property_name} of associated veris "
+                    f"entries {'includes' if is_list_type else 'is'} {value}",
                     domain,
                     techniques,
                     version
@@ -291,8 +293,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     print("downloading ATT&CK data... ", end="", flush=True)
-    attack_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{args.version}/{args.domain}/{args.domain}.json"
-    attack_data = MemoryStore(stix_data=requests.get(attack_url).json()["objects"])
+    url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{args.version}/{args.domain}/{args.domain}.json"
+    attack_data = MemoryStore(stix_data=requests.get(url, verify=True).json()["objects"])
     print("done")
 
     print("loading veris framework... ", end="", flush=True)
@@ -336,11 +338,12 @@ if __name__ == "__main__":
         md_file_lines = [
             "# ATT&CK Navigator Layers",
             "",
-            f"The following [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator/) layers represent the mappings from ATT&CK to {args.framework.upper()}:",
+            f"The following [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator/) "
+            f"layers represent the mappings from ATT&CK to {args.framework.upper()}:",
             ""
         ]  # "" is an empty line
-        prefix = f"https://raw.githubusercontent.com/center-for-threat-informed-defense/attack_to_veris/main/frameworks"
-        nav_prefix = f"https://mitre-attack.github.io/attack-navigator/#layerURL="
+        prefix = "https://raw.githubusercontent.com/center-for-threat-informed-defense/attack_to_veris/main/frameworks"
+        nav_prefix = "https://mitre-attack.github.io/attack-navigator/#layerURL="
         for layer in layers:
 
             path_parts = layer["outfile"].parts
@@ -351,8 +354,8 @@ if __name__ == "__main__":
             path = [prefix] + [args.framework, "layers"] + list(path_parts)
             path = "/".join(path)
             encodedPath = urllib.parse.quote(path, safe='~()*!.\'')  # encode the url for the query string
-            md_file_lines.append(
-                f"{'    ' * depth}- {layer_name} ( [download]({path}) | [view]({nav_prefix}{encodedPath}) )")
+            md_line = f"{'    ' * depth}- {layer_name} ( [download]({path}) | [view]({nav_prefix}{encodedPath}) )"
+            md_file_lines.append(md_line)
         with pathlib.Path(args.output, "README.md").open("w", encoding="utf-8") as f:
             f.write("\n".join(md_file_lines))
 
