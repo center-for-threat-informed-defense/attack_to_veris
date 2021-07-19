@@ -49,12 +49,13 @@ Within those axes, the scope is further narrowed based on whether the adversary 
 
 | Category | Description | In Scope | Comments |
 | --- | --- | --- | --- |
-| **Hacking** | Automated activity | Yes | |
-| **Social** | Hands-on-keyboard activity | Yes | |
-| **Misuse** | Exploitation of human element | Yes | |
-| **Physical** | Unapproved use of access | No | Describes actor-focused categorizations, not behaviors |
-| **Error** | Actions involving proximity | No | Describes physical attacks, which are out of scope for ATT&CK |
-| **Environmental** | Unintentional actions | No | Does not describe intentionally malicious behavior by an adversary, and therefore out of scope for ATT&CK |
+| **Malware** | Automated activity | Yes| |
+| **Hacking** | Hands-on-keyboard activity | Yes | |
+| **Social** | Exploitation of human element  | Yes | |
+| **Misuse** |  Unapproved use of access| Yes |Describes actor-focused categorizations, not behaviors |
+| **Physical** | Actions involving proximity | No |  Describes physical attacks, which are out of scope for ATT&CK |
+| **Error** | Unintentional actions | No | Does not describe intentionally malicious behavior by an adversary, and therefore out of scope for ATT&CK|
+| **Environmental** | Natural disaster events | No | Describes physical accidents and not intentionally malicious actions |
 
 **Attribute Axis Scope**
 
@@ -84,7 +85,7 @@ VERIS and ATT&CK are at different levels of abstraction and cannot always perfec
 
 1. Mappings are many-to-many
     - VERIS enumeration values may describe multiple adversary behaviors. Values are mapped to all relevant techniques and sub-techniques.
-    -  ATT&CK techniques and sub-techniques may describe a behavior that’s also described by multiple VERIS enumeration values. All relevant values are mapped to that technique. As an example,
+    -  ATT&CK techniques and sub-techniques may describe a behavior that’s also described by multiple VERIS enumeration values. All relevant values are mapped to that technique.
 2. VERIS enumeration values are mapped to the most specific ATT&CK entity (tactic, technique, or sub-technique) that applies.
     - If the VERIS enumeration value describes a behavior that maps to a sub-technique, it is mapped to that sub-technique.
     - If the VERIS enumeration value describes a behavior that maps to a technique, it is mapped to that technique and all sub-techniques.
