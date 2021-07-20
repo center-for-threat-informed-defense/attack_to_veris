@@ -87,8 +87,8 @@ if __name__ == "__main__":
         exit()
 
     print("downloading ATT&CK data... ", end="", flush=True)
-    attack_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{args.version}/{args.domain}/{args.domain}.json"
-    attack_data = Bundle(requests.get(attack_url).json()["objects"], allow_custom=True)
+    url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{args.version}/{args.domain}/{args.domain}.json"
+    attack_data = Bundle(requests.get(url, verify=True).json()["objects"], allow_custom=True)
     print("done")
 
     print("loading veris framework... ", end="", flush=True)

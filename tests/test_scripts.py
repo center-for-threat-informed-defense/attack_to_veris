@@ -110,3 +110,22 @@ def test_make(dir_location):
     ])
     child_process.wait(timeout=90)
     assert child_process.returncode == 0
+
+
+def test_parse_veris(dir_location):
+    mappings_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "veris135-mappings.csv")
+    veris_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "veris135-enumerations.csv")
+    veris_objects = pathlib.Path(dir_location, "frameworks", "veris", "stix", "veris135-enumerations.json")
+    mappings = pathlib.Path(dir_location, "frameworks", "veris", "stix", "veris135-mappings.json")
+    config_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "config.json")
+    script_location = f"{dir_location}/frameworks/veris/parse.py"
+    child_process = subprocess.Popen([
+        sys.executable, script_location,
+        "-input-enumerations", veris_location,
+        "-input-mappings", mappings_location,
+        "-output-enumerations", veris_objects,
+        "-output-mappings", mappings,
+        "-config-location", config_location,
+    ])
+    child_process.wait(timeout=60)
+    assert child_process.returncode == 0

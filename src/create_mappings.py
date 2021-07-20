@@ -13,7 +13,7 @@ def generate_veris_enumerations(veris_location, veris_version):
     """Reads the enumeration defined in VERIS and creates a spreadsheet only for the axes
     and categories described below."""
     veris_url = f"https://raw.githubusercontent.com/vz-risk/VCDB/{veris_version}/vcdb-labels.json"
-    json_enum = requests.get(veris_url).json()
+    json_enum = requests.get(veris_url, verify=True).json()
     axes = {"action": ["hacking", "malware", "misuse", "social"],
             "attribute": ["integrity"],
             "value_chain": ["development", "non-distribution services", "targeting", "distribution"],

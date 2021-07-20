@@ -17,7 +17,8 @@ def save_bundle(bundle, path):
 def main(in_enumerations=pathlib.Path("input", "veris135-enumerations.csv"),
          in_mappings=pathlib.Path("input", "veris135-mappings.csv"),
          out_enumerations=pathlib.Path("stix", "veris135-enumerations.json"),
-         out_mappings=pathlib.Path("stix", "veris135-mappings.json")):
+         out_mappings=pathlib.Path("stix", "veris135-mappings.json"),
+         config_location=pathlib.Path("input", "config.json")):
     """
     Parses the VERIS vocabulary entries and ATT&CK mappings and creates STIX2 Bundles.
 
@@ -32,7 +33,7 @@ def main(in_enumerations=pathlib.Path("input", "veris135-enumerations.csv"),
     veris_ids = {}
 
     if out_enumerations.exists():
-        print(f"Found existing VERIS entries file...")
+        print("Found existing VERIS entries file...")
         # parse idMappings from existing output so that IDs don't change when regenerated
         with out_enumerations.open("r", encoding="utf-8") as f:
             bundle = json.load(f)
@@ -43,12 +44,13 @@ def main(in_enumerations=pathlib.Path("input", "veris135-enumerations.csv"),
             veris_ids[from_id] = to_id
 
     else:
-        print(f"Generating VERIS entries from scratch...")
-    
+        print("Generating VERIS entries from scratch...")
+
     # build veris entries in STIX
     enumerations = parse_veris(
         in_enumerations,
         veris_ids,
+        config_location,
     )
 
     # build mapping ID helper lookup so that STIX IDs don't get replaced on each rebuild
@@ -68,6 +70,7 @@ def main(in_enumerations=pathlib.Path("input", "veris135-enumerations.csv"),
         in_mappings,
         enumerations,
         mapping_relationship_ids,
+        config_location,
     )
 
     save_bundle(enumerations, out_enumerations)
@@ -98,6 +101,11 @@ if __name__ == "__main__":
                         help="output STIX bundle file for the mappings.",
                         type=lambda path: pathlib.Path(path),
                         default=pathlib.Path("stix", "veris135-mappings.json"))
+    parser.add_argument("-config-location",
+                        dest="config_location",
+                        help="filepath to the configuration for the framework",
+                        type=lambda path: pathlib.Path(path),
+                        default=pathlib.Path("input", "config.json"))
 
     args = parser.parse_args()
 

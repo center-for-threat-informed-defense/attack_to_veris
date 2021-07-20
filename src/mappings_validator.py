@@ -117,9 +117,9 @@ def validate_json_mappings_metadata(mappings_location, attack_version, veris_ver
         mappings_dict = mappings_dict["metadata"]
 
     # Checks metadata info matches the validator options
-    assert attack_version == mappings_dict["attack_version"], f"[-] ATT&CK Version does not match JSON contents"
-    assert veris_version == mappings_dict["veris_version"], f"[-] VERIS Version does not match JSON contents"
-    assert metadata_version == mappings_dict["mappings_version"], f"[-] Metadata Version does not match JSON contents"
+    assert attack_version == mappings_dict["attack_version"], "[-] ATT&CK Version does not match JSON contents"
+    assert veris_version == mappings_dict["veris_version"], "[-] VERIS Version does not match JSON contents"
+    assert metadata_version == mappings_dict["mappings_version"], "[-] Metadata Version does not match JSON contents"
 
 
 def validate_spreadsheet_mappings_metadata(spreadsheet_location, attack_version, veris_version, metadata_version):

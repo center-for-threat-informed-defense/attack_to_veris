@@ -1,10 +1,9 @@
 import json
-import pathlib
 import uuid
 
-import pandas
 from stix2.v20 import AttackPattern, Bundle
 from tqdm import tqdm
+import pandas
 
 
 class VERISEntry(object):
@@ -53,17 +52,17 @@ class VERISEntry(object):
         )
 
 
-def parse_veris(veris_path, veris_ids):
+def parse_veris(veris_path, veris_ids, config_location):
     """Parse the VERIS entries, generate STIX from it and return a STIX Bundle
-    :param veris_path the filepath to the enumerations CSV file
-    :param veris_ids is a dict of format {veris_path -> stix ID} which maps a
+    :param veris_path: the filepath to the enumerations CSV file
+    :param veris_ids: is a dict of format {veris_path -> stix ID} which maps a
         VERIS entry (e.g action.hacking.variety.DoS) to desired STIX IDs
+    :param config_location: the filepath to the configuration JSON file.
     """
     print("reading framework config...", end="", flush=True)
 
     # load the mapping config
-    config_path = pathlib.Path("input", "config.json").resolve()
-    with config_path.open("r", encoding="utf-8") as f:
+    with config_location.open("r", encoding="utf-8") as f:
         config = json.load(f)
         framework_id = config["framework_id"]
         veris_version = config["veris_version"]
