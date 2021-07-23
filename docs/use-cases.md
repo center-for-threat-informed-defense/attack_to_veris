@@ -2,7 +2,7 @@
 
 This document describes the following use cases for the VERIS to MITRE ATT&CK integration mapping.
 1. Provide more granular information about adversary activities during confirmed security events. (IR, CISO)
-2. Allow a corpus of security events described in VERIS/ATT&CK to be analyzed to ensure appropriate policies/controls/governance are in place to adequately address historical threats (CISO)
+2. Allow a corpus of security events described in VERIS/ATT&CK to be analyzed to ensure appropriate policies/controls/governance are in place to adequately address historical and industry specific threats (CISO)
 3. Provide guidance to staff to ensure alerting is sufficiently tuned and provides necessary context to quickly respond to a repeat of similar activity (SOC)
 
 ## Use Cases - as a user of the VERIS/ATT&CK mapping ###
