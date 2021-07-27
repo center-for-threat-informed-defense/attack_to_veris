@@ -23,7 +23,7 @@ Most ATT&CK technique and sub-technique narrative pages provide a detection sect
 
 If these tools represent new detection functionality, they may serve to address a blind spot in an organization’s visibility into attacks. If the tool duplicates functionality, it may serve to test that the existing detection technology is accurate and suggest possible tuning opportunities.
 
-### As a Security Engineer, I want to understand what mitigations are necessary to prevent classes of attacker activity.
+### 4. As a Security Engineer, I want to understand what mitigations are necessary to prevent classes of attacker activity.
 
 Most ATT&CK techniques and sub-technique narrative pages provide a section on applicable mitigations. Careful examination and correlation may suggest control improvements that can mitigate classes of adversary activity rather than individual threats. This represents a significant improvement, both from the constant pressures faced by most information security budgets, and increasing complexity that leads to more gaps in control coverage.
 
