@@ -9,9 +9,9 @@ We propose developing a managed mapping and translation layer between VERIS and 
 
 The result of this effort would be a single, holistic framework describing all aspects of an incident, including threat actor, technical behavior, assets targeted and impact. While VERIS currently allows for the expression of all these aspects, ATT&CK provides a significant improvement in level of detail, consistency of detail, and comprehensiveness in describing technical behaviors. These improvements can be used to develop better predictions and insights about how we might be attacked in the future by understanding better how and why we were attacked in the past.
 
-| VERIS Framework | Mappings as XLSX | ATT&CK Navigator Layers | STIX Data |
+| VERIS Framework | Mappings as XLSX (download) | ATT&CK Navigator Layers | STIX Data |
 |---|---|---|---|
-| [VERIS 1.3.5](/frameworks/veris/) | [Spreadsheet](/frameworks/veris/veris-mappings.xlsx) | [Navigator Layers](/frameworks/veris/layers) | [STIX](/frameworks/veris/stix) |
+| [VERIS 1.3.5](/frameworks/veris/) | [Spreadsheet](https://github.com/center-for-threat-informed-defense/attack_to_veris/raw/main/frameworks/veris/veris-mappings.xlsx) | [Navigator Layers](/frameworks/veris/layers) | [STIX](/frameworks/veris/stix) |
 
 ## Repository Contents
 
