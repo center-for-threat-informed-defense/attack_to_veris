@@ -2,7 +2,7 @@
 
 ## How to contribute
 
-Thanks for contributing to ATT&CK Integration into Veris!
+Thanks for contributing to VERIS Framework Mappings to ATT&CK!
 
 You are welcome to comment on issues, open new issues, and open pull requests.
 
