@@ -1,6 +1,6 @@
 [![codecov](https://codecov.io/gh/center-for-threat-informed-defense/attack_to_veris/branch/main/graph/badge.svg?token=0DJ6K1YX6E)](https://codecov.io/gh/center-for-threat-informed-defense/attack_to_veris)
 
-# VERIS Framework Mappings to MITRE ATT&CK®
+# VERIS Mappings to MITRE ATT&CK®
 Vocabulary for Event Recording and Incident Sharing (VERIS), provides a common language for describing cybersecurity incidents, including the demographics, metadata, and technical details, in a repeatable manner. As a standard representation, it allows for the analysis of data across a variety of incidents and is used, among other things, to generate the Verizon Data Breach Investigation Report (DBIR).
 
 While VERIS is comprehensive in describing most aspects of cybersecurity incidents, it is focused on a high-level description of an incident as a whole, and as such does not provide the level of fidelity that MITRE ATT&CK® provides in describing the adversary behaviors that were used to carry out the attack at the system level.
