@@ -1,7 +1,6 @@
 # Mapping Methodology
 
-## Background
-The [Vocabulary for Event Recording and Incident Sharing (VERIS)](http://veriscommunity.net) is a set of metrics designed to provide a common language for describing security incidents in a structured and repeatable manner. The overall goal is to lay a foundation from which we can constructively and cooperatively learn from our experiences to better measure and manage risk.
+The [Vocabulary for Event Recording and Incident Sharing (VERIS)](http://veriscommunity.net) provides a common language for describing security incidents in a structured and repeatable manner. The overall goal is to lay a foundation from which we can constructively and cooperatively learn from our experiences to better measure and manage risk.
 
 VERIS employs a threat model with four primary axes, the "A4" model, to describe incidents. The four axes are:
 - **Actors:** Whose actions affected the asset?
@@ -11,15 +10,15 @@ VERIS employs a threat model with four primary axes, the "A4" model, to describe
 
 Each axis has a categorized set of values, called an enumeration, associated with it. Incidents are classified with one or more of those enumeration values for each axis.  Examples of incidents mapped to VERIS can be seen in the VERIS Community Database.
 
-One other axis outside the 4A model that was scrutinized was the **Value Chain**, which represented pre-attack activities. These activities are essential to a successful campaign and are very closely associated with an entire category of behavior.
+One other axis outside the 4A model is the **Value Chain**, which represented pre-attack activities. These activities are essential to a successful campaign and are very closely associated with an entire category of behavior.
 
 In this document, VERIS enumeration values follow the form `[Axis].[Category].[Subcategory].[Value]`, e.g. **Action.Malware.Variety.C2** corresponds to the C2 value in the Action axis, Malware category, Variety subcategory.
 
 MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. ATT&CK focuses on how external adversaries compromise and operate within computer information networks.
 
 ATT&CK describes adversary behaviors using the following core components: 
-- **Tactics:** short-term, tactical adversary goals
-- **Techniques:** means by which adversaries achieve tactical goals
+- **Tactics:** "why" - the adversary's objective or reason for performing an action
+- **Techniques:** "how" - the means by which adversaries achieve tactical goals
 - **Sub-techniques:** describing more specific means by which adversaries achieve tactical goals at a lower level than techniques
 
 Adversary behaviors can be described by mapping them to the appropriate tactics, techniques, and sub-techniques in ATT&CK.
@@ -29,9 +28,7 @@ Adversary behaviors can be described by mapping them to the appropriate tactics,
 ## Scope
 Not all VERIS axes or enumeration values describe adversary behaviors that can be found in ATT&CK. This mapping is constrained to just the portions of VERIS that map to ATT&CK techniques and sub-techniques.
 
-First, the scope is narrowed by examining only those axes that describe adversary behaviors:
-
-Within those axes, the scope is further narrowed based on whether the adversary behaviors for a particular enumeration category align to ATT&CK. For example, ATT&CK does not cover unintentional errors or natural disasters and therefore the Error and Environmental enumeration categories in the Action axis are not mapped.
+Within the axes axes that describe adversary behaviors, the scope is further narrowed based on whether the adversary behaviors for a particular VERIS enumeration category align to ATT&CK. For example, ATT&CK does not cover unintentional errors or natural disasters and therefore the Error and Environmental enumeration categories in the Action axis are not mapped.
 
 **Axis Scope**
 
@@ -62,7 +59,7 @@ Within those axes, the scope is further narrowed based on whether the adversary 
 | Category | Description | In Scope | Comments |
 | --- | --- | --- | --- |
 | **Confidentiality/Possession** | Data disclosure | No | Describes strategic goals and adversary intent, which is out of scope for ATT&CK. |
-| **Integrity/Authenticity** | State of system changed | Partial | Describes both tactical and strategic goals. Tactical goals were in-scope and mapped to ATT&CK. |
+| **Integrity/Authenticity** | State of system changed | Partial | Describes both tactical and strategic goals. Tactical goals are in-scope and mapped to ATT&CK. |
 | **Availability/Utility** | Availability of system(s) impacted | No | Describes strategic goals and adversary intent, which is out of scope for ATT&CK. |
 
 **Value Chain Axis Scope**
@@ -79,7 +76,7 @@ Within those axes, the scope is further narrowed based on whether the adversary 
 ## Mapping Philosophy and Process
 Based on those scoping decisions, the mappings were created by analyzing each in-scope ATT&CK technique/sub-technique and each in-scope VERIS enumeration value.
 
-VERIS and ATT&CK are at different levels of abstraction and cannot always perfectly describe the adversary behaviors that they are meant to represent. Some amount of analyst judgment is required, and as always when analyst judgment is involved, there can be differences of opinion. These design decisions document the judgment of the project team and why they made the decisions that they did. They explain why certain mappings are there and others are not.
+VERIS and ATT&CK are at different levels of abstraction and cannot always perfectly describe the adversary behaviors that they are meant to represent. Some amount of analyst judgment is required, and as always when analyst judgment is involved, there can be differences of opinion. These design decisions document our judgement and rationale. They explain why certain mappings are there and others are not.
 
 ## Design Decisions
 
