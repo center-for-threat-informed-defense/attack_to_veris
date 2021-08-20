@@ -1,5 +1,5 @@
 # Visualization
-This repository includes several ways to visualize the mappings. 
+This repository includes several ways to visualize the VERIS mappings to ATT&CK. 
 
 ## ATT&CK Navigator Layers
 
@@ -10,11 +10,11 @@ This project provides [ATT&CK Navigator](https://github.com/mitre-attack/attack-
 The STIX content can be visualized using the [CTI STIX Visualization](https://github.com/oasis-open/cti-stix-visualization/) tool.
 - [VERIS Mappings Graph Visualization](https://oasis-open.github.io/cti-stix-visualization/?url=https://raw.githubusercontent.com/center-for-threat-informed-defense/attack_to_veris/main/frameworks/veris/stix/veris135-enterprise-attack.json)
 
-_Note: because of the great amount of objects it will take a big amount of resources to generate the graph._
+_Note: because of the large number of objects it will take significant resources to generate the graph._
 
 ## Mappings Spreadsheet
 
-The Excel spreadsheet provided list all mappings for the VERIS framework in a tabular format. You can find the spreadsheets within the `/frameworks/` folder:
+The Excel spreadsheet lists all mappings for the VERIS framework in a tabular format. You can find the spreadsheets within the `/frameworks/` folder:
 - [VERIS Mappings Spreadsheet](/frameworks/veris/veris-mappings.xlsx)
 
 The [listMappings](/src/) script can be used to generate this same information in additional formats:
