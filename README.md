@@ -29,8 +29,6 @@ There are several ways that you can get involved with this project and help adva
 
 First, review the mappings, use them, and tell us what you think. We welcome your review and feedback on the VERIS mappings, our methodology, and resources. 
 
-Second, we are interested in applying our methodology to other security frameworks. Let us know what frameworks you would like to see mapped to ATT&CK. Your input will help us prioritize how we expand our mappings. 
-
 Finally, we are interested developing additional tools and resources to help the community understand and make threat-informed decisions in their risk management programs. Share your ideas and we will consider them as we explore additional research projects.  
 
 ## Questions and Feedback
