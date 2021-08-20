@@ -15,9 +15,9 @@ The result of this effort are a single, holistic framework describing all aspect
 
 ## Repository Contents
 
-- [VERIS Mappings](/frameworks/veris/) — contains the VERIS framework and their mappings to ATT&CK techniques, documentation and resources
+- [VERIS Mappings](/frameworks/veris/) — contains the VERIS framework mappings to ATT&CK techniques, documentation and resources
 - [Use Cases](/docs/use-cases.md) - use cases for VERIS framework mappings to ATT&CK
-- [Mapping Methodology](/docs/methodology.md) — a description of the general process used to create the VERIS mappings
+- [Mapping Methodology](/docs/methodology.md) — a description of the methodology used to create the VERIS mappings to ATT&CK
 - [Tooling](/docs/tooling.md) — a set of python tools to support the creation of new mappings and the customization of existing mappings
 - [STIX Format](/docs/STIX_format.md) — information regarding the STIX representation of the control frameworks and the mappings to ATT&CK
 - [Visualization](/docs/visualization.md) — describes other ways to visualize mappings data
