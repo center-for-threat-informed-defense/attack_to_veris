@@ -7,9 +7,10 @@ While VERIS is comprehensive in describing most aspects of cybersecurity inciden
 
 This project created a mapping and translation layer between VERIS and ATT&CK that allows ATT&CK to describe the adversary behaviors that were observed in an incident coded in VERIS. This creates the opportunitiy for a joint analysis of the information that ATT&CK describes well (the behaviors adversaries use to attack systems) alongside the incident demographics and metadata that VERIS describes well.
 
-<img src="/docs/veris-to-attack.png" width="900px">
-
 The result of this effort are a single, holistic framework describing all aspects of an incident, including threat actor, technical behavior, assets targeted and impact. While VERIS allows for the expression of all these aspects, ATT&CK provides a significant improvement in level of detail, consistency of detail, and comprehensiveness in describing technical behaviors. These improvements can be used to develop better predictions and insights about how we might be attacked in the future by understanding better how and why we were attacked in the past.
+
+The example below shows how the VERIS Action Hacking Vector's Desktop sharing software can be mapped to a more ganular set of ATT&CK techniques. This more granular description of an adversary's behavior then allows users to better understsand how to detect and mitigate the threat.
+<img src="/docs/veris-to-attack.png" width="900px">
 
 | VERIS Framework | Mappings as XLSX (download) | ATT&CK Navigator Layers | STIX Data |
 |---|---|---|---|
