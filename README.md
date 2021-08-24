@@ -14,7 +14,7 @@ The example below shows how the VERIS Action Hacking Vector's Desktop sharing so
 
 | VERIS Framework | Mappings as XLSX (download) | ATT&CK Navigator Layers | STIX Data |
 |---|---|---|---|
-| [VERIS 1.3.5](/frameworks/veris/) | [Spreadsheet](https://github.com/center-for-threat-informed-defense/attack_to_veris/raw/main/frameworks/veris/veris-mappings.xlsx) | [Navigator Layers](/frameworks/veris/layers) | [STIX](/frameworks/veris/stix) |
+| [All VERIS 1.3.5 resources](/frameworks/veris/) | [Spreadsheet](https://github.com/center-for-threat-informed-defense/attack_to_veris/raw/main/frameworks/veris/veris-mappings.xlsx) | [Navigator Layers](/frameworks/veris/layers) | [STIX](/frameworks/veris/stix) |
 
 ## Repository Contents
 
