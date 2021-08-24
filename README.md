@@ -1,9 +1,9 @@
 [![codecov](https://codecov.io/gh/center-for-threat-informed-defense/attack_to_veris/branch/main/graph/badge.svg?token=0DJ6K1YX6E)](https://codecov.io/gh/center-for-threat-informed-defense/attack_to_veris)
 
 # VERIS Mappings to MITRE ATT&CK®
-Vocabulary for Event Recording and Incident Sharing (VERIS), provides a common language for describing cybersecurity incidents, including the demographics, metadata, and technical details, in a repeatable manner. As a standard representation, it allows for the analysis of data across a variety of incidents and is used, among other things, to generate the Verizon Data Breach Investigation Report (DBIR).
+[Vocabulary for Event Recording and Incident Sharing (VERIS)](http://veriscommunity.net/), provides a common language for describing cybersecurity incidents, including the demographics, metadata, and technical details, in a repeatable manner. As a standard representation, it allows for the analysis of data across a variety of incidents and is used, among other things, to generate the [Verizon Data Breach Investigation Report (DBIR)](https://www.verizon.com/business/resources/reports/dbir/).
 
-While VERIS is comprehensive in describing most aspects of cybersecurity incidents, it is focused on a high-level description of an incident as a whole, and as such does not provide the level of fidelity that MITRE ATT&CK® provides in describing the adversary behaviors that were used to carry out the attack at the system level.
+While VERIS is comprehensive in describing most aspects of cybersecurity incidents, it is focused on a high-level description of an incident as a whole, and as such does not provide the level of fidelity that MITRE ATT&CK® provides in describing the adversary behaviors that were used to carry out an attack at the system level.
 
 This project created a mapping and translation layer between VERIS and ATT&CK that allows ATT&CK to describe the adversary behaviors that were observed in an incident coded in VERIS. This creates the opportunitiy for a joint analysis of the information that ATT&CK describes well (the behaviors adversaries use to attack systems) alongside the incident demographics and metadata that VERIS describes well.
 
