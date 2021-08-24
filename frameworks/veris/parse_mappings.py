@@ -28,7 +28,7 @@ def parse_mappings(mappings_path, veris_entries, relationship_ids, config_locati
     :param relationship_ids is a dict of format
         {relationship-source-id---relationship-target-id -> relationship-id} which
         maps relationships to desired STIX IDs
-    :param config_location:  the filepath to the configuration JSON file.
+    :param config_location: the filepath to the JSON configuration file.
     :return stix2 Bundle
     """
 

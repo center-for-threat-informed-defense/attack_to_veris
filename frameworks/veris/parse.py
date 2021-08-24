@@ -26,6 +26,7 @@ def main(in_enumerations=pathlib.Path("input", "veris135-enumerations.csv"),
     :param in_mappings - csv file with mappings between VERIS and ATT&CK
     :param out_enumerations - output STIX bundle file for the controls.
     :param out_mappings - output STIX bundle file for the mappings.
+    :param config_location: the filepath to the JSON configuration file.
     :return tuple with (out_enumerations, out_mappings)
     """
 
