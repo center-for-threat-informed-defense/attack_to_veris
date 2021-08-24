@@ -10,7 +10,7 @@ def save_bundle(bundle, path):
     """Helper function to write a STIX bundle to a file"""
     print(f"{'overwriting' if path.exists() else 'writing'} {path}... ", end="", flush=True)
     with path.open("w", encoding="utf-8") as outfile:
-        outfile.write(bundle.serialize(pretty=False, ensure_ascii=False, sort_keys=True, indent=4))
+        bundle.fp_serialize(outfile, pretty=False, ensure_ascii=False, sort_keys=True, indent=4)
     print("done!")
 
 
