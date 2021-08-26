@@ -172,10 +172,14 @@ def validate_mapping_entries(spreadsheet_location, attack_version):
         name = name.lower()
         print(f"\t\t\t[+] checking sheet: {name}")
         veris_path = None
+        unique_per_veris_entry = {}
 
         for idx, row in sheet.iterrows():
             if row[0] is not numpy.nan:
                 veris_path = f'{name}.{row[0]}'
+                check_unique = True
+            else:
+                check_unique = False
             attack_technique = row[1]
 
             if attack_technique is numpy.nan:
@@ -184,6 +188,24 @@ def validate_mapping_entries(spreadsheet_location, attack_version):
             elif attack_technique not in attack_source:
                 print(f"[-] In Sheet '{name}', under '{veris_path}', "
                       f"the technique ID '{attack_technique}' is invalid (revoked or deprecated)")
+                fail_test = True
+
+            if check_unique and veris_path in unique_per_veris_entry:
+                print(f"[-] In Sheet '{name}', under '{veris_path}', "
+                      f"the veris path is duplicated")
+                fail_test = True
+
+            if veris_path not in unique_per_veris_entry:
+                unique_per_veris_entry[veris_path] = set()
+
+            if attack_technique is numpy.nan:
+                # Don't validate the attack_technique if the cell is blank (aka is numpy.nan)
+                pass
+            elif attack_technique not in unique_per_veris_entry[veris_path]:
+                unique_per_veris_entry[veris_path].add(attack_technique)
+            else:
+                print(f"[-] In Sheet '{name}', under '{veris_path}', "
+                      f"the technique ID '{attack_technique}' is duplicated")
                 fail_test = True
 
             try:

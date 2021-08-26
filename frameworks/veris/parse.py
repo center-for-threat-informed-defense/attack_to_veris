@@ -10,7 +10,7 @@ def save_bundle(bundle, path):
     """Helper function to write a STIX bundle to a file"""
     print(f"{'overwriting' if path.exists() else 'writing'} {path}... ", end="", flush=True)
     with path.open("w", encoding="utf-8") as outfile:
-        outfile.write(bundle.serialize(pretty=False, ensure_ascii=False, sort_keys=True, indent=4))
+        bundle.fp_serialize(outfile, pretty=False, ensure_ascii=False, sort_keys=True, indent=4)
     print("done!")
 
 
@@ -26,6 +26,7 @@ def main(in_enumerations=pathlib.Path("input", "veris135-enumerations.csv"),
     :param in_mappings - csv file with mappings between VERIS and ATT&CK
     :param out_enumerations - output STIX bundle file for the controls.
     :param out_mappings - output STIX bundle file for the mappings.
+    :param config_location: the filepath to the JSON configuration file.
     :return tuple with (out_enumerations, out_mappings)
     """
 

@@ -83,7 +83,7 @@ if __name__ == "__main__":
     extension = args.output.name.split(".")[-1]
     if extension not in extension_to_pd_export:
         print(Fore.RED + f"ERROR: Unknown output extension \"{extension}\", "
-                         f"please make sure your output extension is one of: {allowed_extension_list}", Fore.reset)
+                         f"please make sure your output extension is one of: {allowed_extension_list}", Fore.RESET)
         exit()
 
     print("downloading ATT&CK data... ", end="", flush=True)

@@ -57,7 +57,7 @@ def parse_veris(veris_path, veris_ids, config_location):
     :param veris_path: the filepath to the enumerations CSV file
     :param veris_ids: is a dict of format {veris_path -> stix ID} which maps a
         VERIS entry (e.g action.hacking.variety.DoS) to desired STIX IDs
-    :param config_location: the filepath to the configuration JSON file.
+    :param config_location: the filepath to the JSON configuration file.
     """
     print("reading framework config...", end="", flush=True)
 
