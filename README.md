@@ -13,7 +13,7 @@ The resulting mapping between VERIS and ATT&CK will allow cyber defenders to cre
 |---|---|---|---|
 | [All VERIS 1.3.5 resources](/frameworks/veris/) | [Spreadsheet](https://github.com/center-for-threat-informed-defense/attack_to_veris/raw/main/frameworks/veris/veris-mappings.xlsx) | [Navigator Layers](/frameworks/veris/layers) | [STIX](/frameworks/veris/stix) |
 
-The example below shows the bidirectional mapping of the VERIS Action Hacking Vector's Desktop sharing software to a more ganular set of ATT&CK techniques. This more granular description of an adversary's behavior then allows users to better understsand how to detect and mitigate the threat.
+The example below shows the bidirectional mapping of the VERIS Action Hacking Vector's Desktop sharing software to a more granular set of ATT&CK techniques. This granular description of an adversary's behavior allows users to better understand how to detect and mitigate the threat.
 
 <img src="/docs/veris-to-attack.png" width="900px">
 
