@@ -1,6 +1,6 @@
 # Use Cases
 
-The VERIS mappings to MITRE ATT&CK enables the following essential capabilities: 
+The VERIS mappings to MITRE ATT&CK enable the following essential capabilities: 
 1.	Expanded vocabulary for describing adversary behaviors in an incident. VERIS users can leverage ATT&CK’s full range of TTPs when describing adversary activities during a security event. (IR, CISO)
 2.	Enhanced analysis of historical incident information. Collecting and analyzing incident information with more granular descriptions of adversary behaviors using ATT&CK enable analysts and senior leaders to align policies/controls/governance to defend against adversary behaviors. (CISO, CTI)
 3.	Streamlined integration of incident reports into security operations. Using ATT&CK to describe adversary behaviors in an incident enables security operations teams that already use ATT&CK to easily leverage incident information to inform operations. (SOC)
@@ -11,7 +11,7 @@ The essential capabilities describe above support a variety of use cases. Severa
 
 ### 1. As an Incident Response (IR) professional, I want to ensure I have a complete picture of an active security incident.
 
-The VERIS/ATT&CK mapping provides an optimal joint framework to comprehensively describe security events at a flexible level. At a very low level, the ATT&CK mappings allow incident response professionals to understand the details of adversary activities, thus creating a fingerprint of the event. This fingerprint can provide an analysis of the attacker’s tools, techniques, and procedures (TTP), which can assist in realtime decision making and activating responsive functionality in existing tools. Additionally, such an analysis can assist responders in looking for additional TTP artifacts that may typically coexist with currently observed activity. 
+The VERIS/ATT&CK mapping provides an optimal joint framework to comprehensively describe security events at a flexible level. At a very low level, the ATT&CK mappings allow incident response professionals to understand the details of adversary activities, thus creating a fingerprint of the event. This fingerprint can provide an analysis of the attacker’s tools, techniques, and procedures (TTP), which can assist in real-time decision making and activating responsive functionality in existing tools. Additionally, such an analysis can assist responders in looking for additional TTP artifacts that may typically coexist with currently observed activity. 
 
 ### 2. As an ISSO, I want to understand how our current security posture addresses real-world threats that my organization is likely to encounter.
 

@@ -28,7 +28,7 @@ Adversary behaviors can be described by mapping them to the appropriate tactics,
 ## Scope
 Not all VERIS axes or enumeration values describe adversary behaviors that can be found in ATT&CK. This mapping is constrained to just the portions of VERIS that map to ATT&CK techniques and sub-techniques.
 
-Within the axes axes that describe adversary behaviors, the scope is further narrowed based on whether the adversary behaviors for a particular VERIS enumeration category align to ATT&CK. For example, ATT&CK does not cover unintentional errors or natural disasters and therefore the Error and Environmental enumeration categories in the Action axis are not mapped.
+Within the axes that describe adversary behaviors, the scope is further narrowed based on whether the adversary behaviors for a particular VERIS enumeration category align to ATT&CK. For example, ATT&CK does not cover unintentional errors or natural disasters and therefore the Error and Environmental enumeration categories in the Action axis are not mapped.
 
 **Axis Scope**
 
@@ -38,7 +38,7 @@ Within the axes axes that describe adversary behaviors, the scope is further nar
 | **Action** | What actions affected the asset? | Yes | |
 | **Asset** | Which assets were affected? | No | Does not describe adversary behavior. |
 | **Attributes** | How was the asset affected? | Yes | |
-| **Value Chain** | Capabilities and investments an attacker must aquire prior to the actions on target. | Yes | Aligns with TA0042 Resource Development |
+| **Value Chain** | Capabilities and investments an attacker must acquire prior to the actions on target. | Yes | Aligns with TA0042 Resource Development |
 
 Within those axes, the scope is further narrowed based on whether the adversary behaviors for a particular enumeration category align to ATT&CK. For example, ATT&CK does not cover unintentional errors or natural disasters and therefore the **Error** and **Environmental** enumeration categories in the **Action** axis are not mapped.
 
@@ -88,7 +88,7 @@ VERIS and ATT&CK are at different levels of abstraction and cannot always perfec
     - If the VERIS enumeration value describes a behavior that maps to a technique, it is mapped to that technique and all sub-techniques.
     - If the VERIS enumeration value describes a behavior that maps to a tactic, it is mapped to all techniques and sub-techniques in that tactic.
 3. ATT&CK techniques are considered in the context of their descriptions and adversary goals (tactics). In some cases, techniques that appear to describe the same technical behavior are not mapped because the adversary objective differs from that described by the VERIS enumeration value.
-4. Many of the same adversary behaviors are described by values in both **Action.Hacking** and **Action.Malware**. Activities in the VERIS **Action.Hacking** category are those performed by hands-on-keyboard attackers. Activities in the VERIS **Action.Malware** category are automated by software/malware. ATT&CK techniques and subtechniques will be mapped to one or both depending on if they describe behaviors that are always automated, always manual, or might be either.
+4. Many of the same adversary behaviors are described by values in both **Action.Hacking** and **Action.Malware**. Activities in the VERIS **Action.Hacking** category are those performed by hands-on-keyboard attackers. Activities in the VERIS **Action.Malware** category are automated by software/malware. ATT&CK techniques and sub-techniques will be mapped to one or both depending on if they describe behaviors that are always automated, always manual, or might be either.
 5. Any techniques and sub-techniques that do not have an associated VERIS category based on the above design decisions are mapped to **Action.Hacking.Variety.Other**, **Action.Hacking.Vector.Other**, **Action.Malware.Variety.Other**, or **Action.Malware.Vector.Other**.
 6. Any techniques that have unspecified components of adversary behavior were mapped to **Action.Hacking.Variety.Unknown** or **Action.Malware.Variety.Unknown**.
 
