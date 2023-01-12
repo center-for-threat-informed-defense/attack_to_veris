@@ -1,0 +1,801 @@
+DATE DELIVERED,VERIS PATH,RELATIONSHIP TYPE,TECHNIQUE ID
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1047
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1053
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1053.002
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1053.003
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1053.005
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1053.006
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1053.007
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1059
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1059.001
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1059.002
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1059.003
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1059.004
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1059.005
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1059.006
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1059.007
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1059.008
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1072
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1106
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1112
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1127
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1127.001
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1129
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1137
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1137.001
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1137.002
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1137.003
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1137.004
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1137.005
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1187
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1202
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1216
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1216.001
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1218
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1218.001
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1218.002
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1218.003
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1218.004
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1218.005
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1218.007
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1218.008
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1218.009
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1218.010
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1218.011
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1218.012
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1220
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1505.001
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1505.002
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1529
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1543
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1543.001
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1543.002
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1543.003
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1543.004
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1547
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1548
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1548.001
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1548.002
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1548.003
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1548.004
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1559
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1559.001
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1559.002
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1563
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1563.001
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1563.002
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1564
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1564.001
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1564.002
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1564.003
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1564.004
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1564.005
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1564.006
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1564.007
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1569
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1569.001
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1569.002
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1578
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1578.001
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1578.002
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1578.003
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1578.004
+23/01/09,action.hacking.variety.Abuse of functionality,related-to,T1609
+23/01/09,action.hacking.variety.Brute force,related-to,T1110
+23/01/09,action.hacking.variety.Brute force,related-to,T1110.001
+23/01/09,action.hacking.variety.Brute force,related-to,T1110.002
+23/01/09,action.hacking.variety.Brute force,related-to,T1110.003
+23/01/09,action.hacking.variety.Brute force,related-to,T1110.004
+23/01/09,action.hacking.variety.Buffer overflow,related-to,T1203
+23/01/09,action.hacking.variety.Cryptanalysis,related-to,T1600
+23/01/09,action.hacking.variety.DoS,related-to,T1498
+23/01/09,action.hacking.variety.DoS,related-to,T1498.001
+23/01/09,action.hacking.variety.DoS,related-to,T1498.002
+23/01/09,action.hacking.variety.DoS,related-to,T1499
+23/01/09,action.hacking.variety.DoS,related-to,T1499.001
+23/01/09,action.hacking.variety.DoS,related-to,T1499.002
+23/01/09,action.hacking.variety.DoS,related-to,T1499.003
+23/01/09,action.hacking.variety.DoS,related-to,T1499.004
+23/01/09,action.hacking.variety.DoS,related-to,T1583.005
+23/01/09,action.hacking.variety.DoS,related-to,T1584.005
+23/01/09,action.hacking.variety.Exploit misconfig,related-to,T1068
+23/01/09,action.hacking.variety.Exploit misconfig,related-to,T1190
+23/01/09,action.hacking.variety.Exploit misconfig,related-to,T1210
+23/01/09,action.hacking.variety.Exploit misconfig,related-to,T1212
+23/01/09,action.hacking.variety.Exploit misconfig,related-to,T1548.002
+23/01/09,action.hacking.variety.Exploit misconfig,related-to,T1548.003
+23/01/09,action.hacking.variety.Exploit misconfig,related-to,T1548.004
+23/01/09,action.hacking.variety.Exploit misconfig,related-to,T1558.004
+23/01/09,action.hacking.variety.Exploit misconfig,related-to,T1574.001
+23/01/09,action.hacking.variety.Exploit misconfig,related-to,T1574.002
+23/01/09,action.hacking.variety.Exploit misconfig,related-to,T1574.005
+23/01/09,action.hacking.variety.Exploit misconfig,related-to,T1574.010
+23/01/09,action.hacking.variety.Exploit misconfig,related-to,T1574.011
+23/01/09,action.hacking.variety.Exploit vuln,related-to,T1068
+23/01/09,action.hacking.variety.Exploit vuln,related-to,T1212
+23/01/09,action.hacking.variety.Exploit vuln,related-to,T1574.001
+23/01/09,action.hacking.variety.Exploit vuln,related-to,T1574.002
+23/01/09,action.hacking.variety.Exploit vuln,related-to,T1574.004
+23/01/09,action.hacking.variety.Exploit vuln,related-to,T1595.002
+23/01/09,action.hacking.variety.Forced browsing,related-to,T1539
+23/01/09,action.hacking.variety.Forced browsing,related-to,T1583.003
+23/01/09,action.hacking.variety.Forced browsing,related-to,T1583.004
+23/01/09,action.hacking.variety.Forced browsing,related-to,T1583.006
+23/01/09,action.hacking.variety.Format string attack,related-to,T1068
+23/01/09,action.hacking.variety.Fuzz testing,related-to,T1068
+23/01/09,action.hacking.variety.HTTP request smuggling,related-to,T1203
+23/01/09,action.hacking.variety.HTTP request smuggling,related-to,T1185
+23/01/09,action.hacking.variety.HTTP request splitting,related-to,T1203
+23/01/09,action.hacking.variety.HTTP request splitting,related-to,T1185
+23/01/09,action.hacking.variety.HTTP response smuggling,related-to,T1203
+23/01/09,action.hacking.variety.HTTP response smuggling,related-to,T1185
+23/01/09,action.hacking.variety.HTTP response splitting,related-to,T1203
+23/01/09,action.hacking.variety.HTTP response splitting,related-to,T1185
+23/01/09,action.hacking.variety.Insecure deserialization,related-to,T1068
+23/01/09,action.hacking.variety.Integer overflows,related-to,T1068
+23/01/09,action.hacking.variety.LDAP injection,related-to,T1068
+23/01/09,action.hacking.variety.MitM,related-to,T1185
+23/01/09,action.hacking.variety.MitM,related-to,T1187
+23/01/09,action.hacking.variety.MitM,related-to,T1557
+23/01/09,action.hacking.variety.MitM,related-to,T1557.001
+23/01/09,action.hacking.variety.MitM,related-to,T1557.002
+23/01/09,action.hacking.variety.MitM,related-to,T1539
+23/01/09,action.hacking.variety.Offline cracking,related-to,T1110.002
+23/01/09,action.hacking.variety.Pass-the-hash,related-to,T1550.002
+23/01/09,action.hacking.variety.Routing detour,related-to,T1557
+23/01/09,action.hacking.variety.Session fixation,related-to,T1185
+23/01/09,action.hacking.variety.Session fixation,related-to,T1212
+23/01/09,action.hacking.variety.Soap array abuse,related-to,T1499
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1021
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1021.001
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1021.002
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1021.003
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1021.004
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1021.005
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1021.006
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1078
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1078.001
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1078.002
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1078.003
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1078.004
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1133
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1134
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1134.001
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1134.002
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1134.003
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1134.004
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1134.005
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1550
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1550.001
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1550.002
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1550.003
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1550.004
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1558
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1558.001
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1558.002
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1558.003
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1558.004
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1586
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1586.001
+23/01/09,action.hacking.variety.Use of stolen creds,related-to,T1586.002
+23/01/09,action.hacking.variety.Virtual machine escape,related-to,T1611
+23/01/09,action.hacking.variety.XML attribute blowup,related-to,T1499
+23/01/09,action.hacking.variety.XML entity expansion,related-to,T1499
+23/01/09,action.hacking.variety.XML external entities,related-to,T1499
+23/01/09,action.hacking.variety.XML external entities,related-to,T1213
+23/01/09,action.hacking.variety.XML injection,related-to,T1546
+23/01/09,action.hacking.variety.XML injection,related-to,T1574
+23/01/09,action.hacking.variety.XPath injection,related-to,T1010
+23/01/09,action.hacking.variety.Unknown,related-to,T1105
+23/01/09,action.hacking.variety.Unknown,related-to,T1111
+23/01/09,action.hacking.variety.Unknown,related-to,T1127
+23/01/09,action.hacking.variety.Unknown,related-to,T1127.001
+23/01/09,action.hacking.variety.Unknown,related-to,T1574
+23/01/09,action.hacking.variety.Unknown,related-to,T1574.001
+23/01/09,action.hacking.variety.Unknown,related-to,T1574.002
+23/01/09,action.hacking.variety.Unknown,related-to,T1574.004
+23/01/09,action.hacking.variety.Unknown,related-to,T1574.005
+23/01/09,action.hacking.variety.Unknown,related-to,T1583
+23/01/09,action.hacking.variety.Unknown,related-to,T1583.001
+23/01/09,action.hacking.variety.Unknown,related-to,T1583.002
+23/01/09,action.hacking.variety.Unknown,related-to,T1583.003
+23/01/09,action.hacking.variety.Unknown,related-to,T1583.004
+23/01/09,action.hacking.variety.Unknown,related-to,T1583.005
+23/01/09,action.hacking.variety.Unknown,related-to,T1583.006
+23/01/09,action.hacking.variety.Unknown,related-to,T1584
+23/01/09,action.hacking.variety.Unknown,related-to,T1584.001
+23/01/09,action.hacking.variety.Unknown,related-to,T1584.002
+23/01/09,action.hacking.variety.Unknown,related-to,T1584.003
+23/01/09,action.hacking.variety.Unknown,related-to,T1584.004
+23/01/09,action.hacking.variety.Unknown,related-to,T1584.005
+23/01/09,action.hacking.variety.Unknown,related-to,T1584.006
+23/01/09,action.hacking.variety.Unknown,related-to,T1587
+23/01/09,action.hacking.variety.Unknown,related-to,T1587.001
+23/01/09,action.hacking.variety.Unknown,related-to,T1587.002
+23/01/09,action.hacking.variety.Unknown,related-to,T1587.003
+23/01/09,action.hacking.variety.Unknown,related-to,T1587.004
+23/01/09,action.hacking.variety.Unknown,related-to,T1588
+23/01/09,action.hacking.variety.Unknown,related-to,T1588.001
+23/01/09,action.hacking.variety.Unknown,related-to,T1588.002
+23/01/09,action.hacking.variety.Unknown,related-to,T1588.003
+23/01/09,action.hacking.variety.Unknown,related-to,T1588.004
+23/01/09,action.hacking.variety.Unknown,related-to,T1588.005
+23/01/09,action.hacking.variety.Unknown,related-to,T1588.006
+23/01/09,action.hacking.variety.Unknown,related-to,T1599
+23/01/09,action.hacking.variety.Unknown,related-to,T1599.001
+23/01/09,action.hacking.variety.Unknown,related-to,T1606
+23/01/09,action.hacking.variety.Unknown,related-to,T1606.001
+23/01/09,action.hacking.variety.Unknown,related-to,T1606.002
+23/01/09,action.hacking.variety.Unknown,related-to,T1531
+23/01/09,action.hacking.vector.3rd party desktop,related-to,T1133
+23/01/09,action.hacking.vector.Command shell,related-to,T1021.002
+23/01/09,action.hacking.vector.Command shell,related-to,T1021.003
+23/01/09,action.hacking.vector.Command shell,related-to,T1021.004
+23/01/09,action.hacking.vector.Command shell,related-to,T1021.006
+23/01/09,action.hacking.vector.Command shell,related-to,T1047
+23/01/09,action.hacking.vector.Command shell,related-to,T1059
+23/01/09,action.hacking.vector.Command shell,related-to,T1059.001
+23/01/09,action.hacking.vector.Command shell,related-to,T1059.002
+23/01/09,action.hacking.vector.Command shell,related-to,T1059.003
+23/01/09,action.hacking.vector.Command shell,related-to,T1059.004
+23/01/09,action.hacking.vector.Command shell,related-to,T1059.005
+23/01/09,action.hacking.vector.Command shell,related-to,T1059.006
+23/01/09,action.hacking.vector.Command shell,related-to,T1059.007
+23/01/09,action.hacking.vector.Command shell,related-to,T1059.008
+23/01/09,action.hacking.vector.Desktop sharing software,related-to,T1021.001
+23/01/09,action.hacking.vector.Desktop sharing software,related-to,T1021.005
+23/01/09,action.hacking.vector.Desktop sharing software,related-to,T1133
+23/01/09,action.hacking.vector.Desktop sharing software,related-to,T1219
+23/01/09,action.hacking.vector.Hypervisor,related-to,T1497
+23/01/09,action.hacking.vector.Hypervisor,related-to,T1578
+23/01/09,action.hacking.vector.Inter-tenant,related-to,T1497
+23/01/09,action.hacking.vector.Inter-tenant,related-to,T1578
+23/01/09,action.hacking.vector.Partner,related-to,T1199
+23/01/09,action.hacking.vector.Partner,related-to,T1195
+23/01/09,action.hacking.vector.Partner,related-to,T1195.001
+23/01/09,action.hacking.vector.Partner,related-to,T1195.002
+23/01/09,action.hacking.vector.Partner,related-to,T1195.003
+23/01/09,action.hacking.vector.Physical access,related-to,T1200
+23/01/09,action.malware.variety.Adminware,related-to,T1072
+23/01/09,action.malware.variety.Adminware,related-to,T1219
+23/01/09,action.malware.variety.Adminware,related-to,T1554
+23/01/09,action.malware.variety.Adware,related-to,T1199
+23/01/09,action.malware.variety.Backdoor,related-to,T1037
+23/01/09,action.malware.variety.Backdoor,related-to,T1098
+23/01/09,action.malware.variety.Backdoor,related-to,T1133
+23/01/09,action.malware.variety.Backdoor,related-to,T1205.001
+23/01/09,action.malware.variety.Backdoor,related-to,T1505
+23/01/09,action.malware.variety.Backdoor,related-to,T1505.001
+23/01/09,action.malware.variety.Backdoor,related-to,T1505.002
+23/01/09,action.malware.variety.Backdoor,related-to,T1505.003
+23/01/09,action.malware.variety.Backdoor,related-to,T1525
+23/01/09,action.malware.variety.Backdoor,related-to,T1543
+23/01/09,action.malware.variety.Backdoor,related-to,T1546
+23/01/09,action.malware.variety.Backdoor,related-to,T1547
+23/01/09,action.malware.variety.Backdoor,related-to,T1554
+23/01/09,action.malware.variety.Backdoor,related-to,T1574
+23/01/09,action.malware.variety.Brute force,related-to,T1110
+23/01/09,action.malware.variety.Brute force,related-to,T1110.001
+23/01/09,action.malware.variety.Brute force,related-to,T1110.002
+23/01/09,action.malware.variety.Brute force,related-to,T1110.003
+23/01/09,action.malware.variety.Brute force,related-to,T1110.004
+23/01/09,action.malware.variety.C2,related-to,T1001.001
+23/01/09,action.malware.variety.C2,related-to,T1008
+23/01/09,action.malware.variety.C2,related-to,T1071
+23/01/09,action.malware.variety.C2,related-to,T1071.001
+23/01/09,action.malware.variety.C2,related-to,T1071.002
+23/01/09,action.malware.variety.C2,related-to,T1071.003
+23/01/09,action.malware.variety.C2,related-to,T1071.004
+23/01/09,action.malware.variety.C2,related-to,T1090
+23/01/09,action.malware.variety.C2,related-to,T1090.001
+23/01/09,action.malware.variety.C2,related-to,T1090.002
+23/01/09,action.malware.variety.C2,related-to,T1090.003
+23/01/09,action.malware.variety.C2,related-to,T1090.004
+23/01/09,action.malware.variety.C2,related-to,T1095
+23/01/09,action.malware.variety.C2,related-to,T1102
+23/01/09,action.malware.variety.C2,related-to,T1102.001
+23/01/09,action.malware.variety.C2,related-to,T1102.002
+23/01/09,action.malware.variety.C2,related-to,T1102.003
+23/01/09,action.malware.variety.C2,related-to,T1104
+23/01/09,action.malware.variety.C2,related-to,T1132
+23/01/09,action.malware.variety.C2,related-to,T1132.001
+23/01/09,action.malware.variety.C2,related-to,T1132.002
+23/01/09,action.malware.variety.C2,related-to,T1205
+23/01/09,action.malware.variety.C2,related-to,T1205.001
+23/01/09,action.malware.variety.C2,related-to,T1568
+23/01/09,action.malware.variety.C2,related-to,T1568.001
+23/01/09,action.malware.variety.C2,related-to,T1568.002
+23/01/09,action.malware.variety.C2,related-to,T1568.003
+23/01/09,action.malware.variety.C2,related-to,T1571
+23/01/09,action.malware.variety.C2,related-to,T1572
+23/01/09,action.malware.variety.C2,related-to,T1573
+23/01/09,action.malware.variety.C2,related-to,T1573.001
+23/01/09,action.malware.variety.C2,related-to,T1573.002
+23/01/09,action.malware.variety.C2,related-to,T1583.001
+23/01/09,action.malware.variety.C2,related-to,T1583.002
+23/01/09,action.malware.variety.C2,related-to,T1583.006
+23/01/09,action.malware.variety.C2,related-to,T1584.002
+23/01/09,action.malware.variety.Capture app data,related-to,T1056
+23/01/09,action.malware.variety.Capture app data,related-to,T1056.001
+23/01/09,action.malware.variety.Capture app data,related-to,T1056.002
+23/01/09,action.malware.variety.Capture app data,related-to,T1056.003
+23/01/09,action.malware.variety.Capture app data,related-to,T1056.004
+23/01/09,action.malware.variety.Capture app data,related-to,T1113
+23/01/09,action.malware.variety.Capture app data,related-to,T1114
+23/01/09,action.malware.variety.Capture app data,related-to,T1114.001
+23/01/09,action.malware.variety.Capture app data,related-to,T1114.002
+23/01/09,action.malware.variety.Capture app data,related-to,T1114.003
+23/01/09,action.malware.variety.Capture app data,related-to,T1123
+23/01/09,action.malware.variety.Capture app data,related-to,T1125
+23/01/09,action.malware.variety.Capture app data,related-to,T1176
+23/01/09,action.malware.variety.Capture app data,related-to,T1185
+23/01/09,action.malware.variety.Capture app data,related-to,T1207
+23/01/09,action.malware.variety.Capture app data,related-to,T1217
+23/01/09,action.malware.variety.Capture app data,related-to,T1528
+23/01/09,action.malware.variety.Capture app data,related-to,T1539
+23/01/09,action.malware.variety.Capture stored data,related-to,T1003.002
+23/01/09,action.malware.variety.Capture stored data,related-to,T1003.003
+23/01/09,action.malware.variety.Capture stored data,related-to,T1003.006
+23/01/09,action.malware.variety.Capture stored data,related-to,T1003.008
+23/01/09,action.malware.variety.Capture stored data,related-to,T1005
+23/01/09,action.malware.variety.Capture stored data,related-to,T1010
+23/01/09,action.malware.variety.Capture stored data,related-to,T1025
+23/01/09,action.malware.variety.Capture stored data,related-to,T1033
+23/01/09,action.malware.variety.Capture stored data,related-to,T1039
+23/01/09,action.malware.variety.Capture stored data,related-to,T1083
+23/01/09,action.malware.variety.Capture stored data,related-to,T1119
+23/01/09,action.malware.variety.Capture stored data,related-to,T1213
+23/01/09,action.malware.variety.Capture stored data,related-to,T1213.001
+23/01/09,action.malware.variety.Capture stored data,related-to,T1213.002
+23/01/09,action.malware.variety.Capture stored data,related-to,T1530
+23/01/09,action.malware.variety.Capture stored data,related-to,T1602
+23/01/09,action.malware.variety.Click fraud,related-to,T1496
+23/01/09,action.malware.variety.Click fraud and cryptocurrency mining,related-to,T1496
+23/01/09,action.malware.variety.Client-side attack,related-to,T1203
+23/01/09,action.malware.variety.Client-side attack,related-to,T1221
+23/01/09,action.malware.variety.Client-side attack,related-to,T1548.003
+23/01/09,action.malware.variety.Cryptocurrency mining,related-to,T1496
+23/01/09,action.malware.variety.Destroy data,related-to,T1070
+23/01/09,action.malware.variety.Destroy data,related-to,T1070.001
+23/01/09,action.malware.variety.Destroy data,related-to,T1070.002
+23/01/09,action.malware.variety.Destroy data,related-to,T1070.003
+23/01/09,action.malware.variety.Destroy data,related-to,T1070.004
+23/01/09,action.malware.variety.Destroy data,related-to,T1070.005
+23/01/09,action.malware.variety.Destroy data,related-to,T1070.006
+23/01/09,action.malware.variety.Destroy data,related-to,T1485
+23/01/09,action.malware.variety.Destroy data,related-to,T1495
+23/01/09,action.malware.variety.Destroy data,related-to,T1561
+23/01/09,action.malware.variety.Destroy data,related-to,T1561.001
+23/01/09,action.malware.variety.Destroy data,related-to,T1561.002
+23/01/09,action.malware.variety.Disable controls,related-to,T1006
+23/01/09,action.malware.variety.Disable controls,related-to,T1027
+23/01/09,action.malware.variety.Disable controls,related-to,T1027.001
+23/01/09,action.malware.variety.Disable controls,related-to,T1027.002
+23/01/09,action.malware.variety.Disable controls,related-to,T1027.003
+23/01/09,action.malware.variety.Disable controls,related-to,T1027.004
+23/01/09,action.malware.variety.Disable controls,related-to,T1027.005
+23/01/09,action.malware.variety.Disable controls,related-to,T1036
+23/01/09,action.malware.variety.Disable controls,related-to,T1036.001
+23/01/09,action.malware.variety.Disable controls,related-to,T1036.002
+23/01/09,action.malware.variety.Disable controls,related-to,T1036.003
+23/01/09,action.malware.variety.Disable controls,related-to,T1036.004
+23/01/09,action.malware.variety.Disable controls,related-to,T1036.005
+23/01/09,action.malware.variety.Disable controls,related-to,T1036.006
+23/01/09,action.malware.variety.Disable controls,related-to,T1212
+23/01/09,action.malware.variety.Disable controls,related-to,T1222
+23/01/09,action.malware.variety.Disable controls,related-to,T1222.001
+23/01/09,action.malware.variety.Disable controls,related-to,T1222.002
+23/01/09,action.malware.variety.Disable controls,related-to,T1490
+23/01/09,action.malware.variety.Disable controls,related-to,T1497
+23/01/09,action.malware.variety.Disable controls,related-to,T1497.001
+23/01/09,action.malware.variety.Disable controls,related-to,T1497.002
+23/01/09,action.malware.variety.Disable controls,related-to,T1497.003
+23/01/09,action.malware.variety.Disable controls,related-to,T1553
+23/01/09,action.malware.variety.Disable controls,related-to,T1553.001
+23/01/09,action.malware.variety.Disable controls,related-to,T1553.002
+23/01/09,action.malware.variety.Disable controls,related-to,T1553.003
+23/01/09,action.malware.variety.Disable controls,related-to,T1553.004
+23/01/09,action.malware.variety.Disable controls,related-to,T1553.005
+23/01/09,action.malware.variety.Disable controls,related-to,T1553.006
+23/01/09,action.malware.variety.Disable controls,related-to,T1562
+23/01/09,action.malware.variety.Disable controls,related-to,T1562.001
+23/01/09,action.malware.variety.Disable controls,related-to,T1562.002
+23/01/09,action.malware.variety.Disable controls,related-to,T1562.003
+23/01/09,action.malware.variety.Disable controls,related-to,T1562.004
+23/01/09,action.malware.variety.Disable controls,related-to,T1562.006
+23/01/09,action.malware.variety.Disable controls,related-to,T1562.007
+23/01/09,action.malware.variety.Disable controls,related-to,T1562.008
+23/01/09,action.malware.variety.Disable controls,related-to,T1574.012
+23/01/09,action.malware.variety.Disable controls,related-to,T1600
+23/01/09,action.malware.variety.Disable controls,related-to,T1600.001
+23/01/09,action.malware.variety.Disable controls,related-to,T1600.002
+23/01/09,action.malware.variety.Disable controls,related-to,T1601
+23/01/09,action.malware.variety.Disable controls,related-to,T1601.001
+23/01/09,action.malware.variety.Disable controls,related-to,T1601.002
+23/01/09,action.malware.variety.DoS,related-to,T1489
+23/01/09,action.malware.variety.DoS,related-to,T1499
+23/01/09,action.malware.variety.DoS,related-to,T1499.001
+23/01/09,action.malware.variety.DoS,related-to,T1499.002
+23/01/09,action.malware.variety.DoS,related-to,T1499.003
+23/01/09,action.malware.variety.DoS,related-to,T1499.004
+23/01/09,action.malware.variety.DoS,related-to,T1498
+23/01/09,action.malware.variety.DoS,related-to,T1498.001
+23/01/09,action.malware.variety.DoS,related-to,T1498.002
+23/01/09,action.malware.variety.Exploit misconfig,related-to,T1068
+23/01/09,action.malware.variety.Exploit misconfig,related-to,T1548.002
+23/01/09,action.malware.variety.Exploit misconfig,related-to,T1558.004
+23/01/09,action.malware.variety.Exploit vuln,related-to,T1133
+23/01/09,action.malware.variety.Exploit vuln,related-to,T1190
+23/01/09,action.malware.variety.Exploit vuln,related-to,T1210
+23/01/09,action.malware.variety.Exploit vuln,related-to,T1211
+23/01/09,action.malware.variety.Exploit vuln,related-to,T1212
+23/01/09,action.malware.variety.Exploit vuln,related-to,T1595.002
+23/01/09,action.malware.variety.Export data,related-to,T1003.006
+23/01/09,action.malware.variety.Export data,related-to,T1011
+23/01/09,action.malware.variety.Export data,related-to,T1011.001
+23/01/09,action.malware.variety.Export data,related-to,T1020
+23/01/09,action.malware.variety.Export data,related-to,T1020.001
+23/01/09,action.malware.variety.Export data,related-to,T1029
+23/01/09,action.malware.variety.Export data,related-to,T1030
+23/01/09,action.malware.variety.Export data,related-to,T1041
+23/01/09,action.malware.variety.Export data,related-to,T1048
+23/01/09,action.malware.variety.Export data,related-to,T1048.001
+23/01/09,action.malware.variety.Export data,related-to,T1048.002
+23/01/09,action.malware.variety.Export data,related-to,T1048.003
+23/01/09,action.malware.variety.Export data,related-to,T1052
+23/01/09,action.malware.variety.Export data,related-to,T1052.001
+23/01/09,action.malware.variety.Export data,related-to,T1074
+23/01/09,action.malware.variety.Export data,related-to,T1074.001
+23/01/09,action.malware.variety.Export data,related-to,T1074.002
+23/01/09,action.malware.variety.Export data,related-to,T1197
+23/01/09,action.malware.variety.Export data,related-to,T1537
+23/01/09,action.malware.variety.Export data,related-to,T1560
+23/01/09,action.malware.variety.Export data,related-to,T1560.001
+23/01/09,action.malware.variety.Export data,related-to,T1560.002
+23/01/09,action.malware.variety.Export data,related-to,T1560.003
+23/01/09,action.malware.variety.Export data,related-to,T1567
+23/01/09,action.malware.variety.Export data,related-to,T1567.001
+23/01/09,action.malware.variety.Export data,related-to,T1567.002
+23/01/09,action.malware.variety.In-memory,related-to,T1003.007
+23/01/09,action.malware.variety.In-memory,related-to,T1055
+23/01/09,action.malware.variety.In-memory,related-to,T1055.001
+23/01/09,action.malware.variety.In-memory,related-to,T1055.002
+23/01/09,action.malware.variety.In-memory,related-to,T1055.003
+23/01/09,action.malware.variety.In-memory,related-to,T1055.004
+23/01/09,action.malware.variety.In-memory,related-to,T1055.005
+23/01/09,action.malware.variety.In-memory,related-to,T1055.008
+23/01/09,action.malware.variety.In-memory,related-to,T1055.009
+23/01/09,action.malware.variety.In-memory,related-to,T1055.011
+23/01/09,action.malware.variety.In-memory,related-to,T1055.012
+23/01/09,action.malware.variety.In-memory,related-to,T1055.013
+23/01/09,action.malware.variety.In-memory,related-to,T1055.014
+23/01/09,action.malware.variety.In-memory,related-to,T1115
+23/01/09,action.malware.variety.Modify data,related-to,T1136
+23/01/09,action.malware.variety.Modify data,related-to,T1562
+23/01/09,action.malware.variety.Packet sniffer,related-to,T1040
+23/01/09,action.malware.variety.Password dumper,related-to,T1003
+23/01/09,action.malware.variety.Password dumper,related-to,T1003.001
+23/01/09,action.malware.variety.Password dumper,related-to,T1003.002
+23/01/09,action.malware.variety.Password dumper,related-to,T1003.003
+23/01/09,action.malware.variety.Password dumper,related-to,T1003.004
+23/01/09,action.malware.variety.Password dumper,related-to,T1003.005
+23/01/09,action.malware.variety.Password dumper,related-to,T1003.006
+23/01/09,action.malware.variety.Password dumper,related-to,T1003.007
+23/01/09,action.malware.variety.Password dumper,related-to,T1003.008
+23/01/09,action.malware.variety.Password dumper,related-to,T1056.004
+23/01/09,action.malware.variety.Password dumper,related-to,T1212
+23/01/09,action.malware.variety.Password dumper,related-to,T1550.002
+23/01/09,action.malware.variety.Password dumper,related-to,T1552.001
+23/01/09,action.malware.variety.Password dumper,related-to,T1552.002
+23/01/09,action.malware.variety.Password dumper,related-to,T1552.003
+23/01/09,action.malware.variety.Password dumper,related-to,T1552.004
+23/01/09,action.malware.variety.Password dumper,related-to,T1552.005
+23/01/09,action.malware.variety.Password dumper,related-to,T1552.006
+23/01/09,action.malware.variety.Password dumper,related-to,T1555
+23/01/09,action.malware.variety.Password dumper,related-to,T1555.001
+23/01/09,action.malware.variety.Password dumper,related-to,T1555.002
+23/01/09,action.malware.variety.Password dumper,related-to,T1555.003
+23/01/09,action.malware.variety.Password dumper,related-to,T1555.004
+23/01/09,action.malware.variety.Password dumper,related-to,T1555.005
+23/01/09,action.malware.variety.RAM scraper,related-to,T1003.001
+23/01/09,action.malware.variety.RAM scraper,related-to,T1003.002
+23/01/09,action.malware.variety.RAM scraper,related-to,T1003.004
+23/01/09,action.malware.variety.RAM scraper,related-to,T1003.005
+23/01/09,action.malware.variety.RAM scraper,related-to,T1555.002
+23/01/09,action.malware.variety.Ransomware,related-to,T1486
+23/01/09,action.malware.variety.Ransomware,related-to,T1490
+23/01/09,action.malware.variety.RAT,related-to,T1543.003
+23/01/09,action.malware.variety.RAT,related-to,T1525
+23/01/09,action.malware.variety.Rootkit,related-to,T1014
+23/01/09,action.malware.variety.Rootkit,related-to,T1036.003
+23/01/09,action.malware.variety.Rootkit,related-to,T1542
+23/01/09,action.malware.variety.Rootkit,related-to,T1542.001
+23/01/09,action.malware.variety.Rootkit,related-to,T1542.002
+23/01/09,action.malware.variety.Rootkit,related-to,T1542.003
+23/01/09,action.malware.variety.Rootkit,related-to,T1542.004
+23/01/09,action.malware.variety.Rootkit,related-to,T1542.005
+23/01/09,action.malware.variety.Rootkit,related-to,T1543
+23/01/09,action.malware.variety.Scan network,related-to,T1016
+23/01/09,action.malware.variety.Scan network,related-to,T1016.001
+23/01/09,action.malware.variety.Scan network,related-to,T1018
+23/01/09,action.malware.variety.Scan network,related-to,T1040
+23/01/09,action.malware.variety.Scan network,related-to,T1046
+23/01/09,action.malware.variety.Scan network,related-to,T1049
+23/01/09,action.malware.variety.Scan network,related-to,T1135
+23/01/09,action.malware.variety.Scan network,related-to,T1482
+23/01/09,action.malware.variety.Scan network,related-to,T1595
+23/01/09,action.malware.variety.Scan network,related-to,T1595.001
+23/01/09,action.malware.variety.Scan network,related-to,T1595.002
+23/01/09,action.malware.variety.Spyware/Keylogger,related-to,T1056.004
+23/01/09,action.malware.variety.Trojan,related-to,T1204.003
+23/01/09,action.malware.variety.Trojan,related-to,T1554
+23/01/09,action.malware.variety.Trojan,related-to,T1564.007
+23/01/09,action.malware.variety.Worm,related-to,T1080
+23/01/09,action.malware.variety.Worm,related-to,T1091
+23/01/09,action.malware.variety.Unknown,related-to,T1001
+23/01/09,action.malware.variety.Unknown,related-to,T1001.001
+23/01/09,action.malware.variety.Unknown,related-to,T1001.002
+23/01/09,action.malware.variety.Unknown,related-to,T1001.003
+23/01/09,action.malware.variety.Unknown,related-to,T1071
+23/01/09,action.malware.variety.Unknown,related-to,T1071.001
+23/01/09,action.malware.variety.Unknown,related-to,T1071.002
+23/01/09,action.malware.variety.Unknown,related-to,T1071.003
+23/01/09,action.malware.variety.Unknown,related-to,T1071.004
+23/01/09,action.malware.variety.Unknown,related-to,T1080
+23/01/09,action.malware.variety.Unknown,related-to,T1140
+23/01/09,action.malware.variety.Unknown,related-to,T1204
+23/01/09,action.malware.variety.Unknown,related-to,T1204.001
+23/01/09,action.malware.variety.Unknown,related-to,T1204.002
+23/01/09,action.malware.variety.Unknown,related-to,T1204.003
+23/01/09,action.malware.variety.Unknown,related-to,T1525
+23/01/09,action.malware.variety.Unknown,related-to,T1587.001
+23/01/09,action.malware.variety.Unknown,related-to,T1587.004
+23/01/09,action.malware.variety.Unknown,related-to,T1588.001
+23/01/09,action.malware.variety.Unknown,related-to,T1588.005
+23/01/09,action.malware.variety.Unknown,related-to,T1588.006
+23/01/09,action.malware.variety.Unknown,related-to,T1608
+23/01/09,action.malware.variety.Unknown,related-to,T1608.001
+23/01/09,action.malware.variety.Unknown,related-to,T1608.002
+23/01/09,action.malware.variety.Unknown,related-to,T1608.003
+23/01/09,action.malware.variety.Unknown,related-to,T1608.004
+23/01/09,action.malware.variety.Unknown,related-to,T1608.005
+23/01/09,action.malware.variety.Unknown,related-to,T1610
+23/01/09,action.malware.variety.Unknown,related-to,T1612
+23/01/09,action.malware.vector.Direct install,related-to,T1047
+23/01/09,action.malware.vector.Direct install,related-to,T1569.002
+23/01/09,action.malware.vector.Download by malware,related-to,T1568
+23/01/09,action.malware.vector.Email attachment,related-to,T1036
+23/01/09,action.malware.vector.Email attachment,related-to,T1059.005
+23/01/09,action.malware.vector.Email attachment,related-to,T1059.007
+23/01/09,action.malware.vector.Email attachment,related-to,T1203
+23/01/09,action.malware.vector.Email attachment,related-to,T1204.002
+23/01/09,action.malware.vector.Email attachment,related-to,T1566.001
+23/01/09,action.malware.vector.Email attachment,related-to,T1598.002
+23/01/09,action.malware.vector.Email link,related-to,T1003.005
+23/01/09,action.malware.vector.Email link,related-to,T1204.001
+23/01/09,action.malware.vector.Email link,related-to,T1556.002
+23/01/09,action.malware.vector.Email link,related-to,T1598.003
+23/01/09,action.malware.vector.Instant messaging,related-to,T1566
+23/01/09,action.malware.vector.Network propagation,related-to,T1021
+23/01/09,action.malware.vector.Network propagation,related-to,T1550
+23/01/09,action.malware.vector.Network propagation,related-to,T1563
+23/01/09,action.malware.vector.Network propagation,related-to,T1563.001
+23/01/09,action.malware.vector.Network propagation,related-to,T1563.002
+23/01/09,action.malware.vector.Network propagation,related-to,T1570
+23/01/09,action.malware.vector.Remote injection,related-to,T1133
+23/01/09,action.malware.vector.Removable media,related-to,T1091
+23/01/09,action.malware.vector.Removable media,related-to,T1092
+23/01/09,action.malware.vector.Software update,related-to,T1072
+23/01/09,action.malware.vector.Software update,related-to,T1195
+23/01/09,action.malware.vector.Web application,related-to,T1133
+23/01/09,action.malware.vector.Web application - download,related-to,T1583
+23/01/09,action.malware.vector.Web application - download,related-to,T1584
+23/01/09,action.malware.vector.Web application - drive-by,related-to,T1176
+23/01/09,action.malware.vector.Web application - drive-by,related-to,T1189
+23/01/09,action.malware.vector.Web application - drive-by,related-to,T1212
+23/01/09,action.social.variety.Forgery,related-to,T1036.002
+23/01/09,action.social.variety.Phishing,related-to,T1036.002
+23/01/09,action.social.variety.Phishing,related-to,T1204
+23/01/09,action.social.variety.Phishing,related-to,T1204.001
+23/01/09,action.social.variety.Phishing,related-to,T1204.002
+23/01/09,action.social.variety.Phishing,related-to,T1204.003
+23/01/09,action.social.variety.Phishing,related-to,T1566
+23/01/09,action.social.variety.Phishing,related-to,T1566.001
+23/01/09,action.social.variety.Phishing,related-to,T1566.002
+23/01/09,action.social.variety.Phishing,related-to,T1566.003
+23/01/09,action.social.variety.Phishing,related-to,T1586.001
+23/01/09,action.social.variety.Phishing,related-to,T1598
+23/01/09,action.social.variety.Phishing,related-to,T1598.001
+23/01/09,action.social.variety.Phishing,related-to,T1598.002
+23/01/09,action.social.variety.Phishing,related-to,T1598.003
+23/01/09,action.social.variety.Pretexting,related-to,T1204.003
+23/01/09,action.social.variety.Pretexting,related-to,T1534
+23/01/09,action.social.variety.Pretexting,related-to,T1584.001
+23/01/09,action.social.variety.Pretexting,related-to,T1585
+23/01/09,action.social.variety.Pretexting,related-to,T1585.001
+23/01/09,action.social.variety.Pretexting,related-to,T1585.002
+23/01/09,action.social.variety.Pretexting,related-to,T1586.001
+23/01/09,action.social.variety.Pretexting,related-to,T1598
+23/01/09,action.social.variety.Pretexting,related-to,T1598.001
+23/01/09,action.social.variety.Pretexting,related-to,T1598.002
+23/01/09,action.social.variety.Pretexting,related-to,T1598.003
+23/01/09,action.social.vector.Email,related-to,T1566.001
+23/01/09,action.social.vector.Email,related-to,T1566.002
+23/01/09,action.social.vector.Email,related-to,T1566.003
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1114.003
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.001
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.002
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.003
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.004
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.005
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.006
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.007
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.008
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.009
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.010
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.011
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.012
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.013
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.014
+23/01/09,attribute.integrity.variety.Alter behavior,related-to,T1546.015
+23/01/09,attribute.integrity.variety.Created account,related-to,T1136
+23/01/09,attribute.integrity.variety.Created account,related-to,T1136.001
+23/01/09,attribute.integrity.variety.Created account,related-to,T1136.002
+23/01/09,attribute.integrity.variety.Created account,related-to,T1136.003
+23/01/09,attribute.integrity.variety.Defacement,related-to,T1491
+23/01/09,attribute.integrity.variety.Defacement,related-to,T1491.001
+23/01/09,attribute.integrity.variety.Defacement,related-to,T1491.002
+23/01/09,attribute.integrity.variety.Log tampering,related-to,T1070.001
+23/01/09,attribute.integrity.variety.Log tampering,related-to,T1070.002
+23/01/09,attribute.integrity.variety.Misrepresentation,related-to,T1534
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1037
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1037.001
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1037.002
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1037.003
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1037.004
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1037.005
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1484
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1484.001
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1484.002
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1547
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1547.001
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1547.002
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1547.003
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1547.004
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1547.005
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1547.006
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1547.007
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1547.008
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1547.009
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1547.010
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1547.012
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1547.013
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1556
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1556.001
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1556.002
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1556.003
+23/01/09,attribute.integrity.variety.Modify configuration,related-to,T1556.004
+23/01/09,attribute.integrity.variety.Modify data,related-to,T1565
+23/01/09,attribute.integrity.variety.Modify data,related-to,T1565.001
+23/01/09,attribute.integrity.variety.Modify data,related-to,T1565.002
+23/01/09,attribute.integrity.variety.Modify data,related-to,T1565.003
+23/01/09,attribute.integrity.variety.Modify privileges,related-to,T1098
+23/01/09,attribute.integrity.variety.Modify privileges,related-to,T1098.001
+23/01/09,attribute.integrity.variety.Modify privileges,related-to,T1098.002
+23/01/09,attribute.integrity.variety.Modify privileges,related-to,T1098.003
+23/01/09,attribute.integrity.variety.Modify privileges,related-to,T1098.004
+23/01/09,attribute.integrity.variety.Modify privileges,related-to,T1547.014
+23/01/09,attribute.integrity.variety.Modify privileges,related-to,T1556
+23/01/09,attribute.integrity.variety.Modify privileges,related-to,T1556.001
+23/01/09,attribute.integrity.variety.Modify privileges,related-to,T1556.002
+23/01/09,attribute.integrity.variety.Modify privileges,related-to,T1556.003
+23/01/09,attribute.integrity.variety.Modify privileges,related-to,T1556.004
+23/01/09,attribute.integrity.variety.Repurpose,related-to,T1535
+23/01/09,attribute.integrity.variety.Software installation,related-to,T1072
+23/01/09,attribute.integrity.variety.Software installation,related-to,T1080
+23/01/09,attribute.integrity.variety.Software installation,related-to,T1543
+23/01/09,attribute.integrity.variety.Software installation,related-to,T1543.001
+23/01/09,attribute.integrity.variety.Software installation,related-to,T1543.002
+23/01/09,attribute.integrity.variety.Software installation,related-to,T1543.003
+23/01/09,attribute.integrity.variety.Software installation,related-to,T1543.004
+23/01/09,attribute.integrity.variety.Software installation,related-to,T1546.016
+23/01/09,attribute.integrity.variety.Software installation,related-to,T1601
+23/01/09,attribute.integrity.variety.Software installation,related-to,T1601.001
+23/01/09,attribute.integrity.variety.Unknown,related-to,T1531
+23/01/09,value_chain.development.variety.Bot,related-to,T1583.005
+23/01/09,value_chain.development.variety.Bot,related-to,T1587.001
+23/01/09,value_chain.development.variety.Bot,related-to,T1588.001
+23/01/09,value_chain.development.variety.Exploit,related-to,T1587.004
+23/01/09,value_chain.development.variety.Exploit,related-to,T1588.005
+23/01/09,value_chain.development.variety.Exploit Kits,related-to,T1587.004
+23/01/09,value_chain.development.variety.Exploit Kits,related-to,T1588.005
+23/01/09,value_chain.development.variety.Payload,related-to,T1587.001
+23/01/09,value_chain.development.variety.Payload,related-to,T1588.001
+23/01/09,value_chain.development.variety.Persona,related-to,T1585
+23/01/09,value_chain.development.variety.Persona,related-to,T1585.001
+23/01/09,value_chain.development.variety.Persona,related-to,T1585.002
+23/01/09,value_chain.development.variety.Ransomware,related-to,T1587.001
+23/01/09,value_chain.development.variety.Ransomware,related-to,T1588.001
+23/01/09,value_chain.development.variety.Trojan,related-to,T1587.001
+23/01/09,value_chain.development.variety.Trojan,related-to,T1588.001
+23/01/09,value_chain.development.variety.Website,related-to,T1583.006
+23/01/09,value_chain.development.variety.Other,related-to,T1587.002
+23/01/09,value_chain.development.variety.Other,related-to,T1587.003
+23/01/09,value_chain.development.variety.Other,related-to,T1588.003
+23/01/09,value_chain.development.variety.Other,related-to,T1588.004
+23/01/09,value_chain.development.variety.Unknown,related-to,T1587
+23/01/09,value_chain.development.variety.Unknown,related-to,T1588
+23/01/09,value_chain.distribution.variety.Botnet,related-to,T1583.005
+23/01/09,value_chain.distribution.variety.Compromised server,related-to,T1584.002
+23/01/09,value_chain.distribution.variety.Compromised server,related-to,T1584.003
+23/01/09,value_chain.distribution.variety.Compromised server,related-to,T1584.004
+23/01/09,value_chain.distribution.variety.Website,related-to,T1608.001
+23/01/09,value_chain.distribution.variety.Website,related-to,T1608.002
+23/01/09,value_chain.distribution.variety.Website,related-to,T1608.004
+23/01/09,value_chain.distribution.variety.Other,related-to,T1583.001
+23/01/09,value_chain.distribution.variety.Other,related-to,T1583.002
+23/01/09,value_chain.distribution.variety.Other,related-to,T1583.003
+23/01/09,value_chain.distribution.variety.Other,related-to,T1583.004
+23/01/09,value_chain.distribution.variety.Other,related-to,T1583.006
+23/01/09,value_chain.distribution.variety.Other,related-to,T1584
+23/01/09,value_chain.distribution.variety.Other,related-to,T1584.001
+23/01/09,value_chain.distribution.variety.Other,related-to,T1584.005
+23/01/09,value_chain.distribution.variety.Other,related-to,T1584.006
+23/01/09,value_chain.distribution.variety.Other,related-to,T1608.003
+23/01/09,value_chain.distribution.variety.Unknown,related-to,T1608
+23/01/09,value_chain.non-distribution services.variety.Other,related-to,T1583.001
+23/01/09,value_chain.non-distribution services.variety.Other,related-to,T1583.002
+23/01/09,value_chain.non-distribution services.variety.Other,related-to,T1583.003
+23/01/09,value_chain.non-distribution services.variety.Other,related-to,T1583.004
+23/01/09,value_chain.non-distribution services.variety.Other,related-to,T1583.006
+23/01/09,value_chain.non-distribution services.variety.Other,related-to,T1584
+23/01/09,value_chain.non-distribution services.variety.Other,related-to,T1584.001
+23/01/09,value_chain.non-distribution services.variety.Other,related-to,T1584.002
+23/01/09,value_chain.non-distribution services.variety.Other,related-to,T1584.003
+23/01/09,value_chain.non-distribution services.variety.Other,related-to,T1584.004
+23/01/09,value_chain.non-distribution services.variety.Other,related-to,T1584.005
+23/01/09,value_chain.non-distribution services.variety.Other,related-to,T1584.006
+23/01/09,value_chain.targeting.variety.Email addresses,related-to,T1589.002
+23/01/09,value_chain.targeting.variety.Lost or stolen credentials,related-to,T1589.001
+23/01/09,value_chain.targeting.variety.Personal Information,related-to,T1589
+23/01/09,value_chain.targeting.variety.Personal Information,related-to,T1589.001
+23/01/09,value_chain.targeting.variety.Personal Information,related-to,T1589.002
+23/01/09,value_chain.targeting.variety.Personal Information,related-to,T1589.003
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1590
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1590.001
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1590.002
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1590.003
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1590.004
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1590.005
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1590.006
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1591
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1591.001
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1591.002
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1591.003
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1591.004
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1595
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1595.001
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1595.002
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1592
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1592.001
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1592.002
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1592.003
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1592.004
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1593
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1593.001
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1593.002
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1594
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1596
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1596.001
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1596.002
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1596.003
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1596.004
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1596.005
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1597
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1597.001
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1597.002
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1598
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1598.001
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1598.002
+23/01/09,value_chain.targeting.variety.Organizational Information,related-to,T1598.003
