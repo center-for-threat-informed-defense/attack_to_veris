@@ -20,7 +20,7 @@ def dict_lookup(lookup_dict, term):
     return lookup_dict[term]
 
 
-def parse_mappings(mappings_path, veris_entries, relationship_ids, config_location):
+def parse_mappings(mappings_path, veris_entries, relationship_ids, config_location, attack_domain):
     """Parses the VERIS mappings and returns a STIX Bundle
     with relationship objects conveying the mappings in STIX format.
 
@@ -38,20 +38,20 @@ def parse_mappings(mappings_path, veris_entries, relationship_ids, config_locati
     with config_location.open("r", encoding="utf-8") as f:
         config = json.load(f)
         version = config["attack_version"]
-        domain = config["attack_domain"]
     print("done")
 
     tqdm_format = "{desc}: {percentage:3.0f}% |{bar}| {elapsed}<{remaining}{postfix}"
 
     # load ATT&CK STIX data
     print("downloading ATT&CK data... ", end="", flush=True)
-    attack_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/{domain}/{domain}.json"
+    attack_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/{attack_domain}/{attack_domain}.json"
+    print(attack_url)
     attack_data = requests.get(attack_url, verify=True).json()["objects"]
     print("done")
 
     # build mapping of attack ID to stix ID
     attackid_to_stixid = {}
-    for attack_object in tqdm(attack_data, desc=f"parsing v{version} {domain} data", bar_format=tqdm_format):
+    for attack_object in tqdm(attack_data, desc=f"parsing v{version} {attack_domain} data", bar_format=tqdm_format):
         if attack_object["type"] == "attack-pattern":
             if "external_references" not in attack_object:
                 continue  # skip objects without IDs

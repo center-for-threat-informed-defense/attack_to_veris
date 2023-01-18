@@ -14,11 +14,12 @@ def save_bundle(bundle, path):
     print("done!")
 
 
-def main(in_enumerations=pathlib.Path("..", "mappings", "csv", "veris137-enumerations.csv"),
-         in_mappings=pathlib.Path("..", "mappings", "csv", "veris137-mappings.csv"),
-         out_enumerations=pathlib.Path("output", "veris137-enumerations.json"),
-         out_mappings=pathlib.Path("output", "veris137-mappings.json"),
-         config_location=pathlib.Path("input", "config.json")):
+def main(in_enumerations,
+         in_mappings,
+         out_enumerations,
+         out_mappings,
+         config_location,
+         attack_domain,):
     """
     Parses the VERIS vocabulary entries and ATT&CK mappings and creates STIX2 Bundles.
 
@@ -27,6 +28,7 @@ def main(in_enumerations=pathlib.Path("..", "mappings", "csv", "veris137-enumera
     :param out_enumerations - output STIX bundle file for the controls.
     :param out_mappings - output STIX bundle file for the mappings.
     :param config_location: the filepath to the JSON configuration file.
+    :param attack_domain: the attack domain we are mapping with
     :return tuple with (out_enumerations, out_mappings)
     """
 
@@ -72,6 +74,7 @@ def main(in_enumerations=pathlib.Path("..", "mappings", "csv", "veris137-enumera
         enumerations,
         mapping_relationship_ids,
         config_location,
+        attack_domain,
     )
 
     save_bundle(enumerations, out_enumerations)
@@ -86,27 +89,33 @@ if __name__ == "__main__":
                         dest="in_enumerations",
                         help="csv file with VERIS entries",
                         type=lambda path: pathlib.Path(path),
-                        default=pathlib.Path("..", "mappings", "csv", "veris137-enumerations.csv"))
+                        default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-enumerations-enterprise.csv"))
     parser.add_argument("-input-mappings",
                         dest="in_mappings",
                         help="csv file with mappings between VERIS and ATT&CK",
                         type=lambda path: pathlib.Path(path),
-                        default=pathlib.Path("..", "mappings", "csv", "veris137-mappings.csv"))
+                        default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-mappings-enterprise.csv"))
     parser.add_argument("-output-enumerations",
                         dest="out_enumerations",
                         help="output STIX bundle file for the veris entries.",
                         type=lambda path: pathlib.Path(path),
-                        default=pathlib.Path("output", "veris137-enumerations.json"))
+                        default=pathlib.Path("output", "enterprise", "veris137-enumerations-enterprise.json"))
     parser.add_argument("-output-mappings",
                         dest="out_mappings",
                         help="output STIX bundle file for the mappings.",
                         type=lambda path: pathlib.Path(path),
-                        default=pathlib.Path("output", "veris137-mappings.json"))
+                        default=pathlib.Path("output", "enterprise", "veris137-mappings-enterprise.json"))
     parser.add_argument("-config-location",
                         dest="config_location",
                         help="filepath to the configuration for the framework",
                         type=lambda path: pathlib.Path(path),
                         default=pathlib.Path("input", "config.json"))
+    parser.add_argument("-attack-domain",
+                        dest="attack_domain",
+                        help="attack domain we are mapping. i.e. 'enterprise-attack', 'mobile-attack', 'ics-atack'",
+                        type=str,
+                        choices=["enterprise-attack", "ics-attack", "mobile-attack"],
+                        default="enterprise-attack")
 
     args = parser.parse_args()
 
