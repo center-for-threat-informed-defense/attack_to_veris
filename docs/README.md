@@ -45,7 +45,7 @@ for editing documentation.
 4. Run `poetry shell` to create a shell inside the Python virtual environment. This will
    make all project commands available in your terminal.
 5. Run `make docs-server`. This will start up a local web server displaying the
-   documentation.
+   documentation on [http://127.0.0.1:8000](http://127.0.0.1:8000).
 6. Edit the documentation in your text editor.
     * When you save any changes, the terminal will show some activitythen the browser
       will refresh to display your changes.
