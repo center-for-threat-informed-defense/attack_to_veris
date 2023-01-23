@@ -1,8 +1,0 @@
-colorama==0.4.4
-numpy==1.20.3
-requests==2.25.1
-pandas==1.2.4
-openpyxl==3.0.7
-stix2==3.0.0
-tabulate==0.8.9
-tqdm==4.61.1
