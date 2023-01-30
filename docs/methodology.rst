@@ -1,6 +1,7 @@
 .. vim: syntax=rst
 
-**Mapping Methodology: VERIS II [Project name for publication?]**
+Mapping Methodology: VERIS II [Project name for publication?]
+=====
 
 The `Vocabulary for Event Recording and Incident Sharing
 (VERIS) <http://veriscommunity.net/>`__ provides a common language for
