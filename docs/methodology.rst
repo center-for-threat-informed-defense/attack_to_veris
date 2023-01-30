@@ -97,34 +97,32 @@ portions of VERIS that map to ATT&CK techniques and sub-techniques.
 
 **Axis Scope**
 
-+-------+-----------------------+----+--------------------------------+
-| Axis  | Description           | In | Comments                       |
-|       |                       | S  |                                |
-|       |                       | co |                                |
-|       |                       | pe |                                |
-+=======+=======================+====+================================+
-| Actor | Whose actions         | Y  | Aligns with ATT&CK groups of   |
-|       | affected the asset?   | es | adversarial activity clusters  |
-|       |                       |    | tracked by common names in the |
-|       |                       |    | security community.            |
-+-------+-----------------------+----+--------------------------------+
-| A     | What actions affected | Y  | Describes adversary behaviors  |
-| ction | the asset?            | es | performed by hands-on-keyboard |
-|       |                       |    | attackers or automated by      |
-|       |                       |    | software/malware.              |
-+-------+-----------------------+----+--------------------------------+
-| Asset | Which assets were     | No | Does not describe adversary    |
-|       | affected?             |    | behavior.                      |
-+-------+-----------------------+----+--------------------------------+
-| Attri | How was the asset     | Y  | Describes strategical and      |
-| butes | affected?             | es | tactical impact.               |
-+-------+-----------------------+----+--------------------------------+
-| Value | Capabilities and      | Y  | Aligns with ATT&CK Tactic      |
-| Chain | investments an        | es | TA0042 Resource Development.   |
-|       | attacker must acquire |    |                                |
-|       | prior to the actions  |    |                                |
-|       | on target.            |    |                                |
-+-------+-----------------------+----+--------------------------------+
++-----------+-----------------------+-------+-------------------------------+
+| Axis      | Description           | In    | Comments                      |
+|           |                       | Scope |                               |
++===========+=======================+=======+===============================+
+| Actor     | Whose actions         | Yes   | Aligns with ATT&CK groups of  |
+|           | affected the asset?   |       | adversarial activity clusters |
+|           |                       |       | tracked by common names in    |
+|           |                       |       | the security community.       |
++-----------+-----------------------+-------+-------------------------------+
+|Action     | What actions affected | Yes   | Describes adversary behaviors |
+|           | the asset?            |       | performed by hands-on-keyboard|
+|           |                       |       | attackers or automated by     |
+|           |                       |       | software/malware.             |
++-----------+-----------------------+-------+-------------------------------+
+| Asset     | Which assets were     | No    | Does not describe adversary   |
+|           | affected?             |       | behavior.                     |
++-----------+-----------------------+-------+-------------------------------+
+| Attributes| How was the asset     | Yes   | Describes strategical and     |
+|           | affected?             |       | tactical impact.              |
++-----------+-----------------------+-------+-------------------------------+
+| Value     | Capabilities and      | Yes   | Aligns with ATT&CK Tactic     |
+| Chain     | investments an        |       | TA0042 Resource Development.  |
+|           | attacker must acquire |       |                               |
+|           | prior to the actions  |       |                               |
+|           | on target.            |       |                               |
++-----------+-----------------------+-------+-------------------------------+
 
 Within the axes that describe adversary behaviors, the scope is further
 narrowed based on whether the adversary behaviors for a particular
@@ -204,8 +202,8 @@ not mapped.
 | Category                     | Description    | In     | Comments   |
 |                              |                | Scope  |            |
 +==============================+================+========+============+
-| Confidentiality/Possession   | Data           | P      | Describes  |
-|                              | disclosure     | artial | both       |
+| Confidentiality/Possession   | Data           | Partial| Describes  |
+|                              | disclosure     |        | both       |
 |                              |                |        | tactical   |
 |                              |                |        | and        |
 |                              |                |        | strategic  |
@@ -216,8 +214,8 @@ not mapped.
 |                              |                |        | and mapped |
 |                              |                |        | to ATT&CK. |
 +------------------------------+----------------+--------+------------+
-| Integrity/Authenticity       | State of       | P      | Describes  |
-|                              | system changed | artial | both       |
+| Integrity/Authenticity       | State of       | Partial| Describes  |
+|                              | system changed |        | both       |
 |                              |                |        | tactical   |
 |                              |                |        | and        |
 |                              |                |        | strategic  |
@@ -228,8 +226,8 @@ not mapped.
 |                              |                |        | and mapped |
 |                              |                |        | to ATT&CK. |
 +------------------------------+----------------+--------+------------+
-| Availability/Utility         | Availability   | P      | Describes  |
-|                              | of system(s)   | artial | both       |
+| Availability/Utility         | Availability   | Partial| Describes  |
+|                              | of system(s)   |        | both       |
 |                              | impacted       |        | tactical   |
 |                              |                |        | and        |
 |                              |                |        | strategic  |
@@ -243,38 +241,37 @@ not mapped.
 
 **Value Chain Axis Scope**
 
-+-------------+-------------------------+-----+------------------------+
-| Category    | Description             | In  | Comments               |
-|             |                         | Sc  |                        |
-|             |                         | ope |                        |
-+=============+=========================+=====+========================+
-| Development | Software that must be   | Yes | Describes activities   |
-|             | developed to accomplish |     | establishing           |
-|             | the actions on target   |     | capabilities and       |
-|             |                         |     | infrastructure.        |
-+-------------+-------------------------+-----+------------------------+
-| D           | Services used to        | Yes | Describes activities   |
-| istribution | distribute actor        |     | for establishing       |
-|             | content                 |     | delivery mechanisms.   |
-+-------------+-------------------------+-----+------------------------+
-| Non-D       | Services other than     | Yes | Describes staging      |
-| istribution | those used for          |     | activities for         |
-| Services    | distribution of actor   |     | engagement.            |
-|             | content                 |     |                        |
-+-------------+-------------------------+-----+------------------------+
-| Targeting   | Things that identify    | Yes | Aligns with ATT&CK     |
-|             | exploitable             |     | Tactic TA0042 Resource |
-|             | opportunities           |     | Development.           |
-+-------------+-------------------------+-----+------------------------+
-| Cash-Out    | Methods for converting  | No  | Describes activities   |
-|             | something into currency |     | after involvement with |
-|             |                         |     | victim.                |
-+-------------+-------------------------+-----+------------------------+
-| Money       | Methods for concealing  | No  | Describes activities   |
-| Laundering  | the origins of          |     | after involvement with |
-|             | illegally obtained      |     | victim.                |
-|             | money                   |     |                        |
-+-------------+-------------------------+-----+------------------------+
++-------------+-------------------------+------+------------------------+
+| Category    | Description             | In   | Comments               |
+|             |                         | Scope|                        |
++=============+=========================+======+========================+
+| Development | Software that must be   | Yes  | Describes activities   |
+|             | developed to accomplish |      | establishing           |
+|             | the actions on target   |      | capabilities and       |
+|             |                         |      | infrastructure.        |
++-------------+-------------------------+------+------------------------+
+| Distribution| Services used to        | Yes  | Describes activities   |
+|             | distribute actor        |      | for establishing       |
+|             | content                 |      | delivery mechanisms.   |
++-------------+-------------------------+------+------------------------+
+| Non-        | Services other than     | Yes  | Describes staging      |
+| Distribution| those used for          |      | activities for         |
+| Services    | distribution of actor   |      | engagement.            |
+|             | content                 |      |                        |
++-------------+-------------------------+------+------------------------+
+| Targeting   | Things that identify    | Yes  | Aligns with ATT&CK     |
+|             | exploitable             |      | Tactic TA0042 Resource |
+|             | opportunities           |      | Development.           |
++-------------+-------------------------+------+------------------------+
+| Cash-Out    | Methods for converting  | No   | Describes activities   |
+|             | something into currency |      | after involvement with |
+|             |                         |      | victim.                |
++-------------+-------------------------+------+------------------------+
+| Money       | Methods for concealing  | No   | Describes activities   |
+| Laundering  | the origins of          |      | after involvement with |
+|             | illegally obtained      |      | victim.                |
+|             | money                   |      |                        |
++-------------+-------------------------+------+------------------------+
 
 **Mapping Philosophy and Process**
 
