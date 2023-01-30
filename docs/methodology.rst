@@ -1,7 +1,7 @@
 .. vim: syntax=rst
 
-Mapping Methodology: VERIS II [Project name for publication?]
-=====
+Mapping Methodology: VERIS II
+=============================
 
 The `Vocabulary for Event Recording and Incident Sharing
 (VERIS) <http://veriscommunity.net/>`__ provides a common language for
@@ -90,13 +90,15 @@ original translation between VERIS and ATT&CK includes:
 
 -  Mapping VERIS values to ATT&CK for ICS. **(stretch goal - pending)**
 
-**Scope**
+Scope
+=====
 
 Not all VERIS axes or enumeration values describe adversary behaviors
 that can be found in ATT&CK. This mapping is constrained to just the
 portions of VERIS that map to ATT&CK techniques and sub-techniques.
 
-**Axis Scope**
+Axis Scope
+----------
 
 +-----------+-----------------------+-------+-------------------------------+
 | Axis      | Description           | In    | Comments                      |
@@ -132,7 +134,8 @@ unintentional errors or natural disasters and therefore the **Error**
 and **Environmental** enumeration categories in the **Action** axis are
 not mapped.
 
-**Action Axis Scope**
+Action Axis Scope
+-----------------
 
 +------------------+----------------------+--------+------------------+
 | Category         | Description          | In     | Comments         |
@@ -197,7 +200,8 @@ not mapped.
 |                  |                      |        | actions.         |
 +------------------+----------------------+--------+------------------+
 
-**Attribute Axis Scope**
+Attribute Axis Scope
+--------------------
 
 +------------------------------+----------------+--------+------------+
 | Category                     | Description    | In     | Comments   |
@@ -240,7 +244,8 @@ not mapped.
 |                              |                |        | to ATT&CK. |
 +------------------------------+----------------+--------+------------+
 
-**Value Chain Axis Scope**
+Value Chain Axis Scope
+----------------------
 
 +-------------+-------------------------+------+------------------------+
 | Category    | Description             | In   | Comments               |
@@ -274,7 +279,8 @@ not mapped.
 |             | money                   |      |                        |
 +-------------+-------------------------+------+------------------------+
 
-**Mapping Philosophy and Process**
+Mapping Philosophy and Process
+==============================
 
 Based on those scoping decisions, the mappings were created by analyzing
 each in-scope ATT&CK technique/sub-technique and each in-scope VERIS
@@ -287,7 +293,8 @@ when analyst judgment is involved, there can be differences of opinion.
 These design decisions document our judgement and rationale. They
 explain why certain mappings are there and others are not.
 
-**Guiding Principles and Design Decisions**
+Guiding Principles and Design Decisions
+=======================================
 
 1. Mappings are many-to-many.
 
@@ -335,6 +342,7 @@ explain why certain mappings are there and others are not.
    were mapped to **Action.Hacking.Variety.Unknown** or
    **Action.Malware.Variety.Unknown**.
 
-**Mapping Format**
+Mapping Format
+--------------
 
 The resulting mappings are available as JSON or Excel.
