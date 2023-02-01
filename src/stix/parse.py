@@ -97,12 +97,12 @@ if __name__ == "__main__":
                         default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-mappings-enterprise.csv"))
     parser.add_argument("-output-enumerations",
                         dest="out_enumerations",
-                        help="output STIX bundle file for the veris entries.",
+                        help="output STIX bundle file for the veris entries",
                         type=pathlib.Path(),
                         default=pathlib.Path("output", "enterprise", "veris137-enumerations-enterprise.json"))
     parser.add_argument("-output-mappings",
                         dest="out_mappings",
-                        help="output STIX bundle file for the mappings.",
+                        help="output STIX bundle file for the mappings",
                         type=pathlib.Path(),
                         default=pathlib.Path("output", "enterprise", "veris137-mappings-enterprise.json"))
     parser.add_argument("-config-location",
