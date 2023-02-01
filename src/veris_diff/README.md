@@ -1,9 +1,9 @@
 # Veris Diff Scripts
-This folder contains a script used to generate a diff file between versions of the Veris schema
+This folder contains a script used to generate a diff file between versions of the VERIS schema
 
 ## diff_veris.py
 ### Description
-Generates a file that describes the differences between two different versions of the Veris schema. This has been tested on the verisc versions of the schema.
+Generates a file that describes the differences between two different versions of the VERIS schema. This has been tested on the verisc versions of the schema.
 
 It outputs both a .json and .md file that include the changes.
 

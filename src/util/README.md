@@ -51,7 +51,7 @@ Utility script used to generate the data in this repository. It will automatical
 | attack-type | What attack type do you want to generate. (options: all, enterprise, ics, mobile) | all |
 | task | Create new mappings, or generate navigator layers based on existing mappings data. (options: mappings, layers) | mappings |
 
-Generate all of the mappings attack types
+Generate all of the mappings ATT&CK types
 ```
 python make.py -attack-type all -task mappings
 ```
