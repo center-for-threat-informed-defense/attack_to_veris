@@ -1,7 +1,6 @@
 import argparse
 import subprocess
 import os
-import sys
 import pathlib
 
 ROOT_DIR = pathlib.PurePath(os.path.dirname(os.path.dirname(__file__)), "..")

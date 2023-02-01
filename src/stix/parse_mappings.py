@@ -61,7 +61,9 @@ def parse_mappings(mappings_path, veris_entries, relationship_ids, config_locati
                 continue  # skip deprecated objects
 
             # map attack ID to stix ID
-            attackid_to_stixid[attack_object["external_references"][0]["external_id"]] = attack_object["id"]
+            for reference in attackid_to_stixid[attack_object["external_references"]]:
+                if reference["source_name"] == "mitre-attack":
+                    reference["external_id"] = attack_object["id"]
 
     # build mapping from a veris path to stix ID
     veris_path_to_stix_id = {}

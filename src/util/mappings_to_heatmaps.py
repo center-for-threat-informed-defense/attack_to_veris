@@ -255,12 +255,12 @@ def get_argparse():
     parser.add_argument("-veris-objects",
                         dest="veris_objects",
                         help="filepath to the STIX Bundle representing the VERIS framework",
-                        type=lambda path: pathlib.Path(path),
+                        type=pathlib.Path(),
                         default=pathlib.Path("..", "stix", "output", "enterprise", "veris137-enumerations-enterprise.json"))
     parser.add_argument("-mappings",
                         dest="mappings",
                         help="filepath to the STIX Bundle mappings from VERIS to ATT&CK",
-                        type=lambda path: pathlib.Path(path),
+                        type=pathlib.Path(),
                         default=pathlib.Path("..", "stix", "output", "enterprise", "veris137-mappings-enterprise.json"))
     parser.add_argument("-domain",
                         choices=["enterprise-attack", "ics-attack", "mobile-attack"],

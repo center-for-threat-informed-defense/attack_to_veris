@@ -165,27 +165,27 @@ def get_argparse():
     parser.add_argument("-config-location",
                         dest="config_location",
                         help="filepath to the configuration for the framework",
-                        type=lambda path: pathlib.Path(path),
+                        type=pathlib.Path(),
                         default=pathlib.Path("..", "stix", "input", "config.json"))
     parser.add_argument("-spreadsheet-location",
                         dest="spreadsheet_location",
                         help="filepath to the Excel spreadsheet for the mappings",
-                        type=lambda path: pathlib.Path(path),
+                        type=pathlib.Path(),
                         default=pathlib.Path("..", "mappings", "enterprise", "xlsx", "veris-2-mappings-enterprise.xlsx"))
     parser.add_argument("-json-location",
                         dest="json_location",
                         help="filepath to the JSON version of the spreadsheet mappings",
-                        type=lambda path: pathlib.Path(path),
+                        type=pathlib.Path(),
                         default=pathlib.Path("..", "mappings", "enterprise", "json", "veris-2-mappings-enterprise.json"))
     parser.add_argument("-mappings-location",
                         dest="mappings_location",
                         help="filepath to the CSV spreadsheet to write the mappings",
-                        type=lambda path: pathlib.Path(path),
+                        type=pathlib.Path(),
                         default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-mappings-enterprise.csv"))
     parser.add_argument("-veris-location",
                         dest="veris_location",
                         help="filepath to the CSV spreadsheet to write the enumeration",
-                        type=lambda path: pathlib.Path(path),
+                        type=pathlib.Path(),
                         default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-enumerations-enterprise.csv"))
     parser.add_argument("-veris-version",
                         dest="veris_version",

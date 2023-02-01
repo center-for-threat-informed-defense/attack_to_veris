@@ -88,27 +88,27 @@ if __name__ == "__main__":
     parser.add_argument("-input-enumerations",
                         dest="in_enumerations",
                         help="csv file with VERIS entries",
-                        type=lambda path: pathlib.Path(path),
+                        type=pathlib.Path(),
                         default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-enumerations-enterprise.csv"))
     parser.add_argument("-input-mappings",
                         dest="in_mappings",
                         help="csv file with mappings between VERIS and ATT&CK",
-                        type=lambda path: pathlib.Path(path),
+                        type=pathlib.Path(),
                         default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-mappings-enterprise.csv"))
     parser.add_argument("-output-enumerations",
                         dest="out_enumerations",
                         help="output STIX bundle file for the veris entries.",
-                        type=lambda path: pathlib.Path(path),
+                        type=pathlib.Path(),
                         default=pathlib.Path("output", "enterprise", "veris137-enumerations-enterprise.json"))
     parser.add_argument("-output-mappings",
                         dest="out_mappings",
                         help="output STIX bundle file for the mappings.",
-                        type=lambda path: pathlib.Path(path),
+                        type=pathlib.Path(),
                         default=pathlib.Path("output", "enterprise", "veris137-mappings-enterprise.json"))
     parser.add_argument("-config-location",
                         dest="config_location",
                         help="filepath to the configuration for the framework",
-                        type=lambda path: pathlib.Path(path),
+                        type=pathlib.Path(),
                         default=pathlib.Path("input", "config.json"))
     parser.add_argument("-attack-domain",
                         dest="attack_domain",

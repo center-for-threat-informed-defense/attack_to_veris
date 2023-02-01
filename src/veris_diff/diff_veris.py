@@ -15,12 +15,13 @@ logger.addHandler(fh)
 def printChangesJson(changes):
     with open("output\\result.json", "w") as file:
         file.write(json.dumps(changes, indent=4))
+        
 
 def printChangesMD(changes):
     with open("output\\result.md", "w") as file:
-        file.write("# Depricated Properties\n")
-        for i in range(len(changes["DepricatedProperties"])):
-            file.write(f"{i + 1}. {changes['DepricatedProperties'][i]}\n")
+        file.write("# Deprecated Properties\n")
+        for i in range(len(changes["DeprecatedProperties"])):
+            file.write(f"{i + 1}. {changes['DeprecatedProperties'][i]}\n")
 
         file.write("# Added Properties\n")
         for i in range(len(changes["AddedProperties"])):
@@ -54,17 +55,13 @@ def getChangeString(change, path=""):
             yield from getChangeString(change[key], path)
              
     
-
-    
-        
-
-
 def loadData(filepath):
     if os.path.isfile(filepath):
         file = open(filepath, "r", encoding="utf-8")
         return json.load(file)
     else:
         print(f"Could not find file: {filepath}")
+
 
 def findChanges(old, new):
     if old == new:
@@ -75,14 +72,14 @@ def findChanges(old, new):
     keys = new.keys()
     oldKeys = old.keys()
     addedKeys = keys - oldKeys
-    depricatedKeys = oldKeys - keys
+    deprecatedKeys = oldKeys - keys
 
     for key in keys:
         if key in addedKeys:
             changes[key] = {"New field": new[key]}
             print("1")
-        elif key in depricatedKeys:
-            changes[key] = "Depricated"
+        elif key in deprecatedKeys:
+            changes[key] = "Deprecated"
             print("2")
         elif old[key] != new[key]:
             if type(new[key]) != dict:
@@ -100,13 +97,11 @@ def findChanges(old, new):
     return changes
         
 
-
-
 def compareSchema(old, new):
     changes = {
         "OldProperties": [],
         "NewProperties": [],
-        "DepricatedProperties": [],
+        "DeprecatedProperties": [],
         "AddedProperties": [],
         "Changes": [],
     }
@@ -116,26 +111,25 @@ def compareSchema(old, new):
 
     for field in changes["OldProperties"]:
         if field not in changes["NewProperties"]:
-            changes["DepricatedProperties"].append(field)
+            changes["DeprecatedProperties"].append(field)
     
     for field in changes["NewProperties"]:
         if field not in changes["OldProperties"]:
             changes["AddedProperties"].append(field)
 
-    print("depricated")
-    print(changes["DepricatedProperties"])
+    print("deprecated")
+    print(changes["DeprecatedProperties"])
     print("added")
     print(changes["AddedProperties"])
 
     for key in changes["NewProperties"]:
-        if key not in changes["DepricatedProperties"] and key not in changes["AddedProperties"]:
+        if key not in changes["DeprecatedProperties"] and key not in changes["AddedProperties"]:
             changeDict = findChanges(old["properties"][key], new["properties"][key])
             changes["Changes"].append({key: changeDict})
 
     return changes
 
     
-
 def main():
     logger.info("Loading old schema")
     old = loadData("./old/verisc.json")
@@ -148,8 +142,6 @@ def main():
     printChangesJson(changes)
 
     printChangesMD(changes)
-
-
 
 
 if __name__ == "__main__":
