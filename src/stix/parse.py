@@ -14,12 +14,7 @@ def save_bundle(bundle, path):
     print("done!")
 
 
-def main(in_enumerations,
-         in_mappings,
-         out_enumerations,
-         out_mappings,
-         config_location,
-         attack_domain,):
+def main(args):
     """
     Parses the VERIS vocabulary entries and ATT&CK mappings and creates STIX2 Bundles.
 
@@ -35,10 +30,10 @@ def main(in_enumerations,
     # build control ID helper lookups so that STIX IDs don't get replaced on each rebuild
     veris_ids = {}
 
-    if out_enumerations.exists():
+    if args.out_enumerations.exists():
         print("Found existing VERIS entries file...")
         # parse idMappings from existing output so that IDs don't change when regenerated
-        with out_enumerations.open("r", encoding="utf-8") as f:
+        with args.out_enumerations.open("r", encoding="utf-8") as f:
             bundle = json.load(f)
 
         for sdo in bundle["objects"]:
@@ -51,16 +46,16 @@ def main(in_enumerations,
 
     # build veris entries in STIX
     enumerations = parse_veris(
-        in_enumerations,
+        args.in_enumerations,
         veris_ids,
-        config_location,
+        args.config_location,
     )
 
     # build mapping ID helper lookup so that STIX IDs don't get replaced on each rebuild
     mapping_relationship_ids = {}
 
-    if out_mappings.exists():
-        with out_mappings.open("r", encoding="utf-8") as f:
+    if args.out_mappings.exists():
+        with args.out_mappings.open("r", encoding="utf-8") as f:
             bundle = json.load(f)
 
         for sdo in bundle["objects"]:
@@ -70,17 +65,18 @@ def main(in_enumerations,
 
     # build veris mappings in STIX
     mappings = parse_mappings(
-        in_mappings,
+        args.in_mappings,
         enumerations,
         mapping_relationship_ids,
-        config_location,
-        attack_domain,
+        args.config_location,
+        args.attack_domain,
+        True if args.groups else False,
     )
 
-    save_bundle(enumerations, out_enumerations)
-    save_bundle(mappings, out_mappings)
+    save_bundle(enumerations, args.out_enumerations)
+    save_bundle(mappings, args.out_mappings)
 
-    return out_enumerations, out_mappings
+    return args.out_enumerations, args.out_mappings
 
 
 if __name__ == "__main__":
@@ -88,27 +84,27 @@ if __name__ == "__main__":
     parser.add_argument("-input-enumerations",
                         dest="in_enumerations",
                         help="csv file with VERIS entries",
-                        type=pathlib.Path(),
+                        type=pathlib.Path,
                         default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-enumerations-enterprise.csv"))
     parser.add_argument("-input-mappings",
                         dest="in_mappings",
                         help="csv file with mappings between VERIS and ATT&CK",
-                        type=pathlib.Path(),
+                        type=pathlib.Path,
                         default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-mappings-enterprise.csv"))
     parser.add_argument("-output-enumerations",
                         dest="out_enumerations",
                         help="output STIX bundle file for the veris entries",
-                        type=pathlib.Path(),
+                        type=pathlib.Path,
                         default=pathlib.Path("output", "enterprise", "veris137-enumerations-enterprise.json"))
     parser.add_argument("-output-mappings",
                         dest="out_mappings",
                         help="output STIX bundle file for the mappings",
-                        type=pathlib.Path(),
+                        type=pathlib.Path,
                         default=pathlib.Path("output", "enterprise", "veris137-mappings-enterprise.json"))
     parser.add_argument("-config-location",
                         dest="config_location",
                         help="filepath to the configuration for the framework",
-                        type=pathlib.Path(),
+                        type=pathlib.Path,
                         default=pathlib.Path("input", "config.json"))
     parser.add_argument("-attack-domain",
                         dest="attack_domain",
@@ -116,7 +112,10 @@ if __name__ == "__main__":
                         type=str,
                         choices=["enterprise-attack", "ics-attack", "mobile-attack"],
                         default="enterprise-attack")
+    parser.add_argument("-groups",
+                        action="store_true",
+                        help="If specified, create mappings for group objects")
 
     args = parser.parse_args()
 
-    main(**vars(args))
+    main(args)

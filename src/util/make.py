@@ -7,8 +7,8 @@ ROOT_DIR = pathlib.PurePath(os.path.dirname(os.path.dirname(__file__)), "..")
 
 def create_mappings(attack_types):
     for attack_type in attack_types:
-        
-        subprocess.run([
+
+        mappings_command = [
             "python", "create_mappings.py",
             "-spreadsheet-location", pathlib.Path(ROOT_DIR, "mappings", attack_type, 
                 f"xlsx", f"veris-2-mappings-{attack_type}.xlsx"),
@@ -20,12 +20,9 @@ def create_mappings(attack_types):
                 f"veris137-enumerations-{attack_type}.csv"),
             "-config-location", pathlib.Path(ROOT_DIR, "stix", "input", "config.json"),
             "-veris-version", "1.3.7",
-        ])
-        
-        
-        
+        ]
 
-        subprocess.run([
+        subprocess_command = [
             "python", pathlib.Path(ROOT_DIR, "stix", "parse.py"),
             "-input-enumerations", pathlib.Path(ROOT_DIR, "mappings", attack_type, "csv", 
                 f"veris137-enumerations-{attack_type}.csv"), 
@@ -36,11 +33,23 @@ def create_mappings(attack_types):
             "-output-mappings", pathlib.Path(ROOT_DIR, "stix", "output", attack_type, 
                 f"veris137-mappings-{attack_type}.json"),
             "-config-location", pathlib.Path(ROOT_DIR, "stix", "input", "config.json"),
-            "-attack-domain", f"{attack_type}-attack",
-        ])
+        ]
+
+        if attack_type == "groups":
+            mappings_command.append("-groups")
+            subprocess_command.append("-groups")
+        else:
+            subprocess_command.append("-attack-domain")
+            subprocess_command.append(f"{attack_type}-attack")
+        
+        subprocess.run(mappings_command)
+        subprocess.run(subprocess_command)
 
 def create_layers(attack_types):
     for attack_type in attack_types:
+        if attack_type == "groups":
+            print("Navigator layers cannot currently be generated for group mappings.")
+            continue
         subprocess.run([
             "python", pathlib.Path(ROOT_DIR, "util", "mappings_to_heatmaps.py"),
             "-veris-objects", pathlib.Path(ROOT_DIR, "stix", "output", attack_type, 
@@ -58,7 +67,7 @@ def create_layers(attack_types):
 def main(attack_type, task):
     if task == "mappings":
         if attack_type == "all":
-            create_mappings(["enterprise", "ics", "mobile"])
+            create_mappings(["enterprise", "ics", "mobile", "groups"])
         else:
             create_mappings([attack_type])
     elif task == "layers":
@@ -73,7 +82,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create the mappings and stix data")
     parser.add_argument("-attack-type",
                         dest="attack_type",
-                        choices=["all", "enterprise", "ics", "mobile"],
+                        choices=["all", "enterprise", "ics", "mobile", "groups"],
                         help="What attack type do you want to generate.",
                         type=str,
                         default="all",

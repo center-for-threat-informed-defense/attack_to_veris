@@ -34,6 +34,8 @@ class VERISEntry(object):
             base_url = base_url + "#section-actions"
         elif self.axes == "attribute":
             base_url = base_url + "#section-attributes"
+        elif self.axes == "actor":
+            base_url = base_url + "#section-actors"
 
         return AttackPattern(
             id=self.stix_id,

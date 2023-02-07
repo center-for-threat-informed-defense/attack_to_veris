@@ -20,7 +20,7 @@ Script to build the raw STIX data from the input spreadsheets
 | output-enumerations | output STIX bundle file for the veris entries | [../mappings/enterprise/json/veris137-enumerations-enterprise.json](../mappings/enterprise/json/) |
 | output-mappings | output STIX bundle file for the mappings | [../mappings/enterprise/json/veris137-mappings-enterprise.json](../mappings/enterprise/json/) |
 | config-location | filepath to the configuration for the framework | [input/config.json](./input/config.json) |
-| attack-domain | attack domain we are mapping. i.e. 'enterprise-attack', 'mobile-attack', 'ics-atack' | enterprise-attack |
+| attack-domain | attack domain we are mapping. i.e. 'enterprise-attack', 'mobile-attack', 'ics-attack' | enterprise-attack |
 
 Generate STIX data from Enterprise ATT&CK
 ```
