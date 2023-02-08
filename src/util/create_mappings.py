@@ -13,6 +13,7 @@ def generate_veris_enumerations(veris_location, veris_version):
     """Reads the enumeration defined in VERIS and creates a spreadsheet only for the axes
     and categories described below."""
     veris_url = f"https://raw.githubusercontent.com/vz-risk/veris/master/verisc-labels.json"
+    print(veris_url)
     json_enum = requests.get(veris_url, verify=True).json()
     axes = {"action": ["hacking", "malware", "misuse", "social"],
             "attribute": ["integrity"],
@@ -165,27 +166,27 @@ def get_argparse():
     parser.add_argument("-config-location",
                         dest="config_location",
                         help="filepath to the configuration for the framework",
-                        type=pathlib.Path(),
+                        type=pathlib.Path,
                         default=pathlib.Path("..", "stix", "input", "config.json"))
     parser.add_argument("-spreadsheet-location",
                         dest="spreadsheet_location",
                         help="filepath to the Excel spreadsheet for the mappings",
-                        type=pathlib.Path(),
+                        type=pathlib.Path,
                         default=pathlib.Path("..", "mappings", "enterprise", "xlsx", "veris-2-mappings-enterprise.xlsx"))
     parser.add_argument("-json-location",
                         dest="json_location",
                         help="filepath to the JSON version of the spreadsheet mappings",
-                        type=pathlib.Path(),
+                        type=pathlib.Path,
                         default=pathlib.Path("..", "mappings", "enterprise", "json", "veris-2-mappings-enterprise.json"))
     parser.add_argument("-mappings-location",
                         dest="mappings_location",
                         help="filepath to the CSV spreadsheet to write the mappings",
-                        type=pathlib.Path(),
+                        type=pathlib.Path,
                         default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-mappings-enterprise.csv"))
     parser.add_argument("-veris-location",
                         dest="veris_location",
                         help="filepath to the CSV spreadsheet to write the enumeration",
-                        type=pathlib.Path(),
+                        type=pathlib.Path,
                         default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-enumerations-enterprise.csv"))
     parser.add_argument("-veris-version",
                         dest="veris_version",

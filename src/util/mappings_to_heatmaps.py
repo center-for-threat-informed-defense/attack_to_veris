@@ -255,12 +255,12 @@ def get_argparse():
     parser.add_argument("-veris-objects",
                         dest="veris_objects",
                         help="filepath to the STIX Bundle representing the VERIS framework",
-                        type=pathlib.Path(),
+                        type=pathlib.Path,
                         default=pathlib.Path("..", "stix", "output", "enterprise", "veris137-enumerations-enterprise.json"))
     parser.add_argument("-mappings",
                         dest="mappings",
                         help="filepath to the STIX Bundle mappings from VERIS to ATT&CK",
-                        type=pathlib.Path(),
+                        type=pathlib.Path,
                         default=pathlib.Path("..", "stix", "output", "enterprise", "veris137-mappings-enterprise.json"))
     parser.add_argument("-domain",
                         choices=["enterprise-attack", "ics-attack", "mobile-attack"],
@@ -273,7 +273,7 @@ def get_argparse():
                         default="12.1")
     parser.add_argument("-output",
                         help="folder to write output layers to",
-                        type=lambda path: pathlib.Path(path),
+                        type=pathlib.Path,
                         default=pathlib.Path("..", "stix", "output", "enterprise", "layers"))
     parser.add_argument("-clear",
                         action="store_true",

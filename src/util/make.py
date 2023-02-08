@@ -9,7 +9,7 @@ def create_mappings(attack_types):
     for attack_type in attack_types:
         
         subprocess.run([
-            "python", "create_mappings.py",
+            "python", "-m", "util.create_mappings",
             "-spreadsheet-location", pathlib.Path(ROOT_DIR, "mappings", attack_type, 
                 f"xlsx", f"veris-2-mappings-{attack_type}.xlsx"),
             "-json-location", pathlib.Path(ROOT_DIR, "mappings", attack_type, "json", 
@@ -24,9 +24,9 @@ def create_mappings(attack_types):
         
         
         
-
+        """
         subprocess.run([
-            "python", pathlib.Path(ROOT_DIR, "stix", "parse.py"),
+            "python", "-m",  "stix.parse",
             "-input-enumerations", pathlib.Path(ROOT_DIR, "mappings", attack_type, "csv", 
                 f"veris137-enumerations-{attack_type}.csv"), 
             "-input-mappings", pathlib.Path(ROOT_DIR, "mappings", attack_type, "csv", 
@@ -38,11 +38,12 @@ def create_mappings(attack_types):
             "-config-location", pathlib.Path(ROOT_DIR, "stix", "input", "config.json"),
             "-attack-domain", f"{attack_type}-attack",
         ])
+        """
 
 def create_layers(attack_types):
     for attack_type in attack_types:
         subprocess.run([
-            "python", pathlib.Path(ROOT_DIR, "util", "mappings_to_heatmaps.py"),
+            "python", "-m", "util.mappings_to_heatmaps.py",
             "-veris-objects", pathlib.Path(ROOT_DIR, "stix", "output", attack_type, 
                 f"veris137-enumerations-{attack_type}.json"),
             "-mappings", pathlib.Path(ROOT_DIR, "stix", "output", attack_type, 
@@ -55,17 +56,17 @@ def create_layers(attack_types):
         ])
 
 
-def main(attack_type, task):
-    if task == "mappings":
-        if attack_type == "all":
+def main(args):
+    if args.task == "mappings":
+        if args.attack_type == "all":
             create_mappings(["enterprise", "ics", "mobile"])
         else:
-            create_mappings([attack_type])
-    elif task == "layers":
-        if attack_type == "all":
+            create_mappings([args.attack_type])
+    elif args.task == "layers":
+        if args.attack_type == "all":
             create_layers(["enterprise", "ics", "mobile"])
         else:
-            create_layers([attack_type])
+            create_layers([args.attack_type])
 
 
 
@@ -86,5 +87,5 @@ if __name__ == "__main__":
                         default="mappings")
     args = parser.parse_args()
 
-    main(**vars(args))
+    main(args)
     
