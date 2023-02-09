@@ -40,8 +40,9 @@ def merge_lists(l1, l2):
     return l1
 
 
-def get_attack_objects(attack_type, version, groups=False):
+def get_attack_objects(attack_type, version):
     attackid_to_stixid = {}
+    groups = attack_type == "groups"
     if groups:
         enterprise_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/enterprise-attack/enterprise-attack.json"
         ics_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/ics-attack/ics-attack.json"
@@ -85,61 +86,61 @@ def test_spreadsheet_contents(spreadsheets, veris_schema):
     for attack_type in spreadsheets.keys():
         groups = False
         print(f"\t\t\t[+] checking document: {spreadsheets[attack_type].name}")
-        attack_src = get_attack_objects(attack_type, "12.1", groups_flag)
+        attack_src = get_attack_objects(attack_type, "12.1")
         if attack_type == "groups":
             groups = True
             sheets = [get_sheet_by_name(spreadsheets[attack_type], "Actor.External.Motive")]
         else:
             sheets = get_sheets(spreadsheets[attack_type])
-        
+            
+        fail_test = False
         for sheet, name in sheets:
             name = name.lower()
             print(f"\t\t\t[+] checking sheet: {name}")
             veris_path = None
-        unique_per_veris_entry = {}
-        fail_test = False
+            unique_per_veris_entry = {}
+            
 
-        for idx, row in sheet.iterrows():
-            if row[0] is not numpy.nan:
-                veris_path = f'{name}.{row[0]}'
-                check_unique = True
-            else:
-                check_unique = False
-            attack_technique = row[1]
-
-            if attack_technique is numpy.nan:
-                # Don't validate the attack_technique if the cell is blank (aka is numpy.nan)
-                pass
-            elif attack_technique not in attack_src:
-                if groups:
-                    print(f"[-] In Sheet '{name}', under '{veris_path}', "
-                      f"the group ID '{attack_technique}' is invalid (revoked or deprecated)")
+            for idx, row in sheet.iterrows():
+                if row[0] is not numpy.nan:
+                    veris_path = f'{name}.{row[0]}'
+                    check_unique = True
                 else:
+                    check_unique = False
+                attack_technique = row[1]
+
+                if attack_technique is numpy.nan:
+                    # Don't validate the attack_technique if the cell is blank (aka is numpy.nan)
+                    pass
+                elif attack_technique not in attack_src:
+                    if groups:
+                        print(f"[-] In Sheet '{name}', under '{veris_path}', "
+                        f"the group ID '{attack_technique}' is invalid (revoked or deprecated)")
+                    else:
+                        print(f"[-] In Sheet '{name}', under '{veris_path}', "
+                            f"the technique ID '{attack_technique}' is invalid (revoked or deprecated)")
+                    fail_test = True
+                if check_unique and veris_path in unique_per_veris_entry:
                     print(f"[-] In Sheet '{name}', under '{veris_path}', "
-                        f"the technique ID '{attack_technique}' is invalid (revoked or deprecated)")
-                fail_test = True
+                        f"the veris path is duplicated")
+                    fail_test = True
 
-            if check_unique and veris_path in unique_per_veris_entry:
-                print(f"[-] In Sheet '{name}', under '{veris_path}', "
-                      f"the veris path is duplicated")
-                fail_test = True
+                if veris_path not in unique_per_veris_entry:
+                    unique_per_veris_entry[veris_path] = set()
 
-            if veris_path not in unique_per_veris_entry:
-                unique_per_veris_entry[veris_path] = set()
-
-            if attack_technique is numpy.nan:
-                # Don't validate the attack_technique if the cell is blank (aka is numpy.nan)
-                pass
-            elif attack_technique not in unique_per_veris_entry[veris_path]:
-                unique_per_veris_entry[veris_path].add(attack_technique)
-            else:
-                if groups:
-                    print(f"[-] In Sheet '{name}', under '{veris_path}', "
-                      f"the group ID '{attack_technique}' is duplicated")
+                if attack_technique is numpy.nan:
+                    # Don't validate the attack_technique if the cell is blank (aka is numpy.nan)
+                    pass
+                elif attack_technique not in unique_per_veris_entry[veris_path]:
+                    unique_per_veris_entry[veris_path].add(attack_technique)
                 else:
-                    print(f"[-] In Sheet '{name}', under '{veris_path}', "
-                        f"the technique ID '{attack_technique}' is duplicated")
-                fail_test = True
+                    if groups:
+                        print(f"[-] In Sheet '{name}', under '{veris_path}', "
+                        f"the group ID '{attack_technique}' is duplicated")
+                    else:
+                        print(f"[-] In Sheet '{name}', under '{veris_path}', "
+                            f"the technique ID '{attack_technique}' is duplicated")
+                    fail_test = True
 
         print(f"\t\t\t[+] finished checking document: {spreadsheets[attack_type].name}\n")
         assert fail_test == False, f"Problems found in: {spreadsheets[attack_type].name}"
