@@ -1,9 +1,8 @@
 import argparse
 import subprocess
-import os
 import pathlib
 
-ROOT_DIR = pathlib.PurePath(os.path.dirname(os.path.dirname(__file__)), "..")
+ROOT_DIR = pathlib.Path(pathlib.Path(__file__).parent.parent)
 
 def create_mappings(attack_types):
     for attack_type in attack_types:
@@ -24,7 +23,7 @@ def create_mappings(attack_types):
         
         
         
-        """
+        
         subprocess.run([
             "python", "-m",  "stix.parse",
             "-input-enumerations", pathlib.Path(ROOT_DIR, "mappings", attack_type, "csv", 
@@ -38,7 +37,7 @@ def create_mappings(attack_types):
             "-config-location", pathlib.Path(ROOT_DIR, "stix", "input", "config.json"),
             "-attack-domain", f"{attack_type}-attack",
         ])
-        """
+        
 
 def create_layers(attack_types):
     for attack_type in attack_types:

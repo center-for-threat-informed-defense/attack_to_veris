@@ -1,0 +1,192 @@
+DATE DELIVERED,VERIS PATH,RELATIONSHIP TYPE,TECHNIQUE ID
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1114.003
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.001
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.002
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.003
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.004
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.005
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.006
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.007
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.008
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.009
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.010
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.011
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.012
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.013
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.014
+23/02/16,attribute.integrity.variety.Alter behavior,related-to,T1546.015
+23/02/16,attribute.integrity.variety.Created account,related-to,T1136
+23/02/16,attribute.integrity.variety.Created account,related-to,T1136.001
+23/02/16,attribute.integrity.variety.Created account,related-to,T1136.002
+23/02/16,attribute.integrity.variety.Created account,related-to,T1136.003
+23/02/16,attribute.integrity.variety.Defacement,related-to,T1491
+23/02/16,attribute.integrity.variety.Defacement,related-to,T1491.001
+23/02/16,attribute.integrity.variety.Defacement,related-to,T1491.002
+23/02/16,attribute.integrity.variety.Log tampering,related-to,T1070.001
+23/02/16,attribute.integrity.variety.Log tampering,related-to,T1070.002
+23/02/16,attribute.integrity.variety.Misrepresentation,related-to,T1534
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1037
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1037.001
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1037.002
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1037.003
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1037.004
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1037.005
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1484
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1484.001
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1484.002
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1547
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1547.001
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1547.002
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1547.003
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1547.004
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1547.005
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1547.006
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1547.007
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1547.008
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1547.009
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1547.010
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1547.011
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1547.012
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1547.013
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1556
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1556.001
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1556.002
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1556.003
+23/02/16,attribute.integrity.variety.Modify configuration,related-to,T1556.004
+23/02/16,attribute.integrity.variety.Modify data,related-to,T1565
+23/02/16,attribute.integrity.variety.Modify data,related-to,T1565.001
+23/02/16,attribute.integrity.variety.Modify data,related-to,T1565.002
+23/02/16,attribute.integrity.variety.Modify data,related-to,T1565.003
+23/02/16,attribute.integrity.variety.Modify privileges,related-to,T1098
+23/02/16,attribute.integrity.variety.Modify privileges,related-to,T1098.001
+23/02/16,attribute.integrity.variety.Modify privileges,related-to,T1098.002
+23/02/16,attribute.integrity.variety.Modify privileges,related-to,T1098.003
+23/02/16,attribute.integrity.variety.Modify privileges,related-to,T1098.004
+23/02/16,attribute.integrity.variety.Modify privileges,related-to,T1547.014
+23/02/16,attribute.integrity.variety.Modify privileges,related-to,T1556
+23/02/16,attribute.integrity.variety.Modify privileges,related-to,T1556.001
+23/02/16,attribute.integrity.variety.Modify privileges,related-to,T1556.002
+23/02/16,attribute.integrity.variety.Modify privileges,related-to,T1556.003
+23/02/16,attribute.integrity.variety.Modify privileges,related-to,T1556.004
+23/02/16,attribute.integrity.variety.Repurpose,related-to,T1535
+23/02/16,attribute.integrity.variety.Software installation,related-to,T1072
+23/02/16,attribute.integrity.variety.Software installation,related-to,T1080
+23/02/16,attribute.integrity.variety.Software installation,related-to,T1543
+23/02/16,attribute.integrity.variety.Software installation,related-to,T1543.001
+23/02/16,attribute.integrity.variety.Software installation,related-to,T1543.002
+23/02/16,attribute.integrity.variety.Software installation,related-to,T1543.003
+23/02/16,attribute.integrity.variety.Software installation,related-to,T1543.004
+23/02/16,attribute.integrity.variety.Software installation,related-to,T1546.016
+23/02/16,attribute.integrity.variety.Software installation,related-to,T1601
+23/02/16,attribute.integrity.variety.Software installation,related-to,T1601.001
+23/02/16,attribute.integrity.variety.Unknown,related-to,T1531
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1003
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1003.001
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1003.002
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1003.003
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1003.004
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1003.005
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1003.006
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1003.007
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1003.008
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1005
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1011
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1011.001
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1020
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1020.001
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1025
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1029
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1030
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1039
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1040
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1041
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1048
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1048.001
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1048.002
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1048.003
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1052
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1052.001
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1056
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1056.001
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1056.002
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1056.003
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1056.004
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1113
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1114
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1114.001
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1114.002
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1114.003
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1115
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1119
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1123
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1125
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1187
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1212
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1213
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1213.001
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1213.002
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1213.003
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1530
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1537
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1552
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1552.001
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1552.002
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1552.003
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1552.004
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1552.005
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1552.006
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1552.007
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1555
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1555.001
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1555.002
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1555.003
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1555.004
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1555.005
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1557
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1567
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1567.001
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1567.002
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1602
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1602.001
+23/02/16,attribute.confidentiality.variety.Data disclosure,related-to,T1602.002
+23/02/16,attribute.availability.variety.Degradation,related-to,T1496
+23/02/16,attribute.availability.variety.Degradation,related-to,T1498
+23/02/16,attribute.availability.variety.Degradation,related-to,T1498.001
+23/02/16,attribute.availability.variety.Degradation,related-to,T1498.002
+23/02/16,attribute.availability.variety.Degradation,related-to,T1499
+23/02/16,attribute.availability.variety.Degradation,related-to,T1499.001
+23/02/16,attribute.availability.variety.Degradation,related-to,T1499.002
+23/02/16,attribute.availability.variety.Degradation,related-to,T1499.003
+23/02/16,attribute.availability.variety.Degradation,related-to,T1499.004
+23/02/16,attribute.availability.variety.Destruction,related-to,T1495
+23/02/16,attribute.availability.variety.Destruction,related-to,T1485
+23/02/16,attribute.availability.variety.Destruction,related-to,T1531
+23/02/16,attribute.availability.variety.Destruction,related-to,T1561
+23/02/16,attribute.availability.variety.Destruction,related-to,T1561.001
+23/02/16,attribute.availability.variety.Destruction,related-to,T1561.002
+23/02/16,attribute.availability.variety.Interruption,related-to,T1485
+23/02/16,attribute.availability.variety.Interruption,related-to,T1486
+23/02/16,attribute.availability.variety.Interruption,related-to,T1489
+23/02/16,attribute.availability.variety.Interruption,related-to,T1495
+23/02/16,attribute.availability.variety.Interruption,related-to,T1529
+23/02/16,attribute.availability.variety.Interruption,related-to,T1531
+23/02/16,attribute.availability.variety.Interruption,related-to,T1561
+23/02/16,attribute.availability.variety.Interruption,related-to,T1561.002
+23/02/16,attribute.availability.variety.Loss,related-to,T1490
+23/02/16,attribute.availability.variety.Loss,related-to,T1495
+23/02/16,attribute.availability.variety.Loss,related-to,T1498
+23/02/16,attribute.availability.variety.Loss,related-to,T1498.001
+23/02/16,attribute.availability.variety.Loss,related-to,T1498.002
+23/02/16,attribute.availability.variety.Loss,related-to,T1499
+23/02/16,attribute.availability.variety.Loss,related-to,T1499.001
+23/02/16,attribute.availability.variety.Loss,related-to,T1499.002
+23/02/16,attribute.availability.variety.Loss,related-to,T1499.003
+23/02/16,attribute.availability.variety.Loss,related-to,T1499.004
+23/02/16,attribute.availability.variety.Loss,related-to,T1561
+23/02/16,attribute.availability.variety.Loss,related-to,T1561.001
+23/02/16,attribute.availability.variety.Loss,related-to,T1561.002
+23/02/16,attribute.availability.variety.Obscuration,related-to,T1486
+23/02/16,attribute.availability.variety.Obscuration,related-to,T1491
+23/02/16,attribute.availability.variety.Obscuration,related-to,T1491.001
+23/02/16,attribute.availability.variety.Obscuration,related-to,T1491.002
