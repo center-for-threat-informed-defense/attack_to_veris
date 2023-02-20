@@ -7,7 +7,7 @@ ROOT_DIR = pathlib.Path(pathlib.Path(__file__).parent.parent)
 def create_mappings(attack_types):
     for attack_type in attack_types:
         
-        subprocess.run([
+        result = subprocess.run([
             "python", "-m", "util.create_mappings",
             "-spreadsheet-location", pathlib.Path(ROOT_DIR, "mappings", attack_type, 
                 f"xlsx", f"veris-2-mappings-{attack_type}.xlsx"),
@@ -20,7 +20,6 @@ def create_mappings(attack_types):
             "-config-location", pathlib.Path(ROOT_DIR, "stix", "input", "config.json"),
             "-veris-version", "1.3.7",
         ])
-        
         
         
         

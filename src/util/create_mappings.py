@@ -16,7 +16,7 @@ def generate_veris_enumerations(veris_location, veris_version):
     print(veris_url)
     json_enum = requests.get(veris_url, verify=True).json()
     axes = {"action": ["hacking", "malware", "misuse", "social"],
-            "attribute": ["availability", "integrity"],
+            "attribute": ["availability", "confidentiality", "integrity"],
             "value_chain": ["development", "non-distribution services", "targeting", "distribution"],
             }
 
@@ -27,6 +27,14 @@ def generate_veris_enumerations(veris_location, veris_version):
 
         for axes_name, axes_values in axes.items():
             for axes_value in axes_values:
+                if axes_value == "confidentiality":
+                    writer.writerow({
+                        'AXES': axes_name,
+                        'CATEGORY': axes_value,
+                        #'SUB CATEGORY': "",
+                        'VALUE': "data_disclosure",
+                        #'DESCRIPTION': ""
+                    })
                 sub_categories = json_enum[axes_name][axes_value]
                 for sub_category, category_value in sub_categories.items():
                     for category_name, category_description in category_value.items():
@@ -50,10 +58,9 @@ def get_sheets(spreadsheet_location):
     sheet5 = 'Action.Social.Variety'
     sheet6 = 'Action.Social.Vector'
     sheet7 = 'Attribute.Integrity.Variety'
-    #sheet8 = 'Attribute.Confidentiali.Variety'
+    sheet8 = 'Attribute.Confidentiality'
     sheet9 = 'Attribute.Availability.Variety'
     sheet10 = 'Value_chain'
-    print(spreadsheet_location)
 
     xls = pandas.ExcelFile(spreadsheet_location)
     df1 = pandas.read_excel(xls, sheet1)
@@ -63,12 +70,12 @@ def get_sheets(spreadsheet_location):
     df5 = pandas.read_excel(xls, sheet5)
     df6 = pandas.read_excel(xls, sheet6)
     df7 = pandas.read_excel(xls, sheet7)
-    #df8 = pandas.read_excel(xls, sheet8)
+    df8 = pandas.read_excel(xls, sheet8)
     df9 = pandas.read_excel(xls, sheet9)
     df10 = pandas.read_excel(xls, sheet10)
 
     #Excel limits sheet names to 31 chars, replace with proper name
-    #sheet8 = 'Attribute.Confidentiality.Variety' 
+    sheet8 = 'Attribute.Confidentiality.""' 
 
     sheets = [
         (df1, sheet1),
@@ -78,7 +85,7 @@ def get_sheets(spreadsheet_location):
         (df5, sheet5),
         (df6, sheet6),
         (df7, sheet7),
-        #(df8, sheet8),
+        (df8, sheet8),
         (df9, sheet9),
         (df10, sheet10),
     ]
@@ -109,6 +116,9 @@ def generate_csv_spreadsheet(spreadsheet_location, mappings_location):
             veris_path = None
             for idx, row in sheet.iterrows():
                 if row[0] is not numpy.nan:
+                    if ".\"\"" in name:
+                        name = name[:-3]
+                        print(name)
                     veris_path = f'{name}.{row[0]}'
 
                 if row[1] is not numpy.nan:
