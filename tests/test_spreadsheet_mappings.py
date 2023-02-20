@@ -81,8 +81,6 @@ def test_spreadsheet_names(spreadsheets):
 
 
 def test_spreadsheet_contents(spreadsheets, veris_schema):
-    groups_flag = "groups" in spreadsheets.keys()
-
     for attack_type in spreadsheets.keys():
         groups = False
         print(f"\t\t\t[+] checking document: {spreadsheets[attack_type].name}")
@@ -143,9 +141,4 @@ def test_spreadsheet_contents(spreadsheets, veris_schema):
                     fail_test = True
 
         print(f"\t\t\t[+] finished checking document: {spreadsheets[attack_type].name}\n")
-        assert fail_test == False, f"Problems found in: {spreadsheets[attack_type].name}"
-            
-
-
-
-
+        assert not fail_test, f"Problems found in: {spreadsheets[attack_type].name}"
