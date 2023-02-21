@@ -85,10 +85,9 @@ original translation between VERIS and ATT&CK includes:
 
 -  Mapping VERIS Actors and ATT&CK Groups,
 
--  Mapping VERIS values to ATT&CK for Mobile, and **(stretch goal – in
-   process)**
+-  Mapping VERIS values to ATT&CK for Mobile, and
 
--  Mapping VERIS values to ATT&CK for ICS. **(stretch goal - pending)**
+-  Mapping VERIS values to ATT&CK for ICS.
 
 Scope
 =====
