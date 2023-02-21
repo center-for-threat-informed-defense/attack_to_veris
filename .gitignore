@@ -134,3 +134,6 @@ dmypy.json
 
 #editors
 .vscode
+
+# Test and Regenerated Data
+./src/veris_diff/output
