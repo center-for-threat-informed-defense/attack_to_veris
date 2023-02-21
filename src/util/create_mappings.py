@@ -16,7 +16,7 @@ def generate_veris_enumerations(veris_location, veris_version):
     print(veris_url)
     json_enum = requests.get(veris_url, verify=True).json()
     axes = {"action": ["hacking", "malware", "misuse", "social"],
-            "attribute": ["integrity"],
+            "attribute": ["availability", "integrity"],
             "value_chain": ["development", "non-distribution services", "targeting", "distribution"],
             }
 
@@ -30,6 +30,8 @@ def generate_veris_enumerations(veris_location, veris_version):
                 sub_categories = json_enum[axes_name][axes_value]
                 for sub_category, category_value in sub_categories.items():
                     for category_name, category_description in category_value.items():
+                        if type(category_description) == dict:
+                            continue
                         writer.writerow({
                             'AXES': axes_name,
                             'CATEGORY': axes_value,
@@ -48,7 +50,7 @@ def get_sheets(spreadsheet_location):
     sheet5 = 'Action.Social.Variety'
     sheet6 = 'Action.Social.Vector'
     sheet7 = 'Attribute.Integrity.Variety'
-    sheet8 = 'Attribute.Confidentiali.Variety'
+    #sheet8 = 'Attribute.Confidentiali.Variety'
     sheet9 = 'Attribute.Availability.Variety'
     sheet10 = 'Value_chain'
     print(spreadsheet_location)
@@ -61,12 +63,12 @@ def get_sheets(spreadsheet_location):
     df5 = pandas.read_excel(xls, sheet5)
     df6 = pandas.read_excel(xls, sheet6)
     df7 = pandas.read_excel(xls, sheet7)
-    df8 = pandas.read_excel(xls, sheet8)
+    #df8 = pandas.read_excel(xls, sheet8)
     df9 = pandas.read_excel(xls, sheet9)
     df10 = pandas.read_excel(xls, sheet10)
 
     #Excel limits sheet names to 31 chars, replace with proper name
-    sheet8 = 'Attribute.Confidentiality.Variety' 
+    #sheet8 = 'Attribute.Confidentiality.Variety' 
 
     sheets = [
         (df1, sheet1),
@@ -76,7 +78,7 @@ def get_sheets(spreadsheet_location):
         (df5, sheet5),
         (df6, sheet6),
         (df7, sheet7),
-        (df8, sheet8),
+        #(df8, sheet8),
         (df9, sheet9),
         (df10, sheet10),
     ]
