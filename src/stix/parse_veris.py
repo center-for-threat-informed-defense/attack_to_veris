@@ -23,8 +23,7 @@ class VERISEntry(object):
         else:
             self.stix_id = f"attack-pattern--{uuid.uuid4()}"
 
-        # update lookup so that subsequent objects can reference the same object identifier
-        veris_ids[self.external_id] = self.stix_id
+        
 
     def to_stix(self, framework_id):
         """Convert to a STIX AttackPattern"""
@@ -76,7 +75,11 @@ def parse_veris(veris_path, veris_ids, config_location):
     tqdm_format = "{desc}: {percentage:3.0f}% |{bar}| {elapsed}<{remaining}{postfix}"
     tqdm_desc = f"parsing {framework_id.lower()} version {veris_version}"
     for index, row in tqdm(list(veris_df.iterrows()), desc=tqdm_desc, bar_format=tqdm_format):
-        veris_entries.append(VERISEntry(row, veris_ids))
+        entry = VERISEntry(row, veris_ids)
+        veris_entries.append(entry)
+
+        # update lookup so that subsequent objects can reference the same object identifier
+        veris_ids[entry.external_id] = entry.stix_id
 
     # parse veris entries into stix
     stix_veris_entries = []

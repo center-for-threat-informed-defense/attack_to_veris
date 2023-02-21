@@ -3,13 +3,13 @@ import subprocess
 import os
 import pathlib
 
-ROOT_DIR = pathlib.PurePath(os.path.dirname(os.path.dirname(__file__)), "..")
+ROOT_DIR = pathlib.Path(pathlib.Path(__file__).parent.parent)
 
 def create_mappings(attack_types):
     for attack_type in attack_types:
 
         mappings_command = [
-            "python", "create_mappings.py",
+            "python", "-m", "util.create_mappings",
             "-spreadsheet-location", pathlib.Path(ROOT_DIR, "mappings", attack_type, 
                 f"xlsx", f"veris-2-mappings-{attack_type}.xlsx"),
             "-json-location", pathlib.Path(ROOT_DIR, "mappings", attack_type, "json", 
@@ -23,7 +23,7 @@ def create_mappings(attack_types):
         ]
 
         subprocess_command = [
-            "python", pathlib.Path(ROOT_DIR, "stix", "parse.py"),
+            "python", "-m",  "stix.parse",
             "-input-enumerations", pathlib.Path(ROOT_DIR, "mappings", attack_type, "csv", 
                 f"veris137-enumerations-{attack_type}.csv"), 
             "-input-mappings", pathlib.Path(ROOT_DIR, "mappings", attack_type, "csv", 
@@ -33,6 +33,7 @@ def create_mappings(attack_types):
             "-output-mappings", pathlib.Path(ROOT_DIR, "stix", "output", attack_type, 
                 f"veris137-mappings-{attack_type}.json"),
             "-config-location", pathlib.Path(ROOT_DIR, "stix", "input", "config.json"),
+            "-attack-domain", f"{attack_type}-attack",
         ]
 
         if attack_type == "groups":
@@ -96,4 +97,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(**vars(args))
-    

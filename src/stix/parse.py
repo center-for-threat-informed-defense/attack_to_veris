@@ -1,9 +1,10 @@
 import argparse
 import json
 import pathlib
+import os
 
-from parse_mappings import parse_mappings
-from parse_veris import parse_veris
+from .parse_mappings import parse_mappings
+from .parse_veris import parse_veris
 
 
 def save_bundle(bundle, path):
@@ -76,7 +77,7 @@ def main(args):
     save_bundle(enumerations, args.out_enumerations)
     save_bundle(mappings, args.out_mappings)
 
-    return args.out_enumerations, args.out_mappings
+    return args.out_enumerations, args.out_mappings 
 
 
 if __name__ == "__main__":
@@ -85,12 +86,12 @@ if __name__ == "__main__":
                         dest="in_enumerations",
                         help="csv file with VERIS entries",
                         type=pathlib.Path,
-                        default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-enumerations-enterprise.csv"))
+                        default=pathlib.Path(__file__).parent / "mappings" / "enterprise" / "csv" / "veris137-enumerations-enterprise.csv")
     parser.add_argument("-input-mappings",
                         dest="in_mappings",
                         help="csv file with mappings between VERIS and ATT&CK",
                         type=pathlib.Path,
-                        default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-mappings-enterprise.csv"))
+                        default=pathlib.Path(__file__).parent / "mappings" / "enterprise" / "csv" / "veris137-mappings-enterprise.csv")
     parser.add_argument("-output-enumerations",
                         dest="out_enumerations",
                         help="output STIX bundle file for the veris entries",
@@ -105,7 +106,7 @@ if __name__ == "__main__":
                         dest="config_location",
                         help="filepath to the configuration for the framework",
                         type=pathlib.Path,
-                        default=pathlib.Path("input", "config.json"))
+                        default=pathlib.Path(__file__).parent / "input" / "config.json")
     parser.add_argument("-attack-domain",
                         dest="attack_domain",
                         help="attack domain we are mapping. i.e. 'enterprise-attack', 'mobile-attack', 'ics-atack'",

@@ -80,7 +80,6 @@ def parse_mappings(mappings_path, veris_entries, relationship_ids, config_locati
                 continue  # skip deprecated objects
 
             # map attack ID to stix ID
-            #attackid_to_stixid[attack_object["external_references"][0]["external_id"]] = attack_object["id"]
             for reference in attack_object["external_references"]:
                 if reference["source_name"] == "mitre-attack":
                     attackid_to_stixid[reference["external_id"]] = attack_object["id"]
