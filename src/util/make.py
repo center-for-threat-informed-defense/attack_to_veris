@@ -11,7 +11,7 @@ def create_mappings(attack_types):
         mappings_command = [
             "python", "-m", "util.create_mappings",
             "-spreadsheet-location", pathlib.Path(ROOT_DIR, "mappings", attack_type, 
-                f"xlsx", f"veris-2-mappings-{attack_type}.xlsx"),
+                f"xlsx", f"veris-1_3_7-mappings-{attack_type}_v12.xlsx"),
             "-json-location", pathlib.Path(ROOT_DIR, "mappings", attack_type, "json", 
                 f"veris-2-mappings-{attack_type}.json"),
             "-mappings-location", pathlib.Path(ROOT_DIR, "mappings", attack_type, "csv", 

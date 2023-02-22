@@ -89,11 +89,7 @@ def get_sheets(spreadsheet_location):
 def get_sheet_by_name(spreadsheet_location, sheet_name):
     """Helper method to retrieve a single sheet from a spreadsheet"""
     xls = pandas.ExcelFile(spreadsheet_location)
-<<<<<<< HEAD
     return (pandas.read_excel(xls, sheet_name), sheet_name)
-=======
-    return pandas.read_excel(xls, sheet_name), sheet_name
->>>>>>> main
 
 
 def generate_csv_spreadsheet(sheets, mappings_location):

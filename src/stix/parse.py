@@ -111,7 +111,7 @@ if __name__ == "__main__":
                         dest="attack_domain",
                         help="attack domain we are mapping. i.e. 'enterprise-attack', 'mobile-attack', 'ics-atack'",
                         type=str,
-                        choices=["enterprise-attack", "ics-attack", "mobile-attack"],
+                        choices=["enterprise-attack", "ics-attack", "mobile-attack", "groups-attack"],
                         default="enterprise-attack")
     parser.add_argument("-groups",
                         action="store_true",
