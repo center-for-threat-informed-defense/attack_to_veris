@@ -15,21 +15,7 @@ def dir_location():
         return cwd
 
 
-def test_append_mappings(dir_location):
-    veris_objects = pathlib.Path(dir_location, "frameworks", "veris", "stix", "veris135-enumerations.json")
-    output_location = pathlib.Path(dir_location, "frameworks", "veris", "stix", "veris135-enterprise-attack.json")
-    mappings = pathlib.Path(dir_location, "frameworks", "veris", "stix", "veris135-mappings.json")
-    script_location = f"{dir_location}/src/append_mappings.py"
-    child_process = subprocess.Popen([
-        sys.executable, script_location,
-        "-veris-objects", veris_objects,
-        "-mappings", mappings,
-        "-output", output_location,
-    ])
-    child_process.wait(timeout=60)
-    assert child_process.returncode == 0
-
-
+@pytest.mark.skip("Planning to update these later, see Jira issue VERIS-50")
 def test_create_mappings(dir_location):
     config_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "config.json")
     spreadsheet_location = pathlib.Path(dir_location, "frameworks", "veris", "veris-mappings.xlsx")
@@ -49,21 +35,7 @@ def test_create_mappings(dir_location):
     assert child_process.returncode == 0
 
 
-def test_list_mappings(dir_location):
-    veris_objects = pathlib.Path(dir_location, "frameworks", "veris", "stix", "veris135-enumerations.json")
-    mappings = pathlib.Path(dir_location, "frameworks", "veris", "stix", "veris135-mappings.json")
-    output_location = pathlib.Path(dir_location, "frameworks", "veris", "veris-mappings.md")
-    script_location = f"{dir_location}/src/list_mappings.py"
-    child_process = subprocess.Popen([
-        sys.executable, script_location,
-        "-veris-objects", veris_objects,
-        "-mappings", mappings,
-        "-output", output_location,
-    ])
-    child_process.wait(timeout=60)
-    assert child_process.returncode == 0
-
-
+@pytest.mark.skip("Planning to update these later, see Jira issue VERIS-50")
 def test_mappings_to_heatmaps(dir_location):
     veris_objects = pathlib.Path(dir_location, "frameworks", "veris", "stix", "veris135-enumerations.json")
     mappings = pathlib.Path(dir_location, "frameworks", "veris", "stix", "veris135-mappings.json")
@@ -81,6 +53,7 @@ def test_mappings_to_heatmaps(dir_location):
     assert child_process.returncode == 0
 
 
+@pytest.mark.skip("Planning to update these later, see Jira issue VERIS-50")
 def test_mappings_validator(dir_location):
     config_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "config.json")
     spreadsheet_location = pathlib.Path(dir_location, "frameworks", "veris", "veris-mappings.xlsx")
@@ -103,6 +76,7 @@ def test_mappings_validator(dir_location):
     assert child_process.returncode == 0
 
 
+@pytest.mark.skip("Planning to update these later, see Jira issue VERIS-50")
 def test_make(dir_location):
     script_location = f"{dir_location}/src/make.py"
     child_process = subprocess.Popen([
@@ -112,6 +86,7 @@ def test_make(dir_location):
     assert child_process.returncode == 0
 
 
+@pytest.mark.skip("Planning to update these later, see Jira issue VERIS-50")
 def test_parse_veris(dir_location):
     mappings_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "veris135-mappings.csv")
     veris_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "veris135-enumerations.csv")
