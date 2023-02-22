@@ -77,7 +77,7 @@ def get_attack_objects(attack_type, version):
 def test_spreadsheet_names(spreadsheets):
     for attack_type in spreadsheets.keys():
         name = spreadsheets[attack_type].name
-        assert name == f"veris-2-mappings-{attack_type}.xlsx"
+        assert name == f"veris-1_3_7-mappings-{attack_type}_v12.xlsx"
 
 
 def test_spreadsheet_contents(spreadsheets, veris_schema):

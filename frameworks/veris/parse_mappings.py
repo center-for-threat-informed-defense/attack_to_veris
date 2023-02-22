@@ -8,18 +8,10 @@ import pandas
 import requests
 
 
-def merge_lists(l1, l2):
-    for item in l2:
-        if item not in l1:
-            l1.append(item)
-    return l1
-
-
 def dict_lookup(lookup_dict, term):
     """:return item from dictionary if present. Exits otherwise"""
     if term not in lookup_dict:
         import pdb
-        print(f"Term: {term}")
         pdb.set_trace()
         message = f"ERROR: cannot find '{term}' in lookup dictionary..."
         print(Fore.RED + message,  Fore.RESET)
@@ -27,7 +19,7 @@ def dict_lookup(lookup_dict, term):
     return lookup_dict[term]
 
 
-def parse_mappings(mappings_path, veris_entries, relationship_ids, config_location, attack_domain, groups):
+def parse_mappings(mappings_path, veris_entries, relationship_ids, config_location):
     """Parses the VERIS mappings and returns a STIX Bundle
     with relationship objects conveying the mappings in STIX format.
 
@@ -45,33 +37,21 @@ def parse_mappings(mappings_path, veris_entries, relationship_ids, config_locati
     with config_location.open("r", encoding="utf-8") as f:
         config = json.load(f)
         version = config["attack_version"]
+        domain = config["attack_domain"]
     print("done")
 
     tqdm_format = "{desc}: {percentage:3.0f}% |{bar}| {elapsed}<{remaining}{postfix}"
 
     # load ATT&CK STIX data
     print("downloading ATT&CK data... ", end="", flush=True)
-    if groups:
-        enterprise_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/enterprise-attack/enterprise-attack.json"
-        ics_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/ics-attack/ics-attack.json"
-        mobile_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/mobile-attack/mobile-attack.json"
-        attack_data = requests.get(enterprise_url, verify=True).json()["objects"]
-        attack_data = merge_lists(attack_data, requests.get(ics_url, verify=True).json()["objects"])
-        attack_data = merge_lists(attack_data, requests.get(mobile_url, verify=True).json()["objects"])
-    else:
-        attack_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/{attack_domain}/{attack_domain}.json"
-        print(attack_url)
-        attack_data = requests.get(attack_url, verify=True).json()["objects"]
+    attack_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/{domain}/{domain}.json"
+    attack_data = requests.get(attack_url, verify=True).json()["objects"]
     print("done")
 
     # build mapping of attack ID to stix ID
     attackid_to_stixid = {}
-    for attack_object in tqdm(attack_data, desc=f"parsing v{version} {attack_domain} data", bar_format=tqdm_format):
-        if groups:
-            type_check = "intrusion-set"
-        else:
-            type_check = "attack-pattern"
-        if attack_object["type"] == type_check:
+    for attack_object in tqdm(attack_data, desc=f"parsing v{version} {domain} data", bar_format=tqdm_format):
+        if attack_object["type"] == "attack-pattern":
             if "external_references" not in attack_object:
                 continue  # skip objects without IDs
             if attack_object.get("revoked", False):
@@ -80,9 +60,7 @@ def parse_mappings(mappings_path, veris_entries, relationship_ids, config_locati
                 continue  # skip deprecated objects
 
             # map attack ID to stix ID
-            for reference in attack_object["external_references"]:
-                if reference["source_name"] == "mitre-attack":
-                    attackid_to_stixid[reference["external_id"]] = attack_object["id"]
+            attackid_to_stixid[attack_object["external_references"][0]["external_id"]] = attack_object["id"]
 
     # build mapping from a veris path to stix ID
     veris_path_to_stix_id = {}

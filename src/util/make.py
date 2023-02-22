@@ -1,16 +1,17 @@
 import argparse
 import subprocess
+import os
 import pathlib
 
 ROOT_DIR = pathlib.Path(pathlib.Path(__file__).parent.parent)
 
 def create_mappings(attack_types):
     for attack_type in attack_types:
-        
-        subprocess.run([
+
+        mappings_command = [
             "python", "-m", "util.create_mappings",
             "-spreadsheet-location", pathlib.Path(ROOT_DIR, "mappings", attack_type, 
-                f"xlsx", f"veris-2-mappings-{attack_type}.xlsx"),
+                f"xlsx", f"veris-1_3_7-mappings-{attack_type}_v12.xlsx"),
             "-json-location", pathlib.Path(ROOT_DIR, "mappings", attack_type, "json", 
                 f"veris-2-mappings-{attack_type}.json"),
             "-mappings-location", pathlib.Path(ROOT_DIR, "mappings", attack_type, "csv", 
@@ -19,12 +20,9 @@ def create_mappings(attack_types):
                 f"veris137-enumerations-{attack_type}.csv"),
             "-config-location", pathlib.Path(ROOT_DIR, "stix", "input", "config.json"),
             "-veris-version", "1.3.7",
-        ])
-        
-        
-        
-        
-        subprocess.run([
+        ]
+
+        subprocess_command = [
             "python", "-m",  "stix.parse",
             "-input-enumerations", pathlib.Path(ROOT_DIR, "mappings", attack_type, "csv", 
                 f"veris137-enumerations-{attack_type}.csv"), 
@@ -36,13 +34,25 @@ def create_mappings(attack_types):
                 f"veris137-mappings-{attack_type}.json"),
             "-config-location", pathlib.Path(ROOT_DIR, "stix", "input", "config.json"),
             "-attack-domain", f"{attack_type}-attack",
-        ])
+        ]
+
+        if attack_type == "groups":
+            mappings_command.append("-groups")
+            subprocess_command.append("-groups")
+        else:
+            subprocess_command.append("-attack-domain")
+            subprocess_command.append(f"{attack_type}-attack")
         
+        subprocess.run(mappings_command)
+        subprocess.run(subprocess_command)
 
 def create_layers(attack_types):
     for attack_type in attack_types:
+        if attack_type == "groups":
+            print("Navigator layers cannot currently be generated for group mappings.")
+            continue
         subprocess.run([
-            "python", "-m", "util.mappings_to_heatmaps.py",
+            "python", pathlib.Path(ROOT_DIR, "util", "mappings_to_heatmaps.py"),
             "-veris-objects", pathlib.Path(ROOT_DIR, "stix", "output", attack_type, 
                 f"veris137-enumerations-{attack_type}.json"),
             "-mappings", pathlib.Path(ROOT_DIR, "stix", "output", attack_type, 
@@ -55,17 +65,17 @@ def create_layers(attack_types):
         ])
 
 
-def main(args):
-    if args.task == "mappings":
-        if args.attack_type == "all":
-            create_mappings(["enterprise", "ics", "mobile"])
+def main(attack_type, task):
+    if task == "mappings":
+        if attack_type == "all":
+            create_mappings(["enterprise", "ics", "mobile", "groups"])
         else:
-            create_mappings([args.attack_type])
-    elif args.task == "layers":
-        if args.attack_type == "all":
+            create_mappings([attack_type])
+    elif task == "layers":
+        if attack_type == "all":
             create_layers(["enterprise", "ics", "mobile"])
         else:
-            create_layers([args.attack_type])
+            create_layers([attack_type])
 
 
 
@@ -73,7 +83,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create the mappings and stix data")
     parser.add_argument("-attack-type",
                         dest="attack_type",
-                        choices=["all", "enterprise", "ics", "mobile"],
+                        choices=["all", "enterprise", "ics", "mobile", "groups"],
                         help="What attack type do you want to generate.",
                         type=str,
                         default="all",
@@ -86,5 +96,4 @@ if __name__ == "__main__":
                         default="mappings")
     args = parser.parse_args()
 
-    main(args)
-    
+    main(**vars(args))
