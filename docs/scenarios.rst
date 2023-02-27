@@ -42,7 +42,7 @@ The VERIS/ATT&CK mapping provides a joint framework to comprehensively describe 
 +                                          + (WMI)                                    +
 +------------------------------------------+------------------------------------------+
 + attribute.integrity.variety.Alter        + T1546.003 Event Triggered Execution:     +
-+ behavior                                 + Windows Management Instrumentation Event + +                                          + Subscription                             +
++ behavior                                 + Windows Management Instrumentation Event +                                         + Subscription                             +
 +------------------------------------------+------------------------------------------+
 + action.malware.variety.Disable controls  + T1562.002 Impair Defenses: Disable       +
 +                                          + Windows Event Logging                    +
