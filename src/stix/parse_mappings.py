@@ -8,6 +8,13 @@ import pandas
 import requests
 
 
+def merge_lists(l1, l2):
+    for item in l2:
+        if item not in l1:
+            l1.append(item)
+    return l1
+
+
 def dict_lookup(lookup_dict, term):
     """:return item from dictionary if present. Exits otherwise"""
     if term not in lookup_dict:
@@ -20,7 +27,7 @@ def dict_lookup(lookup_dict, term):
     return lookup_dict[term]
 
 
-def parse_mappings(mappings_path, veris_entries, relationship_ids, config_location, attack_domain):
+def parse_mappings(mappings_path, veris_entries, relationship_ids, config_location, attack_domain, groups):
     """Parses the VERIS mappings and returns a STIX Bundle
     with relationship objects conveying the mappings in STIX format.
 
@@ -44,15 +51,27 @@ def parse_mappings(mappings_path, veris_entries, relationship_ids, config_locati
 
     # load ATT&CK STIX data
     print("downloading ATT&CK data... ", end="", flush=True)
-    attack_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/{attack_domain}/{attack_domain}.json"
-    print(attack_url)
-    attack_data = requests.get(attack_url, verify=True).json()["objects"]
+    if groups:
+        enterprise_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/enterprise-attack/enterprise-attack.json"
+        ics_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/ics-attack/ics-attack.json"
+        mobile_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/mobile-attack/mobile-attack.json"
+        attack_data = requests.get(enterprise_url, verify=True).json()["objects"]
+        attack_data = merge_lists(attack_data, requests.get(ics_url, verify=True).json()["objects"])
+        attack_data = merge_lists(attack_data, requests.get(mobile_url, verify=True).json()["objects"])
+    else:
+        attack_url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{version}/{attack_domain}/{attack_domain}.json"
+        print(attack_url)
+        attack_data = requests.get(attack_url, verify=True).json()["objects"]
     print("done")
 
     # build mapping of attack ID to stix ID
     attackid_to_stixid = {}
     for attack_object in tqdm(attack_data, desc=f"parsing v{version} {attack_domain} data", bar_format=tqdm_format):
-        if attack_object["type"] == "attack-pattern":
+        if groups:
+            type_check = "intrusion-set"
+        else:
+            type_check = "attack-pattern"
+        if attack_object["type"] == type_check:
             if "external_references" not in attack_object:
                 continue  # skip objects without IDs
             if attack_object.get("revoked", False):

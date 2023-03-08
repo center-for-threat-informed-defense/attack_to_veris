@@ -1,0 +1,181 @@
+DATE DELIVERED,VERIS PATH,RELATIONSHIP TYPE,TECHNIQUE ID
+23/02/23,action.hacking.variety.Abuse of functionality,related-to,T0800
+23/02/23,action.hacking.variety.Abuse of functionality,related-to,T0885
+23/02/23,action.hacking.variety.Abuse of functionality,related-to,T0816
+23/02/23,action.hacking.variety.Abuse of functionality,related-to,T0817
+23/02/23,action.hacking.variety.Abuse of functionality,related-to,T0871
+23/02/23,action.hacking.variety.Abuse of functionality,related-to,T0823
+23/02/23,action.hacking.variety.Abuse of functionality,related-to,T0874
+23/02/23,action.hacking.variety.Abuse of functionality,related-to,T0867
+23/02/23,action.hacking.variety.Abuse of functionality,related-to,T0855
+23/02/23,action.hacking.variety.Abuse of functionality,related-to,T0869
+23/02/23,action.hacking.variety.Abuse of functionality,related-to,T0881
+23/02/23,action.hacking.variety.Abuse of functionality,related-to,T0853
+23/02/23,action.hacking.variety.Backdoor,related-to,T0822
+23/02/23,action.hacking.variety.Backdoor,related-to,T0883
+23/02/23,action.hacking.variety.Backdoor,related-to,T0855
+23/02/23,action.hacking.variety.Backdoor,related-to,T0869
+23/02/23,action.hacking.variety.Backdoor,related-to,T0853
+23/02/23,action.hacking.variety.Backdoor,related-to,T0848
+23/02/23,action.hacking.variety.Backdoor,related-to,T0835
+23/02/23,action.hacking.variety.Backdoor,related-to,T0831
+23/02/23,action.hacking.variety.Brute force,related-to,T0806
+23/02/23,action.hacking.variety.Disable controls,related-to,T0858
+23/02/23,action.hacking.variety.DoS,related-to,T0813
+23/02/23,action.hacking.variety.DoS,related-to,T0814
+23/02/23,action.hacking.variety.DoS,related-to,T0815
+23/02/23,action.hacking.variety.DoS,related-to,T0816
+23/02/23,action.hacking.variety.Evade Defenses,related-to,T0800
+23/02/23,action.hacking.variety.Evade Defenses,related-to,T0878
+23/02/23,action.hacking.variety.Evade Defenses,related-to,T0804
+23/02/23,action.hacking.variety.Evade Defenses,related-to,T0805
+23/02/23,action.hacking.variety.Evade Defenses,related-to,T0820
+23/02/23,action.hacking.variety.Evade Defenses,related-to,T0872
+23/02/23,action.hacking.variety.Exploit misconfig,related-to,T0819
+23/02/23,action.hacking.variety.Exploit misconfig,related-to,T0883
+23/02/23,action.hacking.variety.Exploit vuln,related-to,T0820
+23/02/23,action.hacking.variety.Exploit vuln,related-to,T0890
+23/02/23,action.hacking.variety.Exploit vuln,related-to,T0866
+23/02/23,action.hacking.variety.MitM,related-to,T0830
+23/02/23,action.hacking.variety.MitM,related-to,T0860
+23/02/23,action.hacking.variety.Use of stolen creds,related-to,T0812
+23/02/23,action.hacking.variety.Use of stolen creds,related-to,T0891
+23/02/23,action.hacking.variety.Use of stolen creds,related-to,T0859
+23/02/23,action.hacking.vector.Backdoor,related-to,T0884
+23/02/23,action.hacking.vector.Backdoor,related-to,T0822
+23/02/23,action.hacking.vector.Backdoor,related-to,T0855
+23/02/23,action.hacking.vector.Backdoor,related-to,T0848
+23/02/23,action.hacking.vector.Command shell,related-to,T0807
+23/02/23,action.hacking.vector.Command shell,related-to,T0855
+23/02/23,action.hacking.vector.Command shell,related-to,T0853
+23/02/23,action.hacking.vector.Web application,related-to,T0819
+23/02/23,action.hacking.vector.Other network service,related-to,T0887
+23/02/23,action.malware.variety.Backdoor,related-to,T0864
+23/02/23,action.malware.variety.Backdoor or C2,related-to,T0822
+23/02/23,action.malware.variety.Capture app data,related-to,T0868
+23/02/23,action.malware.variety.Capture app data,related-to,T0877
+23/02/23,action.malware.variety.Capture app data,related-to,T0852
+23/02/23,action.malware.variety.Capture stored data,related-to,T0811
+23/02/23,action.malware.variety.Destroy data,related-to,T0809
+23/02/23,action.malware.variety.DoS,related-to,T0813
+23/02/23,action.malware.variety.DoS,related-to,T0814
+23/02/23,action.malware.variety.DoS,related-to,T0815
+23/02/23,action.malware.variety.DoS,related-to,T0816
+23/02/23,action.malware.variety.Exploit misconfig,related-to,T0819
+23/02/23,action.malware.variety.Evade Defenses,related-to,T0820
+23/02/23,action.malware.variety.Evade Defenses,related-to,T0872
+23/02/23,action.malware.variety.Exploit vuln,related-to,T0890
+23/02/23,action.malware.variety.Exploit vuln,related-to,T0866
+23/02/23,action.malware.variety.Export data,related-to,T0882
+23/02/23,action.malware.variety.Modify data,related-to,T0877
+23/02/23,action.malware.variety.Modify data,related-to,T0872
+23/02/23,action.malware.variety.Packet sniffer,related-to,T0830
+23/02/23,action.malware.variety.Packet sniffer,related-to,T0887
+23/02/23,action.malware.variety.Profile host,related-to,T0802
+23/02/23,action.malware.variety.Rootkit,related-to,T0857
+23/02/23,action.malware.variety.Rootkit,related-to,T0851
+23/02/23,action.malware.variety.Scan network,related-to,T0802
+23/02/23,action.malware.variety.Scan network,related-to,T0887
+23/02/23,action.malware.variety.Scan network,related-to,T0860
+23/02/23,action.malware.variety.Worm,related-to,T0847
+23/02/23,action.malware.vector.Download by malware,related-to,T0863
+23/02/23,action.malware.vector.Email attachment,related-to,T0863
+23/02/23,action.malware.vector.Email attachment,related-to,T0865
+23/02/23,action.malware.vector.Partner,related-to,T0864
+23/02/23,action.malware.vector.Partner,related-to,T0862
+23/02/23,action.malware.vector.Web application,related-to,T0819
+23/02/23,action.malware.vector.Web application - drive-by,related-to,T0817
+23/02/23,action.social.variety.Evade Defenses,related-to,T0858
+23/02/23,action.social.variety.Evade Defenses,related-to,T0820
+23/02/23,action.social.variety.Evade Defenses,related-to,T0872
+23/02/23,action.social.variety.Evade Defenses,related-to,T0849
+23/02/23,action.social.variety.Evade Defenses,related-to,T0851
+23/02/23,action.social.variety.Evade Defenses,related-to,T0856
+23/02/23,action.social.variety.Phishing,related-to,T0865
+23/02/23,action.social.variety.Other,related-to,T0817
+23/02/23,action.social.variety.Other,related-to,T0819
+23/02/23,action.social.variety.Other,related-to,T0866
+23/02/23,action.social.variety.Other,related-to,T0864
+23/02/23,action.social.variety.Other,related-to,T0822
+23/02/23,action.social.variety.Other,related-to,T0883
+23/02/23,action.social.variety.Other,related-to,T0886
+23/02/23,action.social.variety.Other,related-to,T0847
+23/02/23,action.social.variety.Other,related-to,T0848
+23/02/23,action.social.variety.Other,related-to,T0862
+23/02/23,action.social.variety.Other,related-to,T0860
+23/02/23,action.social.vector.Documents,related-to,T0863
+23/02/23,action.social.vector.Email,related-to,T0865
+23/02/23,action.social.vector.Email,related-to,T0863
+23/02/23,action.social.vector.In-person,related-to,T0864
+23/02/23,action.social.vector.Removable media,related-to,T0847
+23/02/23,action.social.vector.Software,related-to,T0862
+23/02/23,action.social.vector.Software,related-to,T0866
+23/02/23,action.social.vector.Web application,related-to,T0817
+23/02/23,action.social.vector.Web application,related-to,T0819
+23/02/23,action.social.vector.Other,related-to,T0822
+23/02/23,action.social.vector.Other,related-to,T0883
+23/02/23,action.social.vector.Other,related-to,T0886
+23/02/23,action.social.vector.Other,related-to,T0860
+23/02/23,action.social.vector.Other,related-to,T0848
+23/02/23,attribute.integrity.variety.Alter behavior,related-to,T0803
+23/02/23,attribute.integrity.variety.Alter behavior,related-to,T0804
+23/02/23,attribute.integrity.variety.Alter behavior,related-to,T0805
+23/02/23,attribute.integrity.variety.Alter behavior,related-to,T0858
+23/02/23,attribute.integrity.variety.Alter behavior,related-to,T0881
+23/02/23,attribute.integrity.variety.Hardware tampering,related-to,T0800
+23/02/23,attribute.integrity.variety.Hardware tampering,related-to,T0862
+23/02/23,attribute.integrity.variety.Log tampering,related-to,T0872
+23/02/23,attribute.integrity.variety.Misrepresentation,related-to,T0856
+23/02/23,attribute.integrity.variety.Modify configuration,related-to,T0836
+23/02/23,attribute.integrity.variety.Modify configuration,related-to,T0821
+23/02/23,attribute.integrity.variety.Modify configuration,related-to,T0889
+23/02/23,attribute.integrity.variety.Modify configuration,related-to,T0873
+23/02/23,attribute.integrity.variety.Modify data,related-to,T0830
+23/02/23,attribute.integrity.variety.Modify data,related-to,T0856
+23/02/23,attribute.integrity.variety.Modify data,related-to,T0835
+23/02/23,attribute.integrity.variety.Software installation,related-to,T0867
+23/02/23,attribute.availability.variety.Degradation,related-to,T0835
+23/02/23,attribute.availability.variety.Degradation,related-to,T0831
+23/02/23,attribute.availability.variety.Interruption,related-to,T0800
+23/02/23,attribute.availability.variety.Interruption,related-to,T0804
+23/02/23,attribute.availability.variety.Interruption,related-to,T0878
+23/02/23,attribute.availability.variety.Interruption,related-to,T0803
+23/02/23,attribute.availability.variety.Interruption,related-to,T0805
+23/02/23,attribute.availability.variety.Loss,related-to,T0879
+23/02/23,attribute.availability.variety.Loss,related-to,T0809
+23/02/23,attribute.availability.variety.Loss,related-to,T0813
+23/02/23,attribute.availability.variety.Loss,related-to,T0814
+23/02/23,attribute.availability.variety.Loss,related-to,T0815
+23/02/23,attribute.availability.variety.Loss,related-to,T0826
+23/02/23,attribute.availability.variety.Loss,related-to,T0816
+23/02/23,attribute.availability.variety.Loss,related-to,T0881
+23/02/23,attribute.availability.variety.Loss,related-to,T0827
+23/02/23,attribute.availability.variety.Loss,related-to,T0828
+23/02/23,attribute.availability.variety.Loss,related-to,T0837
+23/02/23,attribute.availability.variety.Loss,related-to,T0880
+23/02/23,attribute.availability.variety.Loss,related-to,T0829
+23/02/23,value_chain.distribution.variety.Compromised server,related-to,T0848
+23/02/23,value_chain.distribution.variety.Email,related-to,T0865
+23/02/23,value_chain.distribution.variety.Partner,related-to,T0862
+23/02/23,value_chain.distribution.variety.Website,related-to,T0817
+23/02/23,value_chain.non-distribution services.variety.C2,related-to,T0869
+23/02/23,value_chain.non-distribution services.variety.Proxy,related-to,T0884
+23/02/23,value_chain.targeting.variety.Default credentials,related-to,T0812
+23/02/23,value_chain.targeting.variety.Email addresses,related-to,T0865
+23/02/23,value_chain.targeting.variety.Lost or stolen credentials,related-to,T0891
+23/02/23,value_chain.targeting.variety.Lost or stolen credentials,related-to,T0859
+23/02/23,value_chain.targeting.variety.Misconfigurations,related-to,T0811
+23/02/23,value_chain.targeting.variety.Misconfigurations,related-to,T0855
+23/02/23,value_chain.targeting.variety.Partner,related-to,T0862
+23/02/23,value_chain.targeting.variety.Partner,related-to,T0864
+23/02/23,value_chain.targeting.variety.Organizational Information,related-to,T0882
+23/02/23,value_chain.targeting.variety.Organizational Information,related-to,T0802
+23/02/23,value_chain.targeting.variety.Vulnerabilities,related-to,T0890
+23/02/23,value_chain.targeting.variety.Vulnerabilities,related-to,T0822
+23/02/23,value_chain.targeting.variety.Weaknesses,related-to,T0819
+23/02/23,value_chain.targeting.variety.Weaknesses,related-to,T0866
+23/02/23,value_chain.targeting.variety.Weaknesses,related-to,T0874
+23/02/23,value_chain.targeting.variety.Weaknesses,related-to,T0855
+23/02/23,value_chain.targeting.variety.Other,related-to,T0860
+23/02/23,value_chain.targeting.variety.Other,related-to,T0887
+23/02/23,value_chain.targeting.variety.Unknown,related-to,T0857

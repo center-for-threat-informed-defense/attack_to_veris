@@ -18,6 +18,7 @@ def generate_veris_enumerations(veris_location, veris_version):
     axes = {"action": ["hacking", "malware", "misuse", "social"],
             "attribute": ["availability", "confidentiality", "integrity"],
             "value_chain": ["development", "non-distribution services", "targeting", "distribution"],
+            "actor": ["external", "internal"]
             }
 
     with veris_location.open('w', newline='\n', encoding='utf-8') as csvfile:
@@ -95,13 +96,13 @@ def get_sheets(spreadsheet_location):
 def get_sheet_by_name(spreadsheet_location, sheet_name):
     """Helper method to retrieve a single sheet from a spreadsheet"""
     xls = pandas.ExcelFile(spreadsheet_location)
-    return pandas.read_excel(xls, sheet_name), sheet_name
+    return (pandas.read_excel(xls, sheet_name), sheet_name)
 
 
-def generate_csv_spreadsheet(spreadsheet_location, mappings_location):
+def generate_csv_spreadsheet(sheets, mappings_location):
     """Reads the main XSLX mappings file and creates a spreadsheet for the
     mappings in CSV"""
-    sheets = get_sheets(spreadsheet_location)
+    #sheets = get_sheets(spreadsheet_location)
     now = datetime.datetime.utcnow()
     strf_time = now.strftime("%y/%m/%d")
     relationship_type = "related-to"
@@ -131,10 +132,10 @@ def generate_csv_spreadsheet(spreadsheet_location, mappings_location):
                     })
 
 
-def generate_json_mappings(spreadsheet_location, config_location, json_mappings_location):
+def generate_json_mappings(sheets, config_location, json_mappings_location):
     """Reads the XLSX mappings and creates the normal JSON file used to
     describe the bi-directional mappings for this project."""
-    sheets = get_sheets(spreadsheet_location)
+    #sheets = get_sheets(spreadsheet_location)
     json_mappings = {
         "metadata": {},
         "attack_to_veris": {},
@@ -215,6 +216,9 @@ def get_argparse():
                         help="the veris version to use",
                         type=str,
                         default="1.3.7")
+    parser.add_argument("-groups",
+                        action="store_true",
+                        help="If specified, create mappings for group objects")
     return parser
 
 
@@ -222,6 +226,12 @@ if __name__ == '__main__':
     parser = get_argparse()
     args = parser.parse_args()
 
+    if args.groups:
+        sheet_name = "Actor.External.Motive"
+        sheets = [get_sheet_by_name(args.spreadsheet_location, sheet_name)]
+    else:
+        sheets = get_sheets(args.spreadsheet_location)
+
     generate_veris_enumerations(args.veris_location, args.veris_version)
-    generate_csv_spreadsheet(args.spreadsheet_location, args.mappings_location)
-    generate_json_mappings(args.spreadsheet_location, args.config_location, args.json_location)
+    generate_csv_spreadsheet(sheets, args.mappings_location)
+    generate_json_mappings(sheets, args.config_location, args.json_location)

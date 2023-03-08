@@ -73,6 +73,7 @@ def main(args):
         mapping_relationship_ids,
         args.config_location,
         args.attack_domain,
+        True if args.groups else False,
     )
 
     
@@ -112,8 +113,11 @@ if __name__ == "__main__":
                         dest="attack_domain",
                         help="attack domain we are mapping. i.e. 'enterprise-attack', 'mobile-attack', 'ics-atack'",
                         type=str,
-                        choices=["enterprise-attack", "ics-attack", "mobile-attack"],
+                        choices=["enterprise-attack", "ics-attack", "mobile-attack", "groups-attack"],
                         default="enterprise-attack")
+    parser.add_argument("-groups",
+                        action="store_true",
+                        help="If specified, create mappings for group objects")
 
     args = parser.parse_args()
 

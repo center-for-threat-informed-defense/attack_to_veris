@@ -231,6 +231,14 @@ action,social,result,Persist,The action resulted in some form of persistence on 
 action,social,result,Other,The result of the social action is not listed
 action,social,result,Unknown,The result of the social action is unknown
 action,social,result,NA,The social action did not have a result
+attribute,availability,variety,Acceleration,Acceleration
+attribute,availability,variety,Degradation,Performance degradation
+attribute,availability,variety,Destruction,Destruction
+attribute,availability,variety,Interruption,Interruption
+attribute,availability,variety,Loss,Loss
+attribute,availability,variety,Obscuration,Conversion or obscuration (ransomware)
+attribute,availability,variety,Other,Other
+attribute,availability,variety,Unknown,Unknown
 attribute,integrity,variety,Alter behavior,Influence or alter human behavior
 attribute,integrity,variety,Created account,Created new user account
 attribute,integrity,variety,Defacement,Deface content
@@ -294,3 +302,319 @@ value_chain,distribution,variety,Website,"Malicious content shared intentionally
 value_chain,distribution,variety,NA,No type of distribution was necessary
 value_chain,distribution,variety,Other,"The variety of distribution was known, but is not listed"
 value_chain,distribution,variety,Unknown,Nothing is known about the need for or type of distribution investment other than it was present.
+actor,external,variety,Acquaintance,Relative or acquaintance of employee
+actor,external,variety,Activist,Activist group
+actor,external,variety,Auditor,Auditor
+actor,external,variety,Competitor,Competitor
+actor,external,variety,Customer,Customer (B2C)
+actor,external,variety,Force majeure,Force majeure (nature and chance)
+actor,external,variety,Former employee,Former employee (no longer had access)
+actor,external,variety,Nation-state,Nation-state
+actor,external,variety,Organized crime,Any criminal(s) or group with a level of organization
+actor,external,variety,State-affiliated,State-sponsored or affiliated group
+actor,external,variety,Terrorist,Terrorist group
+actor,external,variety,Unaffiliated,Unaffiliated person(s)
+actor,external,variety,Other,Other
+actor,external,variety,Unknown,Unknown
+actor,external,motive,Convenience,Convenience of expediency
+actor,external,motive,Espionage,Espionage or competitive advantage
+actor,external,motive,Fear,Fear or duress
+actor,external,motive,Financial,Financial or personal gain
+actor,external,motive,Fun,"Fun, curiosity, or pride"
+actor,external,motive,Grudge,Grudge or personal offense
+actor,external,motive,Ideology,Ideology or protest
+actor,external,motive,NA,Not Applicable (unintentional action)
+actor,external,motive,Secondary,Aid in a different attack
+actor,external,motive,Other,Other
+actor,external,motive,Unknown,Unknown
+actor,external,country,Unknown,Unknown
+actor,external,country,AD,Andorra
+actor,external,country,AE,United Arab Emirates
+actor,external,country,AF,Afghanistan
+actor,external,country,AG,Antigua and Barbuda
+actor,external,country,AI,Anguilla
+actor,external,country,AL,Albania
+actor,external,country,AM,Armenia
+actor,external,country,AO,Angola
+actor,external,country,AQ,Antarctica
+actor,external,country,AR,Argentina
+actor,external,country,AS,American Samoa
+actor,external,country,AT,Austria
+actor,external,country,AU,Australia
+actor,external,country,AW,Aruba
+actor,external,country,AX,Aland Islands
+actor,external,country,AZ,Azerbaijan
+actor,external,country,BA,Bosnia and Herzegovina
+actor,external,country,BB,Barbados
+actor,external,country,BD,Bangladesh
+actor,external,country,BE,Belgium
+actor,external,country,BF,Burkina Faso
+actor,external,country,BG,Bulgaria
+actor,external,country,BH,Bahrain
+actor,external,country,BI,Burundi
+actor,external,country,BJ,Benin
+actor,external,country,BL,Saint-Barthelemy
+actor,external,country,BM,Bermuda
+actor,external,country,BN,Brunei Darussalam
+actor,external,country,BO,Bolivia
+actor,external,country,BQ,"Bonaire,  Saint Eustatius and Saba"
+actor,external,country,BR,Brazil
+actor,external,country,BS,Bahamas
+actor,external,country,BT,Bhutan
+actor,external,country,BV,Bouvet Island
+actor,external,country,BW,Botswana
+actor,external,country,BY,Belarus
+actor,external,country,BZ,Belize
+actor,external,country,CA,Canada
+actor,external,country,CC,Cocos (Keeling) Islands
+actor,external,country,CD,"Congo, Democratic Republic of the"
+actor,external,country,CF,Central African Republic
+actor,external,country,CG,Congo
+actor,external,country,CH,Switzerland
+actor,external,country,CI,Cote d'Ivoire
+actor,external,country,CK,Cook Islands
+actor,external,country,CL,Chile
+actor,external,country,CM,Cameroon
+actor,external,country,CN,China
+actor,external,country,CO,Colombia
+actor,external,country,CR,Costa Rica
+actor,external,country,CU,Cuba
+actor,external,country,CV,Cape Verde
+actor,external,country,CW,Curacao
+actor,external,country,CX,Christmas Island
+actor,external,country,CY,Cyprus
+actor,external,country,CZ,Czech Republic
+actor,external,country,DE,Germany
+actor,external,country,DJ,Djibouti
+actor,external,country,DK,Denmark
+actor,external,country,DM,Dominica
+actor,external,country,DO,Dominican Republic
+actor,external,country,DZ,Algeria
+actor,external,country,EC,Ecuador
+actor,external,country,EE,Estonia
+actor,external,country,EG,Egypt
+actor,external,country,EH,Western Sahara
+actor,external,country,ER,Eritrea
+actor,external,country,ES,Spain
+actor,external,country,ET,Ethiopia
+actor,external,country,FI,Finland
+actor,external,country,FJ,Fiji
+actor,external,country,FK,Faeroe Islands
+actor,external,country,FM,Micronesia (Federated States of)
+actor,external,country,FO,Falkland Islands (Malvinas)
+actor,external,country,FR,France
+actor,external,country,GA,Gabon
+actor,external,country,GB,United Kingdom
+actor,external,country,GD,Grenada
+actor,external,country,GE,Georgia
+actor,external,country,GF,French Guiana
+actor,external,country,GG,Guernsey
+actor,external,country,GH,Ghana
+actor,external,country,GI,Gibraltar
+actor,external,country,GL,Greenland
+actor,external,country,GM,Gambia
+actor,external,country,GN,Guinea
+actor,external,country,GP,Guadeloupe
+actor,external,country,GQ,Equatorial Guinea
+actor,external,country,GR,Greece
+actor,external,country,GS,South Georgia and the South Sandwich Islands
+actor,external,country,GT,Guatemala
+actor,external,country,GU,Guam
+actor,external,country,GW,Guinea-Bissau
+actor,external,country,GY,Guyana
+actor,external,country,HK,Hong Kong
+actor,external,country,HM,Heard Island and McDonal Islands
+actor,external,country,HN,Honduras
+actor,external,country,HR,Croatia
+actor,external,country,HT,Haiti
+actor,external,country,HU,Hungary
+actor,external,country,ID,Indonesia
+actor,external,country,IE,Ireland
+actor,external,country,IL,Israel
+actor,external,country,IM,Isle of Man
+actor,external,country,IN,India
+actor,external,country,IO,British Virgin Islands
+actor,external,country,IQ,Iraq
+actor,external,country,IR,Iran (Islamic Republic of)
+actor,external,country,IS,Iceland
+actor,external,country,IT,Italy
+actor,external,country,JE,Jersey
+actor,external,country,JM,Jamaica
+actor,external,country,JO,Jordan
+actor,external,country,JP,Japan
+actor,external,country,KE,Kenya
+actor,external,country,KG,Kyrgyzstan
+actor,external,country,KH,Cambodia
+actor,external,country,KI,Kiribati
+actor,external,country,KM,Comoros
+actor,external,country,KN,Saint Kitts and Nevis
+actor,external,country,KP,"Korea, Democratic People's Republic of"
+actor,external,country,KR,"Korea, Republic of"
+actor,external,country,KW,Kuwait
+actor,external,country,KY,Cayman Islands
+actor,external,country,KZ,Kazakhstan
+actor,external,country,LA,Lao People's Democratic Republic
+actor,external,country,LB,Lebanon
+actor,external,country,LC,Saint Lucia
+actor,external,country,LI,Liechtenstein
+actor,external,country,LK,Sri Lanka
+actor,external,country,LR,Liberia
+actor,external,country,LS,Lesotho
+actor,external,country,LT,Lithuania
+actor,external,country,LU,Luxembourg
+actor,external,country,LV,Latvia
+actor,external,country,LY,Libya
+actor,external,country,MA,Morocco
+actor,external,country,MC,Monaco
+actor,external,country,MD,"Moldova, Republic of"
+actor,external,country,ME,Montenegro
+actor,external,country,MF,Saint Martin (French part)
+actor,external,country,MG,Madagascar
+actor,external,country,MH,Marshall Islands
+actor,external,country,MK,"Macedonia, The former Yugoslav Republic of"
+actor,external,country,ML,Mali
+actor,external,country,MM,Myanmar
+actor,external,country,MN,Mongolia
+actor,external,country,MO,Macao
+actor,external,country,MP,Northern Mariana Islands
+actor,external,country,MQ,Martinique
+actor,external,country,MR,Mauritania
+actor,external,country,MS,Montserrat
+actor,external,country,MT,Malta
+actor,external,country,MU,Mauritius
+actor,external,country,MV,Maldives
+actor,external,country,MW,Malawi
+actor,external,country,MX,Mexico
+actor,external,country,MY,Malaysia
+actor,external,country,MZ,Mozambique
+actor,external,country,NA,Namibia
+actor,external,country,NC,New Caledonia
+actor,external,country,NE,Niger
+actor,external,country,NF,Norfolk Island
+actor,external,country,NG,Nigeria
+actor,external,country,NI,Nicaragua
+actor,external,country,NL,Netherlands
+actor,external,country,NO,Norway
+actor,external,country,NP,Nepal
+actor,external,country,NR,Nauru
+actor,external,country,NU,Niue
+actor,external,country,NZ,New Zealand
+actor,external,country,OM,Oman
+actor,external,country,PA,Panama
+actor,external,country,PE,Peru
+actor,external,country,PF,French Polynesia
+actor,external,country,PG,Papua New Guinea
+actor,external,country,PH,Philippines
+actor,external,country,PK,Pakistan
+actor,external,country,PL,Poland
+actor,external,country,PM,Saint Pierre and Miquelon
+actor,external,country,PN,Pitcairn
+actor,external,country,PR,Puerto Rico
+actor,external,country,PS,"Palestinian Territory, Occupied"
+actor,external,country,PT,Portugal
+actor,external,country,PW,Palau
+actor,external,country,PY,Paraguay
+actor,external,country,QA,Qatar
+actor,external,country,RE,Reunion
+actor,external,country,RO,Romania
+actor,external,country,RS,Serbia
+actor,external,country,RU,Russian Federation
+actor,external,country,RW,Rwanda
+actor,external,country,SA,Saudi Arabia
+actor,external,country,SB,Solomon Islands
+actor,external,country,SC,Seychelles
+actor,external,country,SD,Sudan
+actor,external,country,SE,Sweden
+actor,external,country,SG,Singapore
+actor,external,country,SH,Saint Helena
+actor,external,country,SI,Slovenia
+actor,external,country,SJ,Svalbard and Jan Mayen Islands
+actor,external,country,SK,Slovakia
+actor,external,country,SL,Sierra Leone
+actor,external,country,SM,San Marino
+actor,external,country,SN,Senegal
+actor,external,country,SO,Somalia
+actor,external,country,SR,Suriname
+actor,external,country,SS,South Sudan
+actor,external,country,ST,Sao Tome and Principe
+actor,external,country,SV,El Salvador
+actor,external,country,SX,Sint Maarten (Dutch part)
+actor,external,country,SY,Syrian Arab Republic
+actor,external,country,SZ,Swaziland
+actor,external,country,TC,Turks and Caicos Islands
+actor,external,country,TD,Chad
+actor,external,country,TF,French Southern Territories
+actor,external,country,TG,Togo
+actor,external,country,TH,Thailand
+actor,external,country,TJ,Tajikistan
+actor,external,country,TK,Tokelau
+actor,external,country,TL,Timor-Leste
+actor,external,country,TM,Turkmenistan
+actor,external,country,TN,Tunisia
+actor,external,country,TO,Tonga
+actor,external,country,TR,Turkey
+actor,external,country,TT,Trinidad and Tobago
+actor,external,country,TV,Tuvalu
+actor,external,country,TW,"Taiwan, Province of China"
+actor,external,country,TZ,"Tanzania, United Republic of"
+actor,external,country,UA,Ukraine
+actor,external,country,UG,Uganda
+actor,external,country,UM,United States Minor Outlying Islands
+actor,external,country,US,United States of America
+actor,external,country,UY,Uruguay
+actor,external,country,UZ,Uzbekistan
+actor,external,country,VA,Holy See
+actor,external,country,VC,Saint Vincent and the Grenadines
+actor,external,country,VE,Venezuela (Bolivarian Republic of)
+actor,external,country,VG,British Virgin Islands
+actor,external,country,VI,United States Virgin Islands
+actor,external,country,VN,Viet Nam
+actor,external,country,VU,Vanuatu
+actor,external,country,WF,Wallis and Futuna Islands
+actor,external,country,WS,Samoa
+actor,external,country,YE,Yemen
+actor,external,country,YT,Mayotte
+actor,external,country,ZA,South Africa
+actor,external,country,ZM,Zambia
+actor,external,country,ZW,Zimbabwe
+actor,external,country,XK,Kosovo
+actor,external,country,Other,Other
+actor,internal,variety,Auditor,Auditor
+actor,internal,variety,Call center,Call center staff
+actor,internal,variety,Cashier,"Cashier, teller, or waiter"
+actor,internal,variety,Developer,Software developer
+actor,internal,variety,End-user,End-user or regular employee
+actor,internal,variety,Executive,Senior staff with legal responsibility such as board members and corporate officers
+actor,internal,variety,Finance,Finance or accounting staff
+actor,internal,variety,Guard,Security guard
+actor,internal,variety,Helpdesk,Helpdesk staff
+actor,internal,variety,Human resources,Human resources staff
+actor,internal,variety,Maintenance,Maintenance or janitorial staff
+actor,internal,variety,Manager,Manager or supervisor
+actor,internal,variety,System admin,System or network administrator
+actor,internal,variety,Doctor or nurse,A doctor or a nurse
+actor,internal,variety,Other,Other
+actor,internal,variety,Unknown,Unknown
+actor,internal,motive,Convenience,Convenience of expediency
+actor,internal,motive,Espionage,Espionage or competitive advantage
+actor,internal,motive,Fear,Fear or duress
+actor,internal,motive,Financial,Financial or personal gain
+actor,internal,motive,Fun,"Fun, curiosity, or pride"
+actor,internal,motive,Grudge,Grudge or personal offense
+actor,internal,motive,Ideology,Ideology or protest
+actor,internal,motive,Secondary,Aid in a different attack
+actor,internal,motive,NA,Not Applicable (unintentional action)
+actor,internal,motive,Other,Other
+actor,internal,motive,Unknown,Unknown
+actor,internal,job_change,Demoted,Recently demoted or hours reduced
+actor,internal,job_change,Hired,Recently hired
+actor,internal,job_change,Job eval,Recent poor job evaluation
+actor,internal,job_change,Lateral move,Lateral move
+actor,internal,job_change,Let go,"Fired, laid off, or let go"
+actor,internal,job_change,Passed over,Recently passed over for promotion
+actor,internal,job_change,Personal issues,Personal issues
+actor,internal,job_change,Promoted,Recently promoted
+actor,internal,job_change,Reprimanded,Recently reprimanded
+actor,internal,job_change,Resigned,Preparing to resign
+actor,internal,job_change,Other,Other
+actor,internal,job_change,Unknown,Unknown
