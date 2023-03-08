@@ -2,7 +2,7 @@ VERIS/ATT&CK Mappings Use Cases
 ===================================
 
 Users
----------
+-----
 The existing communities of VERIS and ATT&CK users include many roles and responsibilities associated with organizational risk management processes and procedures. These roles and responsibilities include:
   * Incident Response (IR) Professional – responsibilities include response, management, and coordination, and remediation activities for cyber incidents such as malware infections, data theft, ransomware encryption, denial of service, and control systems intrusions.
   * Chief Information Security Officer (CISO) - responsibilities include carrying out information security policies, procedures, and controls, and providing primary interface between senior managers and information system owners.
@@ -11,14 +11,14 @@ The existing communities of VERIS and ATT&CK users include many roles and respon
   * Security Engineer – responsibilities include developing and implementing security controls and solutions to protect networks and systems from unauthorized access and attacks.
 
 Usage
----------
+-----
 The VERIS mappings to MITRE ATT&CK enable the following essential capabilities:
   1.	Expanded vocabulary for describing adversary behaviors in an incident. VERIS users can leverage ATT&CK’s full range of TTPs when describing adversary activities during a security event. (IR, CISO)
   2.	Enhanced analysis of historical incident information. Collecting and analyzing incident information with more granular descriptions of adversary behaviors using ATT&CK enables analysts and senior leaders to align policies/controls/governance to defend against adversary behaviors. (CISO, CTI)
   3.	Streamlined integration of incident reports into security operations. Using ATT&CK to describe adversary behaviors in an incident enables security operations teams that already use ATT&CK to easily leverage incident information to inform operations. (SOC)
 
 Use Cases
--------------
+---------
 Users of the VERIS/ATT&CK mapping performing the essential capabilities as described above support a variety of use cases. Several of those use cases are described below.
   1. As an IR professional, I want to ensure I have a complete picture of an active security incident.
       * The VERIS/ATT&CK mapping provides an optimal joint framework to comprehensively describe security events at a flexible level. At a very low level, the ATT&CK mappings allow incident response professionals to understand the details of adversary activities, thus creating a fingerprint of the event. This fingerprint can provide an analysis of the attacker’s tools, techniques, and procedures (TTP), which can assist in real-time decision making and activating responsive functionality in existing tools. Additionally, such an analysis can assist responders in looking for additional TTP artifacts that may typically coexist with currently observed activity.  
