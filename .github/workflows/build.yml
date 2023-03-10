@@ -25,9 +25,11 @@ jobs:
     - name: Update APT
       run: sudo apt update
     - name: Install Poetry
-      run: curl -sSL https://install.python-poetry.org/ | python -
+      env:
+        POETRY_HOME: /opt/poetry
+      run: curl -sSL https://install.python-poetry.org/ | python - --version 1.3.2
     - name: Add Poetry to PATH
-      run: echo "$HOME/.poetry/bin" >> $GITHUB_PATH
+      run: echo "/opt/poetry/bin" >> $GITHUB_PATH
     - name: Install dependencies
       run: poetry install
     - name: Build HTML docs
