@@ -12,6 +12,7 @@ Welcome to VERIS Mappings to MITRE ATT&CK®'s documentation!
 
    overview
    use-cases
+   scenarios
    methodology
    mappings
    changelog

@@ -25,8 +25,8 @@ The Solorigate attack was considered one of the most damaging cyberattacks in re
 
 Supply chain attacks typically involve a sequence of one or more breaches chained together. Solorigate is an example where vendor software is compromised and used to push a malicious update to customers, resulting in the initial breaches. Other examples of supply chain attacks involve compromising a partner or third party that shares a business relationship with an organization, such as vendors, hosting providers, or outsourced support, and using either valid credentials or a trusted connection to then gain access to the organization. This is demonstrated in the figure below from the `2022 Verizon Data Breach Investigations Report (DBIR) <https://www.verizon.com/business/resources/reports/dbir/>`_:
 
-.. image:: docs/dbir_figure7.png
-   :width: 600
+.. .. image:: docs/dbir_figure7.png
+..    :width: 600
 
 b.  Translation between VERIS and ATT&CK
 
@@ -121,10 +121,10 @@ The Colonial Pipeline ransomware attack was a significant cyberattack and potent
 
 The attack caused panic and confusion among the American public, leading to gas shortages and long lines at gas stations in several states. The US government declared a state of emergency in response to the attack, and several government agencies worked together to try to mitigate the impact of the attack. Colonial Pipeline eventually agreed to pay the ransom demand of the attackers, reportedly 75 Bitcoin, worth about $5 million at the time. The payment sparked a debate about whether companies should pay ransoms to cybercriminals, and whether the US government should take a more active role in addressing ransomware attacks.
 
-This cyberattack use case demonstrates the evaluation of risks in modern environments where cyber-physical technologies are necessary for operations. Examples of other types of industries affected by ICS attacks include Manufacturing and Mining, Quarrying, and Oil & Gas Extraction Utilities (MQOGEU). Ransomware type of attacks are a newer tracked risk in the cyber landscape that have been observed to be on the rise since early 2019, as seen in the figure below from the `Verizon 2022 DBIR </https://www.verizon.com/business/resources/reports/dbir/>`_:
+This cyberattack use case demonstrates the evaluation of risks in modern environments where cyber-physical technologies are necessary for operations. Examples of other types of industries affected by ICS attacks include Manufacturing and Mining, Quarrying, and Oil & Gas Extraction Utilities (MQOGEU). Ransomware type of attacks are a newer tracked risk in the cyber landscape that have been observed to be on the rise since early 2019, as seen in the figure below from the `Verizon 2022 DBIR </https://www.verizon.com/business/resources/reports/dbir/>`__:
 
-.. image:: docs/dbir_figure4.png
-   :width: 600
+.. .. image:: docs/dbir_figure4.png
+..    :width: 600
 
 b.  Translation between VERIS and ATT&CK
 
@@ -188,10 +188,10 @@ In February 2015, a large health insurer known as Anthem, Inc., disclosed an att
 
 In addition to Anthem, three other companies were affected, but their names were not disclosed in the formal accusation released May 9, 2019. According to the indictment, data such as names, health identification numbers, dates of birth, Social Security numbers, addresses, telephone numbers, email addresses, employment information and income were exfiltrated. As a result of this breach, Anthem faced several civil class-action lawsuits, which were settled in 2017 at a cost of $115 million, and in 2018 Anthem paid a record-setting $16 million settlement to the Office for Civil Rights for Health Insurance Portability and Accountability Act (HIPAA) violations.
 
-Espionage-related attacks have been significantly increasing over time, coming in as the second most common motive reported in the Verizon 2022 DBIR over the last few years. The top compromised data types are credentials and personal data, as seen in the `Verizon 2022 DBIR <https://www.verizon.com/business/resources/reports/dbir/>`_ figure below. Credentials are useful for masquerading as legitimate users on networks and systems. Personal data exfiltration, such as email addresses, can be used for financial fraud and there is a large market for their resale.
+Espionage-related attacks have been significantly increasing over time, coming in as the second most common motive reported in the Verizon 2022 DBIR over the last few years. The top compromised data types are credentials and personal data, as seen in the `Verizon 2022 DBIR <https://www.verizon.com/business/resources/reports/dbir/>`__ figure below. Credentials are useful for masquerading as legitimate users on networks and systems. Personal data exfiltration, such as email addresses, can be used for financial fraud and there is a large market for their resale.
 
-.. image:: docs/dbir_figure27.png
-   :width: 600
+.. .. image:: docs/dbir_figure27.png
+..    :width: 600
 
 b.  Translation between VERIS and ATT&CK
 

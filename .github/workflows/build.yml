@@ -31,12 +31,12 @@ jobs:
     - name: Install dependencies
       run: poetry install
     - name: Build HTML docs
-      run: poetry run sphinx-build -M dirhtml docs docs/_build -W --keep-going
+      run: poetry run sphinx-build -M html docs docs/_build -W --keep-going # TODO Change to dirhtml for release
     - name: Upload HTML docs
       uses: actions/upload-artifact@v3
       with:
         name: attack_to_veris_docs_html
-        path: docs/_build/dirhtml/
+        path: docs/_build/html/ # TODO Change to dirhtml for release
     - name: Install TeX Live
       run: sudo apt install -y latexmk texlive texlive-latex-extra
     - name: Build PDF docs
