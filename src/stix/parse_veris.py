@@ -15,7 +15,10 @@ class VERISEntry(object):
         self.category = row["CATEGORY"]
         self.sub_category = row["SUB CATEGORY"]
         self.description = row["DESCRIPTION"]
-        self.external_id = ".".join([self.axes, self.category, self.sub_category, self.name])
+        if self.sub_category == "":
+            self.external_id = ".".join([self.axes, self.category, self.name])
+        else:
+            self.external_id = ".".join([self.axes, self.category, self.sub_category, self.name])
 
         # if the external_id is present in our veris_ids lookup reuse-it, otherwise calculate a new identifier
         if self.external_id in veris_ids:

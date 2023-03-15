@@ -261,6 +261,7 @@
             "veris": [
                 "action.hacking.variety.MitM",
                 "action.malware.variety.Packet sniffer",
+                "attribute.confidentiality.\"\".data_disclosure",
                 "attribute.integrity.variety.Modify data"
             ]
         },
@@ -285,6 +286,7 @@
             "name": "Hardcoded Credentials",
             "veris": [
                 "action.hacking.variety.Use of stolen creds",
+                "attribute.confidentiality.\"\".data_disclosure",
                 "value_chain.targeting.variety.Lost or stolen credentials"
             ]
         },
@@ -292,6 +294,7 @@
             "name": "Valid Accounts",
             "veris": [
                 "action.hacking.variety.Use of stolen creds",
+                "attribute.confidentiality.\"\".data_disclosure",
                 "value_chain.targeting.variety.Lost or stolen credentials"
             ]
         },
@@ -350,6 +353,7 @@
             "name": "Data from Information Repositories",
             "veris": [
                 "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure",
                 "value_chain.targeting.variety.Misconfigurations"
             ]
         },
@@ -364,6 +368,7 @@
             "name": "Theft of Operational Information",
             "veris": [
                 "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure",
                 "value_chain.targeting.variety.Organizational Information"
             ]
         },
@@ -458,25 +463,29 @@
         "T0836": {
             "name": "Modify Parameter",
             "veris": [
-                "attribute.integrity.variety.Modify configuration"
+                "attribute.integrity.variety.Modify configuration",
+                "attribute.integrity.variety.Modify data"
             ]
         },
         "T0821": {
             "name": "Modify Controller Tasking",
             "veris": [
-                "attribute.integrity.variety.Modify configuration"
+                "attribute.integrity.variety.Modify configuration",
+                "attribute.integrity.variety.Modify data"
             ]
         },
         "T0889": {
             "name": "Modify Program",
             "veris": [
-                "attribute.integrity.variety.Modify configuration"
+                "attribute.integrity.variety.Modify configuration",
+                "attribute.integrity.variety.Modify data"
             ]
         },
         "T0873": {
             "name": "Project File Infection",
             "veris": [
-                "attribute.integrity.variety.Modify configuration"
+                "attribute.integrity.variety.Modify configuration",
+                "attribute.integrity.variety.Modify data"
             ]
         },
         "T0879": {
@@ -1048,11 +1057,44 @@
                         },
                         "T0835": {
                             "name": "Manipulate I/O Image"
+                        },
+                        "T0821": {
+                            "name": "Modify Controller Tasking"
+                        },
+                        "T0873": {
+                            "name": "Project File Infection"
+                        },
+                        "T0889": {
+                            "name": "Modify Program"
+                        },
+                        "T0836": {
+                            "name": "Modify Parameter"
                         }
                     },
                     "Software installation": {
                         "T0867": {
                             "name": "Lateral Tool Transfer"
+                        }
+                    }
+                }
+            },
+            "confidentiality": {
+                "\"\"": {
+                    "data_disclosure": {
+                        "T0830": {
+                            "name": "Adversary-in-the-Middle"
+                        },
+                        "T0891": {
+                            "name": "Hardcoded Credentials"
+                        },
+                        "T0859": {
+                            "name": "Valid Accounts"
+                        },
+                        "T0882": {
+                            "name": "Theft of Operational Information"
+                        },
+                        "T0811": {
+                            "name": "Data from Information Repositories"
                         }
                     }
                 }

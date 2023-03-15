@@ -64,6 +64,8 @@ def main(args):
             to_id = sdo["id"]
             mapping_relationship_ids[from_id] = to_id
 
+    save_bundle(enumerations, args.out_enumerations)
+
     # build veris mappings in STIX
     mappings = parse_mappings(
         args.in_mappings,
@@ -74,7 +76,7 @@ def main(args):
         True if args.groups else False,
     )
 
-    save_bundle(enumerations, args.out_enumerations)
+    
     save_bundle(mappings, args.out_mappings)
 
     return args.out_enumerations, args.out_mappings 

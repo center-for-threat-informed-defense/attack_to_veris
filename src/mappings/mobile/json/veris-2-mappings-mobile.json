@@ -89,35 +89,40 @@
             "name": "Protected User Data",
             "veris": [
                 "action.hacking.variety.Abuse of functionality",
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1636.001": {
             "name": "Protected User Data: Calendar Entries",
             "veris": [
                 "action.hacking.variety.Abuse of functionality",
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1636.002": {
             "name": "Protected User Data: Call Log",
             "veris": [
                 "action.hacking.variety.Abuse of functionality",
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1636.003": {
             "name": "Protected User Data: Contact List",
             "veris": [
                 "action.hacking.variety.Abuse of functionality",
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1636.004": {
             "name": "Protected User Data: SMS Messages",
             "veris": [
                 "action.hacking.variety.Abuse of functionality",
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1603": {
@@ -315,7 +320,8 @@
         "T1638": {
             "name": "Adversary-in-the-Middle",
             "veris": [
-                "action.hacking.variety.MitM"
+                "action.hacking.variety.MitM",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1426": {
@@ -495,19 +501,22 @@
         "T1429": {
             "name": "Audio Capture",
             "veris": [
-                "action.malware.variety.Capture app data"
+                "action.malware.variety.Capture app data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1512": {
             "name": "Video Capture",
             "veris": [
-                "action.malware.variety.Capture app data"
+                "action.malware.variety.Capture app data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1513": {
             "name": "Screen Capture ",
             "veris": [
-                "action.malware.variety.Capture app data"
+                "action.malware.variety.Capture app data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1517": {
@@ -515,25 +524,29 @@
             "veris": [
                 "action.malware.variety.Capture stored data",
                 "action.social.vector.Email",
-                "action.social.vector.SMS"
+                "action.social.vector.SMS",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1634": {
             "name": "Credentials from Password Stores",
             "veris": [
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1634.001": {
             "name": "Credentials from Password Stores: Keychain",
             "veris": [
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1533": {
             "name": "Data from Local System",
             "veris": [
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1420": {
@@ -545,7 +558,8 @@
         "T1409": {
             "name": "Stored Application Data",
             "veris": [
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1633": {
@@ -631,25 +645,29 @@
         "T1639": {
             "name": "Exfiltration over Alternative Protocol",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1639.001": {
             "name": "Exfiltration over Unencrypted Non-C2 Channel",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1646": {
             "name": "Exfiltration over C2 Channel",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1414": {
             "name": "Clipboard Data",
             "veris": [
-                "action.malware.variety.In-memory"
+                "action.malware.variety.In-memory",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1641": {
@@ -670,7 +688,8 @@
         "T1417": {
             "name": "Input Capture",
             "veris": [
-                "action.malware.variety.Spyware/Keylogger"
+                "action.malware.variety.Spyware/Keylogger",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1458": {
@@ -712,16 +731,47 @@
                 "attribute.integrity.variety.Misrepresentation"
             ]
         },
+        "T1635": {
+            "name": "Steal Application Access Token",
+            "veris": [
+                "attribute.confidentiality.\"\".data_disclosure",
+                "value_chain.targeting.variety.Lost or stolen credentials"
+            ]
+        },
+        "T1417.001": {
+            "name": "Input Capture: Keylogging",
+            "veris": [
+                "attribute.confidentiality.\"\".data_disclosure"
+            ]
+        },
+        "T1417.002": {
+            "name": "Input Capture: GUI Input Capture",
+            "veris": [
+                "attribute.confidentiality.\"\".data_disclosure"
+            ]
+        },
+        "T1430": {
+            "name": "Location Tracking",
+            "veris": [
+                "attribute.confidentiality.\"\".data_disclosure"
+            ]
+        },
+        "T1430.001": {
+            "name": "Location Tracking: Remote Device Management Services",
+            "veris": [
+                "attribute.confidentiality.\"\".data_disclosure"
+            ]
+        },
+        "T1430.002": {
+            "name": "Location Tracking: Impersonate SS7 Nodes",
+            "veris": [
+                "attribute.confidentiality.\"\".data_disclosure"
+            ]
+        },
         "T1575": {
             "name": "Native API",
             "veris": [
                 "value_chain.distribution.variety.Phone"
-            ]
-        },
-        "T1635": {
-            "name": "Steal Application Access Token",
-            "veris": [
-                "value_chain.targeting.variety.Lost or stolen credentials"
             ]
         }
     },
@@ -1440,6 +1490,87 @@
                     "Software installation": {
                         "T1407": {
                             "name": "Download New Code at Runtime"
+                        }
+                    }
+                }
+            },
+            "confidentiality": {
+                "\"\"": {
+                    "data_disclosure": {
+                        "T1517": {
+                            "name": "Access Notifications"
+                        },
+                        "T1635": {
+                            "name": "Steal Application Access Token"
+                        },
+                        "T1646": {
+                            "name": "Exfiltration Over C2 Channel"
+                        },
+                        "T1639": {
+                            "name": "Exfiltration Over Alternative Protocol"
+                        },
+                        "T1639.001": {
+                            "name": "Exfiltration Over Unencrypted Non-C2 Protocol"
+                        },
+                        "T1638": {
+                            "name": "Adversary-in-the-Middle"
+                        },
+                        "T1429": {
+                            "name": "Audio Capture"
+                        },
+                        "T1414": {
+                            "name": "Clipboard Data"
+                        },
+                        "T1634": {
+                            "name": "Credentials from Password Store"
+                        },
+                        "T1634.001": {
+                            "name": "Credentials from Password Store: Keychain"
+                        },
+                        "T1533": {
+                            "name": "Data from Local System"
+                        },
+                        "T1417": {
+                            "name": "Input Capture"
+                        },
+                        "T1417.001": {
+                            "name": "Input Capture: Keylogging"
+                        },
+                        "T1417.002": {
+                            "name": "Input Capture: GUI Input Capture"
+                        },
+                        "T1430": {
+                            "name": "Location Tracking"
+                        },
+                        "T1430.001": {
+                            "name": "Location Tracking: Remote Device Management Services"
+                        },
+                        "T1430.002": {
+                            "name": "Location Tracking: Impersonate SS7 Nodes"
+                        },
+                        "T1636": {
+                            "name": "Protected User Data"
+                        },
+                        "T1636.001": {
+                            "name": "Protected User Data: Calendar Entries"
+                        },
+                        "T1636.002": {
+                            "name": "Protected User Data: Call Log"
+                        },
+                        "T1636.003": {
+                            "name": "Protected User Data: Contact List"
+                        },
+                        "T1636.004": {
+                            "name": "Protected User Data: SMS Messages"
+                        },
+                        "T1513": {
+                            "name": "Screen Capture"
+                        },
+                        "T1409": {
+                            "name": "Stored Application Data"
+                        },
+                        "T1512": {
+                            "name": "Video Capture"
                         }
                     }
                 }

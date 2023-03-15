@@ -239,6 +239,29 @@ attribute,availability,variety,Loss,Loss
 attribute,availability,variety,Obscuration,Conversion or obscuration (ransomware)
 attribute,availability,variety,Other,Other
 attribute,availability,variety,Unknown,Unknown
+attribute,confidentiality,,data_disclosure,
+attribute,confidentiality,data_disclosure,No,No
+attribute,confidentiality,data_disclosure,Potentially,Potentially (at risk)
+attribute,confidentiality,data_disclosure,Yes,Yes (confirmed)
+attribute,confidentiality,data_disclosure,Unknown,Unknown
+attribute,confidentiality,data_victim,Customer,"Customer, member, or constituent"
+attribute,confidentiality,data_victim,Employee,Employee
+attribute,confidentiality,data_victim,Partner,Partner
+attribute,confidentiality,data_victim,Patient,Patient
+attribute,confidentiality,data_victim,Student,Student
+attribute,confidentiality,data_victim,Victim organization,"The data was that of the victim organization rather than a customer, employee, etc."
+attribute,confidentiality,data_victim,Other,Other
+attribute,confidentiality,data_victim,Unknown,Unknown
+attribute,confidentiality,state,Processed,Processed
+attribute,confidentiality,state,Stored,"Stored (either encrypted, unencrypted, or where encryption is unknown."
+attribute,confidentiality,state,Stored encrypted,Stored encrypted. (Also mark 'Stored'.)
+attribute,confidentiality,state,Stored unencrypted,Stored unencrypted. (Also mark 'Stored'.)
+attribute,confidentiality,state,Transmitted,Transmitted
+attribute,confidentiality,state,Transmitted encrypted,Transmitted encrypted. (Also mark 'Transmitted.')
+attribute,confidentiality,state,Transmitted unencrypted,Transmitted unencrypted. (Also mark 'Transmitted.')
+attribute,confidentiality,state,Other,Data state known but not listed.
+attribute,confidentiality,state,Unknown,Data state not known
+attribute,confidentiality,state,Printed,Data printed in human-readable format
 attribute,integrity,variety,Alter behavior,Influence or alter human behavior
 attribute,integrity,variety,Created account,Created new user account
 attribute,integrity,variety,Defacement,Deface content
