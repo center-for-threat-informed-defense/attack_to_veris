@@ -26,12 +26,6 @@ The [STIX scripts] (src/stix/) and [utility scripts](/src/util/) can be used to 
 - HTML table
 - Markdown table
 
-## Appending VERIS Framework objects into ATT&CK
-
-The [append_mappings.py](/src/append_mappings.py) utility script creates a STIX Bundle where VERIS objects, mappings and ATT&CK content are together in a single file. This section describes the usage of these specialty bundles, which can be found on this repo alongside their data in the framework `stix` folders:
-- [VERIS Appended STIX Bundle](/frameworks/veris/stix/veris135-enterprise-attack.json)
-
-_Note: append_mappings.py will add VERIS objects to the STIX Bundle if they are mapped to ATT&CK. If you want to build the STIX Bundle with the full set of VERIS objects, run append_mappings.py with the `--allow-unmapped` flag._ 
 
 ## See also
 - [Mapping Methodology](/docs/methodology.rst) for a description of the general process used to create the VERIS mappings.
