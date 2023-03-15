@@ -8,7 +8,7 @@ This project provides [ATT&CK Navigator](https://github.com/mitre-attack/attack-
 
 ## STIX Visualization
 The STIX content can be visualized using the [CTI STIX Visualization](https://github.com/oasis-open/cti-stix-visualization/) tool.
-- [VERIS Mappings Graph Visualization](https://oasis-open.github.io/cti-stix-visualization/?url=https://raw.githubusercontent.com/center-for-threat-informed-defense/attack_to_veris/main/frameworks/veris/stix/veris135-enterprise-attack.json)
+- [VERIS Mappings Graph Visualization](https://oasis-open.github.io/cti-stix-visualization/?url=https://raw.githubusercontent.com/center-for-threat-informed-defense/veris-2/main/src/mappings/enterprise/json/veris-2-mappings-enterprise.json)
 
 _Note: because of the large number of objects it will take significant resources to generate the graph._
 
