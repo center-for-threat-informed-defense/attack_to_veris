@@ -3,7 +3,7 @@ This repository includes several ways to visualize the VERIS mappings to ATT&CK.
 
 ## ATT&CK Navigator Layers
 
-This project provides [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator) Layers representing the mappings to ATT&CK. You can find the Layer files in the `/frameworks/` folder:
+This project provides [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator) Layers representing the mappings to ATT&CK. You can find the Layer files in the `/src/stix/output/` folder:
 - [VERIS Layers](stix/output/attack_type/layers)
 
 ## STIX Visualization
