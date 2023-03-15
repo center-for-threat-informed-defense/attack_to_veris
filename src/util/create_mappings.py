@@ -117,9 +117,8 @@ def generate_csv_spreadsheet(sheets, mappings_location):
             veris_path = None
             for idx, row in sheet.iterrows():
                 if row[0] is not numpy.nan:
-                    if ".\"\"" in name:
+                    if name.endswith('.""'):
                         name = name[:-3]
-                        print(name)
                     veris_path = f'{name}.{row[0]}'
 
                 if row[1] is not numpy.nan:

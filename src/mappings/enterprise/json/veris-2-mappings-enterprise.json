@@ -202,7 +202,8 @@
             "name": "Forced Authentication",
             "veris": [
                 "action.hacking.variety.Abuse of functionality",
-                "action.hacking.variety.MitM"
+                "action.hacking.variety.MitM",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1202": {
@@ -1165,7 +1166,8 @@
                 "action.hacking.variety.Session fixation",
                 "action.malware.variety.Disable controls",
                 "action.malware.variety.Password dumper",
-                "action.malware.vector.Web application - drive-by"
+                "action.malware.vector.Web application - drive-by",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1558.004": {
@@ -1298,7 +1300,8 @@
             "veris": [
                 "action.hacking.variety.MitM",
                 "action.hacking.variety.Routing detour",
-                "action.malware.variety.MitM"
+                "action.malware.variety.MitM",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1557.001": {
@@ -1390,7 +1393,8 @@
             "veris": [
                 "action.hacking.variety.Profile host",
                 "action.hacking.variety.Scan network",
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1480": {
@@ -1474,7 +1478,8 @@
             "veris": [
                 "action.hacking.variety.Scan network",
                 "action.malware.variety.Packet sniffer",
-                "action.malware.variety.Scan network"
+                "action.malware.variety.Scan network",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1018": {
@@ -1597,19 +1602,22 @@
             "name": "Data from Configuration Repository",
             "veris": [
                 "action.hacking.variety.Scan network",
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1602.001": {
             "name": "Data from Configuration Repository: SNMP (MIB Dump)",
             "veris": [
-                "action.hacking.variety.Scan network"
+                "action.hacking.variety.Scan network",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1602.002": {
             "name": "Data from Configuration Repository: Network Device Configuration Dump",
             "veris": [
-                "action.hacking.variety.Scan network"
+                "action.hacking.variety.Scan network",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1526": {
@@ -1828,7 +1836,8 @@
             "name": "Data from Information Repository",
             "veris": [
                 "action.hacking.variety.XML external entities",
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1010": {
@@ -2099,7 +2108,8 @@
             "name": "Input Capture: Web Portal Capture",
             "veris": [
                 "action.hacking.vector.Web application",
-                "action.malware.variety.Capture app data"
+                "action.malware.variety.Capture app data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1095": {
@@ -2216,19 +2226,22 @@
         "T1056": {
             "name": "Input Capture",
             "veris": [
-                "action.malware.variety.Capture app data"
+                "action.malware.variety.Capture app data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1056.001": {
             "name": "Input Capture: Keylogging",
             "veris": [
-                "action.malware.variety.Capture app data"
+                "action.malware.variety.Capture app data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1056.002": {
             "name": "Input Capture: GUI Input Capture",
             "veris": [
-                "action.malware.variety.Capture app data"
+                "action.malware.variety.Capture app data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1056.004": {
@@ -2236,50 +2249,58 @@
             "veris": [
                 "action.malware.variety.Capture app data",
                 "action.malware.variety.Password dumper",
-                "action.malware.variety.Spyware/Keylogger"
+                "action.malware.variety.Spyware/Keylogger",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1113": {
             "name": "Screen Capture",
             "veris": [
-                "action.malware.variety.Capture app data"
+                "action.malware.variety.Capture app data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1114": {
             "name": "Email Collection",
             "veris": [
-                "action.malware.variety.Capture app data"
+                "action.malware.variety.Capture app data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1114.001": {
             "name": "Email Collection: Local Email Collection",
             "veris": [
-                "action.malware.variety.Capture app data"
+                "action.malware.variety.Capture app data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1114.002": {
             "name": "Email Collection: Remote Email Collection",
             "veris": [
-                "action.malware.variety.Capture app data"
+                "action.malware.variety.Capture app data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1114.003": {
             "name": "Email Collection: Email Forwarding Rule",
             "veris": [
                 "action.malware.variety.Capture app data",
+                "attribute.confidentiality.\"\".data_disclosure",
                 "attribute.integrity.variety.Alter behavior"
             ]
         },
         "T1123": {
             "name": "Audio Capture",
             "veris": [
-                "action.malware.variety.Capture app data"
+                "action.malware.variety.Capture app data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1125": {
             "name": "Video Capture",
             "veris": [
-                "action.malware.variety.Capture app data"
+                "action.malware.variety.Capture app data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1176": {
@@ -2312,14 +2333,16 @@
             "veris": [
                 "action.malware.variety.Capture stored data",
                 "action.malware.variety.Password dumper",
-                "action.malware.variety.RAM scraper"
+                "action.malware.variety.RAM scraper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1003.003": {
             "name": "OS Credential Dumping: NTDS",
             "veris": [
                 "action.malware.variety.Capture stored data",
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1003.006": {
@@ -2327,50 +2350,58 @@
             "veris": [
                 "action.malware.variety.Capture stored data",
                 "action.malware.variety.Export data",
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1003.008": {
             "name": "OS Credential Dumping: /etc/passwd and /etc/shadow",
             "veris": [
                 "action.malware.variety.Capture stored data",
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1005": {
             "name": "Data from Local System",
             "veris": [
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1025": {
             "name": "Data from Removable Media",
             "veris": [
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1039": {
             "name": "Data from Network Shared Drive",
             "veris": [
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1213.001": {
             "name": "Data from Information Repositories: Confluence",
             "veris": [
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1213.002": {
             "name": "Data from Information Repositories: Sharepoint",
             "veris": [
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1530": {
             "name": "Data from Cloud Storage",
             "veris": [
-                "action.malware.variety.Capture stored data"
+                "action.malware.variety.Capture stored data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1221": {
@@ -2719,79 +2750,92 @@
         "T1011": {
             "name": "Exfiltration Over Other Network Medium",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1011.001": {
             "name": "Exfiltration Over Other Network Medium: Exfiltration Over Bluetooth",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1020": {
             "name": "Automated Exfiltration",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1020.001": {
             "name": "Automated Exfiltration: Traffic Duplication",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1029": {
             "name": "Scheduled Transfer",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1030": {
             "name": "Data Transfer Size Limits",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1041": {
             "name": "Exfiltration Over C2 Channels",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1048": {
             "name": "Exfiltration Over Alternative Protocol",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1048.001": {
             "name": "Exfiltration Over Alternative Protocol: Exfiltration Over Symmetric Encrypted Non-C2 Protocol",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1048.002": {
             "name": "Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1048.003": {
             "name": "Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted/Obfuscated Non-C2 Protcol",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1052": {
             "name": "Exfiltration Over Physical Medium",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1052.001": {
             "name": "Exfiltration Over Physical Medium: Exfiltration over USB",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1074": {
@@ -2821,7 +2865,8 @@
         "T1537": {
             "name": "Transfer Data to Cloud Account",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1560": {
@@ -2851,26 +2896,30 @@
         "T1567": {
             "name": "Exfiltration Over Web Service",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1567.001": {
             "name": "Exfiltration Over Web Service: Exfiltration to Code Repository",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1567.002": {
             "name": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
             "veris": [
-                "action.malware.variety.Export data"
+                "action.malware.variety.Export data",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1003.007": {
             "name": "OS Credential Dumping: Proc Filesystem",
             "veris": [
                 "action.malware.variety.In-memory",
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1055": {
@@ -2948,7 +2997,8 @@
         "T1115": {
             "name": "Clipboard Data",
             "veris": [
-                "action.malware.variety.In-memory"
+                "action.malware.variety.In-memory",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1557.003": {
@@ -2960,21 +3010,24 @@
         "T1003": {
             "name": "OS Credential Dumping",
             "veris": [
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1003.001": {
             "name": "OS Credential Dumping: LSASS Memory",
             "veris": [
                 "action.malware.variety.Password dumper",
-                "action.malware.variety.RAM scraper"
+                "action.malware.variety.RAM scraper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1003.004": {
             "name": "OS Credential Dumping: LSA Secrets",
             "veris": [
                 "action.malware.variety.Password dumper",
-                "action.malware.variety.RAM scraper"
+                "action.malware.variety.RAM scraper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1003.005": {
@@ -2982,80 +3035,93 @@
             "veris": [
                 "action.malware.variety.Password dumper",
                 "action.malware.variety.RAM scraper",
-                "action.malware.vector.Email link"
+                "action.malware.vector.Email link",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1552.001": {
             "name": "Unsecured Credentials: Credentials in Files",
             "veris": [
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1552.002": {
             "name": "Unsecured Credentials: Credentials in Registry",
             "veris": [
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1552.003": {
             "name": "Unsecured Credentials: Bash History",
             "veris": [
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1552.004": {
             "name": "Unsecured Credentials: Private Keys",
             "veris": [
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1552.005": {
             "name": "Unsecured Credentials: Cloud Instance Metadata API",
             "veris": [
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1552.006": {
             "name": "Unsecured Credentials: Group Policy Preferences",
             "veris": [
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1555": {
             "name": "Credentials from Password Stores",
             "veris": [
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1555.001": {
             "name": "Credentials from Password Stores: Keychain",
             "veris": [
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1555.002": {
             "name": "Credentials from Password Stores: Securityd Memory",
             "veris": [
                 "action.malware.variety.Password dumper",
-                "action.malware.variety.RAM scraper"
+                "action.malware.variety.RAM scraper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1555.003": {
             "name": "Credentials from Password Stores: Credentials from Web Browser",
             "veris": [
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1555.004": {
             "name": "Credentials from Password Stores: Windows Credential Manager",
             "veris": [
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1555.005": {
             "name": "Credentials from Password Stores: Password Managers",
             "veris": [
-                "action.malware.variety.Password dumper"
+                "action.malware.variety.Password dumper",
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         },
         "T1486": {
@@ -3647,6 +3713,24 @@
             "name": "Event Triggered Execution: Installer Packages",
             "veris": [
                 "attribute.integrity.variety.Software installation"
+            ]
+        },
+        "T1213.003": {
+            "name": "Code Repositories",
+            "veris": [
+                "attribute.confidentiality.\"\".data_disclosure"
+            ]
+        },
+        "T1552": {
+            "name": "Unsecured Credentials",
+            "veris": [
+                "attribute.confidentiality.\"\".data_disclosure"
+            ]
+        },
+        "T1552.007": {
+            "name": "Unsecured Credentials: Container API",
+            "veris": [
+                "attribute.confidentiality.\"\".data_disclosure"
             ]
         }
     },
@@ -6655,12 +6739,9 @@
                         "T1547": {
                             "name": "Boot or Logon Autostart Execution"
                         },
-<<<<<<< HEAD
-=======
                         "T1547.001": {
                             "name": "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder"
                         },
->>>>>>> main
                         "T1547.002": {
                             "name": "Boot or Logon Autostart Execution: Authentication Package"
                         },
@@ -6803,7 +6884,6 @@
                     }
                 }
             },
-<<<<<<< HEAD
             "confidentiality": {
                 "\"\"": {
                     "data_disclosure": {
@@ -7017,8 +7097,6 @@
                     }
                 }
             },
-=======
->>>>>>> main
             "availability": {
                 "variety": {
                     "Degradation": {
@@ -7153,8 +7231,6 @@
                     }
                 }
             }
-<<<<<<< HEAD
-=======
         },
         "value_chain": {
             "development": {
@@ -7250,7 +7326,6 @@
                     }
                 }
             }
->>>>>>> main
         }
     }
 }

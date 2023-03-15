@@ -94,13 +94,6 @@ def parse_mappings(mappings_path, veris_entries, relationship_ids, config_locati
     mappings_df = pandas.read_csv(mappings_path, sep=",", keep_default_na=False, header=0)
 
     for index, row in tqdm(list(mappings_df.iterrows()), desc="parsing mappings", bar_format=tqdm_format):
-        """
-        veris_term = row["VERIS PATH"]
-        if "\"\"" in veris_term.split("."):
-            print(veris_term)
-            veris_term.replace("\"\".", "")
-            print(veris_term)
-        """
         from_id = dict_lookup(veris_path_to_stix_id, row["VERIS PATH"])
         to_id = dict_lookup(attackid_to_stixid, row["TECHNIQUE ID"])
         joined_id = f"{from_id}---{to_id}"
