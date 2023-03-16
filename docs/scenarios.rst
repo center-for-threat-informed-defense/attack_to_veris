@@ -25,7 +25,7 @@ The Solorigate attack was considered one of the most damaging cyberattacks in re
 
 Supply chain attacks typically involve a sequence of one or more breaches chained together. Solorigate is an example where vendor software is compromised and used to push a malicious update to customers, resulting in the initial breaches. Other examples of supply chain attacks involve compromising a partner or third party that shares a business relationship with an organization, such as vendors, hosting providers, or outsourced support, and using either valid credentials or a trusted connection to then gain access to the organization. This is demonstrated in the figure below from the `2022 Verizon Data Breach Investigations Report (DBIR) <https://www.verizon.com/business/resources/reports/dbir/>`_:
 
-.. image:: docs/dbir_figure7.png
+.. image:: docs/_static/dbir_figure7.png
    :width: 600
 
 b.  Translation between VERIS and ATT&CK 
@@ -122,7 +122,7 @@ The attack caused panic and confusion among the American public, leading to gas 
 
 This cyberattack use case demonstrates the evaluation of risks in modern environments where cyber-physical technologies are necessary for operations. Examples of other types of industries affected by ICS attacks include Manufacturing and Mining, Quarrying, and Oil & Gas Extraction Utilities (MQOGEU). Ransomware type of attacks are a newer tracked risk in the cyber landscape that have been observed to be on the rise since early 2019, as seen in the figure below from the `Verizon 2022 DBIR </https://www.verizon.com/business/resources/reports/dbir/>`_:
 
-.. image:: docs/dbir_figure4.png
+.. image:: docs/_static/dbir_figure4.png
    :width: 600
 
 b.  Translation between VERIS and ATT&CK 
@@ -178,18 +178,18 @@ d.  References
 -   `ATTACK for ICS - Philosophy Paper - Final.docx (mitre.org) <https://attack.mitre.org/docs/ATTACK_for_ICS_Philosophy_March_2020.pdf>`_
 -   `Colonial Pipeline Cyberattack Highlights Need for Better Federal and Private-Sector Preparedness (infographic) | U.S. GAO <https://www.gao.gov/blog/colonial-pipeline-cyberattack-highlights-need-better-federal-and-private-sector-preparedness-infographic>`_`
 
-III.    Espionage Motive Threat Actor: Anthem, Inc. Data Breach 
----------------------------------------------------------------
+III.    Espionage Motivated Threat Actor: Anthem, Inc. Data Breach 
+------------------------------------------------------------------
 
 a.  Overview of the Attack  
 
-In February 2015, a large health insurer known as Anthem, Inc., disclosed an attack that compromised the personally identifiable information (PII) of about 78.8 million individuals (about twice the population of California). The Anthem attack has been noted as the largest healthcare breach in history and has been linked to a Chinese cyber espionage group (Deep Panda). The attack used techniques such as customized spearphishing emails, backdoor malware, lateral movement, and privilege escalation to breach the company and then steal millions of records and extract PII. 
+In February 2015, a large health insurer known as Anthem, Inc., disclosed an attack that compromised the personally identifiable information (PII) of about 78.8 million individuals, which is about twice the population of California. The Anthem attack has been noted as the largest healthcare breach in history and has been linked to Deep Panda, a Chinese cyber espionage group. The attack used techniques such as customized spearphishing emails, backdoor malware, lateral movement, and privilege escalation to breach the company and then steal millions of records and extract PII. 
  
 In addition to Anthem, three other companies were affected, but their names were not disclosed in the formal accusation released May 9, 2019. According to the indictment, data such as names, health identification numbers, dates of birth, Social Security numbers, addresses, telephone numbers, email addresses, employment information and income were exfiltrated. As a result of this breach, Anthem faced several civil class-action lawsuits, which were settled in 2017 at a cost of $115 million, and in 2018 Anthem paid a record-setting $16 million settlement to the Office for Civil Rights for Health Insurance Portability and Accountability Act (HIPAA) violations. 
 
 Espionage-related attacks have been significantly increasing over time, coming in as the second most common motive reported in the Verizon 2022 DBIR over the last few years. The top compromised data types are credentials and personal data, as seen in the `Verizon 2022 DBIR <https://www.verizon.com/business/resources/reports/dbir/>`_ figure below. Credentials are useful for masquerading as legitimate users on networks and systems. Personal data exfiltration, such as email addresses, can be used for financial fraud and there is a large market for their resale. 
 
-.. image:: docs/dbir_figure27.png
+.. image:: docs/_static/dbir_figure27.png
    :width: 600
 
 b.  Translation between VERIS and ATT&CK 
