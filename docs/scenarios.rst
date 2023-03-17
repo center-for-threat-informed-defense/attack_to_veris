@@ -179,12 +179,14 @@ d.  References
 -   `ATTACK for ICS - Philosophy Paper - Final.docx (mitre.org) <https://attack.mitre.org/docs/ATTACK_for_ICS_Philosophy_March_2020.pdf>`_
 -   `Colonial Pipeline Cyberattack Highlights Need for Better Federal and Private-Sector Preparedness (infographic) | U.S. GAO <https://www.gao.gov/blog/colonial-pipeline-cyberattack-highlights-need-better-federal-and-private-sector-preparedness-infographic>`_`
 
-III.    Espionage Motive Threat Actor: Anthem, Inc. Data Breach
----------------------------------------------------------------
+III.    Espionage Motivated Threat Actor: Anthem, Inc. Data Breach
+------------------------------------------------------------------
 
 a.  Overview of the Attack
 
-In February 2015, a large health insurer known as Anthem, Inc., disclosed an attack that compromised the personally identifiable information (PII) of about 78.8 million individuals (about twice the population of California). The Anthem attack has been noted as the largest healthcare breach in history and has been linked to a Chinese cyber espionage group (Deep Panda). The attack used techniques such as customized spearphishing emails, backdoor malware, lateral movement, and privilege escalation to breach the company and then steal millions of records and extract PII.
+In February 2015, a large health insurer known as Anthem, Inc., disclosed an attack that compromised the personally identifiable information (PII) of about 78.8 million individuals, which is about twice the population of California. The Anthem attack has been noted as the largest healthcare breach in history and has been linked to Deep Panda, a Chinese cyber espionage group. The attack used techniques such as customized spearphishing emails, backdoor malware, lateral movement, and privilege escalation to breach the company and then steal millions of records and extract PII.
+
+In addition to Anthem, three other companies were affected, but their names were not disclosed in the formal accusation released May 9, 2019. According to the indictment, data such as names, health identification numbers, dates of birth, Social Security numbers, addresses, telephone numbers, email addresses, employment information and income were exfiltrated. As a result of this breach, Anthem faced several civil class-action lawsuits, which were settled in 2017 at a cost of $115 million, and in 2018 Anthem paid a record-setting $16 million settlement to the Office for Civil Rights for Health Insurance Portability and Accountability Act (HIPAA) violations.
 
 In addition to Anthem, three other companies were affected, but their names were not disclosed in the formal accusation released May 9, 2019. According to the indictment, data such as names, health identification numbers, dates of birth, Social Security numbers, addresses, telephone numbers, email addresses, employment information and income were exfiltrated. As a result of this breach, Anthem faced several civil class-action lawsuits, which were settled in 2017 at a cost of $115 million, and in 2018 Anthem paid a record-setting $16 million settlement to the Office for Civil Rights for Health Insurance Portability and Accountability Act (HIPAA) violations.
 
