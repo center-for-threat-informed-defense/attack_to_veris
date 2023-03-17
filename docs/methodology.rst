@@ -70,7 +70,7 @@ from VERIS to ATT&CK Techniques related to a particular incident. In
 addition, the creation of expanded mapping and usage documentation to
 provide updated use cases and new scenario examples further demonstrate
 how the integration or VERIS and ATT&CK translation can support
-describing and communicating information about security incidents.
+describing and communicating information about security incidents.**
 
 The comprehensive mapping plan used for updating and expanding the
 original translation between VERIS and ATT&CK includes:

@@ -1,5 +1,5 @@
 VERIS/ATT&CK Mappings Use Cases
-===================================
+===============================
 
 Users
 -----
@@ -9,7 +9,7 @@ The existing communities of VERIS and ATT&CK users include many roles and respon
   - **Incident Response (IR) Professional** - responsibilities include response, management, and coordination, and remediation activities for cyber incidents such as malware infections, data theft, ransomware encryption, denial of service, and control systems intrusions.
   - **Chief Information Security Officer (CISO)** - responsibilities include carrying out information security policies, procedures, and controls, and providing primary interface between senior managers and information system owners.
   - **Information System Security Officer (ISSO)** - responsibilities include ensuring the appropriate operational security posture is maintained for information systems or programs.
-  - **Security Operations Center (SOC) Analyst** - responsibilities include monitoring an organization's networks and systems to detect threats and investigating potential security incidents. 
+  - **Security Operations Center (SOC) Analyst** - responsibilities include monitoring an organization's networks and systems to detect threats and investigating potential security incidents.
   - **Security Engineer** - responsibilities include developing and implementing security controls and solutions to protect networks and systems from unauthorized access and attacks.
 
 Usage
@@ -27,7 +27,7 @@ Use Cases
 Users of the VERIS/ATT&CK mapping performing the essential capabilities as described above support a variety of use cases. Several of those use cases are described below.
 
   1. As an IR professional, I want to ensure I have a complete picture of an active security incident.
-      * The VERIS/ATT&CK mapping provides an optimal joint framework to comprehensively describe security events at a flexible level. At a very low level, the ATT&CK mappings allow incident response professionals to understand the details of adversary activities, thus creating a fingerprint of the event. This fingerprint can provide an analysis of the attacker's tools, techniques, and procedures (TTP), which can assist in real-time decision making and activating responsive functionality in existing tools. Additionally, such an analysis can assist responders in looking for additional TTP artifacts that may typically coexist with currently observed activity.  
+      * The VERIS/ATT&CK mapping provides an optimal joint framework to comprehensively describe security events at a flexible level. At a very low level, the ATT&CK mappings allow incident response professionals to understand the details of adversary activities, thus creating a fingerprint of the event. This fingerprint can provide an analysis of the attacker’s tools, techniques, and procedures (TTP), which can assist in real-time decision making and activating responsive functionality in existing tools. Additionally, such an analysis can assist responders in looking for additional TTP artifacts that may typically coexist with currently observed activity.
   2. As an CISO/ISSO, I want to understand how our current security posture addresses real-world threats that my organization is likely to encounter.
       * While individual reports can assist in the prevention of attack recurrence based on similar TTPs, collections of such reports, both internally generated and publicly available, can guide strategic direction. Such a corpus represents the state-of-the-art in effective attack methodologies. As such, they provide a necessary minimal bar for an organization's security program to reach to be effective in the current threat landscape. Gaps in process/governance can then be addressed.
   3. As a SOC analyst, I need to know that we have sufficient visibility into threats launched against my organization.
