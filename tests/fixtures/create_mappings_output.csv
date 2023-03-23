@@ -1,0 +1,30 @@
+DATE DELIVERED,VERIS PATH,RELATIONSHIP TYPE,TECHNIQUE ID
+23/03/23,action.hacking.variety.Abuse of functionality,related-to,T0800
+23/03/23,action.hacking.variety.Abuse of functionality,related-to,T0885
+23/03/23,action.hacking.variety.Backdoor,related-to,T0822
+23/03/23,action.hacking.variety.Backdoor,related-to,T0883
+23/03/23,action.hacking.vector.Backdoor,related-to,T0884
+23/03/23,action.hacking.vector.Backdoor,related-to,T0822
+23/03/23,action.hacking.vector.Command shell,related-to,T0807
+23/03/23,action.hacking.vector.Command shell,related-to,T0855
+23/03/23,action.malware.variety.Backdoor,related-to,T0864
+23/03/23,action.malware.variety.Backdoor or C2,related-to,T0822
+23/03/23,action.malware.vector.Download by malware,related-to,T0863
+23/03/23,action.malware.vector.Email attachment,related-to,T0863
+23/03/23,action.social.variety.Evade Defenses,related-to,T0858
+23/03/23,action.social.variety.Evade Defenses,related-to,T0820
+23/03/23,action.social.variety.Phishing,related-to,T0865
+23/03/23,action.social.vector.Documents,related-to,T0863
+23/03/23,action.social.vector.Email,related-to,T0865
+23/03/23,action.social.vector.Email,related-to,T0863
+23/03/23,attribute.integrity.variety.Alter behavior,related-to,T0803
+23/03/23,attribute.integrity.variety.Alter behavior,related-to,T0804
+23/03/23,attribute.integrity.variety.Hardware tampering,related-to,T0800
+23/03/23,attribute.confidentiality.data_disclosure,related-to,T0830
+23/03/23,attribute.confidentiality.data_disclosure,related-to,T0891
+23/03/23,attribute.availability.variety.Degradation,related-to,T0835
+23/03/23,attribute.availability.variety.Degradation,related-to,T0831
+23/03/23,attribute.availability.variety.Interruption,related-to,T0800
+23/03/23,attribute.availability.variety.Interruption,related-to,T0804
+23/03/23,value_chain.distribution.variety.Compromised server,related-to,T0848
+23/03/23,value_chain.distribution.variety.Email,related-to,T0865

@@ -1,0 +1,301 @@
+{
+    "metadata": {
+        "framework_id": "VERIS",
+        "attack_version": "12.1",
+        "mappings_version": "2.0",
+        "veris_version": "1.3.7"
+    },
+    "attack_to_veris": {
+        "T0800": {
+            "name": "Activate Firmware Update Mode",
+            "veris": [
+                "action.hacking.variety.Abuse of functionality",
+                "attribute.availability.variety.Interruption",
+                "attribute.integrity.variety.Hardware tampering"
+            ]
+        },
+        "T0885": {
+            "name": "Commonly Used Port",
+            "veris": [
+                "action.hacking.variety.Abuse of functionality"
+            ]
+        },
+        "T0822": {
+            "name": "External Remote Services",
+            "veris": [
+                "action.hacking.variety.Backdoor",
+                "action.hacking.vector.Backdoor",
+                "action.malware.variety.Backdoor or C2"
+            ]
+        },
+        "T0883": {
+            "name": "Internet Accessible Device",
+            "veris": [
+                "action.hacking.variety.Backdoor"
+            ]
+        },
+        "T0884": {
+            "name": "Connection Proxy",
+            "veris": [
+                "action.hacking.vector.Backdoor"
+            ]
+        },
+        "T0807": {
+            "name": "Command-Line Interface",
+            "veris": [
+                "action.hacking.vector.Command shell"
+            ]
+        },
+        "T0855": {
+            "name": "Unauthorized Command Message",
+            "veris": [
+                "action.hacking.vector.Command shell"
+            ]
+        },
+        "T0864": {
+            "name": "Transient Cyber Asset",
+            "veris": [
+                "action.malware.variety.Backdoor"
+            ]
+        },
+        "T0863": {
+            "name": "User Execution",
+            "veris": [
+                "action.malware.vector.Download by malware",
+                "action.malware.vector.Email attachment",
+                "action.social.vector.Documents",
+                "action.social.vector.Email"
+            ]
+        },
+        "T0858": {
+            "name": "Change Operating Mode",
+            "veris": [
+                "action.social.variety.Evade Defenses"
+            ]
+        },
+        "T0820": {
+            "name": "Exploitation for Evasion",
+            "veris": [
+                "action.social.variety.Evade Defenses"
+            ]
+        },
+        "T0865": {
+            "name": "Spearphishing Attachment",
+            "veris": [
+                "action.social.variety.Phishing",
+                "action.social.vector.Email",
+                "value_chain.distribution.variety.Email"
+            ]
+        },
+        "T0803": {
+            "name": "Block Command Message",
+            "veris": [
+                "attribute.integrity.variety.Alter behavior"
+            ]
+        },
+        "T0804": {
+            "name": "Block Reporting Message",
+            "veris": [
+                "attribute.availability.variety.Interruption",
+                "attribute.integrity.variety.Alter behavior"
+            ]
+        },
+        "T0830": {
+            "name": "Adversary-in-the-Middle",
+            "veris": [
+                "attribute.confidentiality.\"\".data_disclosure"
+            ]
+        },
+        "T0891": {
+            "name": "Hardcoded Credentials",
+            "veris": [
+                "attribute.confidentiality.\"\".data_disclosure"
+            ]
+        },
+        "T0835": {
+            "name": "Manipulate I/O Image",
+            "veris": [
+                "attribute.availability.variety.Degradation"
+            ]
+        },
+        "T0831": {
+            "name": "Manipulation of Control",
+            "veris": [
+                "attribute.availability.variety.Degradation"
+            ]
+        },
+        "T0848": {
+            "name": "Rogue Master",
+            "veris": [
+                "value_chain.distribution.variety.Compromised server"
+            ]
+        }
+    },
+    "veris_to_attack": {
+        "action": {
+            "hacking": {
+                "variety": {
+                    "Abuse of functionality": {
+                        "T0800": {
+                            "name": "Activate Firmware Update Mode"
+                        },
+                        "T0885": {
+                            "name": "Commonly Used Port"
+                        }
+                    },
+                    "Backdoor": {
+                        "T0822": {
+                            "name": "External Remote Services"
+                        },
+                        "T0883": {
+                            "name": "Internet Accessible Device"
+                        }
+                    }
+                },
+                "vector": {
+                    "Backdoor": {
+                        "T0884": {
+                            "name": "Connection Proxy"
+                        },
+                        "T0822": {
+                            "name": "External Remote Services"
+                        }
+                    },
+                    "Command shell": {
+                        "T0807": {
+                            "name": "Command-Line Interface"
+                        },
+                        "T0855": {
+                            "name": "Unauthorized Command Message"
+                        }
+                    }
+                }
+            },
+            "malware": {
+                "variety": {
+                    "Backdoor": {
+                        "T0864": {
+                            "name": "Transient Cyber Asset"
+                        }
+                    },
+                    "Backdoor or C2": {
+                        "T0822": {
+                            "name": "External Remote Services"
+                        }
+                    }
+                },
+                "vector": {
+                    "Download by malware": {
+                        "T0863": {
+                            "name": "User Execution"
+                        }
+                    },
+                    "Email attachment": {
+                        "T0863": {
+                            "name": "User Execution"
+                        }
+                    }
+                }
+            },
+            "social": {
+                "variety": {
+                    "Evade Defenses": {
+                        "T0858": {
+                            "name": "Change Operating Mode"
+                        },
+                        "T0820": {
+                            "name": "Exploitation for Evasion"
+                        }
+                    },
+                    "Phishing": {
+                        "T0865": {
+                            "name": "Spearphishing Attachment"
+                        }
+                    }
+                },
+                "vector": {
+                    "Documents": {
+                        "T0863": {
+                            "name": "User Execution"
+                        }
+                    },
+                    "Email": {
+                        "T0865": {
+                            "name": "Spearphishing Attachment"
+                        },
+                        "T0863": {
+                            "name": "User Execution"
+                        }
+                    }
+                }
+            }
+        },
+        "attribute": {
+            "integrity": {
+                "variety": {
+                    "Alter behavior": {
+                        "T0803": {
+                            "name": "Block Command Message"
+                        },
+                        "T0804": {
+                            "name": "Block Reporting Message"
+                        }
+                    },
+                    "Hardware tampering": {
+                        "T0800": {
+                            "name": "Activate Firmware Update Mode"
+                        }
+                    }
+                }
+            },
+            "confidentiality": {
+                "\"\"": {
+                    "data_disclosure": {
+                        "T0830": {
+                            "name": "Adversary-in-the-Middle"
+                        },
+                        "T0891": {
+                            "name": "Hardcoded Credentials"
+                        }
+                    }
+                }
+            },
+            "availability": {
+                "variety": {
+                    "Degradation": {
+                        "T0835": {
+                            "name": "Manipulate I/O Image"
+                        },
+                        "T0831": {
+                            "name": "Manipulation of Control"
+                        }
+                    },
+                    "Interruption": {
+                        "T0800": {
+                            "name": "Activate Firmware Update Mode"
+                        },
+                        "T0804": {
+                            "name": "Block Reporting Message"
+                        }
+                    }
+                }
+            }
+        },
+        "value_chain": {
+            "distribution": {
+                "variety": {
+                    "Compromised server": {
+                        "T0848": {
+                            "name": "Rogue Master"
+                        }
+                    },
+                    "Email": {
+                        "T0865": {
+                            "name": "Spearphishing Attachment"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
