@@ -8,7 +8,7 @@ import filecmp
 
 import pytest
 
-from src.util.create_mappings import *
+from src.util.create_mappings import get_sheets, generate_csv_spreadsheet, generate_json_mappings
 
 
 @pytest.fixture()
@@ -44,7 +44,7 @@ def test_create_mappings_csv(dir_location):
     with tempfile.NamedTemporaryFile() as csvfile:
         generate_csv_spreadsheet(sheets, pathlib.Path(csvfile.name))
 
-        assert filecmp.cmp(csvfile.name, pathlib.Path(dir_location, "fixtures", "create_mappings_output.csv")) == True
+        assert filecmp.cmp(csvfile.name, pathlib.Path(dir_location, "fixtures", "create_mappings_output.csv"))
 
 def test_create_mappings_json(dir_location):
     sheets = get_sheets(pathlib.Path(dir_location, "fixtures", "test_spreadsheet_1.xlsx"))
@@ -53,7 +53,7 @@ def test_create_mappings_json(dir_location):
         config = pathlib.Path(dir_location, "fixtures", "config.json")
         generate_json_mappings(sheets, config, pathlib.Path(jsonfile.name))
 
-        assert filecmp.cmp(jsonfile.name, pathlib.Path(dir_location, "fixtures", "create_mappings_output.json")) == True
+        assert filecmp.cmp(jsonfile.name, pathlib.Path(dir_location, "fixtures", "create_mappings_output.json"))
 
 def test_parse_veris(dir_location):
     veris_enumerations_file = pathlib.Path(dir_location, "fixtures", "veris_enumerations.json")
@@ -61,10 +61,9 @@ def test_parse_veris(dir_location):
 
     mappings_location = pathlib.Path(dir_location, "fixtures", "create_mappings_output.csv")
     veris_location = pathlib.Path(dir_location, "fixtures", "veris137-enumerations.csv")
-    veris_objects = pathlib.Path(veris_enumerations_file.name)
-    mappings = pathlib.Path(mappings_file.name)
+    veris_objects = pathlib.Path(veris_enumerations_file)
+    mappings = pathlib.Path(mappings_file)
     config_location = pathlib.Path(dir_location, "fixtures", "config.json")
-    script_location = f"{dir_location}/../src/stix/parse.py"
     child_process = subprocess.Popen([
         "python", "-m", "src.stix.parse",
         "-input-enumerations", veris_location,
@@ -77,5 +76,9 @@ def test_parse_veris(dir_location):
     child_process.wait(timeout=60)
     assert child_process.returncode == 0
 
-    #os.remove(veris_enumerations_file)
-    #os.remove(mappings_file)
+    if veris_enumerations_file.is_file():
+        veris_enumerations_file.unlink()
+    if mappings_file.is_file():
+        mappings_file.unlink()
+
+    
