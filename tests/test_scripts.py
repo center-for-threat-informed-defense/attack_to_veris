@@ -2,8 +2,13 @@ import os
 import pathlib
 import subprocess
 import sys
+import tempfile
+import csv
+import filecmp
 
 import pytest
+
+from src.util.create_mappings import get_sheets, generate_csv_spreadsheet, generate_json_mappings
 
 
 @pytest.fixture()
@@ -12,95 +17,68 @@ def dir_location():
     if "tests" in cwd:
         return os.path.dirname(cwd)
     else:
-        return cwd
+        return pathlib.Path(cwd, "tests")
 
 
-@pytest.mark.skip("Planning to update these later, see Jira issue VERIS-50")
-def test_create_mappings(dir_location):
-    config_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "config.json")
-    spreadsheet_location = pathlib.Path(dir_location, "frameworks", "veris", "veris-mappings.xlsx")
-    json_location = pathlib.Path(dir_location, "frameworks", "veris", "veris-mappings.json")
-    mappings_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "veris135-mappings.csv")
-    veris_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "veris135-enumerations.csv")
-    script_location = f"{dir_location}/src/create_mappings.py"
-    child_process = subprocess.Popen([
-        sys.executable, script_location,
-        "-config-location", config_location,
-        "-spreadsheet-location", spreadsheet_location,
-        "-json-location", json_location,
-        "-mappings-location", mappings_location,
-        "-veris-location", veris_location,
-    ])
-    child_process.wait(timeout=60)
-    assert child_process.returncode == 0
+def test_get_sheets(dir_location):
+    sheets = get_sheets(pathlib.Path(dir_location, "fixtures", "test_spreadsheet_1.xlsx"))
+    sheet_names = [
+        'Action.Hacking.Variety',
+        'Action.Hacking.Vector',
+        'Action.Malware.Variety',
+        'Action.Malware.Vector',
+        'Action.Social.Variety',
+        'Action.Social.Vector',
+        'Attribute.Integrity.Variety',
+        'Attribute.Confidentiality.""',
+        'Attribute.Availability.Variety',
+        'Value_chain',
+    ]
 
+    for sheet in sheets:
+        assert sheet[1] in sheet_names
 
-@pytest.mark.skip("Planning to update these later, see Jira issue VERIS-50")
-def test_mappings_to_heatmaps(dir_location):
-    veris_objects = pathlib.Path(dir_location, "frameworks", "veris", "stix", "veris135-enumerations.json")
-    mappings = pathlib.Path(dir_location, "frameworks", "veris", "stix", "veris135-mappings.json")
-    output_location = pathlib.Path(dir_location, "frameworks", "veris", "layers")
-    script_location = f"{dir_location}/src/mappings_to_heatmaps.py"
-    child_process = subprocess.Popen([
-        sys.executable, script_location,
-        "-veris-objects", veris_objects,
-        "-mappings", mappings,
-        "-output", output_location,
-        "--clear",
-        "--build-directory",
-    ])
-    child_process.wait(timeout=60)
-    assert child_process.returncode == 0
+def test_create_mappings_csv(dir_location):
+    sheets = get_sheets(pathlib.Path(dir_location, "fixtures", "test_spreadsheet_1.xlsx"))
 
+    with tempfile.NamedTemporaryFile() as csvfile:
+        generate_csv_spreadsheet(sheets, pathlib.Path(csvfile.name))
 
-@pytest.mark.skip("Planning to update these later, see Jira issue VERIS-50")
-def test_mappings_validator(dir_location):
-    config_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "config.json")
-    spreadsheet_location = pathlib.Path(dir_location, "frameworks", "veris", "veris-mappings.xlsx")
-    json_location = pathlib.Path(dir_location, "frameworks", "veris", "veris-mappings.json")
-    script_location = f"{dir_location}/src/mappings_validator.py"
-    need_pop = False
-    if 'PYTHONPATH' not in os.environ:
-        os.environ['PYTHONPATH'] = dir_location
-        need_pop = True
-    child_process = subprocess.Popen([
-        sys.executable, script_location,
-        "-config-location", config_location,
-        "-spreadsheet-location", spreadsheet_location,
-        "-json-location", json_location,
-    ], env=os.environ)
-    child_process.wait(timeout=60)
-    if need_pop:
-        # cleanup purposes
-        os.environ.pop('PYTHONPATH', None)
-    assert child_process.returncode == 0
+        assert filecmp.cmp(csvfile.name, pathlib.Path(dir_location, "fixtures", "create_mappings_output.csv"))
 
+def test_create_mappings_json(dir_location):
+    sheets = get_sheets(pathlib.Path(dir_location, "fixtures", "test_spreadsheet_1.xlsx"))
 
-@pytest.mark.skip("Planning to update these later, see Jira issue VERIS-50")
-def test_make(dir_location):
-    script_location = f"{dir_location}/src/make.py"
-    child_process = subprocess.Popen([
-        sys.executable, script_location,
-    ])
-    child_process.wait(timeout=90)
-    assert child_process.returncode == 0
+    with tempfile.NamedTemporaryFile() as jsonfile:
+        config = pathlib.Path(dir_location, "fixtures", "config.json")
+        generate_json_mappings(sheets, config, pathlib.Path(jsonfile.name))
 
+        assert filecmp.cmp(jsonfile.name, pathlib.Path(dir_location, "fixtures", "create_mappings_output.json"))
 
-@pytest.mark.skip("Planning to update these later, see Jira issue VERIS-50")
 def test_parse_veris(dir_location):
-    mappings_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "veris135-mappings.csv")
-    veris_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "veris135-enumerations.csv")
-    veris_objects = pathlib.Path(dir_location, "frameworks", "veris", "stix", "veris135-enumerations.json")
-    mappings = pathlib.Path(dir_location, "frameworks", "veris", "stix", "veris135-mappings.json")
-    config_location = pathlib.Path(dir_location, "frameworks", "veris", "input", "config.json")
-    script_location = f"{dir_location}/frameworks/veris/parse.py"
+    veris_enumerations_file = pathlib.Path(dir_location, "fixtures", "veris_enumerations.json")
+    mappings_file = pathlib.Path(dir_location, "fixtures", "veris-mappings.json")
+
+    mappings_location = pathlib.Path(dir_location, "fixtures", "create_mappings_output.csv")
+    veris_location = pathlib.Path(dir_location, "fixtures", "veris137-enumerations.csv")
+    veris_objects = pathlib.Path(veris_enumerations_file)
+    mappings = pathlib.Path(mappings_file)
+    config_location = pathlib.Path(dir_location, "fixtures", "config.json")
     child_process = subprocess.Popen([
-        sys.executable, script_location,
+        "python", "-m", "src.stix.parse",
         "-input-enumerations", veris_location,
         "-input-mappings", mappings_location,
         "-output-enumerations", veris_objects,
         "-output-mappings", mappings,
         "-config-location", config_location,
+        "-attack-domain", "ics-attack",
     ])
     child_process.wait(timeout=60)
     assert child_process.returncode == 0
+
+    if veris_enumerations_file.is_file():
+        veris_enumerations_file.unlink()
+    if mappings_file.is_file():
+        mappings_file.unlink()
+
+    

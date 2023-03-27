@@ -102,7 +102,6 @@ def get_sheet_by_name(spreadsheet_location, sheet_name):
 def generate_csv_spreadsheet(sheets, mappings_location):
     """Reads the main XSLX mappings file and creates a spreadsheet for the
     mappings in CSV"""
-    #sheets = get_sheets(spreadsheet_location)
     now = datetime.datetime.utcnow()
     strf_time = now.strftime("%y/%m/%d")
     relationship_type = "related-to"
@@ -134,7 +133,6 @@ def generate_csv_spreadsheet(sheets, mappings_location):
 def generate_json_mappings(sheets, config_location, json_mappings_location):
     """Reads the XLSX mappings and creates the normal JSON file used to
     describe the bi-directional mappings for this project."""
-    #sheets = get_sheets(spreadsheet_location)
     json_mappings = {
         "metadata": {},
         "attack_to_veris": {},
