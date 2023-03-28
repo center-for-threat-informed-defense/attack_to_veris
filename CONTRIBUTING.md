@@ -6,14 +6,18 @@ Thanks for contributing to VERIS Framework Mappings to ATT&CK!
 
 You are welcome to comment on issues, open new issues, and open pull requests.
 
-Pull requests should target the **[develop](https://github.com/center-for-threat-informed-defense/attack_to_veris/tree/main)** branch of the repository.
+Pull requests should target the
+**[main](https://github.com/center-for-threat-informed-defense/attack_to_veris/tree/main)**
+branch of the repository.
 
-Also, if you contribute any source code, we need you to agree to the following Developer's Certificate of Origin below.
+Also, if you contribute any source code, we need you to agree to the following
+Developer's Certificate of Origin below.
 
 ## Reporting Issues
-  
-* Describe (in detail) what should have happened. Include any supporting information that may be helpful in resolving the issue.
-  
+
+* Describe (in detail) what should have happened. Include any supporting information
+  that may be helpful in resolving the issue.
+
 * Be sure to include any steps to replicate the issue.
 
 ## Developer's Certificate of Origin v1.1

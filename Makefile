@@ -14,9 +14,3 @@ docs-pdf:
 	docker run --rm -v "$(PWD)/docs":/docs sphinxdoc/sphinx-latexpdf:4.3.1 \
 		bash -c "pip install -r requirements.txt && sphinx-build -M latexpdf /docs /docs/_build"
 	rm docs/requirements.txt
-
-test:
-	pytest --cov=src/ --cov-report=term-missing
-
-test-ci:
-	pytest --cov=src/ --cov-report=xml
