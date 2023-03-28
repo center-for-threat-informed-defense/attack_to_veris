@@ -82,7 +82,10 @@ def generate_attack_types_tables(attack_types, mappings_dir):
         else:
             break
 
-        obj_lines.append(attack_type.title())
+        if attack_type == "ics":
+            obj_lines.append("ICS")
+        else:
+            obj_lines.append(attack_type.title())
         obj_lines.append("".join("-" for x in range(len(attack_type))))
 
         start_table = list()

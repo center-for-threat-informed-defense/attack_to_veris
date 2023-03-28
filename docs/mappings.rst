@@ -1,6 +1,6 @@
 Mappings
 ========
-.. MAPPINGS_TABLE Generated at: 2023-03-28T15:34:53.149143Z
+.. MAPPINGS_TABLE Generated at: 2023-03-28T16:22:28.345473Z
 
 Enterprise
 ----------
@@ -4983,7 +4983,7 @@ Actor.External.Motive
     - G0102
     - Wizard Spider
 
-Ics
+ICS
 ---
 Action.Hacking.Variety
 ~~~~~~~~~~~~~~~~~~~~~~
