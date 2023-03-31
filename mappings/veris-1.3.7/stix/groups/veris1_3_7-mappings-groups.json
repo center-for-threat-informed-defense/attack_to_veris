@@ -1,0 +1,1105 @@
+{
+    "id": "bundle--1d91d227-3b00-4d97-9532-847b98ca35f4",
+    "objects": [
+        {
+            "created": "2023-03-31T16:32:02.373Z",
+            "id": "relationship--082ba272-14da-4316-85bf-605a786e3da7",
+            "modified": "2023-03-31T16:32:02.373Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--fa19de15-6169-428d-9cd6-3ca3d56075b7",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.374Z",
+            "id": "relationship--ca5fe537-2fd6-4fb6-91b0-c996e58b6b74",
+            "modified": "2023-03-31T16:32:02.374Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--190242d7-73fc-4738-af68-20162f7a5aae",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.374Z",
+            "id": "relationship--f7da6a87-6ee5-4487-9a90-980ea7fede3c",
+            "modified": "2023-03-31T16:32:02.374Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.374Z",
+            "id": "relationship--0f606666-8daa-44d2-a8ef-ec9c768c80ac",
+            "modified": "2023-03-31T16:32:02.374Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.374Z",
+            "id": "relationship--f2f931b8-13d0-4d9a-bcfc-b389a642b1a4",
+            "modified": "2023-03-31T16:32:02.374Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--c4d50cdf-87ce-407d-86d8-862883485842",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.374Z",
+            "id": "relationship--b2313d07-5fb9-4cdd-a705-46918116c786",
+            "modified": "2023-03-31T16:32:02.374Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.375Z",
+            "id": "relationship--d6b77942-989c-4961-8644-638b90b01a2e",
+            "modified": "2023-03-31T16:32:02.375Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.375Z",
+            "id": "relationship--54d8e20b-a704-4a8a-a2b4-abb7bbe5c15b",
+            "modified": "2023-03-31T16:32:02.375Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--d6e88e18-81e8-4709-82d8-973095da1e70",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.375Z",
+            "id": "relationship--6ad8f6ab-3bbf-4e44-b6ad-95110813ecc9",
+            "modified": "2023-03-31T16:32:02.375Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.375Z",
+            "id": "relationship--9d2e9f97-c69f-4c6a-bb56-e9e5007ea17c",
+            "modified": "2023-03-31T16:32:02.375Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--f047ee18-7985-4946-8bfb-4ed754d3a0dd",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.375Z",
+            "id": "relationship--0831b78a-d6d6-4420-99e3-fcc52d967e4a",
+            "modified": "2023-03-31T16:32:02.375Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.376Z",
+            "id": "relationship--9220622d-4903-4f69-b776-c84699cb1184",
+            "modified": "2023-03-31T16:32:02.376Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.376Z",
+            "id": "relationship--ea7d3f9d-6656-4233-a38a-40240d1a5268",
+            "modified": "2023-03-31T16:32:02.376Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.376Z",
+            "id": "relationship--109038ee-98e8-4522-afda-5dd7bc6d5a44",
+            "modified": "2023-03-31T16:32:02.376Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.376Z",
+            "id": "relationship--47f7463f-0114-4901-b115-1eab2ddf04e8",
+            "modified": "2023-03-31T16:32:02.376Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.376Z",
+            "id": "relationship--9abdab49-87e6-4679-a000-fa74b673ea71",
+            "modified": "2023-03-31T16:32:02.376Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--64b52e7d-b2c4-4a02-9372-08a463f5dc11",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.377Z",
+            "id": "relationship--d1b67269-2027-4528-8276-33b431a4106e",
+            "modified": "2023-03-31T16:32:02.377Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.377Z",
+            "id": "relationship--a4d54dca-f85d-43ef-9678-e3d8a9a5c493",
+            "modified": "2023-03-31T16:32:02.377Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.377Z",
+            "id": "relationship--ed0cf2a1-c280-4e8e-af94-e34a632a0e6e",
+            "modified": "2023-03-31T16:32:02.377Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.377Z",
+            "id": "relationship--1b75e8f2-d1b2-4368-805a-d8d0652e2218",
+            "modified": "2023-03-31T16:32:02.377Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--da49b9f1-ca99-443f-9728-0a074db66850",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.377Z",
+            "id": "relationship--3bc59e16-24de-414b-a5a9-513f4e8a8e76",
+            "modified": "2023-03-31T16:32:02.377Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.378Z",
+            "id": "relationship--1467ec37-fdf0-4d37-890b-eb5bf85b1acf",
+            "modified": "2023-03-31T16:32:02.378Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--049cef3b-22d5-4be6-b50c-9839c7a34fdd",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.378Z",
+            "id": "relationship--3a17c181-a1ab-40ad-955f-1ed5144d5964",
+            "modified": "2023-03-31T16:32:02.378Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.378Z",
+            "id": "relationship--5a817d11-ed3f-4f75-a1ba-27eab9613ae4",
+            "modified": "2023-03-31T16:32:02.378Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.378Z",
+            "id": "relationship--4aa53a42-0922-4981-9916-b60f833c7abe",
+            "modified": "2023-03-31T16:32:02.378Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.379Z",
+            "id": "relationship--3471023c-c1f1-4697-994d-3bbe4bbecaf6",
+            "modified": "2023-03-31T16:32:02.379Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--8a831aaa-f3e0-47a3-bed8-a9ced744dd12",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.379Z",
+            "id": "relationship--51bbc775-4474-4dac-b3d3-fd8847f1c069",
+            "modified": "2023-03-31T16:32:02.379Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--9e729a7e-0dd6-4097-95bf-db8d64911383",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.379Z",
+            "id": "relationship--a68cc366-d95d-435b-bb32-bed1377aead5",
+            "modified": "2023-03-31T16:32:02.379Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.379Z",
+            "id": "relationship--c7531547-6d79-4b4b-a806-f5c600312aef",
+            "modified": "2023-03-31T16:32:02.379Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.379Z",
+            "id": "relationship--8dc759a1-3c65-441a-ada2-d68f98ee657c",
+            "modified": "2023-03-31T16:32:02.379Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.380Z",
+            "id": "relationship--5c8914c3-adc1-4d0b-986a-5cb0b166567e",
+            "modified": "2023-03-31T16:32:02.380Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.380Z",
+            "id": "relationship--3ae03747-7b24-473f-b08b-3e0025ab44c4",
+            "modified": "2023-03-31T16:32:02.380Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.380Z",
+            "id": "relationship--70893520-f670-4950-897b-1b5d35b6bd9e",
+            "modified": "2023-03-31T16:32:02.380Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--2fd2be6a-d3a2-4a65-b499-05ea2693abee",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.380Z",
+            "id": "relationship--0113016f-bc64-4bd8-a655-325bcdbe4825",
+            "modified": "2023-03-31T16:32:02.380Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.380Z",
+            "id": "relationship--2a080e9e-5407-4ff4-aa42-6858a4d4f556",
+            "modified": "2023-03-31T16:32:02.380Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.381Z",
+            "id": "relationship--fef1fa22-519c-497e-bf0c-5679da6e8c22",
+            "modified": "2023-03-31T16:32:02.381Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.381Z",
+            "id": "relationship--99a74f08-300e-439d-bea5-63155a7d49da",
+            "modified": "2023-03-31T16:32:02.381Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.381Z",
+            "id": "relationship--15014c10-5ddb-4fe1-925b-59961395b1c7",
+            "modified": "2023-03-31T16:32:02.381Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.381Z",
+            "id": "relationship--9fc8cf61-c422-4424-9f47-2f3ba26181ca",
+            "modified": "2023-03-31T16:32:02.381Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.381Z",
+            "id": "relationship--c4f2cc97-6c87-47dd-8b65-e2a1a482e002",
+            "modified": "2023-03-31T16:32:02.381Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.382Z",
+            "id": "relationship--a634f43f-d1e7-40d8-91d4-bfcc795644f6",
+            "modified": "2023-03-31T16:32:02.382Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.382Z",
+            "id": "relationship--0c598869-a33d-4887-904d-745f5ab5ca61",
+            "modified": "2023-03-31T16:32:02.382Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.382Z",
+            "id": "relationship--a929528b-cc2f-4e06-9ce8-219dbeffdde4",
+            "modified": "2023-03-31T16:32:02.382Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--32bca8ff-d900-4877-aa65-d70baa041b74",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.382Z",
+            "id": "relationship--3ad039b1-3f85-4681-8dce-248704ad318b",
+            "modified": "2023-03-31T16:32:02.382Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.383Z",
+            "id": "relationship--e6c97c72-c500-45e9-b4be-6cdb608873cd",
+            "modified": "2023-03-31T16:32:02.383Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--88b7dbc2-32d3-4e31-af2f-3fc24e1582d7",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.383Z",
+            "id": "relationship--eb997739-8b73-4b0a-9015-a140c047ee67",
+            "modified": "2023-03-31T16:32:02.383Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.383Z",
+            "id": "relationship--3e696517-33de-4dd8-9ec8-88ca3545df6e",
+            "modified": "2023-03-31T16:32:02.383Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.383Z",
+            "id": "relationship--947813e6-3256-40db-a542-af3e7ca1f7f8",
+            "modified": "2023-03-31T16:32:02.383Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--88489675-d216-4884-a98f-49a89fcc1643",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.383Z",
+            "id": "relationship--1bb4efa3-c9f1-45ae-9736-fcf277e217ce",
+            "modified": "2023-03-31T16:32:02.383Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--df71bb3b-813c-45eb-a8bc-f2a419837411",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.384Z",
+            "id": "relationship--985ce8f1-fb90-4ac3-81ea-5d6bcec96f7b",
+            "modified": "2023-03-31T16:32:02.384Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.384Z",
+            "id": "relationship--0cbd756d-ca59-4f63-9e46-260856b08b67",
+            "modified": "2023-03-31T16:32:02.384Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.384Z",
+            "id": "relationship--473a5188-51b8-45e6-abd5-eae3916f7d95",
+            "modified": "2023-03-31T16:32:02.384Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.384Z",
+            "id": "relationship--d6589434-bf4d-4b01-a184-6f843f665409",
+            "modified": "2023-03-31T16:32:02.384Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--025bdaa9-897d-4bad-afa6-013ba5734653",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.384Z",
+            "id": "relationship--77716e70-20cb-406e-a106-039606307dc9",
+            "modified": "2023-03-31T16:32:02.384Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--fed4f0a2-4347-4530-b0f5-6dfd49b29172",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.385Z",
+            "id": "relationship--0e120a7b-dc9d-487b-a6a7-efefbdaf985c",
+            "modified": "2023-03-31T16:32:02.385Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.385Z",
+            "id": "relationship--51f6feff-d280-4544-8f95-dbbd474d0d35",
+            "modified": "2023-03-31T16:32:02.385Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--5636b7b3-d99b-4edd-aa05-ee649c1d4ef1",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.385Z",
+            "id": "relationship--9ce6af50-5337-4192-ae95-2140e7314e8d",
+            "modified": "2023-03-31T16:32:02.385Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.385Z",
+            "id": "relationship--b66fbd9a-5ec0-4f32-88a4-676449c49568",
+            "modified": "2023-03-31T16:32:02.385Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--f9c06633-dcff-48a1-8588-759e7cec5694",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.386Z",
+            "id": "relationship--ae9c857e-5a29-4091-9cbd-425d9d3dd4b9",
+            "modified": "2023-03-31T16:32:02.386Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--5f3d0238-d058-44a9-8812-3dd1b6741a8c",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.386Z",
+            "id": "relationship--a48b059e-660b-43ef-9939-31e3fb45578b",
+            "modified": "2023-03-31T16:32:02.386Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--7ecc3b4f-5cdb-457e-b55a-df376b359446",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.386Z",
+            "id": "relationship--281edabf-c920-491d-9242-703c41797e4b",
+            "modified": "2023-03-31T16:32:02.386Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.386Z",
+            "id": "relationship--dec79892-37d1-451e-b31e-e44fcf451fe8",
+            "modified": "2023-03-31T16:32:02.386Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--5ce5392a-3a6c-4e07-9df3-9b6a9159ac45",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.387Z",
+            "id": "relationship--c5ade678-7c0a-4bec-b07b-9b2a0f43dd70",
+            "modified": "2023-03-31T16:32:02.387Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--f40eb8ce-2a74-4e56-89a1-227021410142",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.387Z",
+            "id": "relationship--248e531a-b4cc-4a2c-b10e-bc5b32ef622d",
+            "modified": "2023-03-31T16:32:02.387Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.387Z",
+            "id": "relationship--075a9542-8131-4986-967c-411bb1658a0c",
+            "modified": "2023-03-31T16:32:02.387Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--c5574ca0-d5a4-490a-b207-e4658e5fd1d7",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.387Z",
+            "id": "relationship--7b7403ad-d59b-4e02-bdc2-bbe6c756e68f",
+            "modified": "2023-03-31T16:32:02.387Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.388Z",
+            "id": "relationship--7ce4bcb4-c3c7-472a-bf03-2e7ff4dc0c21",
+            "modified": "2023-03-31T16:32:02.388Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.388Z",
+            "id": "relationship--3f79f810-5b2f-4238-be8f-a7622d34f6ef",
+            "modified": "2023-03-31T16:32:02.388Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.388Z",
+            "id": "relationship--c22e3d35-ab68-47a4-bec8-c33d0d8d2351",
+            "modified": "2023-03-31T16:32:02.388Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.388Z",
+            "id": "relationship--51f4af30-0936-4771-8239-ac8fd8f558ad",
+            "modified": "2023-03-31T16:32:02.388Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.389Z",
+            "id": "relationship--0d1d8bf2-dba6-4631-a82a-4bd50d6ce594",
+            "modified": "2023-03-31T16:32:02.389Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--277d2f87-2ae5-4730-a3aa-50c1fdff9656",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.389Z",
+            "id": "relationship--3d7b258f-58f1-4bda-8828-90a40ab0be36",
+            "modified": "2023-03-31T16:32:02.389Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--5cbe0d3b-6fb1-471f-b591-4b192915116d",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.389Z",
+            "id": "relationship--ddb7fe46-db6f-4be8-bc99-08de87f8f2c3",
+            "modified": "2023-03-31T16:32:02.389Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.389Z",
+            "id": "relationship--94a77291-90a1-4dd7-985f-bc68f49cb224",
+            "modified": "2023-03-31T16:32:02.389Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--9538b1a4-4120-4e2d-bf59-3b11fcab05a4",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.389Z",
+            "id": "relationship--0cc56862-74bf-4954-bea7-eb58fe37c25d",
+            "modified": "2023-03-31T16:32:02.389Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.390Z",
+            "id": "relationship--133e0574-1375-4e24-8844-16de8e932910",
+            "modified": "2023-03-31T16:32:02.390Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.390Z",
+            "id": "relationship--a5d3f71c-e683-4107-916d-1875bb2acd86",
+            "modified": "2023-03-31T16:32:02.390Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--d69e568e-9ac8-4c08-b32c-d93b43ba9172",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.390Z",
+            "id": "relationship--1b30f6e8-c35f-4273-a027-c62c59fb7253",
+            "modified": "2023-03-31T16:32:02.390Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.390Z",
+            "id": "relationship--131cf6d1-b9f3-44a7-bd09-b1ac95ffa39a",
+            "modified": "2023-03-31T16:32:02.390Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.390Z",
+            "id": "relationship--2d43d7f2-8061-4fe6-b442-ba7e75670a8e",
+            "modified": "2023-03-31T16:32:02.390Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.391Z",
+            "id": "relationship--83f5cd64-4539-4877-91b6-84ebd2868e7f",
+            "modified": "2023-03-31T16:32:02.391Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.391Z",
+            "id": "relationship--7bb38195-d95d-40c6-ae9c-d6a35fa955d4",
+            "modified": "2023-03-31T16:32:02.391Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.391Z",
+            "id": "relationship--92300a3a-ddc2-469a-82aa-bc9616d1d908",
+            "modified": "2023-03-31T16:32:02.391Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--b74f909f-8e52-4b69-b770-162bf59a1b4e",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.391Z",
+            "id": "relationship--d848aecc-73dc-4075-a767-cd70dcbb48ed",
+            "modified": "2023-03-31T16:32:02.391Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.391Z",
+            "id": "relationship--e1e2ed7b-6ae0-4329-8837-1a310ac14045",
+            "modified": "2023-03-31T16:32:02.391Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.392Z",
+            "id": "relationship--a68178ec-b826-4fa3-8d79-5ff7199cc331",
+            "modified": "2023-03-31T16:32:02.392Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.392Z",
+            "id": "relationship--a94c442c-c6f0-4bdc-800e-ba15b2a9cb2c",
+            "modified": "2023-03-31T16:32:02.392Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--c2ab34d7-d8bb-4be5-8921-a14df96dbc94",
+            "target_ref": "intrusion-set--4283ae19-69c7-4347-a35e-b56f08eb660b",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.392Z",
+            "id": "relationship--154ee5ff-b631-4234-93c0-033d5c82c51a",
+            "modified": "2023-03-31T16:32:02.392Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.392Z",
+            "id": "relationship--de94a5c8-4aac-4217-83b5-1b18f315c925",
+            "modified": "2023-03-31T16:32:02.392Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.392Z",
+            "id": "relationship--cdabf1f4-1b47-4c23-bb97-350618afd69f",
+            "modified": "2023-03-31T16:32:02.392Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.393Z",
+            "id": "relationship--c8ebf17b-4bc1-4d67-b3b5-0cc8a59a68f7",
+            "modified": "2023-03-31T16:32:02.393Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.393Z",
+            "id": "relationship--f11edd30-74b4-4a07-9bdf-4ef91e38a51c",
+            "modified": "2023-03-31T16:32:02.393Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.393Z",
+            "id": "relationship--87836eb9-0af7-40cf-a433-2e6f7e8886f6",
+            "modified": "2023-03-31T16:32:02.393Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.393Z",
+            "id": "relationship--9e66dd3c-77f4-4abd-8f21-bf4ac06c84c0",
+            "modified": "2023-03-31T16:32:02.393Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--813636db-3939-4a45-bea9-6113e970c029",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.393Z",
+            "id": "relationship--1f82a836-8bc0-4521-983b-0a9c836f4c1a",
+            "modified": "2023-03-31T16:32:02.393Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.394Z",
+            "id": "relationship--ed716d16-3b85-46fe-a70f-cbf9695fee1c",
+            "modified": "2023-03-31T16:32:02.394Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.394Z",
+            "id": "relationship--9cb0c2be-e951-4e60-b44e-efe78206fef8",
+            "modified": "2023-03-31T16:32:02.394Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.394Z",
+            "id": "relationship--1f33350e-0914-45d4-88fc-4af8c14e875b",
+            "modified": "2023-03-31T16:32:02.394Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.394Z",
+            "id": "relationship--62971e19-2dec-499f-a8fc-1f97337e1f6d",
+            "modified": "2023-03-31T16:32:02.394Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.394Z",
+            "id": "relationship--44177b84-46fb-4027-a4a4-1d21eedf13d6",
+            "modified": "2023-03-31T16:32:02.394Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.395Z",
+            "id": "relationship--7a56f549-b2f6-4fd0-8d9e-d6612ed96a6c",
+            "modified": "2023-03-31T16:32:02.395Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.395Z",
+            "id": "relationship--994b69b9-00c9-4bb0-92e0-9a741b24026b",
+            "modified": "2023-03-31T16:32:02.395Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.395Z",
+            "id": "relationship--71888729-d141-445e-9712-2b013dd03cfc",
+            "modified": "2023-03-31T16:32:02.395Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.395Z",
+            "id": "relationship--87839564-2467-4b07-b701-7af6d4a7c598",
+            "modified": "2023-03-31T16:32:02.395Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--0ea72cd5-ca30-46ba-bc04-378f701c658f",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.395Z",
+            "id": "relationship--56abee2b-2227-47fa-bec1-c5b27c1e3e7b",
+            "modified": "2023-03-31T16:32:02.395Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.396Z",
+            "id": "relationship--7e8b2574-bf81-43c1-976f-1c80973cc46a",
+            "modified": "2023-03-31T16:32:02.396Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.396Z",
+            "id": "relationship--b945eb48-c686-4df9-a4f9-0fc4f0a868ce",
+            "modified": "2023-03-31T16:32:02.396Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.396Z",
+            "id": "relationship--1998acdd-9f9b-4236-9bb5-e37e1a86967f",
+            "modified": "2023-03-31T16:32:02.396Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.396Z",
+            "id": "relationship--be1919a8-ed40-4dba-a70e-9cffcb354886",
+            "modified": "2023-03-31T16:32:02.396Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.396Z",
+            "id": "relationship--9dad5c6b-0a71-49e5-9816-323382b96853",
+            "modified": "2023-03-31T16:32:02.396Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.396Z",
+            "id": "relationship--7faf94da-2dd3-4314-88af-54f065cead73",
+            "modified": "2023-03-31T16:32:02.396Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--7ecc3b4f-5cdb-457e-b55a-df376b359446",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.397Z",
+            "id": "relationship--41ade5b4-e8ce-45ca-aedc-dcab3e82f830",
+            "modified": "2023-03-31T16:32:02.397Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--44102191-3a31-45f8-acbe-34bdb441d5ad",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.397Z",
+            "id": "relationship--b7632c05-aeeb-4284-b6ca-bab956a512dd",
+            "modified": "2023-03-31T16:32:02.397Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.397Z",
+            "id": "relationship--10434e9d-7c60-4e44-9f69-bee85382543a",
+            "modified": "2023-03-31T16:32:02.397Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.398Z",
+            "id": "relationship--6d53ea51-6692-4079-8229-02e9cad8b5cc",
+            "modified": "2023-03-31T16:32:02.398Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.398Z",
+            "id": "relationship--b7fdcc43-a6a5-45a3-a398-12caf3dc60ce",
+            "modified": "2023-03-31T16:32:02.398Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.398Z",
+            "id": "relationship--e1e8902a-c4cb-49de-85c4-eb8fb7842158",
+            "modified": "2023-03-31T16:32:02.398Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.398Z",
+            "id": "relationship--74b35f30-1d36-4ced-95d9-a7450b55f686",
+            "modified": "2023-03-31T16:32:02.398Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.398Z",
+            "id": "relationship--552bd00e-20ff-427c-86bb-5330f41afd48",
+            "modified": "2023-03-31T16:32:02.398Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.399Z",
+            "id": "relationship--f657a23a-d5b1-42fa-82f1-742eb6b86558",
+            "modified": "2023-03-31T16:32:02.399Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.399Z",
+            "id": "relationship--753d06b9-0ac6-4c9c-9c67-24fb11947a64",
+            "modified": "2023-03-31T16:32:02.399Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--4e868dad-682d-4897-b8df-2dc98f46c68a",
+            "type": "relationship"
+        },
+        {
+            "created": "2023-03-31T16:32:02.399Z",
+            "id": "relationship--3bbe183a-eacf-4b12-b835-93e882f4d802",
+            "modified": "2023-03-31T16:32:02.399Z",
+            "relationship_type": "related-to",
+            "source_ref": "attack-pattern--08e1f72b-0b0e-462b-b975-98a3dfba5ff8",
+            "target_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+            "type": "relationship"
+        }
+    ],
+    "spec_version": "2.0",
+    "type": "bundle"
+}
