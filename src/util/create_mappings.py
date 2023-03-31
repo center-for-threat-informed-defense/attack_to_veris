@@ -182,32 +182,38 @@ def generate_json_mappings(sheets, config_location, json_mappings_location):
 
 
 def get_argparse():
+    ROOT_DIR = pathlib.Path(__file__).parent.parent.parent
+
     parser = argparse.ArgumentParser(description="Create ATT&CK Navigator layers from VERIS mappings")
     parser.add_argument("-config-location",
                         dest="config_location",
                         help="filepath to the configuration for the framework",
                         type=pathlib.Path,
-                        default=pathlib.Path("..", "stix", "input", "config.json"))
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "input", "config.json"))
     parser.add_argument("-spreadsheet-location",
                         dest="spreadsheet_location",
                         help="filepath to the Excel spreadsheet for the mappings",
                         type=pathlib.Path,
-                        default=pathlib.Path("..", "mappings", "enterprise", "xlsx", "veris-2-mappings-enterprise.xlsx"))
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "input", 
+                            "enterprise", f"xlsx", f"veris-1_3_7-mappings-enterprise_v12.xlsx"))
     parser.add_argument("-json-location",
                         dest="json_location",
                         help="filepath to the JSON version of the spreadsheet mappings",
                         type=pathlib.Path,
-                        default=pathlib.Path("..", "mappings", "enterprise", "json", "veris-2-mappings-enterprise.json"))
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "input",
+                            "enterprise", "json", f"veris-1_3_7-mappings-enterprise.json"))
     parser.add_argument("-mappings-location",
                         dest="mappings_location",
                         help="filepath to the CSV spreadsheet to write the mappings",
                         type=pathlib.Path,
-                        default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-mappings-enterprise.csv"))
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "input",
+                            "enterprise", "csv", f"veris1_3_7-mappings-enterprise.csv"))
     parser.add_argument("-veris-location",
                         dest="veris_location",
                         help="filepath to the CSV spreadsheet to write the enumeration",
                         type=pathlib.Path,
-                        default=pathlib.Path("..", "mappings", "enterprise", "csv", "veris137-enumerations-enterprise.csv"))
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "input",
+                            "enterprise", "csv", f"veris1_3_7-enumerations-enterprise.csv"))
     parser.add_argument("-veris-version",
                         dest="veris_version",
                         help="the veris version to use",

@@ -94,7 +94,7 @@ def generate_group_id_mappings(attack_data):
 
 
 def parse_mappings(mappings_dir, attack_type):
-    file_path = mappings_dir / attack_type / "json" / f"veris-2-mappings-{attack_type}.json"
+    file_path = mappings_dir / attack_type / "json" / f"veris-1_3_7-mappings-{attack_type}.json"
 
     with open(file_path, "r") as file:
         data = json.loads(file.read())["attack_to_veris"]
@@ -108,7 +108,6 @@ def write_layers(output_dir, attack_type, layers_data):
     for name, l in layers_data.items():
         for veris_type in l["types"]:
             if not os.path.exists(output_dir_path / veris_type):
-                print("test")
                 os.makedirs(f"{output_dir_path}/{veris_type}")
 
             with open(output_dir_path / veris_type / f"{name}.json", "w") as outfile:
@@ -157,13 +156,15 @@ def main(args):
 
 
 if __name__ == "__main__":
+    ROOT_DIR = pathlib.Path(__file__).parent.parent.parent
+
     parser = argparse.ArgumentParser(description="Create ATT&CK Navigator layers from VERIS mappings for group data")
 
     parser.add_argument("-mappings",
                         dest="mappings_dir",
                         help="Path to the groups mappings directory",
                         type=pathlib.Path,
-                        default=pathlib.Path(__file__).parent / "mappings",
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "input")
                         )
     parser.add_argument("-attack-type",
                         dest="attack_type",
@@ -176,7 +177,7 @@ if __name__ == "__main__":
                         dest="output_dir",
                         help="folder to write output layers to",
                         type=pathlib.Path,
-                        default=pathlib.Path(__file__).parent / "stix" / "output" / "groups" / "layers",
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "layers", "groups"),
                         )
     parser.add_argument("-version",
                         dest="version",

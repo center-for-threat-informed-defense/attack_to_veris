@@ -251,17 +251,21 @@ def get_x_mitre(ms, type="attack-pattern"):
 
 
 def get_argparse():
+    ROOT_DIR = pathlib.Path(__file__).parent.parent.parent
+
     parser = argparse.ArgumentParser(description="Create ATT&CK Navigator layers from VERIS mappings")
     parser.add_argument("-veris-objects",
                         dest="veris_objects",
                         help="filepath to the STIX Bundle representing the VERIS framework",
                         type=pathlib.Path,
-                        default=pathlib.Path("..", "stix", "output", "enterprise", "veris137-enumerations-enterprise.json"))
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "stix", "enterprise", 
+                            f"veris1_3_7-enumerations-enterprise.json"))
     parser.add_argument("-mappings",
                         dest="mappings",
                         help="filepath to the STIX Bundle mappings from VERIS to ATT&CK",
                         type=pathlib.Path,
-                        default=pathlib.Path("..", "stix", "output", "enterprise", "veris137-mappings-enterprise.json"))
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "stix", "enterprise", 
+                            f"veris1_3_7-mappings-enterprise.json"))
     parser.add_argument("-domain",
                         choices=["enterprise-attack", "ics-attack", "mobile-attack"],
                         dest="domain",
@@ -274,7 +278,7 @@ def get_argparse():
     parser.add_argument("-output",
                         help="folder to write output layers to",
                         type=pathlib.Path,
-                        default=pathlib.Path("..", "stix", "output", "enterprise", "layers"))
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "layers"))
     parser.add_argument("-clear",
                         action="store_true",
                         help="if flag specified, will remove the contents the output folder before writing layers")

@@ -3,6 +3,7 @@ import subprocess
 import os
 import pathlib
 
+
 ROOT_DIR = pathlib.Path(__file__).parent.parent.parent
 
 def create_mappings(attack_types):
@@ -49,20 +50,22 @@ def create_mappings(attack_types):
 def create_layers(attack_types):
     for attack_type in attack_types:
         if attack_type == "groups":
-            print("Navigator layers cannot currently be generated for group mappings.")
-            continue
-        subprocess.run([
-            "python", "-m", "util.mappings_to_heatmaps",
-            "-veris-objects", pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "stix", attack_type, 
-                f"veris1_3_7-enumerations-{attack_type}.json"),
-            "-mappings", pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "stix", attack_type, 
-                f"veris1_3_7-mappings-{attack_type}.json"),
-            "-domain", f"{attack_type}-attack",
-            "-version", "12.1",
-            "-output", pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "layers", attack_type),
-            "-clear", 
-            "-build-directory"
-        ])
+            subprocess.run([
+                "python", "-m", "util.groups_navigator_layers"
+            ])
+        else:
+            subprocess.run([
+                "python", "-m", "util.mappings_to_heatmaps",
+                "-veris-objects", pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "stix", attack_type, 
+                    f"veris1_3_7-enumerations-{attack_type}.json"),
+                "-mappings", pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "stix", attack_type, 
+                    f"veris1_3_7-mappings-{attack_type}.json"),
+                "-domain", f"{attack_type}-attack",
+                "-version", "12.1",
+                "-output", pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "layers", attack_type),
+                "-clear", 
+                "-build-directory"
+            ])
 
 
 def main(attack_type, task):
@@ -73,7 +76,7 @@ def main(attack_type, task):
             create_mappings([attack_type])
     elif task == "layers":
         if attack_type == "all":
-            create_layers(["enterprise", "ics", "mobile"])
+            create_layers(["enterprise", "ics", "mobile", "groups"])
         else:
             create_layers([attack_type])
 
