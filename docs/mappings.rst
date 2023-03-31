@@ -1,6 +1,6 @@
 Mappings
 ========
-.. MAPPINGS_TABLE Generated at: 2023-03-28T16:22:28.345473Z
+.. MAPPINGS_TABLE Generated at: 2023-03-31T16:36:45.012737Z
 
 Enterprise
 ----------
@@ -5609,10 +5609,6 @@ Attribute.Integrity.Variety
   * - 
     - T0889
     - Modify Program
-
-  * - 
-    - T0835
-    - Manipulate I/O Image
 
   * - 
     - T0836
