@@ -42,9 +42,18 @@ def test_create_mappings_csv(dir_location):
     sheets = get_sheets(pathlib.Path(dir_location, "fixtures", "test_spreadsheet_1.xlsx"))
 
     with tempfile.NamedTemporaryFile() as csvfile:
-        generate_csv_spreadsheet(sheets, pathlib.Path(csvfile.name))
+        static_file = open(pathlib.Path(dir_location, "fixtures", "create_mappings_output.csv")).readlines()
 
-        assert filecmp.cmp(csvfile.name, pathlib.Path(dir_location, "fixtures", "create_mappings_output.csv"))
+        generate_csv_spreadsheet(sheets, pathlib.Path(csvfile.name))
+        test_file = open(pathlib.Path(csvfile.name)).readlines()
+
+        assert len(static_file) == len(test_file)
+
+        # The function includes the date that this is run in the file, so we need to check the files
+        # are the same except the date
+        for line in range(len(static_file)):
+            assert static_file[line].split(",")[1:] == test_file[line].split(",")[1:]
+
 
 def test_create_mappings_json(dir_location):
     sheets = get_sheets(pathlib.Path(dir_location, "fixtures", "test_spreadsheet_1.xlsx"))
