@@ -126,7 +126,9 @@ def generate_attack_types_tables(attack_types, mappings_dir):
     return obj_lines
 
 
-def main(args):
+def main():
+    args = _parse_args()
+
     attack_types = [i for i in os.listdir(args.mappings_dir) if 
                     not pathlib.Path(args.mappings_dir, i).is_file()]
 
@@ -141,8 +143,8 @@ def main(args):
 
 
     
-if __name__ == "__main__":
-    top_level = pathlib.Path(__file__).resolve().parent.parent.parent
+def _parse_args():
+    top_level = pathlib.Path(__file__).resolve().parent.parent.parent.parent
     parser = argparse.ArgumentParser(description="Generate docs for mappings")
     parser.add_argument("-doc-file",
                         dest="old_doc",
@@ -156,6 +158,7 @@ if __name__ == "__main__":
                         type=pathlib.Path,
                         default=pathlib.Path(top_level,  "mappings",  "veris-1.3.7",  "input"),
                         )
-    args = parser.parse_args()
+    return parser.parse_args()
 
-    main(args)
+if __name__ == "__main__":
+    main()

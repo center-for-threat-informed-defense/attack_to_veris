@@ -3,7 +3,14 @@ name = "veris"
 version = "2.0.0"
 description = ""
 authors = ["Center for Threat-Informed Defense <ctid@mitre-engenuity.org>"]
+packages = [
+    { include = "veris", from = "src" },
+]
 license = "Apache"
+
+[tool.poetry.scripts]
+veris_make = "veris.util.make:main"
+veris_docs = "veris.util.generate_docs:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"

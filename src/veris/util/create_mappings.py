@@ -181,8 +181,22 @@ def generate_json_mappings(sheets, config_location, json_mappings_location):
         json.dump(json_mappings, f, indent=4, sort_keys=False, ensure_ascii=False)
 
 
-def get_argparse():
-    ROOT_DIR = pathlib.Path(__file__).parent.parent.parent
+def main():
+    args = _parse_args()
+
+    if args.groups:
+        sheet_name = "Actor.External.Motive"
+        sheets = [get_sheet_by_name(args.spreadsheet_location, sheet_name)]
+    else:
+        sheets = get_sheets(args.spreadsheet_location)
+
+    generate_veris_enumerations(args.veris_location, args.veris_version)
+    generate_csv_spreadsheet(sheets, args.mappings_location)
+    generate_json_mappings(sheets, args.config_location, args.json_location)
+
+
+def _parse_args():
+    ROOT_DIR = pathlib.Path(__file__).parent.parent.parent.parent
 
     parser = argparse.ArgumentParser(description="Create ATT&CK Navigator layers from VERIS mappings")
     parser.add_argument("-config-location",
@@ -222,19 +236,8 @@ def get_argparse():
     parser.add_argument("-groups",
                         action="store_true",
                         help="If specified, create mappings for group objects")
-    return parser
+    return parser.parse_args()
 
 
 if __name__ == '__main__':
-    parser = get_argparse()
-    args = parser.parse_args()
-
-    if args.groups:
-        sheet_name = "Actor.External.Motive"
-        sheets = [get_sheet_by_name(args.spreadsheet_location, sheet_name)]
-    else:
-        sheets = get_sheets(args.spreadsheet_location)
-
-    generate_veris_enumerations(args.veris_location, args.veris_version)
-    generate_csv_spreadsheet(sheets, args.mappings_location)
-    generate_json_mappings(sheets, args.config_location, args.json_location)
+    main()

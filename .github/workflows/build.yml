@@ -39,15 +39,6 @@ jobs:
       with:
         name: attack_to_veris_docs_html
         path: docs/_build/html/ # TODO Change to dirhtml for release
-    - name: Install TeX Live
-      run: sudo apt install -y latexmk texlive texlive-latex-extra
-    - name: Build PDF docs
-      run: poetry run sphinx-build -M latexpdf docs docs/_build
-    - name: Upload PDF docs
-      uses: actions/upload-artifact@v3
-      with:
-        name: attack_to_veris_docs_pdf
-        path: docs/_build/latex/attcktoverismappings.pdf
 
   # TODO: uncomment after setting up github pages
   # github_pages:

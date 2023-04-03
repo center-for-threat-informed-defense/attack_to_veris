@@ -5,7 +5,7 @@ import os
 import numpy
 import pytest
 
-from src.util.create_mappings import get_sheets, get_sheet_by_name
+from veris.util.create_mappings import get_sheets, get_sheet_by_name
 
 @pytest.fixture()
 def mappings_dir():

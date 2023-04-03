@@ -15,7 +15,7 @@ def save_bundle(bundle, path):
     print("done!")
 
 
-def main(args):
+def main():
     """
     Parses the VERIS vocabulary entries and ATT&CK mappings and creates STIX2 Bundles.
 
@@ -27,6 +27,8 @@ def main(args):
     :param attack_domain: the attack domain we are mapping with
     :return tuple with (out_enumerations, out_mappings)
     """
+
+    args = _parse_args()
 
     # build control ID helper lookups so that STIX IDs don't get replaced on each rebuild
     veris_ids = {}
@@ -82,8 +84,8 @@ def main(args):
     return args.out_enumerations, args.out_mappings 
 
 
-if __name__ == "__main__":
-    ROOT_DIR = pathlib.Path(__file__).parent.parent.parent
+def _parse_args():
+    ROOT_DIR = pathlib.Path(__file__).parent.parent.parent.parent
 
     parser = argparse.ArgumentParser(description="Parses VERIS, ATT&CK and produces mappings in STIX 2.0")
     parser.add_argument("-input-enumerations",
@@ -125,6 +127,8 @@ if __name__ == "__main__":
                         action="store_true",
                         help="If specified, create mappings for group objects")
 
-    args = parser.parse_args()
+    return parser.parse_args()
 
-    main(args)
+
+if __name__ == "__main__":
+    main()

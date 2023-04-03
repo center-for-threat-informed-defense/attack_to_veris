@@ -250,49 +250,8 @@ def get_x_mitre(ms, type="attack-pattern"):
     return keys
 
 
-def get_argparse():
-    ROOT_DIR = pathlib.Path(__file__).parent.parent.parent
-
-    parser = argparse.ArgumentParser(description="Create ATT&CK Navigator layers from VERIS mappings")
-    parser.add_argument("-veris-objects",
-                        dest="veris_objects",
-                        help="filepath to the STIX Bundle representing the VERIS framework",
-                        type=pathlib.Path,
-                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "stix", "enterprise", 
-                            f"veris1_3_7-enumerations-enterprise.json"))
-    parser.add_argument("-mappings",
-                        dest="mappings",
-                        help="filepath to the STIX Bundle mappings from VERIS to ATT&CK",
-                        type=pathlib.Path,
-                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "stix", "enterprise", 
-                            f"veris1_3_7-mappings-enterprise.json"))
-    parser.add_argument("-domain",
-                        choices=["enterprise-attack", "ics-attack", "mobile-attack"],
-                        dest="domain",
-                        help="the domain of ATT&CK to visualize",
-                        default="enterprise-attack")
-    parser.add_argument("-version",
-                        dest="version",
-                        help="which ATT&CK version to use",
-                        default="12.1")
-    parser.add_argument("-output",
-                        help="folder to write output layers to",
-                        type=pathlib.Path,
-                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "layers"))
-    parser.add_argument("-clear",
-                        action="store_true",
-                        help="if flag specified, will remove the contents the output folder before writing layers")
-    parser.add_argument("-build-directory",
-                        dest="build_dir",
-                        action="store_true",
-                        help="if flag specified, will build a markdown file listing the output files "
-                             "for easy access in the Navigator")
-    return parser
-
-
-if __name__ == "__main__":
-    parser = get_argparse()
-    args = parser.parse_args()
+def main():
+    args = _parse_args()
 
     print("downloading ATT&CK data... ", end="", flush=True)
     url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{args.version}/{args.domain}/{args.domain}.json"
@@ -360,3 +319,46 @@ if __name__ == "__main__":
             f.write("\n".join(md_file_lines))
 
         print("done")
+        
+
+def _parse_args():
+    ROOT_DIR = pathlib.Path(__file__).parent.parent.parent.parent
+
+    parser = argparse.ArgumentParser(description="Create ATT&CK Navigator layers from VERIS mappings")
+    parser.add_argument("-veris-objects",
+                        dest="veris_objects",
+                        help="filepath to the STIX Bundle representing the VERIS framework",
+                        type=pathlib.Path,
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "stix", "enterprise", 
+                            f"veris1_3_7-enumerations-enterprise.json"))
+    parser.add_argument("-mappings",
+                        dest="mappings",
+                        help="filepath to the STIX Bundle mappings from VERIS to ATT&CK",
+                        type=pathlib.Path,
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "stix", "enterprise", 
+                            f"veris1_3_7-mappings-enterprise.json"))
+    parser.add_argument("-domain",
+                        choices=["enterprise-attack", "ics-attack", "mobile-attack"],
+                        dest="domain",
+                        help="the domain of ATT&CK to visualize",
+                        default="enterprise-attack")
+    parser.add_argument("-version",
+                        dest="version",
+                        help="which ATT&CK version to use",
+                        default="12.1")
+    parser.add_argument("-output",
+                        help="folder to write output layers to",
+                        type=pathlib.Path,
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "layers"))
+    parser.add_argument("-clear",
+                        action="store_true",
+                        help="if flag specified, will remove the contents the output folder before writing layers")
+    parser.add_argument("-build-directory",
+                        dest="build_dir",
+                        action="store_true",
+                        help="if flag specified, will build a markdown file listing the output files "
+                             "for easy access in the Navigator")
+    return parser.parse_args()
+
+if __name__ == "__main__":
+    main()

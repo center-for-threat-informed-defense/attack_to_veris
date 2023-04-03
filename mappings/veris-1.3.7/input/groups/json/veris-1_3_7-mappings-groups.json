@@ -170,6 +170,12 @@
                 "actor.external.motive.Espionage"
             ]
         },
+        "G0009": {
+            "name": "Deep Panda",
+            "veris": [
+                "actor.external.motive.Espionage"
+            ]
+        },
         "G0035": {
             "name": "Dragonfly",
             "veris": [
@@ -784,6 +790,9 @@
                         },
                         "G0012": {
                             "name": "Darkhotel"
+                        },
+                        "G0009": {
+                            "name": "Deep Panda"
                         },
                         "G0035": {
                             "name": "Dragonfly"
