@@ -256,14 +256,12 @@ Value Chain Axis Scope
 Mapping Philosophy and Process
 ------------------------------
 
-Based on those scoping decisions, the mappings were created by analyzing
-each in-scope ATT&CK technique/sub-technique and each in-scope VERIS
-enumeration value.
-VERIS and ATT&CK are at different levels of abstraction and cannot
-always perfectly describe the adversary behaviors that they are meant to
-represent. Some amount of analyst judgment is required, and whenever judgment is
-involved, there can be differences of opinion.
-These design decisions document our judgement and rationale.
+Based on those scoping decisions, the mappings were created by analyzing each
+in-scope ATT&CK technique/sub-technique and each in-scope VERIS enumeration value.
+VERIS and ATT&CK are at different levels of abstraction and cannot always perfectly
+describe the adversary behaviors that they are meant to represent. Some amount of 
+analyst judgment is required, and whenever judgment is involved, there can be 
+differences of opinion. These design decisions document our judgement and rationale.
 
 Guiding Principles and Design Decisions
 ---------------------------------------
