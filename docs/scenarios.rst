@@ -9,10 +9,10 @@ and incident demographics.
 
 Each scenario is presented in the following format:
 
-a.  Overview of the Attack
-b.  Translation between VERIS and ATT&CK
-c.  Role-Based Use Cases
-d.  References
+- Overview of the Attack
+- Translation between VERIS and ATT&CK
+- Role-Based Use Cases
+- References
 
 
 SolarWinds Supply Chain Breach (Enterprise Environment)
