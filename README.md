@@ -1,10 +1,10 @@
 [![MITRE ATT&CK® v12.1](https://img.shields.io/badge/MITRE%20ATT%26CK®-v12-red)](https://attack.mitre.org/versions/v12/)
-[![build](https://github.com/center-for-threat-informed-defense/veris-2/actions/workflows/build.yml/badge.svg)](https://github.com/center-for-threat-informed-defense/veris-2/actions/workflows/build.yml)
+[![build](https://github.com/center-for-threat-informed-defense/attack_to_veris/actions/workflows/build.yml/badge.svg)](https://github.com/center-for-threat-informed-defense/attack_to_veris/actions/workflows/build.yml)
 
 # VERIS Mappings to MITRE ATT&CK®
 
 [Vocabulary for Event Recording and Incident Sharing
-(VERIS)](http://veriscommunity.net/) provides a common language for describing
+(VERIS)](https://verisframework.org/) provides a common language for describing
 cybersecurity incidents–including the demographics, metadata, and technical details–in a
 repeatable manner. As a standard representation, it allows for the analysis of data
 across a variety of incidents and is used, among other things, to generate the [Verizon

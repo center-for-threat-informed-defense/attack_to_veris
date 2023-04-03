@@ -14,8 +14,8 @@ From the master excel spreadsheet, generates the CSV for the VERIS enumerations 
 | Argument | Description | Default Value |
 |:--|:--|:--|
 | config-location | filepath to the configuration for the framework | [../stix/input/config.json](../stix/input/config.json) |
-| spreadsheet-location | filepath to the Excel spreadsheet for the mappings | [../mappings/enterprise/xlsx/veris-2-mappings-enterprise.xlsx](../mappings/enterprise/xlsx) |
-| json-location | filepath to the JSON version of the spreadsheet mappings | [../mappings/enterprise/json/veris-2-mappings-enterprise.json](../mappings/enterprise/json/) |
+| spreadsheet-location | filepath to the Excel spreadsheet for the mappings | [../mappings/enterprise/xlsx/veris137-mappings-enterprise.xlsx](../mappings/enterprise/xlsx) |
+| json-location | filepath to the JSON version of the spreadsheet mappings | [../mappings/enterprise/json/veris137-mappings-enterprise.json](../mappings/enterprise/json/) |
 | mappings-location | filepath to the CSV spreadsheet to write the mappings | [../mappings/enterprise/csv/veris137-mappings-enterprise.csv](../mappings/enterprise/csv/) |
 | veris-location | filepath to the CSV spreadsheet to write the enumeration | [../mappings/enterprise/csv/veris137-enumerations-enterprise.csv](../mappings/enterprise/csv/) |
 | veris-version | the veris version to use | 1.3.7 |
