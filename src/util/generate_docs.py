@@ -73,8 +73,8 @@ def generate_attack_types_tables(attack_types, mappings_dir):
     obj_lines = []
 
     for attack_type in attack_types:
-        csv_path = pathlib.Path(mappings_dir, attack_type, "csv", f"veris137-mappings-{attack_type}.csv")
-        json_path = pathlib.Path(mappings_dir, attack_type, "json", f"veris-2-mappings-{attack_type}.json")
+        csv_path = pathlib.Path(mappings_dir, attack_type, "csv", f"veris1_3_7-mappings-{attack_type}.csv")
+        json_path = pathlib.Path(mappings_dir, attack_type, "json", f"veris-1_3_7-mappings-{attack_type}.json")
         if csv_path.is_file():
             mappings_table = generate_mappings_enumerations(csv_path)
             with open(json_path) as file:
@@ -127,7 +127,8 @@ def generate_attack_types_tables(attack_types, mappings_dir):
 
 
 def main(args):
-    attack_types = os.listdir(args.mappings_dir)
+    attack_types = [i for i in os.listdir(args.mappings_dir) if 
+                    not pathlib.Path(args.mappings_dir, i).is_file()]
 
     obj_lines = generate_attack_types_tables(attack_types, args.mappings_dir)
     
@@ -142,7 +143,6 @@ def main(args):
     
 if __name__ == "__main__":
     top_level = pathlib.Path(__file__).resolve().parent.parent.parent
-    print(top_level)
     parser = argparse.ArgumentParser(description="Generate docs for mappings")
     parser.add_argument("-doc-file",
                         dest="old_doc",
@@ -154,7 +154,7 @@ if __name__ == "__main__":
                         dest="mappings_dir",
                         help="Location of the top level mappings directory",
                         type=pathlib.Path,
-                        default=pathlib.Path(top_level / "src" / "mappings"),
+                        default=pathlib.Path(top_level,  "mappings",  "veris-1.3.7",  "input"),
                         )
     args = parser.parse_args()
 

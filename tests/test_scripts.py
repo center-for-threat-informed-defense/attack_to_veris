@@ -74,7 +74,7 @@ def test_parse_veris(dir_location):
     mappings = pathlib.Path(mappings_file)
     config_location = pathlib.Path(dir_location, "fixtures", "config.json")
     child_process = subprocess.Popen([
-        "python", "-m", "src.stix.parse",
+        "python", "-m", "src.parse.parse",
         "-input-enumerations", veris_location,
         "-input-mappings", mappings_location,
         "-output-enumerations", veris_objects,

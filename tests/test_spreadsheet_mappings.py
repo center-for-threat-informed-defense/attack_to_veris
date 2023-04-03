@@ -9,7 +9,7 @@ from src.util.create_mappings import get_sheets, get_sheet_by_name
 
 @pytest.fixture()
 def mappings_dir():
-    return pathlib.Path(pathlib.Path(__file__).parent.parent / "src" / "mappings")
+    return pathlib.Path(pathlib.Path(__file__).parent.parent / "mappings" / "veris-1.3.7" / "input")
 
 
 @pytest.fixture()
