@@ -11,7 +11,7 @@ information to allow others to protect themselves from the threat.
 
 To allow cyber professionals to better connect the who, what, and why (captured in
 VERIS) with the when and how (described in ATT&CK), the Center created a mapping and
-translation layer between VERIS and ATT&CK in 2021. This mappin layers allows analysts
+translation layer between VERIS and ATT&CK in 2021. This mapping layer allows analysts
 to describe the adversary behaviors observed in an incident coded in VERIS. This allows
 for a joint analysis of the information that ATT&CK describes well (the behaviors
 adversaries use to attack systems) alongside the incident demographics and metadata that
