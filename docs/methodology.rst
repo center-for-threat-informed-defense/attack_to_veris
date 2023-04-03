@@ -52,20 +52,19 @@ components:
 Adversary behaviors can be described by mapping them to the appropriate
 tactics, techniques, and sub-techniques in ATT&CK.
 
-The 2021 mapping project took
-enumeration values in VERIS and mapped them to ATT&CK Enterprise
-Techniques. The resultant mappings could be used to either take a VERIS
-enumeration value and come up with a list of ATT&CK techniques and
-sub-techniques, or to take an ATT&CK technique or sub-technique and come
-up with a list of VERIS enumeration values.
+The 2021 mapping project took enumeration values in VERIS and mapped them
+to ATT&CK Enterprise Techniques. The resultant mappings could be used to
+either take a VERIS enumeration value and come up with a list of ATT&CK 
+techniques and sub-techniques, or to take an ATT&CK technique or sub-technique 
+and come up with a list of VERIS enumeration values.
+
 The 2023 update to the mapping project continues the work of the original integration
-project by updating and expanding the mapping and translation layer
-between VERIS and ATT&CK to enhance the community's ability to pivot
-from VERIS to ATT&CK Techniques related to a particular incident. In
-addition, the documentation has been updated and expanded to
-provide updated use cases and new scenario examples that further demonstrate
-how the mappings can support
-describing and communicating information about security incidents.
+project by updating and expanding the mapping and translation layer between
+VERIS and ATT&CK to enhance the community's ability to pivot from VERIS to
+ATT&CK Techniques related to a particular incident. In addition, the documentation 
+has been updated and expanded to provide updated use cases and new scenario examples
+that further demonstrate how the mappings can support describing and communicating 
+information about security incidents.
 
 Scope
 -----
