@@ -8,7 +8,7 @@ import filecmp
 
 import pytest
 
-from src.util.create_mappings import get_sheets, generate_csv_spreadsheet, generate_json_mappings
+from veris.util.create_mappings import get_sheets, generate_csv_spreadsheet, generate_json_mappings
 
 
 @pytest.fixture()
@@ -74,7 +74,7 @@ def test_parse_veris(dir_location):
     mappings = pathlib.Path(mappings_file)
     config_location = pathlib.Path(dir_location, "fixtures", "config.json")
     child_process = subprocess.Popen([
-        "python", "-m", "src.parse.parse",
+        "python", "-m", "veris.parse.parse",
         "-input-enumerations", veris_location,
         "-input-mappings", mappings_location,
         "-output-enumerations", veris_objects,

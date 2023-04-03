@@ -115,7 +115,8 @@ def write_layers(output_dir, attack_type, layers_data):
 
 
 
-def main(args):
+def main():
+    args = _parse_args()
     attack_types = []
 
     if args.attack_type == "all":
@@ -155,8 +156,8 @@ def main(args):
         write_layers(args.output_dir, attack_type, layers_data)
 
 
-if __name__ == "__main__":
-    ROOT_DIR = pathlib.Path(__file__).parent.parent.parent
+def _parse_args():
+    ROOT_DIR = pathlib.Path(__file__).parent.parent.parent.parent
 
     parser = argparse.ArgumentParser(description="Create ATT&CK Navigator layers from VERIS mappings for group data")
 
@@ -185,6 +186,8 @@ if __name__ == "__main__":
                         default="12.1",
                         )
     
-    args = parser.parse_args()
+    return parser.parse_args()
 
-    main(args)
+
+if __name__ == "__main__":
+    main()
