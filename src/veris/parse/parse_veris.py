@@ -30,7 +30,7 @@ class VERISEntry(object):
 
     def to_stix(self, framework_id):
         """Convert to a STIX AttackPattern"""
-        base_url = "https://veriscommunity.net/enums.html"
+        base_url = "https://verisframework.org/enums.html"
 
         if self.axes == "action":
             base_url = base_url + "#section-actions"
