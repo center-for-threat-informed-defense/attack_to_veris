@@ -39,8 +39,6 @@ jobs:
       with:
         name: attack_to_veris_docs_html
         path: docs/_build/html/ # TODO Change to dirhtml for release
-    - name: Generate mappings doc
-      run: poetry run veris_docs 
 
   # TODO: uncomment after setting up github pages
   # github_pages:
