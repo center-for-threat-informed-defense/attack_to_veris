@@ -4,7 +4,7 @@
 # VERIS Mappings to MITRE ATT&CK®
 
 [Vocabulary for Event Recording and Incident Sharing
-(VERIS)](http://veriscommunity.net/) provides a common language for describing
+(VERIS)](http://veriscommunity.org/) provides a common language for describing
 cybersecurity incidents–including the demographics, metadata, and technical details–in a
 repeatable manner. As a standard representation, it allows for the analysis of data
 across a variety of incidents and is used, among other things, to generate the [Verizon
@@ -60,11 +60,11 @@ website](https://center-for-threat-informed-defense.github.io/attack_to_veris/).
 | Resource                                                                                 | Description                                                                        |
 | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | [Project Website](https://center-for-threat-informed-defense.github.io/attack_to_veris/) | Documentation, scenarios, and use cases for VERIS mappings.                        |
-| [VERIS to ATT&CK Mappings](./src/mappings/)                                              | VERIS framework mappings to ATT&CK.                                                |
-| [ATT&CK Navigator Layers – Enterprise](./src/stix/output/enterprise/layers/)             | ATT&CK Navigator layers representing the mappings from Enterprise ATT&CK to VERIS. |
-| [ATT&CK Navigator Layers – Mobile](./src/stix/output/mobile/layers/)                     | ATT&CK Navigator layers representing the mappings from Mobile ATT&CK to VERIS.     |
-| [ATT&CK Navigator Layers – ICS](./src/stix/output/ics/layers/)                           | ATT&CK Navigator layers representing the mappings from ICS ATT&CK to VERIS.        |
-| [ATT&CK Navigator Layers – Groups](./src/stix/output/groups/layers/)                     | ATT&CK Navigator layers representing the mappings from ATT&CK Groups to VERIS.     |
+| [VERIS to ATT&CK Mappings](./mappings/)                                                  | VERIS framework mappings to ATT&CK.                                                |
+| [ATT&CK Navigator Layers – Enterprise](./stix/output/enterprise/layers/)                 | ATT&CK Navigator layers representing the mappings from Enterprise ATT&CK to VERIS. |
+| [ATT&CK Navigator Layers – Mobile](./stix/output/mobile/layers/)                         | ATT&CK Navigator layers representing the mappings from Mobile ATT&CK to VERIS.     |
+| [ATT&CK Navigator Layers – ICS](./stix/output/ics/layers/)                               | ATT&CK Navigator layers representing the mappings from ICS ATT&CK to VERIS.        |
+| [ATT&CK Navigator Layers – Groups](./stix/output/groups/layers/)                         | ATT&CK Navigator layers representing the mappings from ATT&CK Groups to VERIS.     |
 
 ## Getting Involved
 
