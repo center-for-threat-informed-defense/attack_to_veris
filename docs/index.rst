@@ -20,7 +20,7 @@ This project is created and maintained by the `MITRE Engenuity Center for
 Threat-Informed Defense (Center) <https://ctid.mitre-engenuity.org/>`_ in futherance of
 our mission to advance the start of the art and and the state of the practice in
 threat-informed defense globally. The project is funded by our `research participants
-<https://mitre-engenuity.org/blog/2021/08/26/attck-integration-into-veris/#research-participants>`_.
+<https://mitre-engenuity.org/blog/2023/04/6/attck-integration-into-veris/#research-participants>`_.
 
 .. toctree::
    :maxdepth: 2
