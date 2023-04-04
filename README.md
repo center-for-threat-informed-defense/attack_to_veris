@@ -87,6 +87,7 @@ Also see the guidance for contributors if are you interested in [contributing or
 reporting issues.](/CONTRIBUTING.md)
 
 ## Notice
+
 Copyright 2021-2023 MITRE Engenuity. Approved for public release. Document number CT0064
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
