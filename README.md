@@ -1,10 +1,10 @@
 [![MITRE ATT&CK® v12.1](https://img.shields.io/badge/MITRE%20ATT%26CK®-v12-red)](https://attack.mitre.org/versions/v12/)
-[![build](https://github.com/center-for-threat-informed-defense/veris-2/actions/workflows/build.yml/badge.svg)](https://github.com/center-for-threat-informed-defense/veris-2/actions/workflows/build.yml)
+[![build](https://github.com/center-for-threat-informed-defense/attack_to_veris/actions/workflows/build.yml/badge.svg)](https://github.com/center-for-threat-informed-defense/attack_to_veris/actions/workflows/build.yml)
 
 # VERIS Mappings to MITRE ATT&CK®
 
 [Vocabulary for Event Recording and Incident Sharing
-(VERIS)](http://veriscommunity.org/) provides a common language for describing
+(VERIS)](https://verisframework.org/) provides a common language for describing
 cybersecurity incidents–including the demographics, metadata, and technical details–in a
 repeatable manner. As a standard representation, it allows for the analysis of data
 across a variety of incidents and is used, among other things, to generate the [Verizon
@@ -57,14 +57,14 @@ website](https://center-for-threat-informed-defense.github.io/attack_to_veris/).
 
 ## Getting Started
 
-| Resource                                                                                 | Description                                                                        |
-| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| [Project Website](https://center-for-threat-informed-defense.github.io/attack_to_veris/) | Documentation, scenarios, and use cases for VERIS mappings.                        |
-| [VERIS to ATT&CK Mappings](./mappings/)                                                  | VERIS framework mappings to ATT&CK.                                                |
-| [ATT&CK Navigator Layers – Enterprise](./stix/output/enterprise/layers/)                 | ATT&CK Navigator layers representing the mappings from Enterprise ATT&CK to VERIS. |
-| [ATT&CK Navigator Layers – Mobile](./stix/output/mobile/layers/)                         | ATT&CK Navigator layers representing the mappings from Mobile ATT&CK to VERIS.     |
-| [ATT&CK Navigator Layers – ICS](./stix/output/ics/layers/)                               | ATT&CK Navigator layers representing the mappings from ICS ATT&CK to VERIS.        |
-| [ATT&CK Navigator Layers – Groups](./stix/output/groups/layers/)                         | ATT&CK Navigator layers representing the mappings from ATT&CK Groups to VERIS.     |
+| Resource                                                                                                           | Description                                                               |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| [Project Website](https://center-for-threat-informed-defense.github.io/attack_to_veris/)                           | Documentation, scenarios, and use cases for VERIS mappings.               |
+| [VERIS to ATT&CK Mappings](./mappings/veris-1.3.7/)                                                                | VERIS framework mappings to ATT&CK.                                       |
+| [ATT&CK Navigator Layers – Enterprise](./mappings/veris-1.3.7/stix/enterprise/veris1_3_7-mappings-enterprise.json) | ATT&CK Navigator layers for the mappings from Enterprise ATT&CK to VERIS. |
+| [ATT&CK Navigator Layers – Mobile](./mappings/veris-1.3.7/stix/mobile/veris1_3_7-mappings-mobile.json)             | ATT&CK Navigator layers for the mappings from Mobile ATT&CK to VERIS.     |
+| [ATT&CK Navigator Layers – ICS](./mappings/veris-1.3.7/stix/ics/veris1_3_7-mappings-ics.json)                      | ATT&CK Navigator layers for the mappings from ICS ATT&CK to VERIS.        |
+| [ATT&CK Navigator Layers – Groups](./mappings/veris-1.3.7/stix/groups/veris1_3_7-mappings-groups.json)             | ATT&CK Navigator layers for the mappings from ATT&CK Groups to VERIS.     |
 
 ## Getting Involved
 
@@ -87,6 +87,7 @@ Also see the guidance for contributors if are you interested in [contributing or
 reporting issues.](/CONTRIBUTING.md)
 
 ## Notice
+
 Copyright 2021-2023 MITRE Engenuity. Approved for public release. Document number CT0064
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
