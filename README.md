@@ -57,14 +57,14 @@ website](https://center-for-threat-informed-defense.github.io/attack_to_veris/).
 
 ## Getting Started
 
-| Resource                                                                                 | Description                                                                        |
-| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| [Project Website](https://center-for-threat-informed-defense.github.io/attack_to_veris/) | Documentation, scenarios, and use cases for VERIS mappings.                        |
-| [VERIS to ATT&CK Mappings](./src/mappings/)                                              | VERIS framework mappings to ATT&CK.                                                |
-| [ATT&CK Navigator Layers – Enterprise](./src/stix/output/enterprise/layers/)             | ATT&CK Navigator layers representing the mappings from Enterprise ATT&CK to VERIS. |
-| [ATT&CK Navigator Layers – Mobile](./src/stix/output/mobile/layers/)                     | ATT&CK Navigator layers representing the mappings from Mobile ATT&CK to VERIS.     |
-| [ATT&CK Navigator Layers – ICS](./src/stix/output/ics/layers/)                           | ATT&CK Navigator layers representing the mappings from ICS ATT&CK to VERIS.        |
-| [ATT&CK Navigator Layers – Groups](./src/stix/output/groups/layers/)                     | ATT&CK Navigator layers representing the mappings from ATT&CK Groups to VERIS.     |
+| Resource                                                                                                           | Description                                                               |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| [Project Website](https://center-for-threat-informed-defense.github.io/attack_to_veris/)                           | Documentation, scenarios, and use cases for VERIS mappings.               |
+| [VERIS to ATT&CK Mappings](./mappings/veris-1.3.7/)                                                                | VERIS framework mappings to ATT&CK.                                       |
+| [ATT&CK Navigator Layers – Enterprise](./mappings/veris-1.3.7/stix/enterprise/veris1_3_7-mappings-enterprise.json) | ATT&CK Navigator layers for the mappings from Enterprise ATT&CK to VERIS. |
+| [ATT&CK Navigator Layers – Mobile](./mappings/veris-1.3.7/stix/mobile/veris1_3_7-mappings-mobile.json)             | ATT&CK Navigator layers for the mappings from Mobile ATT&CK to VERIS.     |
+| [ATT&CK Navigator Layers – ICS](./mappings/veris-1.3.7/stix/ics/veris1_3_7-mappings-ics.json)                      | ATT&CK Navigator layers for the mappings from ICS ATT&CK to VERIS.        |
+| [ATT&CK Navigator Layers – Groups](./mappings/veris-1.3.7/stix/groups/veris1_3_7-mappings-groups.json)             | ATT&CK Navigator layers for the mappings from ATT&CK Groups to VERIS.     |
 
 ## Getting Involved
 
