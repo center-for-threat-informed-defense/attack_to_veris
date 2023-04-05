@@ -17,10 +17,12 @@ empowers defenders to efficiently connect ATT&CK-based threat intel to VERIS-bas
 incident reports, to more fully understand and document cybersecurity incidents.
 
 This project is created and maintained by the `MITRE Engenuity Center for
-Threat-Informed Defense (Center) <https://ctid.mitre-engenuity.org/>`_ in futherance of
-our mission to advance the start of the art and and the state of the practice in
-threat-informed defense globally. The project is funded by our `research participants
-<https://mitre-engenuity.org/blog/2023/04/6/attck-integration-into-veris/#research-participants>`_.
+Threat-Informed Defense (Center)
+<https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/>`_ in
+futherance of our mission to advance the start of the art and and the state of the
+practice in threat-informed defense globally. The project is funded by our `research
+participants
+<https://mitre-engenuity.org/blog/2023/04/06/attck-integration-into-veris/#research-participants>`_.
 
 .. toctree::
    :maxdepth: 2
