@@ -33,11 +33,3 @@ participants
    mappings
    use_cases
    scenarios
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
