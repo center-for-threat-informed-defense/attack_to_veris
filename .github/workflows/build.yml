@@ -33,35 +33,34 @@ jobs:
     - name: Install dependencies
       run: poetry install
     - name: Build HTML docs
-      run: poetry run sphinx-build -M html docs docs/_build -W --keep-going # TODO Change to dirhtml for release
+      run: poetry run sphinx-build -M dirhtml docs docs/_build -W --keep-going
     - name: Upload HTML docs
       uses: actions/upload-artifact@v3
       with:
         name: attack_to_veris_docs_html
-        path: docs/_build/html/ # TODO Change to dirhtml for release
+        path: docs/_build/dirhtml/
 
-  # TODO: uncomment after setting up github pages
-  # github_pages:
-  #   # This job only runs when committing or merging to main branch.
-  #   if: github.ref_name == 'main'
-  #   needs: docs
-  #   runs-on: ubuntu-latest
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
+  github_pages:
+    # This job only runs when committing or merging to main branch.
+    if: github.ref_name == 'main'
+    needs: docs
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
-  #   steps:
-  #   - name: Setup Pages
-  #     uses: actions/configure-pages@v2
-  #   - name: Download HTML docs
-  #     uses: actions/download-artifact@v3
-  #     with:
-  #       name: attack_to_veris_docs_html
-  #       path: docs
-  #   - name: Upload artifact
-  #     uses: actions/upload-pages-artifact@v1
-  #     with:
-  #       path: ./docs
-  #   - name: Deploy to GitHub Pages
-  #     id: deployment
-  #     uses: actions/deploy-pages@v1
+    steps:
+    - name: Setup Pages
+      uses: actions/configure-pages@v2
+    - name: Download HTML docs
+      uses: actions/download-artifact@v3
+      with:
+        name: attack_to_veris_docs_html
+        path: docs
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: ./docs
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v1
