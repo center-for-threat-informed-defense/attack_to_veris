@@ -305,7 +305,7 @@ def main():
             f"layers represent the mappings from ATT&CK to VERIS:",
             ""
         ]  # "" is an empty line
-        prefix = "https://raw.githubusercontent.com/center-for-threat-informed-defense/attack_to_veris/main/mappings/veris-1.3.7/layers/enterprise"
+        prefix = "https://raw.githubusercontent.com/center-for-threat-informed-defense/attack_to_veris/main/mappings/veris-1.3.7/layers"
         nav_prefix = "https://mitre-attack.github.io/attack-navigator/#layerURL="
         for layer in layers:
 
@@ -314,7 +314,7 @@ def main():
             layer_name = layer['layer']['name']
             if layer_name.endswith("overview"):
                 depth = max(0, depth - 1)  # overviews get un-indented
-            path = [prefix] + list(path_parts)
+            path = [prefix, domain_dirs[args.domain]] + list(path_parts)
             path = "/".join(path)
             encodedPath = urllib.parse.quote(path, safe='~()*!.\'')  # encode the url for the query string
             md_line = f"{'    ' * depth}- {layer_name} ( [download]({path}) | [view]({nav_prefix}{encodedPath}) )"
