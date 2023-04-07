@@ -252,6 +252,12 @@ def get_x_mitre(ms, type="attack-pattern"):
 
 def main():
     args = _parse_args()
+    domain_dirs = {
+        "enterprise-attack": "enterprise",
+        "ics-attack": "ics",
+        "mobile-attack": "mobile",
+    }
+    out_dir = pathlib.Path(args.output) / domain_dirs[args.domain]
 
     print("downloading ATT&CK data... ", end="", flush=True)
     url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{args.version}/{args.domain}/{args.domain}.json"
@@ -284,11 +290,9 @@ def main():
     print("writing layers... ", end="", flush=True)
     for layer in layers:
         # make path if it doesn't exist
-        layer_dir = pathlib.Path(args.output, layer["outfile"]).parent
-        if not layer_dir.exists():
-            layer_dir.mkdir(parents=True)
-        # write layer
-        with pathlib.Path(args.output, layer["outfile"]).open("w", encoding="utf-8") as f:
+        layer_path = out_dir / layer["outfile"]
+        layer_path.parent.mkdir(parents=True, exist_ok=True)
+        with layer_path.open("w", encoding="utf-8") as f:
             json.dump(layer["layer"], f)
     print("done")
     if args.build_dir:
@@ -301,7 +305,7 @@ def main():
             f"layers represent the mappings from ATT&CK to VERIS:",
             ""
         ]  # "" is an empty line
-        prefix = "https://raw.githubusercontent.com/center-for-threat-informed-defense/attack_to_veris/main/frameworks"
+        prefix = "https://raw.githubusercontent.com/center-for-threat-informed-defense/attack_to_veris/main/mappings/veris-1.3.7/layers/enterprise"
         nav_prefix = "https://mitre-attack.github.io/attack-navigator/#layerURL="
         for layer in layers:
 
@@ -310,16 +314,17 @@ def main():
             layer_name = layer['layer']['name']
             if layer_name.endswith("overview"):
                 depth = max(0, depth - 1)  # overviews get un-indented
-            path = [prefix] + ["veris", "layers"] + list(path_parts)
+            path = [prefix] + list(path_parts)
             path = "/".join(path)
             encodedPath = urllib.parse.quote(path, safe='~()*!.\'')  # encode the url for the query string
             md_line = f"{'    ' * depth}- {layer_name} ( [download]({path}) | [view]({nav_prefix}{encodedPath}) )"
             md_file_lines.append(md_line)
-        with pathlib.Path(args.output, "README.md").open("w", encoding="utf-8") as f:
+
+        with (out_dir / "README.md").open("w", encoding="utf-8") as f:
             f.write("\n".join(md_file_lines))
 
         print("done")
-        
+
 
 def _parse_args():
     ROOT_DIR = pathlib.Path(__file__).parent.parent.parent.parent
@@ -329,13 +334,13 @@ def _parse_args():
                         dest="veris_objects",
                         help="filepath to the STIX Bundle representing the VERIS framework",
                         type=pathlib.Path,
-                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "stix", "enterprise", 
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "stix", "enterprise",
                             f"veris1_3_7-enumerations-enterprise.json"))
     parser.add_argument("-mappings",
                         dest="mappings",
                         help="filepath to the STIX Bundle mappings from VERIS to ATT&CK",
                         type=pathlib.Path,
-                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "stix", "enterprise", 
+                        default=pathlib.Path(ROOT_DIR, "mappings", "veris-1.3.7", "stix", "enterprise",
                             f"veris1_3_7-mappings-enterprise.json"))
     parser.add_argument("-domain",
                         choices=["enterprise-attack", "ics-attack", "mobile-attack"],
