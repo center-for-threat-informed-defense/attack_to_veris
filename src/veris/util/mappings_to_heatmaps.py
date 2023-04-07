@@ -259,17 +259,17 @@ def main():
     }
     out_dir = pathlib.Path(args.output) / domain_dirs[args.domain]
 
-    print("downloading ATT&CK data... ", end="", flush=True)
     url = f"https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v{args.version}/{args.domain}/{args.domain}.json"
+    print(f"downloading ATT&CK data from {url} ... ", end="", flush=True)
     attack_data = MemoryStore(stix_data=requests.get(url, verify=True).json()["objects"])
     print("done")
 
-    print("loading veris framework... ", end="", flush=True)
+    print(f"loading veris framework from {args.veris_objects} ... ", end="", flush=True)
     with open(args.veris_objects, "r") as f:
         veris_objects = MemoryStore(stix_data=json.load(f)["objects"], allow_custom=True)
     print("done")
 
-    print("loading mappings... ", end="", flush=True)
+    print(f"loading mappings from {args.mappings} ... ", end="", flush=True)
     with open(args.mappings, "r") as f:
         mappings = MemoryStore(stix_data=json.load(f)["objects"])
     print("done")
@@ -284,7 +284,7 @@ def main():
 
     if args.clear:
         print("clearing layers directory...", end="", flush=True)
-        shutil.rmtree(args.output)
+        shutil.rmtree(out_dir, ignore_errors=True)
         print("done")
 
     print("writing layers... ", end="", flush=True)
@@ -305,7 +305,7 @@ def main():
             f"layers represent the mappings from ATT&CK to VERIS:",
             ""
         ]  # "" is an empty line
-        prefix = "https://raw.githubusercontent.com/center-for-threat-informed-defense/attack_to_veris/main/mappings/veris-1.3.7/layers/enterprise"
+        prefix = "https://raw.githubusercontent.com/center-for-threat-informed-defense/attack_to_veris/main/mappings/veris-1.3.7/layers"
         nav_prefix = "https://mitre-attack.github.io/attack-navigator/#layerURL="
         for layer in layers:
 
@@ -314,7 +314,7 @@ def main():
             layer_name = layer['layer']['name']
             if layer_name.endswith("overview"):
                 depth = max(0, depth - 1)  # overviews get un-indented
-            path = [prefix] + list(path_parts)
+            path = [prefix, domain_dirs[args.domain]] + list(path_parts)
             path = "/".join(path)
             encodedPath = urllib.parse.quote(path, safe='~()*!.\'')  # encode the url for the query string
             md_line = f"{'    ' * depth}- {layer_name} ( [download]({path}) | [view]({nav_prefix}{encodedPath}) )"

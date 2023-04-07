@@ -38,10 +38,26 @@ Enables visualization of the veris mappings in the ATT&CK Matrix. Builds ATT&CK 
 | clear           | if flag specified, will remove the contents the output folder before writing layers                     | N/A                                                                                     |
 | build-directory | if flag specified, will build a markdown file listing the output files for easy access in the Navigator | N/A                                                                                     |
 
-Use with default arguments, but clear previous results and create markdown file
+To build layers from project root:
+
 ```
-python mappings_to_heatmaps.py -clear -build-directory
+$ python src/veris/util/mappings_to_heatmaps.py -clear -build-directory \
+    -domain enterprise-attack \
+    -veris-objects mappings/veris-1.3.7/stix/enterprise/veris1_3_7-enumerations-enterprise.json \
+    -mappings mappings/veris-1.3.7/stix/enterprise/veris1_3_7-mappings-enterprise.json
+
+
+$ python src/veris/util/mappings_to_heatmaps.py -clear -build-directory \
+    -domain mobile-attack \
+    -veris-objects mappings/veris-1.3.7/stix/mobile/veris1_3_7-enumerations-mobile.json \
+    -mappings mappings/veris-1.3.7/stix/mobile/veris1_3_7-mappings-mobile.json
+
+$ python src/veris/util/mappings_to_heatmaps.py -clear -build-directory \
+    -domain ics-attack \
+    -veris-objects mappings/veris-1.3.7/stix/ics/veris1_3_7-enumerations-ics.json \
+    -mappings mappings/veris-1.3.7/stix/ics/veris1_3_7-mappings-ics.json
 ```
+
 ## make.py
 ### Description
 Utility script used to generate the data in this repository. It will automatically generate data for the provided attack-type and place it in the appropriate folders. This is useful so that users don't need to specify file paths for every version.
