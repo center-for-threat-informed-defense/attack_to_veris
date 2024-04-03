@@ -1,5 +1,4 @@
-[![MITRE ATT&CK® v12.1](https://img.shields.io/badge/MITRE%20ATT%26CK®-v12-red)](https://attack.mitre.org/versions/v12/)
-[![build](https://github.com/center-for-threat-informed-defense/attack_to_veris/actions/workflows/build.yml/badge.svg)](https://github.com/center-for-threat-informed-defense/attack_to_veris/actions/workflows/build.yml)
+> 🚨**ATTENTION**🚨 The VERIS mappings have migrated to CTID’s new [Mappings Explorer](https://center-for-threat-informed-defense.github.io/mappings-explorer/external/veris/) project. You can find the latest mappings on the Mappings Explorer website. This website presents threat and mitigation data in easily accessible and customizable ways, enabling cyber defenders to understand how security controls and capabilities map onto adversary behaviors catalogued in the [MITRE ATT&CK®](https://attack.mitre.org/) knowledge base. The source code and raw data for the Mappings Explorer project can be found in the [mappings-explorer repository](https://github.com/center-for-threat-informed-defense/mappings-explorer/).
 
 # VERIS Mappings to MITRE ATT&CK®
 
